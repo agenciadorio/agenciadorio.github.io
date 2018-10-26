@@ -1,0 +1,64 @@
+[05-Sep-2018 15:38:06 America/Chicago] PHP Fatal error:  Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/color.php on line 9
+[05-Sep-2018 15:38:07 America/Chicago] PHP Fatal error:  Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/textarea.php on line 7
+[05-Sep-2018 15:38:09 America/Chicago] PHP Fatal error:  Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/url.php on line 9
+[05-Sep-2018 15:38:11 America/Chicago] PHP Fatal error:  Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/number.php on line 11
+[05-Sep-2018 15:38:13 America/Chicago] PHP Fatal error:  Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/select.php on line 7
+[05-Sep-2018 15:38:15 America/Chicago] PHP Fatal error:  Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/font.php on line 7
+[05-Sep-2018 15:38:17 America/Chicago] PHP Fatal error:  Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/text.php on line 8
+[05-Sep-2018 15:38:20 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/number_group.php on line 5
+[05-Sep-2018 15:38:24 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/template.php on line 13
+[05-Sep-2018 15:38:27 America/Chicago] PHP Fatal error:  Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/editor.php on line 7
+[05-Sep-2018 15:38:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/radio.php on line 7
+[05-Sep-2018 15:38:42 America/Chicago] PHP Fatal error:  Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/select_multiple.php on line 7
+[05-Sep-2018 15:38:46 America/Chicago] PHP Fatal error:  Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/checkbox.php on line 11
+[08-Sep-2018 15:50:48 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/image.php on line 5
+[23-Sep-2018 09:24:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/image.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/image.php on line 5
+[23-Sep-2018 09:37:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/editor.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/editor.php on line 7
+[23-Sep-2018 09:48:25 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/select.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/select.php on line 7
+[23-Sep-2018 17:08:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/font.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/font.php on line 7
+[23-Sep-2018 18:33:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/text.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/text.php on line 8
+[23-Sep-2018 19:11:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/number.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/number.php on line 11
+[23-Sep-2018 19:18:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/select_multiple.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/select_multiple.php on line 7
+[23-Sep-2018 20:40:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/number_group.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/number_group.php on line 5
+[23-Sep-2018 21:28:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/template.php on line 13
+[23-Sep-2018 21:34:37 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/checkbox.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/checkbox.php on line 11
+[23-Sep-2018 22:23:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/color.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/color.php on line 9
+[23-Sep-2018 22:32:44 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/radio.php on line 7
+[23-Sep-2018 23:00:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/url.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/url.php on line 9
+[23-Sep-2018 23:12:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/textarea.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/templates/admin/options/textarea.php on line 7

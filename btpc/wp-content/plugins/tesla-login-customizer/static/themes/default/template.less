@@ -1,0 +1,139 @@
+/*
+ * Default scheme
+ *
+ * @version 1.0
+ */
+
+/*  
+ * === Table of contents ===
+ *  
+ *  --- General
+ *  --- Form
+ *   |--- Form elements
+ *   |--- Alerts
+ *  --- Iframe form
+ *  --- Responsive
+ */
+
+// General
+body {
+	.bg(@bg_color);
+	.bg_img(@bg_image, @bg_image_repeat, @bg_image_size_type);
+	background-position: center;
+}
+
+#login {
+	.form-placement(@form_placement);
+}
+
+#loginform, #registerform {
+	.bg(@form_bg_color);
+	.bg_img(@form_bg_image, @form_bg_image_repeat, @form_bg_size_type);
+	.prop(@form_padding, padding);
+	.no-shadow(@form_bg_color);
+
+	label {
+		.font(@font_color, @font_family, @font_size);
+	}
+
+	+ #nav, ~ #backtoblog {
+		.color(@font_color);
+
+		a {
+			.color(@font_color);
+			.font-family(@font_family);
+			.font-size(@font_size, 1.0833);
+
+			&:hover, &:active, &:focus {
+				.color(@primary_color);
+			}
+		}
+	}
+
+	#reg_passmail {
+		.color(@font_color);
+		.font-family(@font_family);
+		.font-size(@font_size);
+	}
+
+	input[type="text"], input[type="password"], input[type="checkbox"] {
+		.font-size(@font_size, 2);
+		
+		&:focus {
+			.prop(@primary_color, border-color);
+		}
+	}
+}
+
+#login_error, .message.register {
+	.font-family(@font_family);
+	.font-size(@font_size);
+}
+
+#wp-submit {
+	.if(@primary_color, @form_button_bg_color, background-color);
+	.prop(@form_button_bg_color, background-color);	
+	.w-or-b(@primary_color, color);
+	.button-border(@primary_color);
+	.button-border(@form_button_bg_color);
+	.font-family(@font_family);
+	.font-size(@font_size, 1.0833);
+	.prop(@form_button_color, color);
+
+	&:hover {
+		.button-hover(@primary_color);
+		.prop-darken(@form_button_bg_color, background-color);
+		.w-or-b(@primary_color, color);
+		.prop(@form_button_color, color);
+	}
+}
+
+#rememberme:before {
+	.color(@primary_color);
+}
+
+#login h1 {
+	.check(@logo_hide);
+
+	a {
+		.bg_img(@logo_image, no-repeat, @logo_bg_size_type);
+		.no-logo(@logo_image, @logo_width, @logo_height);
+		background-position: center;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%);
+		-moz-transform: translate(-50%);
+		transform: translate(-50%);
+		margin: 0 0 25px;
+	}
+}
+
+.tt-form-title {
+	text-align: center;
+	margin: 20px 0;
+	.color(@font_color);
+	.font-family(@font_family);
+}
+
+// Captcha
+.tt-login .g-recaptcha {
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.tt-login .g-recaptcha > div > div {
+	position: relative;
+}
+
+.tt-login .g-recaptcha iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	clip: rect(4px, 301px, 74px, 1px);
+}
+

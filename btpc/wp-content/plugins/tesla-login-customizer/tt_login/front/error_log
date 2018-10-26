@@ -1,0 +1,10 @@
+[05-Sep-2018 15:26:40 America/Chicago] PHP Fatal error:  Class 'tt_login\PLUGIN_FW' not found in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/tt_login/front/Front.php on line 11
+[05-Sep-2018 15:26:55 America/Chicago] PHP Fatal error:  Class 'tt_login\front\Front' not found in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/tt_login/front/Typography.php on line 10
+[05-Sep-2018 15:27:38 America/Chicago] PHP Fatal error:  Class 'tt_login\front\Front' not found in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/tt_login/front/Templates.php on line 10
+[05-Sep-2018 15:27:51 America/Chicago] PHP Fatal error:  Class 'tt_login\front\Front' not found in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/tt_login/front/Logo.php on line 10
+[05-Sep-2018 15:27:53 America/Chicago] PHP Fatal error:  Class 'tt_login\front\Front' not found in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/tt_login/front/Form.php on line 9
+[20-Sep-2018 11:33:28 America/Chicago] PHP Fatal error:  Class 'tt_login\front\Front' not found in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/tt_login/front/Typography.php on line 10
+[20-Sep-2018 16:50:38 America/Chicago] PHP Fatal error:  Class 'tt_login\front\Front' not found in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/tt_login/front/Logo.php on line 9
+[20-Sep-2018 23:14:07 America/Chicago] PHP Fatal error:  Class 'tt_login\PLUGIN_FW' not found in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/tt_login/front/Front.php on line 11
+[22-Sep-2018 12:29:14 America/Chicago] PHP Fatal error:  Class 'tt_login\front\Front' not found in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/tt_login/front/Form.php on line 8
+[23-Sep-2018 06:32:53 America/Chicago] PHP Fatal error:  Class 'tt_login\front\Front' not found in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/tt_login/front/Templates.php on line 9

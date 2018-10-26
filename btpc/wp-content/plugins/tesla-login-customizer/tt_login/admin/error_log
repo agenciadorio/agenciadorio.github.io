@@ -1,0 +1,4 @@
+[05-Sep-2018 16:01:11 America/Chicago] PHP Fatal error:  Class 'tt_login\PLUGIN_FW' not found in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/tt_login/admin/Tab.php on line 11
+[05-Sep-2018 16:01:14 America/Chicago] PHP Fatal error:  Class 'tt_login\PLUGIN_FW' not found in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/tt_login/admin/Page.php on line 9
+[20-Sep-2018 15:07:49 America/Chicago] PHP Fatal error:  Class 'tt_login\PLUGIN_FW' not found in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/tt_login/admin/Tab.php on line 11
+[20-Sep-2018 23:03:18 America/Chicago] PHP Fatal error:  Class 'tt_login\PLUGIN_FW' not found in /home/bestpecascom/public_html/wp-content/plugins/tesla-login-customizer/tt_login/admin/Page.php on line 9

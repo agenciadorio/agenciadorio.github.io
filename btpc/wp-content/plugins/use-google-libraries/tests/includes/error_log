@@ -1,0 +1,2 @@
+[05-Sep-2018 16:11:56 America/Chicago] PHP Fatal error:  Class 'WP_UnitTestCase' not found in /home/bestpecascom/public_html/wp-content/plugins/use-google-libraries/tests/includes/classes.php on line 56
+[16-Sep-2018 18:54:01 America/Chicago] PHP Fatal error:  Class 'WP_UnitTestCase' not found in /home/bestpecascom/public_html/wp-content/plugins/use-google-libraries/tests/includes/classes.php on line 56
