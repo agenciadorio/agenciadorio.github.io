@@ -1,0 +1,9 @@
+[05-Sep-2018 16:28:34 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/templates/admin/premium.php on line 203
+[21-Sep-2018 10:06:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/templates/admin/premium.php:203
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/templates/admin/premium.php on line 203
+[23-Sep-2018 06:49:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/templates/admin/premium.php:203
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/templates/admin/premium.php on line 203

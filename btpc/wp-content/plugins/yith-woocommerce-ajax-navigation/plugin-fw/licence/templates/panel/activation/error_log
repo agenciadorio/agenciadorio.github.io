@@ -1,0 +1,5 @@
+[06-Sep-2018 17:48:53 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/licence/templates/panel/activation/activation-panel.php on line 11
+[24-Sep-2018 03:34:32 America/Chicago] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/licence/templates/panel/activation/activation-panel.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/licence/templates/panel/activation/activation-panel.php on line 11

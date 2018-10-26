@@ -1,0 +1,15 @@
+[06-Sep-2018 16:31:53 America/Chicago] PHP Fatal error:  Call to undefined function wp_parse_args() in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/panel/woocommerce/woocommerce-option-row.php on line 11
+[06-Sep-2018 17:23:13 America/Chicago] PHP Fatal error:  Call to undefined function add_thickbox() in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/panel/woocommerce/woocommerce-panel.php on line 1
+[06-Sep-2018 17:30:33 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/panel/woocommerce/woocommerce-form.php on line 2
+[22-Sep-2018 09:18:25 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_thickbox() in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/panel/woocommerce/woocommerce-panel.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/panel/woocommerce/woocommerce-panel.php on line 1
+[22-Sep-2018 09:25:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_parse_args() in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/panel/woocommerce/woocommerce-option-row.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/panel/woocommerce/woocommerce-option-row.php on line 11
+[22-Sep-2018 09:37:49 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/panel/woocommerce/woocommerce-form.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/panel/woocommerce/woocommerce-form.php on line 2

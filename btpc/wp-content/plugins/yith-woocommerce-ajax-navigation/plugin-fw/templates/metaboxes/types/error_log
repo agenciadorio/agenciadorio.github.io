@@ -1,0 +1,2 @@
+[06-Sep-2018 17:08:33 America/Chicago] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/metaboxes/types/icon-list.php on line 19
+[21-Sep-2018 04:50:07 America/Chicago] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/metaboxes/types/icon-list.php on line 19

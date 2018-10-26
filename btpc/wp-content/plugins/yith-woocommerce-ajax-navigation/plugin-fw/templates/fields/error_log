@@ -1,0 +1,11 @@
+[05-Sep-2018 16:09:44 America/Chicago] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/fields/sidebars.php on line 13
+[05-Sep-2018 16:09:44 America/Chicago] PHP Fatal error:  Call to undefined function checked() in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/fields/sidebars.php on line 21
+[05-Sep-2018 16:11:30 America/Chicago] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/fields/icons.php on line 13
+[07-Sep-2018 00:35:17 America/Chicago] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/fields/sidebars.php on line 13
+[07-Sep-2018 00:35:17 America/Chicago] PHP Fatal error:  Call to undefined function checked() in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/fields/sidebars.php on line 21
+[21-Sep-2018 22:03:03 America/Chicago] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/fields/sidebars.php on line 13
+[21-Sep-2018 22:03:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function checked() in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/fields/sidebars.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/fields/sidebars.php on line 21
+[21-Sep-2018 22:35:59 America/Chicago] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/bestpecascom/public_html/wp-content/plugins/yith-woocommerce-ajax-navigation/plugin-fw/templates/fields/icons.php on line 13
