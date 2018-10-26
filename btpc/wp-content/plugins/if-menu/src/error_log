@@ -1,0 +1,26 @@
+[05-Sep-2018 16:01:40 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/conditions-multiple-options.php on line 3
+[05-Sep-2018 16:02:28 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu_Edit' not found in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/if-menu-nav-menu.php on line 10
+[05-Sep-2018 16:02:41 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu_Edit' not found in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/if-menu-nav-menu-4.5.php on line 10
+[05-Sep-2018 16:02:43 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/conditions-basic.php on line 3
+[05-Sep-2018 16:02:46 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu_Edit' not found in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/if-menu-nav-menu-4.7.php on line 10
+[05-Sep-2018 16:02:49 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/user-info.php on line 12
+[15-Sep-2018 12:27:34 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/user-info.php on line 12
+[15-Sep-2018 12:44:07 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu_Edit' not found in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/if-menu-nav-menu.php on line 10
+[15-Sep-2018 12:49:53 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/conditions-basic.php on line 3
+[15-Sep-2018 13:23:23 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu_Edit' not found in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/if-menu-nav-menu-4.7.php on line 10
+[15-Sep-2018 13:47:38 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/conditions-multiple-options.php on line 3
+[23-Sep-2018 16:53:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/conditions-multiple-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/conditions-multiple-options.php on line 3
+[23-Sep-2018 18:25:03 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu_Edit' not found in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/if-menu-nav-menu.php on line 10
+[23-Sep-2018 20:54:25 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu_Edit' not found in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/if-menu-nav-menu-4.5.php on line 10
+[23-Sep-2018 21:20:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/conditions-basic.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/conditions-basic.php on line 3
+[23-Sep-2018 21:43:14 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu_Edit' not found in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/if-menu-nav-menu-4.7.php on line 10
+[23-Sep-2018 23:03:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/user-info.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/user-info.php on line 12

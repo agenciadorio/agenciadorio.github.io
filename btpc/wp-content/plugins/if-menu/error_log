@@ -1,0 +1,3 @@
+[05-Sep-2018 15:54:26 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/user-info.php on line 12
+[07-Sep-2018 15:18:29 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/user-info.php on line 12
+[13-Sep-2018 11:37:16 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/if-menu/src/user-info.php on line 12
