@@ -1,0 +1,23 @@
+//= BEGIN BASE
+
+@import "../base/variables";
+@import "../base/functions";
+@import "../base/helpers";
+@import "../base/mixins";
+
+//= END BASE
+
+//= BEGIN COMPONENTS
+
+@import "components/js/formAuthorize";
+
+//= END COMPONENTS
+
+//= BEGIN ELEMENTS
+
+@import "elements/spinner";
+@import "elements/form";
+@import "elements/alerts";
+@import "elements/table";
+
+//= END ELEMENTS

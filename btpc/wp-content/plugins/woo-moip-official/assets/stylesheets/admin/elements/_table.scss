@@ -1,0 +1,12 @@
+.form-table.webhooks {
+    th, td {
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    tr:first-child {
+        th, td {
+            padding-top: 20px;
+        }    
+    }
+}

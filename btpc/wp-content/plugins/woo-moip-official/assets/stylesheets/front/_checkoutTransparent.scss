@@ -1,0 +1,119 @@
+.woo-moip-official {
+
+	#moip-payment-method-credit-card {
+
+		li {
+			#card-number {
+				display: block;
+			}
+		}
+		
+		label {
+			color: #6d6d6d;
+		}
+	}
+
+	.woocommerce-tabs {
+
+		text-align: inherit !important;
+
+		.tab {
+			min-width: 320px;
+			max-width: 100%;
+			padding: 0px;
+			margin: 0 auto;
+			float: inherit;
+    		border-style: none;
+
+			label {
+				width: auto !important;
+			}
+		}
+
+		.moip-tab {
+			display: inline-block;
+			margin: 0 0 -1px;
+			padding: 15px;
+			font-weight: 600;
+			border: 1px solid transparent;
+		}
+
+		label:hover {
+			color: #888;
+			cursor: pointer;
+		}
+
+		span.tablinks label {
+			color: #b7b5b5;
+			background: #f7f7f7;
+			border-bottom: 1px solid #b7b5b5;
+		}
+
+		.tabcontent {
+			display: none;
+			padding: 20px 0 0;
+		}
+
+		span.tablinks.active label {
+			color: #555;
+			border: 1px solid #ddd;
+			border-top: 3px solid #0C497B;
+			background: #f7f7f7;
+			border-bottom: 1px solid transparent;
+		}
+
+		#discount-price-text {
+			text-align: center;
+			color: #000;
+		}
+
+		#tab-billet .moip-tab-billet {
+			margin: 0;
+			text-align: center;
+
+			img {
+				max-height: 5em;  
+			}
+		}
+
+		select#installments {
+			border: 1px solid #aaa;
+			height: 38px;
+			background: #f2f2f2;
+		}
+
+		.woocommerce .payment_box p {
+			padding-left: 0;
+		}
+	}
+
+}
+
+.container-moip-discount {
+	width: 438px;
+
+	th {
+		padding: 0.7em 1.618em;
+    	margin-bottom: 2.617924em;
+    	background-color: #3d9cd2;
+    	margin-left: 0;
+	    border-radius: 2px;
+	    color: #fff;
+	    border-left: .6180469716em solid rgba(0,0,0,.15);
+	}
+}
+
+.moip-discount-thankyou {
+	.moip-woocommerce-message {
+		background-color: #3d9cd2;
+
+		p {
+			margin: 0;
+		}
+
+		.thank-you-description {
+			color: #fff;
+			font-size: 20px;
+		}
+	}
+}

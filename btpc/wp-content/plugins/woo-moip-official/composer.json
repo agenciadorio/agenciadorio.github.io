@@ -1,0 +1,14 @@
+{
+    "name": "woocommerce-moip-oficial",
+    "description": "WooCommerce Moip Oficial",
+    "type": "wordpress-plugin",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Woocommerce\\Moip\\": "src/"
+        }
+    },
+    "require": {
+        "moip/moip-sdk-php": "^1.1"
+    }
+}

@@ -1,0 +1,123 @@
+#form-authorize {
+    box-shadow: 0 0 5px 0 #333;
+    -ms-transform: translate(-50%,-50%);
+    background: #fff;
+    left: 50%;
+    overflow: auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 480px;
+
+    .description {
+        margin-bottom: 15px;
+        margin-left: 5px;
+    }
+
+    .label-text {
+        color: #555;
+        margin-left: 5px;
+    }
+
+    input {
+		border-radius: 3px;
+		padding: 5px 8px;
+
+        &:disabled {
+            background: #ebebeb;
+        }
+    }
+
+    .btn-content {
+        margin-top: 15px;
+        text-align: center;
+
+        .button-primary {
+            width: 150px;
+        }
+    }
+
+    .close {
+        background-color: #848484;
+        border-radius: 100%;
+        color: #fff;
+        cursor: pointer;
+        font-size: 19px;
+        font-weight: bold;
+        height: 16px;
+        line-height: 1;
+        padding: 5px;
+        position: absolute;
+        right: 4px;
+        text-align: center;
+        top: 4px;
+        width: 16px;
+
+        &:hover {
+            background-color: #333;
+        }
+
+        &:before {
+            content: 'x';
+            position: relative;
+            top: -2px;
+        }
+    }
+
+    .button img {
+        height: 16px;
+        opacity: 0.5;
+        position: relative;
+        top: 4px;
+        width: 16px;
+    }
+
+    .response-message {
+        display: none;
+
+        .alert {
+            width: initial;
+        }
+
+        .close-after {
+            display: none;
+        }
+    }
+
+    .auth-link {
+        display: none;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .close-after {
+        display: none;
+    }
+}
+
+#app-overlay {
+    background-color: rgba(0,0,0,0.5);
+    bottom: 0;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+.app-authorized {
+    color: #3c763d;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.app-not-authorized {
+    color: #dc3232;
+    font-size: 14px;
+    font-weight: bold;
+}

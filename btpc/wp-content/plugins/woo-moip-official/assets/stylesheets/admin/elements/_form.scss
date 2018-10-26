@@ -1,0 +1,19 @@
+#mainform,
+#form-authorize {
+
+	.#{$prefix}-field-error {
+		background-color: #f2dede;
+		border-color: #ec657b;
+		box-shadow: none;
+	}
+
+	.label-text {
+		margin: 0 5px 0 2px;
+		position: relative;
+		top: 2px;
+	}
+
+	input[type="radio"] {
+		margin: 0;
+	}
+}

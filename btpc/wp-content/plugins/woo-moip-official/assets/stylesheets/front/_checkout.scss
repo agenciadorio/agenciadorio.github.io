@@ -1,0 +1,105 @@
+.woo-moip-official {
+	
+	#wc-moip-payment-checkout-form {
+		.panel {
+			display: none;
+
+			input[type="text"] {
+				width: 200px;
+			}
+
+			input, select {
+				margin: 0;
+			}
+
+			ul {
+				list-style: none;
+				margin: 0 0 10px;
+				padding: 0;
+			}
+
+			li {
+				margin: 0 20px 0 0;
+				float: left;
+				text-align: center;
+				list-style: none;
+			}
+
+			label img {
+				display: block;
+			}
+
+			.form-group-wrap {
+				margin-bottom: 10px;
+			}
+
+			.form-group {
+				float: left;
+				margin-right: 10px;
+
+				label {
+					display: block;
+				}
+
+				input, select {
+					float: left;
+				}
+
+				.description {
+					color: #666;
+					display: block;
+					font-size: 80%;
+				}
+			}
+		}
+
+		#tab-credit-card .form-group-wrap {
+			display: none;
+		}
+
+		#payment .payment_methods li img {
+			max-height: 100%;
+			margin-top: -18px;
+	    	margin-left: 10px;
+	    	width: 60px;
+		}
+
+		.wc-moip-credit-card-form-card-number {
+	    	font-size: 1.41575em;
+			background-repeat: no-repeat;
+	    	background-position: right .6180469716em center;
+	    	background-size: 31px 20px;
+		}
+	}
+	
+}
+
+#wc-moip-payment-form #payment-type a {
+	text-indent: 15px;
+}
+
+.wc-moip-hide-field {
+	display: none;
+}
+
+.wc-credit-card-form.wc-payment-form > p {
+	width: 100% !important;
+	margin-bottom: 10px !important;
+}
+
+.wc-credit-card-info p {
+	margin-bottom: 10px !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a,
+a:hover,
+a:active,
+a:visited {
+  color: #4285f4;
+  text-decoration: none;
+}

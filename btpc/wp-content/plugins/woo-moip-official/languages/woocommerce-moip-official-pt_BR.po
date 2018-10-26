@@ -1,0 +1,857 @@
+# Copyright (C) 2017 Apiki WordPress
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Moip Official 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-moip-"
+"official\n"
+"POT-Creation-Date: 2017-09-25 07:53-0300\n"
+"PO-Revision-Date: 2017-09-25 07:53-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/Controller/Checkouts.php:37
+msgid "Invalid nonce"
+msgstr "Nonce inválido"
+
+#: src/Controller/Checkouts.php:63
+msgid "Invalid order"
+msgstr "Pedido inválido"
+
+#: src/Controller/Checkouts.php:73
+msgid "Empty fields"
+msgstr "Campos vazios"
+
+#: src/Controller/Checkouts.php:83
+msgid "Could not create order. Try again."
+msgstr "Não foi possível criar o pedido. Tente novamente."
+
+#: src/Controller/Checkouts.php:122 src/Controller/Checkouts.php:187
+msgid "Person type"
+msgstr "Tipo de Pessoa"
+
+#: src/Controller/Checkouts.php:126
+msgid "Select an option"
+msgstr "Selecione uma opção"
+
+#: src/Controller/Checkouts.php:127
+msgid "Individuals"
+msgstr "Pessoa Física"
+
+#: src/Controller/Checkouts.php:128
+msgid "Legal Person"
+msgstr "Pessoa Jurídica"
+
+#: src/Controller/Checkouts.php:134
+msgid "CPF"
+msgstr "CPF"
+
+#: src/Controller/Checkouts.php:143
+msgid "CNPJ"
+msgstr "CNPJ"
+
+#: src/Controller/Checkouts.php:152
+msgid "Number"
+msgstr "Número"
+
+#: src/Controller/Checkouts.php:161
+msgid "Neighborhood"
+msgstr "Bairro"
+
+#: src/Controller/Checkouts.php:188 src/Controller/Checkouts.php:212
+msgid "is a required field"
+msgstr "é um campo obrigatório"
+
+#: src/Controller/Checkouts.php:222
+msgid "is not valid"
+msgstr "é inválido"
+
+#: src/Controller/Custom_Gateways.php:38
+msgid "Moip Official"
+msgstr "Moip Oficial"
+
+#: src/Controller/Custom_Gateways.php:39
+msgid "Payment Gateway Moip"
+msgstr "Gateway de pagamento do Moip"
+
+#: src/Controller/Custom_Gateways.php:127
+msgid "APP authorization"
+msgstr "Autorizado"
+
+#: src/Controller/Custom_Gateways.php:136
+msgid "Not authorized"
+msgstr "Não autorizado"
+
+#: src/Controller/Custom_Gateways.php:137
+msgid "To make your sales, you must authorize this application on Moip."
+msgstr "Para fazer suas vendas, você deve autorizar este aplicativo no Moip."
+
+#: src/Controller/Custom_Gateways.php:142
+msgid "Authorized"
+msgstr "Autorizado"
+
+#: src/Controller/Custom_Gateways.php:159
+msgid "Payment settings"
+msgstr "Configurações de Pagamento"
+
+#: src/Controller/Custom_Gateways.php:167 src/Controller/Settings.php:32
+msgid "Settings"
+msgstr "Configurações"
+
+#: src/Controller/Custom_Gateways.php:175
+msgid "Credit Card Installments Settings"
+msgstr "Configurações de Parcelamento do Cartão de Crédito"
+
+#: src/Controller/Custom_Gateways.php:183
+msgid "Billet Settings"
+msgstr "Configurações do Boleto"
+
+#: src/Controller/Custom_Gateways.php:191
+msgid "Enable"
+msgstr "Habilitar"
+
+#: src/Controller/Custom_Gateways.php:193
+msgid "Enable payment"
+msgstr "Habilitar pagamento"
+
+#: src/Controller/Custom_Gateways.php:201
+msgid "Title"
+msgstr "Título"
+
+#: src/Controller/Custom_Gateways.php:202
+msgid "This the title which the user sees during checkout."
+msgstr "Este é o título que o usuário vê durante o checkout."
+
+#: src/Controller/Custom_Gateways.php:204
+msgid "Moip"
+msgstr "Moip"
+
+#: src/Controller/Custom_Gateways.php:211
+msgid "Description"
+msgstr "Descrição"
+
+#: src/Controller/Custom_Gateways.php:212
+msgid "Pay with Moip"
+msgstr "Pagar com Moip"
+
+#: src/Controller/Custom_Gateways.php:219
+msgid "Invoice name"
+msgstr "Nome da fatura"
+
+#: src/Controller/Custom_Gateways.php:221
+msgid "Maximum of 13 characters"
+msgstr "Maxímo de 13 caracteres"
+
+#: src/Controller/Custom_Gateways.php:222
+msgid ""
+"It allows the shopkeeper to send a text of up to 13 characters that will be "
+"printed on the bearer's invoice, next to the shop identification, respecting "
+"the length of the flags."
+msgstr ""
+"Permite que o lojista envie um texto de até 13 caracteres que será impresso na "
+"fatura do portador, ao lado da identificação da loja, respeitando o "
+"comprimento das bandeiras."
+
+#: src/Controller/Custom_Gateways.php:227 src/Controller/Custom_Gateways.php:269
+msgid "This field is required."
+msgstr "Este campo é requerido."
+
+#: src/Controller/Custom_Gateways.php:235
+msgid "Invoice prefix"
+msgstr "Prefixo da fatura"
+
+#: src/Controller/Custom_Gateways.php:238
+msgid ""
+"Enter a prefix for your invoice numbers. If you use your Moip account for "
+"multiple stores, make sure this prefix is unique because Moip will not allow "
+"orders with the same invoice number."
+msgstr ""
+"Informe um prefixo para seus números de fatura. Se você usa sua conta do Moip "
+"para várias lojas, certifique-se que este prefixo é exclusivo pois o Moip não "
+"permitirá pedidos com o mesmo número de fatura."
+
+#: src/Controller/Custom_Gateways.php:246
+msgid "Payment Type"
+msgstr "Tipo de pagamento"
+
+#: src/Controller/Custom_Gateways.php:254
+msgid "Transparent Checkout"
+msgstr "Checkout Transparente"
+
+#: src/Controller/Custom_Gateways.php:255
+msgid "Moip Checkout"
+msgstr "Checkout Moip"
+
+#: src/Controller/Custom_Gateways.php:263
+msgid "Public Key"
+msgstr "Chave pública"
+
+#: src/Controller/Custom_Gateways.php:271
+msgid ""
+"Allows credit card data to be sent encrypted, generating more security in your "
+"transactions."
+msgstr ""
+"Permite que dados de cartão de crédito sejam enviados criptografados, gerando "
+"mais segurança em suas transações."
+
+#: src/Controller/Custom_Gateways.php:278
+msgid "Billet Banking"
+msgstr "Boleto Bancário"
+
+#: src/Controller/Custom_Gateways.php:280
+msgid "Enable Billet Banking"
+msgstr "Ativar Boleto Bancário"
+
+#: src/Controller/Custom_Gateways.php:288
+msgid "Credit Card"
+msgstr "Cartão de Crédito"
+
+#: src/Controller/Custom_Gateways.php:290
+msgid "Enable Credit Card"
+msgstr "Ativar Cartão de Crédito"
+
+#: src/Controller/Custom_Gateways.php:298
+msgid "Banking Debit"
+msgstr "Débito em Conta"
+
+#: src/Controller/Custom_Gateways.php:300
+msgid "Enable Banking Debit"
+msgstr "Ativar Débito em Conta"
+
+#: src/Controller/Custom_Gateways.php:308
+msgid "Number of Days"
+msgstr "Número de Dias"
+
+#: src/Controller/Custom_Gateways.php:309
+msgid "Days of expiry of the billet after printed."
+msgstr "Dias de expiração do boleto depois de impresso."
+
+#: src/Controller/Custom_Gateways.php:323
+msgid "Instruction Line 1"
+msgstr "Primeira linha de instrução"
+
+#: src/Controller/Custom_Gateways.php:325
+msgid "First line instruction for the billet."
+msgstr "Primeira linha de instrução para o boleto."
+
+#: src/Controller/Custom_Gateways.php:329
+msgid "Instruction Line 2"
+msgstr "Segunda linha de instrução"
+
+#: src/Controller/Custom_Gateways.php:331
+msgid "Second line instruction for the billet."
+msgstr "Segunda linha de instrução para o boleto."
+
+#: src/Controller/Custom_Gateways.php:335
+msgid "Instruction Line 3"
+msgstr "Terceira linha de instrução"
+
+#: src/Controller/Custom_Gateways.php:337
+msgid "Third line instruction for the billet."
+msgstr "Terceira linha de instrução para o boleto."
+
+#: src/Controller/Custom_Gateways.php:348
+msgid "Custom Logo URL"
+msgstr "URL para Logo Customizado"
+
+#: src/Controller/Custom_Gateways.php:350
+msgid "URL of the logo image to be shown on the billet."
+msgstr "URL da imagem do logo a ser mostrado no boleto."
+
+#: src/Controller/Custom_Gateways.php:361
+msgid "Installments settings"
+msgstr "Configurações de parcelamento"
+
+#: src/Controller/Custom_Gateways.php:363
+msgid "Enable Installments settings"
+msgstr "Ativar as configurações de parcelamento"
+
+#: src/Controller/Custom_Gateways.php:371
+msgid "Maximum installments number"
+msgstr "Número máximo de parcelas"
+
+#: src/Controller/Custom_Gateways.php:373
+msgid "Force a maximum number of installments for payment."
+msgstr "Força um número máximo de parcelas para o pagamento."
+
+#: src/Controller/Custom_Gateways.php:383
+msgid "Interest per installment"
+msgstr "Juros por parcela"
+
+#: src/Controller/Custom_Gateways.php:385
+msgid "Define interest for each installment."
+msgstr "Aplica juros para cada parcela."
+
+#: src/Controller/Custom_Gateways.php:390
+msgid "Interest"
+msgstr "Juros"
+
+#: src/Controller/Custom_Gateways.php:392
+msgid "Interest to be applied to the installment."
+msgstr "Juros que serão aplicados na parcela"
+
+#: src/Controller/Custom_Gateways.php:463
+msgid "Application not authorized."
+msgstr "Aplicação não autorizada."
+
+#: src/Controller/Custom_Gateways.php:467
+msgid "Invoice name is required."
+msgstr "O nome da fatura é requerido."
+
+#: src/Controller/Custom_Gateways.php:471
+msgid "Not informed public key."
+msgstr "Chave pública não informada."
+
+#: src/Controller/Custom_Gateways.php:488
+msgid "You need to set up your Moip data to use the payment method."
+msgstr "Você precisa configurar seus dados Moip para usar o método de pagamento."
+
+#: src/Controller/Custom_Gateways.php:490
+msgid "Go to setup"
+msgstr "Ir para a configuração"
+
+#: src/Controller/Custom_Gateways.php:590
+msgid "Authorize App"
+msgstr "Autorizar aplicativo"
+
+#: src/Controller/Custom_Gateways.php:594
+msgid "New authorize"
+msgstr "Nova autorização"
+
+#: src/Controller/Moip_Connects.php:35
+msgid "You are not allowed to do this!"
+msgstr "Você não tem permissão para fazer isso!"
+
+#: src/Controller/Moip_Connects.php:41
+msgid "Mode not defined!"
+msgstr "Modo não definido!"
+
+#: src/Controller/Moip_Connects.php:66
+msgid "There was an error processing the request."
+msgstr "Ocorreu um erro ao processar o pedido."
+
+#: src/Controller/Webhooks.php:53
+msgid "Invalid webhook."
+msgstr "Webhook inválido."
+
+#: src/Controller/Webhooks.php:117
+msgid "Authentication error."
+msgstr "Erro de autenticação."
+
+#: src/Controller/Webhooks.php:134
+msgid "Enable payment in the field below."
+msgstr "Habilite o pagamento no campo abaixo"
+
+#: src/Controller/Webhooks.php:173
+msgid "You are not allowed to do this."
+msgstr "Você não tem permissão para fazer isso."
+
+#: src/Controller/Webhooks.php:184
+msgid "This resource id field is required."
+msgstr "O campo resource id é requerido."
+
+#: src/Controller/Webhooks.php:203
+msgid "This invalid resource id."
+msgstr "Inválido resource id."
+
+#: src/Controller/Webhooks.php:211
+msgid "No notifications to send."
+msgstr "Nenhuma notificação enviada."
+
+#: src/Controller/Webhooks.php:248
+msgid "Webhook notification successfully sent."
+msgstr "Notificação enviada com sucesso."
+
+#: src/Controller/Webhooks.php:249
+msgid "Events"
+msgstr "Eventos"
+
+#: src/Core.php:128
+msgid "Waiting..."
+msgstr "Aguarde..."
+
+#: src/Core.php:129
+msgid "The transaction is being processed..."
+msgstr "A transação está sendo processada..."
+
+#: src/Core.php:130
+msgid "Your transaction was processed successfully."
+msgstr "Sua transação foi processada com sucesso."
+
+#: src/Core.php:131
+msgid "An error occurred while processing. <p>Try again.</p>"
+msgstr "Ocorreu um erro durante o processamento. <p>Tente novamamente.</p>"
+
+#: src/Core.php:132
+msgid "Invalid credit card. <p>Check all fields e try again.</p>"
+msgstr ""
+"Cartão de crédito inválido. <p>Verifique os campos e tente novamente.</p>"
+
+#: src/Core.php:133
+msgid "Invalid credit card. <p>Complete all required fields.</p>"
+msgstr ""
+"Cartão de crédito inválido. <p>Preencha todos os campos obrigatórios.</p>"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Moip Official"
+msgstr "WooCommerce Moip Oficial"
+
+#: src/Helper/Utils.php:520
+msgid "Created"
+msgstr "Criado"
+
+#: src/Helper/Utils.php:523
+msgid "Waiting"
+msgstr "Aguardando"
+
+#: src/Helper/Utils.php:526
+msgid "In analysis"
+msgstr "Em análise"
+
+#: src/Helper/Utils.php:529
+msgid "Paid"
+msgstr "Pago"
+
+#: src/Helper/Utils.php:532
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: src/Helper/Utils.php:535
+msgid "Refunded"
+msgstr "Reembolsado"
+
+#: src/Helper/Utils.php:538
+msgid "Reverted"
+msgstr "Revertido"
+
+#: src/Model/Moip_SDK.php:192
+msgid "Payment method not found!"
+msgstr "Método de pagamento não encontrado."
+
+#: src/Model/Moip_SDK.php:269
+msgid "An error occurred while processing. Click to try again."
+msgstr "Um erro ocorreu durante o processamento. Tente novamente."
+
+#: src/Model/Order.php:89
+msgid "Moip: Awaiting payment confirmation."
+msgstr "Moip: Aguardando confirmação do pagamento."
+
+#: src/Model/Proccess_Payment.php:27
+msgid "Invalid order id"
+msgstr "ID do pedido inválido"
+
+#: src/Model/Proccess_Payment.php:60
+msgid "Moip: Payment has already been confirmed."
+msgstr "Moip: O pagamento já foi confirmado."
+
+#: src/Model/Proccess_Payment.php:68
+msgid "Moip: Order status: %s"
+msgstr "Moip: Status do pedido: %s"
+
+#: src/Model/Proccess_Payment.php:73
+msgid "Order reverted."
+msgstr "Pedido revertido."
+
+#: src/Model/Proccess_Payment.php:80
+msgid "Moip: Payment authorized."
+msgstr "Moip: Pagamento autorizado."
+
+#: src/Model/Proccess_Payment.php:91
+msgid "Moip: Awaiting payment via: %s"
+msgstr "Moip: A aguardar pagamento via: %s"
+
+#: src/Model/Proccess_Payment.php:92 src/Model/Proccess_Payment.php:102
+msgid "Moip: Payment status: %s"
+msgstr "Moip: Status do pagamento: %s"
+
+#: src/Model/Proccess_Payment.php:101
+msgid "Moip: Payment under review."
+msgstr "Moip: Pagamento em revisão."
+
+#: src/Model/Proccess_Payment.php:107
+msgid "Payment refunded."
+msgstr "Pagamento reembolsado."
+
+#: src/View/Checkouts.php:17
+msgid "Your transaction has been processed by Moip."
+msgstr "Sua transação foi processada pelo Moip."
+
+#: src/View/Checkouts.php:22
+msgid ""
+"If you have any questions regarding the transaction, please contact us or the "
+"Moip."
+msgstr ""
+"Caso tenha alguma dúvida referente à transação, entre em contato conosco."
+
+#: src/View/Checkouts.php:45
+msgid "The status of your transaction is %s and the Moip code is %s."
+msgstr "O status da sua transação é %s e o código Moip é %s."
+
+#: src/View/Checkouts.php:59
+msgid "If you have not made ​​the payment, please click the button below to pay."
+msgstr ""
+"Se você ainda não efetuou o pagamento, por favor clique no botão abaixo para "
+"pagar."
+
+#: src/View/Checkouts.php:64 templates/thank-you-page.php:28
+msgid "Pay now"
+msgstr "Pagar agora"
+
+#: src/View/Checkouts.php:76
+msgid ""
+"If you have not yet received the billet, please click the button below to "
+"print."
+msgstr ""
+"Se você ainda não recebeu o boleto, por favor clique no botão abaixo para "
+"imprimir."
+
+#: src/View/Checkouts.php:81 templates/thank-you-page.php:28
+msgid "Print"
+msgstr "Imprimir"
+
+#: src/View/Checkouts.php:87
+msgid "Line Code: "
+msgstr "Linha digitável:"
+
+#: src/View/Checkouts.php:101
+msgid "Copied!"
+msgstr "Copiado!"
+
+#: src/View/Checkouts.php:102
+msgid "Copy barcode"
+msgstr "Copiar linha digitável"
+
+#: src/View/Checkouts.php:130
+msgid "%dx of %s (%s)"
+msgstr "%dx de %s (%s)"
+
+#: src/View/Moip_Connects.php:24 src/View/Moip_Connects.php:73
+msgid "Close"
+msgstr "Fechar"
+
+#: src/View/Moip_Connects.php:47
+msgid "Production"
+msgstr "Produção"
+
+#: src/View/Moip_Connects.php:59
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: src/View/Moip_Connects.php:81
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: src/View/Moip_Connects.php:83
+msgid "Submit"
+msgstr "Enviar"
+
+#: templates/checkout-moip.php:33 templates/checkout-transparent.php:35
+msgid "Pay with credit card"
+msgstr "Pagar com cartão de crédito"
+
+#: templates/checkout-moip.php:46 templates/checkout-transparent.php:45
+msgid "Pay with banking debit (Itaú)"
+msgstr "Pagar via débito em conta (Itaú)"
+
+#: templates/checkout-moip.php:59 templates/checkout-transparent.php:55
+msgid "Pay with billet banking"
+msgstr "Pagar com boleto bancário"
+
+#: templates/checkout-moip.php:72
+msgid "Cancel order e restore cart"
+msgstr "Cancelar pedido e restaurar carrinho"
+
+#: templates/checkout-transparent.php:88
+msgid "Cancel order &amp; restore cart"
+msgstr "Cancelar pedido e voltar para o carrinho"
+
+#: templates/checkout-transparent.php:92
+msgid "Pay order"
+msgstr "Pagar pedido"
+
+#: templates/payment-methods/billet.php:22
+msgid "Bank Billet"
+msgstr "Boleto Bancário"
+
+#: templates/payment-methods/credit-card.php:26
+msgid "Registered credit card"
+msgstr "Cartão de crédito cadastrado"
+
+#: templates/payment-methods/credit-card.php:42
+msgid "Use new credit card"
+msgstr "Usar novo cartão de crédito"
+
+#: templates/payment-methods/credit-card.php:53
+msgid "Card number"
+msgstr "Número do cartão"
+
+#: templates/payment-methods/credit-card.php:65
+msgid "Expiry (MM/YY)"
+msgstr "Validade (MM/AA)"
+
+#: templates/payment-methods/credit-card.php:73
+msgid "MM / YY"
+msgstr "MM / AA"
+
+#: templates/payment-methods/credit-card.php:80
+msgid "Card code"
+msgstr "Código do cartão"
+
+#: templates/payment-methods/credit-card.php:102
+msgid "Use old credit card"
+msgstr "Usar cartão de crédito antigo"
+
+#: templates/payment-methods/credit-card.php:111
+msgid "Installments quantity"
+msgstr "Quantidade de parcelas"
+
+#: templates/payment-methods/credit-card.php:120
+msgid "At sight"
+msgstr "À vista"
+
+#: templates/payment-methods/credit-card.php:137
+msgid "Save this card for future purchases"
+msgstr "Guarde este cartão para compras futuras"
+
+#: templates/thank-you-page.php:26
+msgid ""
+"Your order has been processed successfully, click the link below to make the "
+"payment."
+msgstr ""
+"Seu pedido foi processado com sucesso, clique no link abaixo para efetuar o "
+"pagamento."
+
+#: woocommerce-moip-official.php:42
+msgid "Your PHP version is not supported. Required >= 5.6."
+msgstr "Sua versão do PHP não é suportada. Requerido >= 5.6."
+
+#: woocommerce-moip-official.php:53
+msgid "WooCoomerce plugin is required."
+msgstr "Plugin WooCoomerce é requerido"
+
+#. Plugin URI of the plugin/theme
+msgid "https://apiki.com/moip"
+msgstr "https://apiki.com/moip"
+
+#. Description of the plugin/theme
+msgid ""
+"Official Moip plugin built with the best development practices. Based on V2, "
+"new REST Moip’s API, providing more speed, safety and sales conversion."
+msgstr ""
+"Plugin oficial do Moip, construído com as melhores práticas de "
+"desenvolvimento. Com base na V2, a nova API REST do Moip proporciona mais "
+"velocidade, segurança e conversão de vendas."
+
+#. Author of the plugin/theme
+msgid "Apiki WordPress"
+msgstr "Apiki WordPress"
+
+#. Author URI of the plugin/theme
+msgid "https://apiki.com"
+msgstr "https://apiki.com"
+
+#: src/Controller/Checkouts.php:135
+msgctxt "placeholder"
+msgid "CPF"
+msgstr "CPF"
+
+#: src/Controller/Checkouts.php:144
+msgctxt "placeholder"
+msgid "CNPJ"
+msgstr "CNPJ"
+
+#: src/Controller/Checkouts.php:153
+msgctxt "placeholder"
+msgid "Number"
+msgstr "Número"
+
+#: src/Controller/Checkouts.php:162
+msgctxt "placeholder"
+msgid "Neighborhood"
+msgstr "Bairro"
+
+#~ msgid "Resend webhook notification"
+#~ msgstr "Reenviar notificação de webhook"
+
+#~ msgid "Webhook resource id"
+#~ msgstr "Informe o webhook resource id"
+
+#~ msgid "Send notification"
+#~ msgstr "Enviar notificação"
+
+#~ msgid "Authorize new App"
+#~ msgstr "Autorizar nova aplicação"
+
+#~ msgid "Could not create APP, please try again."
+#~ msgstr "Não foi possível criar o aplicativo, tente novamente."
+
+#~ msgid "APP successfully created!"
+#~ msgstr "Aplicativo criado com sucesso!"
+
+#~ msgid "Application name"
+#~ msgstr "Nome do aplicativo"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "description"
+#~ msgstr "Descrição"
+
+#~ msgid "Create App"
+#~ msgstr "Criar Aplicativo"
+
+#~ msgid "Your PHP version is not supported. Required >= 5.5."
+#~ msgstr "Sua versão do PHP não é suportada. Obrigatório >= 5.5."
+
+#~ msgid "Birth date"
+#~ msgstr "Data de nascimento"
+
+#~ msgid "Payments"
+#~ msgstr "Pagamentos"
+
+#~ msgid "Testing"
+#~ msgstr "Testes"
+
+#~ msgid "Login"
+#~ msgstr "Conta"
+
+#~ msgid "Enter your email or username"
+#~ msgstr "Digite seu e-mail ou nome de usuário"
+
+#~ msgid "No login yet?"
+#~ msgstr "Ainda não tem conta?"
+
+#~ msgid "Create an account"
+#~ msgstr "Criar uma conta"
+
+#~ msgid "Enable sandbox"
+#~ msgstr "Habilitar modo de desenvolvedor"
+
+#~ msgid "Enable Moip sandbox for tests."
+#~ msgstr "Habilitar Moip sandbox para testes."
+
+#~ msgid "Moip Labs"
+#~ msgstr "Moip Labs"
+
+#~ msgid "Payment API"
+#~ msgstr "API de Pagamentos"
+
+#~ msgid "Access Token"
+#~ msgstr "Token de acesso"
+
+#~ msgid "Access Key"
+#~ msgstr "Chave de acesso"
+
+#~ msgid "Not informed login."
+#~ msgstr "Não foi informado o login."
+
+#~ msgid "Not informed access key."
+#~ msgstr "Não foi informada a chave de acesso."
+
+#~ msgid "Not informed access token."
+#~ msgstr "Não foi informado o token de acesso."
+
+#~ msgid "Token is empty."
+#~ msgstr "Token vazio."
+
+#~ msgid "Moip: Order status: %s."
+#~ msgstr "Moip: Status do pedido: %s."
+
+#~ msgid "Moip: Awaiting payment via: %s."
+#~ msgstr "Moip: A aguardar pagamento via: %s."
+
+#~ msgid "Moip: Payment status: %s."
+#~ msgstr "Moip: Status do pagamento: %s."
+
+#~ msgid "PAY NOW"
+#~ msgstr "PAGAR AGORA"
+
+#~ msgid "This payment will be processed by Moip Payments"
+#~ msgstr "Este pagamento será processado por Moip Pagamentos"
+
+#~ msgid "Payment url"
+#~ msgstr "url de pagamento"
+
+#~ msgid "No account yet?"
+#~ msgstr "Ainda não tem conta?"
+
+#~ msgid "Type of deadline"
+#~ msgstr "Tipo de Prazo"
+
+#~ msgid "Default"
+#~ msgstr "Padrão"
+
+#~ msgid "Calendar Days"
+#~ msgstr "Dias Corridos"
+
+#~ msgid "Working Days"
+#~ msgstr "Dias Úteis"
+
+#~ msgid "Minimum Installment"
+#~ msgstr "Parcela Mínima"
+
+#~ msgid "Indicate the minimum installments."
+#~ msgstr "Indica o valor da parcela mínima"
+
+#~ msgid "Maximum Installment"
+#~ msgstr "Parcela Máxima"
+
+#~ msgid "Indicate the Maximum installments."
+#~ msgstr "Indica o valor da parcela máxima"
+
+#~ msgid "Receipt"
+#~ msgstr "Recebimento"
+
+#~ msgid ""
+#~ "If the installment payment will in at sight (subject to additional costs) "
+#~ "in your account Moip (in one installment) or if it will be split (credited "
+#~ "in the same number of parcels chosen by the payer)."
+#~ msgstr ""
+#~ "Se o pagamento parcelado será credito à vista (está sujeito a custos "
+#~ "adicionais) na sua conta Moip (em apenas um parcela) ou se ele será "
+#~ "parcelado (creditado no mesmo número de parcelas escolhidas pelo pagador)."
+
+#~ msgid "At Sight"
+#~ msgstr "À vista"
+
+#~ msgid "Installments"
+#~ msgstr "Parcelado"
+
+#~ msgid "Rehearse"
+#~ msgstr "Repassar"
+
+#~ msgid "Enable Rehearse"
+#~ msgstr "Ativar repassar"
+
+#~ msgid "Defines if the installment will be paid by the payer."
+#~ msgstr "Define se a parcela será  paga pelo cliente"
+
+#~ msgid "Your PHP version is not supported. Required >= 5.3."
+#~ msgstr "Sua versão do PHP não é suportada. Requerido PHP >= 5.3."
+
+#~ msgid "Email/Username"
+#~ msgstr "Email/Usuário"
+
+#~ msgid "Developer API"
+#~ msgstr "API para desenvolvedor"
+
+#~ msgid "Payment method"
+#~ msgstr "Método de pagamento"
+
+#~ msgid "Enable Moip sandbox for testes."
+#~ msgstr "Habilitar Moip no modo de testes"
+
+#~ msgid "Payment enable"
+#~ msgstr "Habilitar pagamento"
