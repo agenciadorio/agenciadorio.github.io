@@ -1,0 +1,183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Support Ticket System By Phoeniixx\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-03 09:17+0000\n"
+"PO-Revision-Date: 2017-11-03 09:19+0000\n"
+"Last-Translator: sushil yadav <sushilphp@webiixx.com>\n"
+"Language-Team: German\n"
+"Language: de-DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: phoen_ticket_system.php:79 phoen_ticket_system.php:114
+msgid "Create Ticket"
+msgstr "Maak een ticket"
+
+#: phoen_ticket_system.php:87 phoen_ticket_system.php:119
+msgid "View Ticket"
+msgstr "Bekijk Ticket"
+
+#: phoen_ticket_system.php:773
+msgid "Ticket System"
+msgstr "Ticket-systeem"
+
+#: phoen_ticket_system.php:775
+msgid "Settings"
+msgstr "instellingen"
+
+#: includes/phoen_ticket_system_settings.php:50
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: includes/phoen_ticket_system_settings.php:58
+msgid "Enable Ticket System Plugin"
+msgstr "Schakel Ticket System-plugin in"
+
+#: includes/phoen_ticket_system_settings.php:70
+msgid "Enable Edito"
+msgstr "Activeer de editor"
+
+#: includes/phoen_ticket_system_settings.php:82
+msgid "Login Url"
+msgstr "Login-URL"
+
+#: includes/phoen_ticket_system_settings.php:97
+msgid "Register Url"
+msgstr "Registreren url"
+
+#: includes/phoen_ticket_system_settings.php:110
+msgid "Company Name"
+msgstr "Bedrijfsnaam"
+
+#: includes/phoen_ticket_system_settings.php:125
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: includes/phoen_ticket_details.php:242 includes/phoen_ticket_details.php:278 
+#: includes/phoen_ticket_details.php:309 
+#: includes/phoen_message_details.php:543 
+#: includes/phoen_message_details.php:568 
+#: includes/phoen_message_details.php:592
+msgid "Open Tickets"
+msgstr "Open kaartjes"
+
+#: includes/phoen_ticket_details.php:250 includes/phoen_ticket_details.php:284 
+#: includes/phoen_ticket_details.php:315 
+#: includes/phoen_message_details.php:549 
+#: includes/phoen_message_details.php:574 
+#: includes/phoen_message_details.php:598
+msgid "Closed Tickets"
+msgstr "Gesloten tickets"
+
+#: includes/phoen_ticket_details.php:258 includes/phoen_ticket_details.php:290 
+#: includes/phoen_ticket_details.php:321 
+#: includes/phoen_message_details.php:555 
+#: includes/phoen_message_details.php:580 
+#: includes/phoen_message_details.php:604
+msgid "Create New Ticket"
+msgstr "Maak een nieuw ticket"
+
+#: includes/phoen_new_ticket_create.php:275
+msgid "Name"
+msgstr "Naam"
+
+#: includes/phoen_new_ticket_create.php:277
+msgid "Customer Name"
+msgstr "klantnaam"
+
+#: includes/phoen_new_ticket_create.php:283
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/phoen_new_ticket_create.php:291 
+#: includes/phoen_new_ticket_create.php:293
+msgid "Subject"
+msgstr "Onderwerpen"
+
+#: includes/phoen_new_ticket_create.php:299 
+#: includes/phoen_message_details.php:798
+msgid "Priority"
+msgstr "Prioriteit"
+
+#: includes/phoen_new_ticket_create.php:303 
+#: includes/phoen_message_details.php:655
+msgid "Low"
+msgstr "Laag"
+
+#: includes/phoen_new_ticket_create.php:304 
+#: includes/phoen_message_details.php:656
+msgid "Normal"
+msgstr "normaal"
+
+#: includes/phoen_new_ticket_create.php:305 
+#: includes/phoen_message_details.php:657
+msgid "High"
+msgstr "hoog"
+
+#: includes/phoen_new_ticket_create.php:306 
+#: includes/phoen_message_details.php:658
+msgid "Urgent"
+msgstr "Dringend"
+
+#: includes/phoen_new_ticket_create.php:311
+msgid "Message"
+msgstr "Bericht"
+
+#: includes/phoen_new_ticket_create.php:325
+msgid "Submit"
+msgstr "voorleggen"
+
+#: includes/phoen_message_details.php:675
+msgid "select agent"
+msgstr "selecteer agent"
+
+#: includes/phoen_message_details.php:719
+msgid "Email ID"
+msgstr "E-mail identiteit"
+
+#: includes/phoen_message_details.php:736
+msgid "Ticket ID"
+msgstr "Ticket ID"
+
+#: includes/phoen_message_details.php:752
+msgid "Status"
+msgstr "staat"
+
+#: includes/phoen_message_details.php:1075 
+#: includes/phoen_message_details.php:1080
+msgid "Login"
+msgstr "Log in"
+
+#: includes/phoen_message_details.php:1092
+msgid "Register"
+msgstr "Registreren"
+
+#. Name of the plugin
+msgid "Support Ticket System By Phoeniixx"
+msgstr "Support Ticket System door Phoeniixx"
+
+#. Description of the plugin
+msgid "What does your plugin do and what features does it offer..."
+msgstr "Wat doet uw plug-in en welke functies biedt deze ..."
+
+#. URI of the plugin
+msgid "www.phoeniixx.com"
+msgstr "www.phoeniixx.com"
+
+#. Author of the plugin
+msgid "phoeniixx"
+msgstr "phoeniixx"
+
+#. Author URI of the plugin
+msgid "http://www.phoeniixx.com/"
+msgstr "http://www.phoeniixx.com/"
+
+msgid "Enable Textarea & Disable Editor on Create ticket"
+msgstr "Schakel Textarea & Disable Editor in Create ticket in"
+
+msgid "Enable Textarea & Disable Editor On Comment"
+msgstr "Tekstveld activeren en Editor uitschakelen bij opmerking"

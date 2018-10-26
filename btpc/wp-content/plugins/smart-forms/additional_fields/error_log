@@ -1,0 +1,3 @@
+[05-Sep-2018 16:33:33 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/smart-forms/additional_fields/smart-forms-additional-fields-list.php on line 2
+[07-Sep-2018 08:47:08 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/smart-forms/additional_fields/smart-forms-additional-fields-list.php on line 2
+[19-Sep-2018 04:19:57 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/smart-forms/additional_fields/smart-forms-additional-fields-list.php on line 2

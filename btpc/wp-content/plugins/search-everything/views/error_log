@@ -1,0 +1,4 @@
+[05-Sep-2018 16:52:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/bestpecascom/public_html/wp-content/plugins/search-everything/views/options_page_errors.php on line 5
+[05-Sep-2018 16:53:51 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/search-everything/views/options_page.php on line 2
+[17-Sep-2018 04:05:39 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/search-everything/views/options_page.php on line 2
+[18-Sep-2018 16:37:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/bestpecascom/public_html/wp-content/plugins/search-everything/views/options_page_errors.php on line 5

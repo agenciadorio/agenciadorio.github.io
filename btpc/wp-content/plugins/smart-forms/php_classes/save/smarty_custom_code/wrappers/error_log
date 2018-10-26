@@ -1,0 +1,1 @@
+[12-Sep-2018 11:06:34 America/Chicago] PHP Fatal error:  Class 'basic_field_wrapper' not found in /home/bestpecascom/public_html/wp-content/plugins/smart-forms/php_classes/save/smarty_custom_code/wrappers/selectable_list_wrapper.php on line 10

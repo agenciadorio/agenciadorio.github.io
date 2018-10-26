@@ -1,0 +1,6 @@
+[05-Sep-2018 15:11:03 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home/bestpecascom/public_html/wp-content/plugins/search-everything/config.php on line 10
+[05-Sep-2018 15:11:51 America/Chicago] PHP Fatal error:  Call to undefined function plugin_basename() in /home/bestpecascom/public_html/wp-content/plugins/search-everything/search-everything.php on line 16
+[13-Sep-2018 11:37:24 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home/bestpecascom/public_html/wp-content/plugins/search-everything/config.php on line 10
+[13-Sep-2018 11:38:34 America/Chicago] PHP Fatal error:  Call to undefined function plugin_basename() in /home/bestpecascom/public_html/wp-content/plugins/search-everything/search-everything.php on line 16
+[20-Sep-2018 04:23:22 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home/bestpecascom/public_html/wp-content/plugins/search-everything/config.php on line 10
+[20-Sep-2018 06:34:44 America/Chicago] PHP Fatal error:  Call to undefined function plugin_basename() in /home/bestpecascom/public_html/wp-content/plugins/search-everything/search-everything.php on line 16

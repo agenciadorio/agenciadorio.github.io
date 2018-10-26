@@ -1,0 +1,184 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-03 09:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: phoen_ticket_system.php:79 phoen_ticket_system.php:114
+msgid "Create Ticket"
+msgstr ""
+
+#: phoen_ticket_system.php:87 phoen_ticket_system.php:119
+msgid "View Ticket"
+msgstr ""
+
+#: phoen_ticket_system.php:773
+msgid "Ticket System"
+msgstr ""
+
+#: phoen_ticket_system.php:775
+msgid "Settings"
+msgstr ""
+
+#: includes/phoen_ticket_system_settings.php:50
+msgid "General Settings"
+msgstr ""
+
+#: includes/phoen_ticket_system_settings.php:58
+msgid "Enable Ticket System Plugin"
+msgstr ""
+
+#: includes/phoen_ticket_system_settings.php:70
+msgid "Enable Edito"
+msgstr ""
+
+#: includes/phoen_ticket_system_settings.php:82
+msgid "Login Url"
+msgstr ""
+
+#: includes/phoen_ticket_system_settings.php:97
+msgid "Register Url"
+msgstr ""
+
+#: includes/phoen_ticket_system_settings.php:110
+msgid "Company Name"
+msgstr ""
+
+#: includes/phoen_ticket_system_settings.php:125
+msgid "Save changes"
+msgstr ""
+
+#: includes/phoen_ticket_details.php:242 includes/phoen_ticket_details.php:278 
+#: includes/phoen_ticket_details.php:309 
+#: includes/phoen_message_details.php:543 
+#: includes/phoen_message_details.php:568 
+#: includes/phoen_message_details.php:592
+msgid "Open Tickets"
+msgstr ""
+
+#: includes/phoen_ticket_details.php:250 includes/phoen_ticket_details.php:284 
+#: includes/phoen_ticket_details.php:315 
+#: includes/phoen_message_details.php:549 
+#: includes/phoen_message_details.php:574 
+#: includes/phoen_message_details.php:598
+msgid "Closed Tickets"
+msgstr ""
+
+#: includes/phoen_ticket_details.php:258 includes/phoen_ticket_details.php:290 
+#: includes/phoen_ticket_details.php:321 
+#: includes/phoen_message_details.php:555 
+#: includes/phoen_message_details.php:580 
+#: includes/phoen_message_details.php:604
+msgid "Create New Ticket"
+msgstr ""
+
+#: includes/phoen_new_ticket_create.php:275
+msgid "Name"
+msgstr ""
+
+#: includes/phoen_new_ticket_create.php:277
+msgid "Customer Name"
+msgstr ""
+
+#: includes/phoen_new_ticket_create.php:283
+msgid "Email"
+msgstr ""
+
+#: includes/phoen_new_ticket_create.php:291 
+#: includes/phoen_new_ticket_create.php:293
+msgid "Subject"
+msgstr ""
+
+#: includes/phoen_new_ticket_create.php:299 
+#: includes/phoen_message_details.php:798
+msgid "Priority"
+msgstr ""
+
+#: includes/phoen_new_ticket_create.php:303 
+#: includes/phoen_message_details.php:655
+msgid "Low"
+msgstr ""
+
+#: includes/phoen_new_ticket_create.php:304 
+#: includes/phoen_message_details.php:656
+msgid "Normal"
+msgstr ""
+
+#: includes/phoen_new_ticket_create.php:305 
+#: includes/phoen_message_details.php:657
+msgid "High"
+msgstr ""
+
+#: includes/phoen_new_ticket_create.php:306 
+#: includes/phoen_message_details.php:658
+msgid "Urgent"
+msgstr ""
+
+#: includes/phoen_new_ticket_create.php:311
+msgid "Message"
+msgstr ""
+
+#: includes/phoen_new_ticket_create.php:325
+msgid "Submit"
+msgstr ""
+
+#: includes/phoen_message_details.php:675
+msgid "select agent"
+msgstr ""
+
+#: includes/phoen_message_details.php:719
+msgid "Email ID"
+msgstr ""
+
+#: includes/phoen_message_details.php:736
+msgid "Ticket ID"
+msgstr ""
+
+#: includes/phoen_message_details.php:752
+msgid "Status"
+msgstr ""
+
+#: includes/phoen_message_details.php:1075 
+#: includes/phoen_message_details.php:1080
+msgid "Login"
+msgstr ""
+
+#: includes/phoen_message_details.php:1092
+msgid "Register"
+msgstr ""
+
+#. Name of the plugin
+msgid "Support Ticket System By Phoeniixx"
+msgstr ""
+
+#. Description of the plugin
+msgid "What does your plugin do and what features does it offer..."
+msgstr ""
+
+#. URI of the plugin
+msgid "www.phoeniixx.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "phoeniixx"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.phoeniixx.com/"
+msgstr ""
+
+msgid "Enable Textarea & Disable Editor on Create ticket"
+msgstr ""
+
+msgid "Enable Textarea & Disable Editor On Comment"
+msgstr ""

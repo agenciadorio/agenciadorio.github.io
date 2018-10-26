@@ -1,0 +1,32 @@
+declare class SfConditionalLogicManager {
+    private FormBuilder;
+    private PanelContainer;
+    private SettingsPanel;
+    private ConditionalHandlersListScreen;
+    private CurrentLeft;
+    private ConditionIdToSave;
+    private SavedConditionList;
+    private Translations;
+    private SelectedHandler;
+    private HandlerSteps;
+    private CurrentStepIndex;
+    private CurrentStep;
+    constructor(formBuilder: any);
+    private AddNew();
+    private ClearPanelContainer();
+    private GoToConditionalLogicList();
+    private CreateConditionalHandlersListScreen();
+    private CreateHandlerItem(handler);
+    private HandlerSelected(handlerId);
+    private StartHandlerConfiguration(handler, isNew);
+    private GoToNextStep();
+    private AddStepButtons(container);
+    private SaveCondition();
+    private GoToRoot();
+    private ConditionSelected(condition);
+    private CreateConditionListItem(condition);
+    FillSavedConditionList(): void;
+    private GoToPreviousStep();
+    private GoToScreen(screenJQuery);
+    private GetPanelWidth();
+}
