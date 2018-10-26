@@ -1,0 +1,1 @@
+[14-Sep-2018 12:09:37 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/menu-icons/vendor/kucrut/menu-item-custom-fields/doc/menu-item-custom-fields-example.php on line 46

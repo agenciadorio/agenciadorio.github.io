@@ -1,0 +1,5 @@
+[05-Sep-2018 15:17:53 America/Chicago] PHP Fatal error:  Call to undefined function do_action() in /home/bestpecascom/public_html/wp-content/plugins/menu-icons/includes/media-template.php on line 127
+[23-Sep-2018 16:27:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home/bestpecascom/public_html/wp-content/plugins/menu-icons/includes/media-template.php:127
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/menu-icons/includes/media-template.php on line 127

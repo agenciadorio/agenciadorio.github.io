@@ -1,0 +1,2 @@
+[13-Sep-2018 10:51:17 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu_Edit' not found in /home/bestpecascom/public_html/wp-content/plugins/menu-icons/vendor/kucrut/menu-item-custom-fields/walker-nav-menu-edit.php on line 15
+[13-Sep-2018 10:54:45 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/menu-icons/vendor/kucrut/menu-item-custom-fields/menu-item-custom-fields.php on line 57

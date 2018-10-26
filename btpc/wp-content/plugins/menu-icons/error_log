@@ -1,0 +1,3 @@
+[05-Sep-2018 15:10:55 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 172
+[14-Sep-2018 15:25:56 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 172
+[20-Sep-2018 03:59:36 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 172
