@@ -1,0 +1,1 @@
+Add options to hide specific WordPress widgets on desktop and/or mobile & iPad screen sizes. Get the Plugin here : https://wordpress.org/plugins/hide-widgets

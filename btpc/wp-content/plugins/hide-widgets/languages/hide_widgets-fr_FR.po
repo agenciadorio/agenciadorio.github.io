@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hide Widgets\n"
+"POT-Creation-Date: 2015-11-10 07:49-0500\n"
+"PO-Revision-Date: 2015-11-10 07:58-0500\n"
+"Last-Translator: TWF <info@themes-wordpress-francais.com>\n"
+"Language-Team: TWF <info@themes-wordpress-francais.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: hide-widgets.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: hide-widgets.php:98
+msgid "Hide Widget On:"
+msgstr "Masquer le Widget sur:"
+
+#: hide-widgets.php:99
+msgid "Desktop Size <small>(greater than 768px)</small>"
+msgstr "Les écrans plus <b>grands</b> que 768px.(ordinateurs de bureau)"
+
+#: hide-widgets.php:100
+msgid "Mobile & Tablet Size <small>(less than 769px)</small>"
+msgstr "Les écrans plus <b>petits</b> que 768px.(Téléphones mobiles)"
+
+#. Plugin Name of the plugin/theme
+msgid "Hide Widgets"
+msgstr "Hide Widgets"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/hide-widgets"
+msgstr "https://wordpress.org/plugins/hide-widgets"
+
+#. Description of the plugin/theme
+msgid ""
+"Add options to hide specific widgets on desktop and/or mobile & iPad screen "
+"sizes."
+msgstr ""
+"Ajouter des options pour cacher des widgets spécifiques sur les ordinateurs "
+"de bureau et / ou des appareils mobiles tels que téléphones et iPads."
+
+#. Author of the plugin/theme
+msgid "phpbits"
+msgstr "phpbits"
+
+#. Author URI of the plugin/theme
+msgid "http://codecanyon.net/user/phpbits/portfolio?ref=phpbits"
+msgstr "http://codecanyon.net/user/phpbits/portfolio?ref=phpbits"
