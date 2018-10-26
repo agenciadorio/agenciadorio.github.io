@@ -1,0 +1,38 @@
+.woocommerce.widget_product_categories .product-categories .cat-item a:after {
+    display: none;
+}
+.woocommerce.widget_product_categories .product-categories .children {
+    display: none;
+}
+.woocommerce.widget_product_categories .product-categories li {
+    position: relative;
+}
+.woocommerce.widget_product_categories .product-categories li li {
+    padding-left: 15px;
+}
+.woocommerce.widget_product_categories .product-categories li .cat-menu-close {
+    position: absolute;
+    right: 0;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    top: 4px;
+    width: 20px;
+    height: 20px;
+}
+.woocommerce.widget_product_categories .product-categories li > .cat-menu-close:hover {
+    opacity: 0.5;
+}
+.woocommerce.widget_product_categories .product-categories li > .cat-menu-close:after {
+    display: inline-block;
+    margin-left: 2px;
+    background: url("../img/arrow-right.svg") no-repeat center center;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    content: "";
+}
+.woocommerce.widget_product_categories .product-categories li.opened > .cat-menu-close:after {
+    background: url("../img/arrow-down.svg") no-repeat center center;
+    background-size: 20px 20px;
+}

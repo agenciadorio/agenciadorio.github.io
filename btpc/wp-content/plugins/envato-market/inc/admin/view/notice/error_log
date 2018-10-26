@@ -1,0 +1,10 @@
+[05-Sep-2018 16:18:26 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/notice/success-single-use.php on line 11
+[05-Sep-2018 16:18:26 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/notice/success-no-items.php on line 11
+[05-Sep-2018 16:18:29 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/notice/success.php on line 11
+[05-Sep-2018 16:18:31 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/notice/error-single-use.php on line 11
+[05-Sep-2018 16:18:38 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/notice/error.php on line 11
+[17-Sep-2018 07:46:52 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/notice/success-no-items.php on line 11
+[18-Sep-2018 05:59:50 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/notice/success.php on line 11
+[18-Sep-2018 06:13:04 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/notice/error.php on line 11
+[18-Sep-2018 06:54:24 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/notice/error-single-use.php on line 11
+[18-Sep-2018 06:57:34 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/notice/success-single-use.php on line 11

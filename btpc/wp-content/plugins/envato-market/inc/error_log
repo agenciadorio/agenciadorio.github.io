@@ -1,0 +1,6 @@
+[08-Sep-2018 07:57:42 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/github.php on line 364
+[15-Sep-2018 12:35:29 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/github.php on line 364
+[23-Sep-2018 23:55:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/github.php:364
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/github.php on line 364

@@ -1,0 +1,2 @@
+[05-Sep-2018 16:18:33 America/Chicago] PHP Fatal error:  Call to undefined function add_thickbox() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/callback/admin.php on line 18
+[17-Sep-2018 06:40:48 America/Chicago] PHP Fatal error:  Call to undefined function add_thickbox() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/callback/admin.php on line 18

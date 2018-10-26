@@ -1,0 +1,10 @@
+[05-Sep-2018 16:44:57 America/Chicago] PHP Fatal error:  Call to undefined function envato_market() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/partials/settings.php on line 9
+[05-Sep-2018 16:45:51 America/Chicago] PHP Fatal error:  Call to undefined function envato_market() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/partials/themes.php on line 9
+[05-Sep-2018 16:48:42 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/partials/intro.php on line 12
+[05-Sep-2018 16:57:04 America/Chicago] PHP Fatal error:  Call to undefined function envato_market() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/partials/plugins.php on line 9
+[05-Sep-2018 16:57:17 America/Chicago] PHP Fatal error:  Call to undefined function envato_market() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/partials/tabs.php on line 10
+[16-Sep-2018 14:21:10 America/Chicago] PHP Fatal error:  Call to undefined function envato_market() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/partials/themes.php on line 9
+[17-Sep-2018 05:28:57 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/partials/intro.php on line 12
+[17-Sep-2018 06:03:31 America/Chicago] PHP Fatal error:  Call to undefined function envato_market() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/partials/plugins.php on line 9
+[17-Sep-2018 06:14:58 America/Chicago] PHP Fatal error:  Call to undefined function envato_market() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/partials/settings.php on line 9
+[17-Sep-2018 07:03:47 America/Chicago] PHP Fatal error:  Call to undefined function envato_market() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/partials/tabs.php on line 10

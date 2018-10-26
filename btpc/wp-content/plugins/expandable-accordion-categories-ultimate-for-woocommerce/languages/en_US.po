@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate WooCommerce Expandable Categories\n"
+"POT-Creation-Date: 2015-07-07 12:46+0200\n"
+"PO-Revision-Date: 2015-07-07 12:47+0200\n"
+"Last-Translator: dedalx <dedalx.rus@gmail.com>\n"
+"Language-Team: MagniumThemes <support@magniumthemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../mgwoocommercecat.php:109
+msgid "Visit Premium Customer Support Ticket System"
+msgstr ""
+
+#: ../mgwoocommercecat.php:109
+msgid "Premium Support"
+msgstr ""
+
+#: ../mgwoocommercecat.php:110
+msgid "Premium WordPress themes"
+msgstr ""

@@ -1,0 +1,4 @@
+[05-Sep-2018 16:36:09 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/callback/section/items.php on line 10
+[05-Sep-2018 16:37:36 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/callback/section/oauth.php on line 10
+[18-Sep-2018 07:05:54 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/callback/section/oauth.php on line 10
+[19-Sep-2018 05:38:19 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/callback/section/items.php on line 10

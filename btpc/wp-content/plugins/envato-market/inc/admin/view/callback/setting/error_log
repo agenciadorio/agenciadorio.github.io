@@ -1,0 +1,4 @@
+[05-Sep-2018 16:51:19 America/Chicago] PHP Fatal error:  Call to undefined function envato_market() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/callback/setting/items.php on line 9
+[05-Sep-2018 16:51:22 America/Chicago] PHP Fatal error:  Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/callback/setting/token.php on line 10
+[19-Sep-2018 06:43:38 America/Chicago] PHP Fatal error:  Call to undefined function envato_market() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/callback/setting/items.php on line 9
+[19-Sep-2018 06:58:21 America/Chicago] PHP Fatal error:  Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/envato-market/inc/admin/view/callback/setting/token.php on line 10
