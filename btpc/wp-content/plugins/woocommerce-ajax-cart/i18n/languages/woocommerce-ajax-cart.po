@@ -1,0 +1,108 @@
+# Copyright (C) 2017 WooCommerce AJAX Cart
+# This file is distributed under the same license as the WooCommerce AJAX Cart package.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version:WPML_EXPORT\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language:en\n"
+"MIME-Version: 1.0\n"
+
+#: wac-cart-update.php:11
+msgid "Update Cart"
+msgstr ""
+
+#: wac-cart-update.php:12
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: wac-js-calls.php:14
+msgid "Updating..."
+msgstr ""
+
+#: wac-js-calls.php:15
+msgid "Are you sure you want to remove this item from cart?"
+msgstr ""
+
+#: wac-qty-select-template.php:4
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: wac-settings.php:9
+msgid "Settings"
+msgstr ""
+
+#: wac-settings.php:16
+msgid "Woo Ajax Cart"
+msgstr ""
+
+#: wac-settings.php:30 wac-settings.php:101
+msgid "Save settings"
+msgstr ""
+
+#: wac-settings.php:33 wac-settings.php:102
+msgid "Reset all settings"
+msgstr ""
+
+#: wac-settings.php:43
+msgid "Woocommerce Ajax Cart Settings"
+msgstr ""
+
+#: wac-settings.php:50
+msgid "Quantity buttons"
+msgstr ""
+
+#: wac-settings.php:56
+msgid "Show -/+ buttons around item quantity on cart page"
+msgstr ""
+
+#: wac-settings.php:62
+msgid "Quantity select"
+msgstr ""
+
+#: wac-settings.php:68
+msgid "Show item quantity as select instead numeric field"
+msgstr ""
+
+#: wac-settings.php:71
+msgid "Items to show on select"
+msgstr ""
+
+#: wac-settings.php:81
+msgid "Convert the Quantity field on product page into select also"
+msgstr ""
+
+#: wac-settings.php:88
+msgid "Quantity confirmation"
+msgstr ""
+
+#: wac-settings.php:94
+msgid "Show user confirmation when change item quantity to zero"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce AJAX Cart"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/woocommerce-ajax-cart/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Change the default behavior of WooCommerce Cart page, making AJAX requests "
+"when quantity field changes"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Moises Heberle, Alex Szilagyi (contributor)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://codecanyon.net/user/moiseh"
+msgstr ""

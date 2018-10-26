@@ -1,0 +1,6 @@
+[05-Sep-2018 15:56:27 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home/bestpecascom/public_html/wp-content/plugins/woocommerce/i18n/states/TZ.php on line 14
+[08-Sep-2018 11:24:16 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home/bestpecascom/public_html/wp-content/plugins/woocommerce/i18n/states/TZ.php on line 14
+[22-Sep-2018 22:49:52 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/bestpecascom/public_html/wp-content/plugins/woocommerce/i18n/states/TZ.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/woocommerce/i18n/states/TZ.php on line 14

@@ -1,0 +1,6 @@
+[05-Sep-2018 15:25:29 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/woocommerce-checkout-manager/includes/template.php on line 60
+[05-Sep-2018 15:25:43 America/Chicago] PHP Fatal error:  Call to undefined function is_admin() in /home/bestpecascom/public_html/wp-content/plugins/woocommerce-checkout-manager/includes/admin.php on line 2
+[10-Sep-2018 13:44:56 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/woocommerce-checkout-manager/includes/template.php on line 60
+[10-Sep-2018 13:48:58 America/Chicago] PHP Fatal error:  Call to undefined function is_admin() in /home/bestpecascom/public_html/wp-content/plugins/woocommerce-checkout-manager/includes/admin.php on line 2
+[15-Sep-2018 22:58:56 America/Chicago] PHP Fatal error:  Call to undefined function is_admin() in /home/bestpecascom/public_html/wp-content/plugins/woocommerce-checkout-manager/includes/admin.php on line 2
+[15-Sep-2018 23:10:26 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/woocommerce-checkout-manager/includes/template.php on line 60
