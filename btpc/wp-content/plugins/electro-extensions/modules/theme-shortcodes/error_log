@@ -1,0 +1,6 @@
+[05-Sep-2018 16:53:52 America/Chicago] PHP Fatal error:  Call to undefined function add_shortcode() in /home/bestpecascom/public_html/wp-content/plugins/electro-extensions/modules/theme-shortcodes/theme-shortcodes.php on line 26
+[14-Sep-2018 12:12:36 America/Chicago] PHP Fatal error:  Call to undefined function add_shortcode() in /home/bestpecascom/public_html/wp-content/plugins/electro-extensions/modules/theme-shortcodes/theme-shortcodes.php on line 26
+[22-Sep-2018 16:13:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/bestpecascom/public_html/wp-content/plugins/electro-extensions/modules/theme-shortcodes/theme-shortcodes.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/electro-extensions/modules/theme-shortcodes/theme-shortcodes.php on line 26

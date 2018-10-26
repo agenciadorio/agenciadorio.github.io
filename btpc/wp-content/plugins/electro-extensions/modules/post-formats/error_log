@@ -1,0 +1,6 @@
+[06-Sep-2018 04:44:12 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/electro-extensions/modules/post-formats/post-formats.php on line 56
+[09-Sep-2018 20:48:10 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/electro-extensions/modules/post-formats/post-formats.php on line 56
+[21-Sep-2018 12:52:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/electro-extensions/modules/post-formats/post-formats.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/electro-extensions/modules/post-formats/post-formats.php on line 56

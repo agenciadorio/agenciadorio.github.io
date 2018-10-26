@@ -1,0 +1,7 @@
+[05-Sep-2018 16:42:48 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/electro-extensions/modules/post-types/static-block.php on line 37
+[14-Sep-2018 01:23:24 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/electro-extensions/modules/post-types/static-block.php on line 37
+[22-Sep-2018 15:48:12 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/electro-extensions/modules/post-types/static-block.php:37
+Stack trace:
+#0 /home/bestpecascom/public_html/wp-content/plugins/electro-extensions/modules/post-types/static-block.php(160): StaticBlockContent::onload()
+#1 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/electro-extensions/modules/post-types/static-block.php on line 37
