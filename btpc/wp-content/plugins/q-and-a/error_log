@@ -1,0 +1,4 @@
+[05-Sep-2018 15:10:46 America/Chicago] PHP Fatal error:  Call to undefined function plugin_dir_path() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/q-and-a.php on line 17
+[07-Sep-2018 11:58:09 America/Chicago] PHP Fatal error:  Call to undefined function plugin_dir_path() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/q-and-a.php on line 17
+[09-Sep-2018 04:18:16 America/Chicago] PHP Fatal error:  Call to undefined function plugin_dir_path() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/q-and-a.php on line 17
+[14-Sep-2018 13:59:44 America/Chicago] PHP Fatal error:  Call to undefined function plugin_dir_path() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/q-and-a.php on line 17

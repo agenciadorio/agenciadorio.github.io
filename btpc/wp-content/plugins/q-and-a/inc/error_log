@@ -1,0 +1,25 @@
+[05-Sep-2018 15:17:22 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/custom-post.php on line 2
+[05-Sep-2018 15:17:25 America/Chicago] PHP Fatal error:  Call to undefined function is_admin() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/upgrader.php on line 3
+[05-Sep-2018 15:17:33 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/reorder.php on line 29
+[05-Sep-2018 15:17:46 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/ratings.php on line 10
+[05-Sep-2018 15:18:20 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/functions.php on line 3
+[07-Sep-2018 14:56:48 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/ratings.php on line 10
+[07-Sep-2018 14:57:09 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/custom-post.php on line 2
+[07-Sep-2018 14:57:29 America/Chicago] PHP Fatal error:  Call to undefined function is_admin() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/upgrader.php on line 3
+[07-Sep-2018 14:57:53 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/reorder.php on line 29
+[07-Sep-2018 14:58:25 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/functions.php on line 3
+[08-Sep-2018 08:34:22 America/Chicago] PHP Fatal error:  Call to undefined function add_shortcode() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/shortcodes.php on line 3
+[15-Sep-2018 19:29:10 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/ratings.php on line 10
+[15-Sep-2018 19:32:25 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/reorder.php on line 29
+[15-Sep-2018 19:37:48 America/Chicago] PHP Fatal error:  Call to undefined function is_admin() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/upgrader.php on line 3
+[15-Sep-2018 19:43:33 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/functions.php on line 3
+[15-Sep-2018 19:47:55 America/Chicago] PHP Fatal error:  Call to undefined function add_shortcode() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/shortcodes.php on line 3
+[15-Sep-2018 19:58:02 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/custom-post.php on line 2
+[21-Sep-2018 16:37:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/shortcodes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/shortcodes.php on line 3
+[24-Sep-2018 00:08:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/shortcodes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/inc/shortcodes.php on line 3

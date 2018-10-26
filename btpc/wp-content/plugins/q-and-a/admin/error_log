@@ -1,0 +1,4 @@
+[05-Sep-2018 16:27:12 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/admin/q-a-plus-admin.php on line 3
+[05-Sep-2018 16:28:00 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/admin/documentation.php on line 1
+[15-Sep-2018 20:55:21 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/admin/documentation.php on line 1
+[15-Sep-2018 21:03:58 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/q-and-a/admin/q-a-plus-admin.php on line 3
