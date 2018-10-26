@@ -1,0 +1,6 @@
+[05-Sep-2018 15:18:26 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wcfm-view-menu.php on line 4
+[05-Sep-2018 15:18:30 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wcfm-view-header-panels.php on line 14
+[09-Sep-2018 01:15:02 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wcfm-view-menu.php on line 4
+[09-Sep-2018 03:50:12 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wcfm-view-header-panels.php on line 14
+[18-Sep-2018 13:48:23 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wcfm-view-menu.php on line 4
+[18-Sep-2018 21:28:04 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wcfm-view-header-panels.php on line 14

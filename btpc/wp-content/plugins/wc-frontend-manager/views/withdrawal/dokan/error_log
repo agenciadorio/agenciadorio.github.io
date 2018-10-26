@@ -1,0 +1,4 @@
+[05-Sep-2018 16:29:27 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/withdrawal/dokan/wcfm-view-withdrawal.php on line 14
+[05-Sep-2018 16:30:00 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/withdrawal/dokan/wcfm-view-payments.php on line 14
+[14-Sep-2018 01:05:39 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/withdrawal/dokan/wcfm-view-withdrawal.php on line 14
+[14-Sep-2018 01:20:00 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/withdrawal/dokan/wcfm-view-payments.php on line 14

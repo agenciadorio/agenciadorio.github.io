@@ -1,0 +1,15 @@
+[05-Sep-2018 15:57:52 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/includes/libs/dhl-express/class-wcfm-dhl-woocommerce-shipping-admin.php on line 7
+[05-Sep-2018 15:57:54 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/includes/libs/dhl-express/class-wf-tracking-admin.php on line 16
+[10-Sep-2018 13:58:57 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/includes/libs/dhl-express/class-wcfm-dhl-woocommerce-shipping-admin.php on line 7
+[10-Sep-2018 14:14:30 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/includes/libs/dhl-express/class-wf-tracking-admin.php on line 16
+[23-Sep-2018 08:42:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/includes/libs/dhl-express/class-wcfm-dhl-woocommerce-shipping-admin.php:7
+Stack trace:
+#0 /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/includes/libs/dhl-express/class-wcfm-dhl-woocommerce-shipping-admin.php(1828): wcfm_dhl_woocommerce_shipping_admin->__construct()
+#1 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/includes/libs/dhl-express/class-wcfm-dhl-woocommerce-shipping-admin.php on line 7
+[23-Sep-2018 10:19:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/includes/libs/dhl-express/class-wf-tracking-admin.php:16
+Stack trace:
+#0 /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/includes/libs/dhl-express/class-wf-tracking-admin.php(23): WCFM_Tracking_Admin_DHLExpress->wf_init()
+#1 /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/includes/libs/dhl-express/class-wf-tracking-admin.php(516): WCFM_Tracking_Admin_DHLExpress->__construct()
+#2 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/includes/libs/dhl-express/class-wf-tracking-admin.php on line 16

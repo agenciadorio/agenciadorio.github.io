@@ -1,0 +1,27 @@
+[08-Sep-2018 06:16:12 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-wcvendors-dashboard.php on line 14
+[09-Sep-2018 10:44:24 America/Chicago] PHP Fatal error:  Call to undefined function get_current_user_id() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-dashboard-welcome-box.php on line 14
+[09-Sep-2018 11:35:46 America/Chicago] PHP Fatal error:  Class 'WC_Product_Vendors_Utils' not found in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-wcpvendors-dashboard.php on line 14
+[09-Sep-2018 12:30:22 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-dokan-dashboard.php on line 14
+[09-Sep-2018 15:58:09 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-wcmarketplace-dashboard.php on line 14
+[09-Sep-2018 16:38:49 America/Chicago] PHP Fatal error:  Call to undefined function wc_get_order_types() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-dashboard.php on line 8
+[19-Sep-2018 23:55:24 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-dokan-dashboard.php on line 14
+[21-Sep-2018 07:19:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-wcvendors-dashboard.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-wcvendors-dashboard.php on line 14
+[21-Sep-2018 16:25:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_order_types() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-dashboard.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-dashboard.php on line 8
+[21-Sep-2018 19:29:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_user_id() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-dashboard-welcome-box.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-dashboard-welcome-box.php on line 14
+[21-Sep-2018 19:37:52 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-wcmarketplace-dashboard.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-wcmarketplace-dashboard.php on line 14
+[22-Sep-2018 18:17:42 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WC_Product_Vendors_Utils' not found in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-wcpvendors-dashboard.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/dashboard/wcfm-view-wcpvendors-dashboard.php on line 14

@@ -1,0 +1,109 @@
+.enquiry_form_wrapper_hide {
+	display: none;
+}
+
+.add_enquiry {
+	background: #3d3d3d;
+	padding: 5px 10px;         
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border:#f0f0f0 1px solid;
+	border-bottom: 1px solid #00798b;
+	color: #ffffff;
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 8px;
+	margin-left: 10px;
+	-webkit-box-shadow: 0 1px 0 #ccc;
+	box-shadow: 0 1px 0 #ccc;
+	display: table-cell;
+	cursor: pointer;
+}
+
+.add_enquiry span { margin-left: 3px; }
+.add_enquiry:hover { background-color: #00798b; color: #fff; }
+
+p.wcfm-enquiries-count {
+  background-color: #00798b;
+	padding: 1em 1.618em;
+	margin-bottom: 2.617924em;
+	margin-left: 0;
+	border-radius: 2px;
+	color: #fff;
+	clear: both;
+	border-left: .6180469716em solid rgba(0,0,0,.15);
+}
+
+#wcfm_enquiry_form label {
+	display: block;
+	margin-bottom: 0.4em;
+}
+
+#wcfm_enquiry_form .comment-form-author, #wcfm_enquiry_form .comment-form-email {
+  width: 44%;
+}
+
+.wcfm_enquiry_reviews .comment + .wcfm_enquiry_reviews .comment {
+  border-top: 1px dashed #ddd;
+}
+
+ol.wcfm_enquiry_list {
+	margin-bottom: 1.3em;
+	margin-top: 0;
+  padding: 0;
+  list-style: decimal;
+}
+
+ol.wcfm_enquiry_list li.wcfm_enquiry_item {
+	margin-left: 1.3em;
+	list-style: none;
+	padding: 1em 0 0 0;
+	display: block;
+	margin-bottom: .6em;
+}
+
+ol.wcfm_enquiry_list li.wcfm_enquiry_item .wcfm_enquiry_container {
+	
+}
+
+.wcfm_enquiry_reviews ol.wcfm_enquiry_list li.wcfm_enquiry_item .wcfm_enquiry_container .comment-text {
+	width: 100% !important;
+	float: left !important;
+	margin-top: 40px;
+	padding: 0 1.5em;
+}
+
+.wcfm_enquiry_reviews ol.wcfm_enquiry_list li.wcfm_enquiry_item .wcfm_enquiry_container .comment-text .enquiry-by {
+	float: right;
+	font-size: .875em;
+	line-height: 1;
+	height: 1em;
+}
+
+a.wcfm_catalog_enquiry {
+	background: #3d3d3d;
+	padding: 5px 10px;         
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border:#f0f0f0 1px solid;
+	border-bottom: 1px solid #00798b;
+	color: #ffffff;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 10px;
+	-webkit-box-shadow: 0 1px 0 #ccc;
+	box-shadow: 0 1px 0 #ccc;
+	display: block;
+	cursor: pointer;
+}
+a.wcfm_catalog_enquiry:hover { background-color: #00798b; color: #fff; }
+
+@media only screen and (max-width: 640px) {
+	#wcfm_enquiry_form .comment-form-author, #wcfm_enquiry_form .comment-form-email {
+		width: 100%;
+	}
+}

@@ -1,0 +1,9 @@
+[05-Sep-2018 15:23:25 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/vendors/wcfm-view-vendors.php on line 4
+[05-Sep-2018 15:23:28 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/vendors/wcfm-view-vendors-manage.php on line 13
+[10-Sep-2018 14:00:54 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/vendors/wcfm-view-vendors.php on line 4
+[10-Sep-2018 14:03:16 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/vendors/wcfm-view-vendors-manage.php on line 13
+[19-Sep-2018 23:32:41 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/vendors/wcfm-view-vendors-manage.php on line 13
+[21-Sep-2018 06:18:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/vendors/wcfm-view-vendors.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/vendors/wcfm-view-vendors.php on line 4

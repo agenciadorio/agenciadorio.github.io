@@ -1,0 +1,6 @@
+[05-Sep-2018 15:27:43 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/listings/wcfm-view-listings.php on line 14
+[10-Sep-2018 16:29:46 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/listings/wcfm-view-listings.php on line 14
+[22-Sep-2018 15:50:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/listings/wcfm-view-listings.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/listings/wcfm-view-listings.php on line 14

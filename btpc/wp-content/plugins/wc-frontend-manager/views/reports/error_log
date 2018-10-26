@@ -1,0 +1,33 @@
+[05-Sep-2018 15:23:26 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-wcmarketplace-sales-by-date.php on line 12
+[05-Sep-2018 15:23:29 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-sales-by-date.php on line 12
+[05-Sep-2018 15:23:31 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-dokan-sales-by-date.php on line 12
+[05-Sep-2018 15:23:32 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-wcvendors-sales-by-date.php on line 12
+[05-Sep-2018 15:23:35 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-out-of-stock.php on line 12
+[05-Sep-2018 15:23:40 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-wcpvendors-sales-by-date.php on line 12
+[08-Sep-2018 08:49:03 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-menu.php on line 4
+[09-Sep-2018 07:02:46 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-wcmarketplace-sales-by-date.php on line 12
+[10-Sep-2018 13:38:47 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-sales-by-date.php on line 12
+[10-Sep-2018 13:43:19 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-out-of-stock.php on line 12
+[10-Sep-2018 13:45:47 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-dokan-sales-by-date.php on line 12
+[10-Sep-2018 13:46:02 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-wcvendors-sales-by-date.php on line 12
+[10-Sep-2018 13:46:15 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-wcpvendors-sales-by-date.php on line 12
+[10-Sep-2018 13:53:01 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-menu.php on line 4
+[19-Sep-2018 23:00:50 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-menu.php on line 4
+[20-Sep-2018 00:04:00 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-out-of-stock.php on line 12
+[20-Sep-2018 00:07:31 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-wcvendors-sales-by-date.php on line 12
+[21-Sep-2018 14:24:39 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-wcpvendors-sales-by-date.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-wcpvendors-sales-by-date.php on line 12
+[21-Sep-2018 15:33:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-wcmarketplace-sales-by-date.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-wcmarketplace-sales-by-date.php on line 12
+[22-Sep-2018 22:09:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-dokan-sales-by-date.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-dokan-sales-by-date.php on line 12
+[23-Sep-2018 06:27:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-sales-by-date.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/reports/wcfm-view-reports-sales-by-date.php on line 12

@@ -1,0 +1,19 @@
+p.description {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.wcfm_ele_hide {
+	display: none !important;
+}
+
+input.wcfm-checkbox, input[type="checkbox"].wcfm-checkbox, .onoffswitch {
+	margin-right: 50%;
+}
+
+@media only screen and (max-width: 640px) {
+  input.wcfm-checkbox, input[type="checkbox"].wcfm-checkbox, .onoffswitch {
+		margin-right: 5%;
+	}
+}

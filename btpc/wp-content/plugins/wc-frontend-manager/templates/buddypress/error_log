@@ -1,0 +1,2 @@
+[06-Sep-2018 18:35:11 America/Chicago] PHP Fatal error:  Call to undefined function get_current_user_id() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/templates/buddypress/member-header.php on line 7
+[20-Sep-2018 12:03:31 America/Chicago] PHP Fatal error:  Call to undefined function get_current_user_id() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/templates/buddypress/member-header.php on line 7

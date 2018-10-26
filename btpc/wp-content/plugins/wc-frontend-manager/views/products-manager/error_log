@@ -1,0 +1,39 @@
+[05-Sep-2018 16:32:24 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-wcbookings-products-manage.php on line 57
+[05-Sep-2018 16:32:27 America/Chicago] PHP Fatal error:  Class 'WCFM_Dependencies' not found in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-thirdparty-products-manage.php on line 115
+[05-Sep-2018 16:32:29 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-products-manage.php on line 4
+[05-Sep-2018 16:32:32 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-products-manage-tabs.php on line 1
+[05-Sep-2018 16:32:34 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-geomywp-products-manage.php on line 20
+[05-Sep-2018 16:32:35 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-customfield-products-manage.php on line 23
+[05-Sep-2018 16:32:49 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-epeken-products-manage.php on line 33
+[10-Sep-2018 13:56:40 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-wcbookings-products-manage.php on line 57
+[10-Sep-2018 13:57:18 America/Chicago] PHP Fatal error:  Class 'WCFM_Dependencies' not found in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-thirdparty-products-manage.php on line 115
+[10-Sep-2018 14:01:32 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-products-manage-tabs.php on line 1
+[10-Sep-2018 14:02:48 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-geomywp-products-manage.php on line 20
+[10-Sep-2018 14:05:22 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-customfield-products-manage.php on line 23
+[10-Sep-2018 14:05:37 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-products-manage.php on line 4
+[10-Sep-2018 19:23:33 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-epeken-products-manage.php on line 33
+[20-Sep-2018 12:53:54 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-geomywp-products-manage.php on line 20
+[20-Sep-2018 17:25:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-products-manage.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-products-manage.php on line 4
+[21-Sep-2018 00:14:27 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WCFM_Dependencies' not found in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-thirdparty-products-manage.php:115
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-thirdparty-products-manage.php on line 115
+[22-Sep-2018 10:34:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-products-manage-tabs.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-products-manage-tabs.php on line 1
+[22-Sep-2018 14:01:10 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-epeken-products-manage.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-epeken-products-manage.php on line 33
+[22-Sep-2018 17:13:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-customfield-products-manage.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-customfield-products-manage.php on line 23
+[23-Sep-2018 06:58:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-wcbookings-products-manage.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/products-manager/wcfm-view-wcbookings-products-manage.php on line 57

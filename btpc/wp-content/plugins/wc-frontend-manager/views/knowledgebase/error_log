@@ -1,0 +1,12 @@
+[05-Sep-2018 16:10:31 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/knowledgebase/wcfm-view-knowledgebase-manage.php on line 14
+[05-Sep-2018 16:10:33 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/knowledgebase/wcfm-view-knowledgebase.php on line 15
+[10-Sep-2018 14:01:40 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/knowledgebase/wcfm-view-knowledgebase-manage.php on line 14
+[10-Sep-2018 14:05:08 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/knowledgebase/wcfm-view-knowledgebase.php on line 15
+[21-Sep-2018 18:34:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/knowledgebase/wcfm-view-knowledgebase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/knowledgebase/wcfm-view-knowledgebase.php on line 15
+[23-Sep-2018 07:58:37 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/knowledgebase/wcfm-view-knowledgebase-manage.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/knowledgebase/wcfm-view-knowledgebase-manage.php on line 14

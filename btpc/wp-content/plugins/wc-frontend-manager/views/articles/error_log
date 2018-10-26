@@ -1,0 +1,12 @@
+[05-Sep-2018 15:23:36 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/articles/wcfm-view-articles-manage.php on line 4
+[05-Sep-2018 15:23:45 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/articles/wcfm-view-articles.php on line 4
+[13-Sep-2018 10:56:59 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/articles/wcfm-view-articles-manage.php on line 4
+[13-Sep-2018 11:16:43 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/articles/wcfm-view-articles.php on line 4
+[20-Sep-2018 16:30:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/articles/wcfm-view-articles.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/articles/wcfm-view-articles.php on line 4
+[22-Sep-2018 12:18:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/articles/wcfm-view-articles-manage.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/articles/wcfm-view-articles-manage.php on line 4

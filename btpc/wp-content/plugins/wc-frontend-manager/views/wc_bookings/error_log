@@ -1,0 +1,18 @@
+[05-Sep-2018 16:00:07 America/Chicago] PHP Fatal error:  Call to undefined function current_user_can() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wc_bookings/wcfm-view-wcbookings-dashboard.php on line 14
+[05-Sep-2018 16:00:30 America/Chicago] PHP Fatal error:  Call to undefined function current_user_can() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wc_bookings/wcfm-view-wcbookings.php on line 14
+[05-Sep-2018 16:00:47 America/Chicago] PHP Fatal error:  Call to undefined function current_user_can() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wc_bookings/wcfm-view-wcbookings-details.php on line 14
+[10-Sep-2018 13:39:12 America/Chicago] PHP Fatal error:  Call to undefined function current_user_can() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wc_bookings/wcfm-view-wcbookings-dashboard.php on line 14
+[10-Sep-2018 13:44:18 America/Chicago] PHP Fatal error:  Call to undefined function current_user_can() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wc_bookings/wcfm-view-wcbookings.php on line 14
+[10-Sep-2018 13:49:34 America/Chicago] PHP Fatal error:  Call to undefined function current_user_can() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wc_bookings/wcfm-view-wcbookings-details.php on line 14
+[21-Sep-2018 05:24:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function current_user_can() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wc_bookings/wcfm-view-wcbookings-details.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wc_bookings/wcfm-view-wcbookings-details.php on line 14
+[21-Sep-2018 18:46:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function current_user_can() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wc_bookings/wcfm-view-wcbookings.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wc_bookings/wcfm-view-wcbookings.php on line 14
+[22-Sep-2018 20:00:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function current_user_can() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wc_bookings/wcfm-view-wcbookings-dashboard.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/wc_bookings/wcfm-view-wcbookings-dashboard.php on line 14

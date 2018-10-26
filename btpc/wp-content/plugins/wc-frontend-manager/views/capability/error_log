@@ -1,0 +1,5 @@
+[09-Sep-2018 14:04:07 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/capability/wcfm-view-capability.php on line 14
+[21-Sep-2018 19:03:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/capability/wcfm-view-capability.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/capability/wcfm-view-capability.php on line 14

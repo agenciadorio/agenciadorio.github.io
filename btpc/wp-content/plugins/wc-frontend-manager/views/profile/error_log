@@ -1,0 +1,4 @@
+[22-Sep-2018 21:12:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/profile/wcfm-view-profile.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/profile/wcfm-view-profile.php on line 14

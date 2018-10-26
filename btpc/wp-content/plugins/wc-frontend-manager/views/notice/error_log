@@ -1,0 +1,15 @@
+[05-Sep-2018 15:24:49 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/notice/wcfm-view-notice-manage.php on line 14
+[05-Sep-2018 15:27:58 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/notice/wcfm-view-notice-view.php on line 14
+[05-Sep-2018 15:28:46 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/notice/wcfm-view-notices.php on line 15
+[13-Sep-2018 10:42:27 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/notice/wcfm-view-notice-manage.php on line 14
+[13-Sep-2018 11:12:19 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/notice/wcfm-view-notice-view.php on line 14
+[13-Sep-2018 11:22:59 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/notice/wcfm-view-notices.php on line 15
+[20-Sep-2018 01:35:57 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/notice/wcfm-view-notices.php on line 15
+[21-Sep-2018 17:33:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/notice/wcfm-view-notice-manage.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/notice/wcfm-view-notice-manage.php on line 14
+[23-Sep-2018 07:42:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/notice/wcfm-view-notice-view.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/notice/wcfm-view-notice-view.php on line 14

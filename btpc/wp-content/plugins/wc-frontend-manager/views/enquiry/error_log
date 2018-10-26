@@ -1,0 +1,12 @@
+[08-Sep-2018 07:50:22 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/enquiry/wcfm-view-enquiry.php on line 15
+[08-Sep-2018 09:00:03 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/enquiry/wcfm-view-enquiry-manage.php on line 14
+[10-Sep-2018 18:43:30 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/enquiry/wcfm-view-enquiry.php on line 15
+[10-Sep-2018 19:55:53 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/enquiry/wcfm-view-enquiry-manage.php on line 14
+[20-Sep-2018 15:43:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/enquiry/wcfm-view-enquiry-manage.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/enquiry/wcfm-view-enquiry-manage.php on line 14
+[21-Sep-2018 06:36:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/enquiry/wcfm-view-enquiry.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/views/enquiry/wcfm-view-enquiry.php on line 15

@@ -1,0 +1,6 @@
+[07-Sep-2018 09:20:14 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/templates/default/wcfm-content.php on line 4
+[09-Sep-2018 08:23:36 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/templates/default/wcfm-content.php on line 4
+[22-Sep-2018 15:24:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/templates/default/wcfm-content.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/wc-frontend-manager/templates/default/wcfm-content.php on line 4
