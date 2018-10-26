@@ -1,0 +1,16 @@
+.clearfix{
+	clear: both;
+	display:block;
+}
+
+.general-settings textarea {
+	max-width: 500px;
+	height: 60px;
+	width: 100%;
+	float: left;
+	margin-right: 10px;
+}
+.general-settings label {
+	font-weight: bold;
+	font-size: 16px;
+}

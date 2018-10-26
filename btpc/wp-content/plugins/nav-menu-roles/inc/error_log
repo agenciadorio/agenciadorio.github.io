@@ -1,0 +1,9 @@
+[05-Sep-2018 15:17:37 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu' not found in /home/bestpecascom/public_html/wp-content/plugins/nav-menu-roles/inc/class.Walker_Nav_Menu_Edit_Roles.php on line 15
+[05-Sep-2018 15:17:52 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu_Edit' not found in /home/bestpecascom/public_html/wp-content/plugins/nav-menu-roles/inc/class.Walker_Nav_Menu_Edit_Roles_4.7.php on line 12
+[08-Sep-2018 06:37:01 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu' not found in /home/bestpecascom/public_html/wp-content/plugins/nav-menu-roles/inc/class.Walker_Nav_Menu_Edit_Roles_4.5.php on line 15
+[15-Sep-2018 16:19:34 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu' not found in /home/bestpecascom/public_html/wp-content/plugins/nav-menu-roles/inc/class.Walker_Nav_Menu_Edit_Roles.php on line 15
+[15-Sep-2018 16:25:20 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu' not found in /home/bestpecascom/public_html/wp-content/plugins/nav-menu-roles/inc/class.Walker_Nav_Menu_Edit_Roles_4.5.php on line 15
+[15-Sep-2018 16:28:25 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu_Edit' not found in /home/bestpecascom/public_html/wp-content/plugins/nav-menu-roles/inc/class.Walker_Nav_Menu_Edit_Roles_4.7.php on line 12
+[21-Sep-2018 05:07:20 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu' not found in /home/bestpecascom/public_html/wp-content/plugins/nav-menu-roles/inc/class.Walker_Nav_Menu_Edit_Roles.php on line 15
+[22-Sep-2018 03:34:49 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu_Edit' not found in /home/bestpecascom/public_html/wp-content/plugins/nav-menu-roles/inc/class.Walker_Nav_Menu_Edit_Roles_4.7.php on line 12
+[22-Sep-2018 06:55:56 America/Chicago] PHP Fatal error:  Class 'Walker_Nav_Menu' not found in /home/bestpecascom/public_html/wp-content/plugins/nav-menu-roles/inc/class.Walker_Nav_Menu_Edit_Roles_4.5.php on line 15

@@ -1,0 +1,3 @@
+[05-Sep-2018 15:08:31 America/Chicago] PHP Fatal error:  Call to undefined function plugins_url() in /home/bestpecascom/public_html/wp-content/plugins/personalize-woocommerce-cart-page/config.php on line 15
+[13-Sep-2018 11:36:08 America/Chicago] PHP Fatal error:  Call to undefined function plugins_url() in /home/bestpecascom/public_html/wp-content/plugins/personalize-woocommerce-cart-page/config.php on line 15
+[13-Sep-2018 12:28:59 America/Chicago] PHP Fatal error:  Call to undefined function plugins_url() in /home/bestpecascom/public_html/wp-content/plugins/personalize-woocommerce-cart-page/config.php on line 15
