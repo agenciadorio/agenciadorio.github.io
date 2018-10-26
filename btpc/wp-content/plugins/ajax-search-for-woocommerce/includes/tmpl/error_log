@@ -1,0 +1,10 @@
+[05-Sep-2018 16:55:02 America/Chicago] PHP Fatal error:  Call to a member function get_review_count() on null in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/tmpl/single-product.php on line 2
+[05-Sep-2018 16:56:32 America/Chicago] PHP Fatal error:  Call to a member function get_review_count() on null in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/tmpl/single-product-tax.php on line 2
+[20-Sep-2018 20:33:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function get_review_count() on null in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/tmpl/single-product-tax.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/tmpl/single-product-tax.php on line 2
+[21-Sep-2018 02:33:09 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function get_review_count() on null in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/tmpl/single-product.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/tmpl/single-product.php on line 2

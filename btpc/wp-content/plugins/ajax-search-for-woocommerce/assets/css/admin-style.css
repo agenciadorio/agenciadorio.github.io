@@ -1,0 +1,127 @@
+
+
+.dgwt-wcas-settings-hr {
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+
+.dgwt-wcas-settings-group > h2{
+    display: none;
+}
+.dgwt-wcas-admin-head {
+    margin: 30px 0 20px 5px;
+}
+.dgwt-wcas-admin-head h1 {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    vertical-align: middle;
+    padding: 0;
+}
+.wp-core-ui .button.dgwt-wcas-button-preview {
+    vertical-align: middle;
+}
+.dgwt-wcas-button-preview .dashicons {
+    height: 22px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.form-table td p.dgwt_wcas_settings-description-field {
+    color: #777;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 0 0 10px;
+    vertical-align: middle;
+    max-width: 96%;
+    max-width: calc(100% - 40px);
+}
+
+.dgwt_wcas_settings-group > h2{
+    display: none;
+}
+
+
+.dgwt-wcas-settings-info {
+    background: #fbfbfb none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+.dgwt-wcas-settings-info h4 {
+    margin-top: 0;
+    font-size: 15px;
+    margin-bottom: 7px
+}
+.dgwt-wcas-settings-info p {
+    margin-bottom: 10px;
+}
+
+
+.dgwt-wcas-settings-info {
+    background: #fbfbfb none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+.dgwt-wcas-settings-info h4 {
+    margin-top: 0;
+    font-size: 15px;
+    margin-bottom: 7px
+}
+.dgwt-wcas-settings-info p {
+    margin-bottom: 10px;
+}
+
+
+/* Button Container in Review Us Container */
+.dgwt-wcas-review-notice .button-container {
+    display: block;
+    width: 100%;
+    margin: .75em 0 1.5em 0;
+}
+
+.dgwt-wcas-review-notice .button-container .dashicons {
+    font-size: 14px;
+    line-height: 1.9;
+    margin-left: -4px;
+}
+
+/* Star Icon */
+.dgwt-wcas-review-notice .button-container .dashicons-star-filled {
+    color: #E6B800;
+}
+
+/* Upgrade Icon */
+.dgwt-wcas-review-notice .button-container .dashicons-upload {
+    color: #6E8841;
+}
+
+/* Dismiss Icon */
+.dgwt-wcas-review-notice .button-container .dashicons-no-alt {
+    color: rgb(220, 58, 58);
+    line-height: 2;
+}
+
+.dgwt-wcas-review-notice .button-container a {
+    margin-right: 10px;
+}
+
+/* Dismiss-able Notice */
+.dgwt-wcas-review-notice {
+    border-left: 4px solid #00a0d2;
+    background: #fefefe;
+    padding: 1px 12px;
+    padding-top: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 15px 25px 20px 5px;
+}
+
+.dgwt-wcas-review-notice .dgwt-wcas-review-notice-logo {
+    background: url('../img/logo-for-review.jpg') no-repeat;
+    background-size: 68px;
+    float: left;
+    margin-top: 5px;
+    font-size: 14px;
+    height: 80px;
+    text-align: center;
+    width: 82px;
+}

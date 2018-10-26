@@ -1,0 +1,5 @@
+[05-Sep-2018 16:53:10 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/admin/views/how-to-use.php on line 2
+[23-Sep-2018 05:58:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/admin/views/how-to-use.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/admin/views/how-to-use.php on line 2

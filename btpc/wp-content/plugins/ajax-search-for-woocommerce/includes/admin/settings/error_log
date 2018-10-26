@@ -1,0 +1,5 @@
+[05-Sep-2018 15:37:41 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php on line 452
+[23-Sep-2018 23:20:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:452
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php on line 452

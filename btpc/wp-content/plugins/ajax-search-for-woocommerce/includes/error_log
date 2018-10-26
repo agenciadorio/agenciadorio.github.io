@@ -1,0 +1,4 @@
+[05-Sep-2018 15:22:36 America/Chicago] PHP Fatal error:  Call to undefined function add_shortcode() in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/shortcode.php on line 23
+[05-Sep-2018 15:22:41 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/style.php on line 2
+[15-Sep-2018 11:33:15 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/style.php on line 2
+[18-Sep-2018 19:54:18 America/Chicago] PHP Fatal error:  Call to undefined function add_shortcode() in /home/bestpecascom/public_html/wp-content/plugins/ajax-search-for-woocommerce/includes/shortcode.php on line 23
