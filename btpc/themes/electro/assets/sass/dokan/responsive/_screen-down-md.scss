@@ -1,0 +1,29 @@
+@include media-breakpoint-down(md) {/* upto 991px*/
+
+	.dokan-product-listing .dokan-product-listing-area table.product-listing-table span.product-type::before {
+		text-align: left !important;
+	}
+
+	.dokan-product-listing .dokan-product-listing-area table.product-listing-table thead {
+		display: none !important;
+	}
+
+	.dokan-product-listing .dokan-product-listing-area table.product-listing-table tbody tr td {		
+		display: block !important;
+		border-top: none;
+
+		&:last-child {
+			border-bottom: 1px solid #ededed;
+			width: 100%;
+		}
+	}
+
+	.dokan-product-listing .dokan-product-listing-area table.product-listing-table tbody tr:last-child td:last-child {
+		border-bottom: none;
+		
+	}
+
+	.dokan-w5 {
+		width: 75%;
+	}
+}

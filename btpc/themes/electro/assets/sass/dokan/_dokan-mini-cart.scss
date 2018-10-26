@@ -1,0 +1,23 @@
+.dropdown-menu-mini-cart {
+	ul.product_list_widget {
+		li.mini_cart_item {
+			dl.variation {
+				margin-top: 5px;
+
+				dt.variation-Seller,
+				dd.variation-Seller p {
+					float: $start;
+					margin: 0;
+				}
+				
+				dd.variation-Seller {
+					padding-#{$start}: 5px;
+					display: inline-block;
+					margin: 0;
+				}
+			}
+		}
+	}
+}
+		
+

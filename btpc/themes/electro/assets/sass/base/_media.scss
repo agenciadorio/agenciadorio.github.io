@@ -1,0 +1,54 @@
+/**
+ * Media
+ */
+
+.page-content,
+.entry-content,
+.comment-content {
+	img.wp-smiley {
+		border: none;
+		margin-bottom: 0;
+		margin-top: 0;
+		padding: 0;
+		display: inline-block;
+	}
+}
+
+/**
+ * Captions
+ */
+.wp-caption {
+	margin-bottom: $vspacing;
+	max-width: 100%;
+
+	img[class*="wp-image-"] {
+		display: block;
+		margin: 0 auto;
+	}
+	.wp-caption-text {
+		text-align: $start;
+		font-style: italic;
+		padding: 0 0 1em 0
+	}
+}
+
+/**
+ * Embeds
+ */
+embed,
+iframe,
+object,
+video {
+	max-width: 100%;
+}
+
+img.desaturate {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+
+	&:hover {
+		-webkit-filter: grayscale(0%);
+		filter: none;		
+	}
+}

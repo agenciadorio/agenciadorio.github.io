@@ -1,0 +1,5 @@
+[27-Jul-2018 12:41:13 America/Chicago] PHP Fatal error:  Call to undefined function electro_get_header() in /home/bestpecascom/public_html/wp-content/themes/electro/single.php on line 10
+[27-Jul-2018 12:41:15 America/Chicago] PHP Fatal error:  Call to undefined function electro_get_header() in /home/bestpecascom/public_html/wp-content/themes/electro/single.php on line 10
+[31-Aug-2018 01:27:27 America/Chicago] PHP Fatal error:  Call to undefined function electro_get_header() in /home/bestpecascom/public_html/wp-content/themes/electro/404.php on line 8
+[31-Aug-2018 01:27:27 America/Chicago] PHP Fatal error:  Call to undefined function electro_get_header() in /home/bestpecascom/public_html/wp-content/themes/electro/index.php on line 24
+[31-Aug-2018 01:27:27 America/Chicago] PHP Fatal error:  Call to undefined function electro_get_header() in /home/bestpecascom/public_html/wp-content/themes/electro/header.php on line 6

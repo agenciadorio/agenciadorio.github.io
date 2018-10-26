@@ -1,0 +1,137 @@
+.dokan-category-menu {
+
+	ul {
+		list-style: none;
+	}
+
+	#cat-drop-stack {
+		padding: 0!important;
+		border: 2px solid #ececec;
+		border-radius: 6px;
+
+		ul {
+			padding: 0.929em;
+			margin: 0;
+
+			> li {
+				> a{
+					color: #333e48;
+				    display: block;
+				    padding: 0.571em 0 0.643em;
+
+				    &:before {
+				    	content: "\f105";
+				    	color: #aeaeae;
+					    font-size: 0.857em;
+					    width: 0.571em;
+					    font-family: 'FontAwesome';
+					    padding-#{$start}: 1.214em;
+					    padding-#{$end}: 0.7em;
+					   
+				    }
+				}
+
+				&.has-children {
+					.sub-category {
+
+						.sub-block {
+							h3 {
+								font-size: inherit;
+								margin: 0;
+								border-top: 1px solid #ddd;
+
+								a {
+									color: #333e48;
+								    display: block;
+								    padding: 0.571em 0 0.643em 25px;
+								   line-height: 22px;
+
+								    &:before {
+								    	content: none;
+								    }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	ul li {
+		border-top: 1px solid #ddd;
+
+		&:first-child {
+			border: none;
+		}
+	}
+}
+
+.dokan-widget-area {
+	.widget {
+		margin-bottom: 5.143em;
+
+		.widget-title {
+			border-bottom: 1px solid #dadada;
+		    font-size: 1.357em;
+		    line-height: 0.947em;
+		    margin-bottom: 1.842em;
+		    padding-bottom: 1.053em;
+		    position: relative;
+
+		    &:after {
+		    	border-bottom: 2px solid transparent;
+			    bottom: -1px;
+			    content: " ";
+			    display: block;
+			    position: absolute;
+			    width: 3.684em;
+		    }
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.widget {
+	&.dokan-store-contact {
+		form.seller-form {
+			ul {
+				padding: 0;
+				list-style: none;
+			}
+
+			input[type="submit"],
+			.dokan-btn {
+				color: #333e48;
+			}
+		}
+	}
+
+	 &.dokan-best-seller-widget,
+	 &.dokan-feature-seller-widget {
+	 	ul.dokan-best-sellers,
+	 	ul.dokan-feature-sellers {
+	 		> li {
+	 			margin-bottom: 2.143em;
+
+	 			> a{
+	 				color: #333e48;
+				    display: block;
+				    font-weight: 400;
+				    font-size: 1em;
+				    line-height: 1.2em;
+	 			}
+
+	 			i {
+	 				color: #fed700;
+	 			}
+	 			&:last-child {
+	 				margin-bottom: 0;
+	 			}
+	 		}
+	 	}
+	 }
+}

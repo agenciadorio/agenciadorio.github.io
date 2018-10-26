@@ -1,0 +1,182 @@
+.text-boxes,
+.wpb-accordion  {
+	h3.highlight , h2{
+		font-size: 1.286em;
+		line-height: 1.000em;
+		color: #434343;
+		margin-bottom: 1.667em;
+		font-weight: 600;
+	}
+
+	h2 {
+		margin-bottom: 1.222em;
+	}
+}
+
+.wpb-accordion {
+
+	.vc_tta-container {
+		padding-left: 50px;
+	}
+
+	.vc_tta.vc_general  {
+		.vc_tta-panel {
+			margin-bottom: 20px;
+
+			&:last-child {
+				margin-bottom: 0
+			}
+		}
+
+	 	.vc_tta-panel-heading,
+		.vc_tta-panel-body {
+			border: none;
+		}
+
+		.vc_tta-panel-heading {
+			.vc_tta-panel-title {
+				font-size: 1.286em;
+				line-height: 1.556em;
+				letter-spacing: 0.01em;
+				> a{
+					padding: 0.333em 0;
+					text-align: $start;
+					
+					span {
+						color: #797979;
+						margin-#{$start}: 3.333em;
+					}
+
+					i {
+						color: #b5b5b5 !important;
+						background: transparent;
+					    border-radius: 3px;
+					    display: block;
+					    height: 2.056em;
+					    width: 2.056em;
+					    #{$start}:0;
+					    border: 1px solid #b5b5b5;
+
+					    @include if-ltr { 
+						    &:before {
+						    	left: 50%;
+						    	right: 0;
+						    	@include transform( translate(-50%, -50%));
+						    	width: 0.556em;
+						    	border-color: #b5b5b5;
+						    }
+						}
+
+						@include if-rtl { 
+						    &:before {
+						    	left: 117%;
+						    	right: 0;
+						    	@include transform( translate(-117%, -50%));
+						    	width: 0.556em;
+						    	border-color: #b5b5b5;
+						    }
+						}
+
+					    &:after {
+					    	left: 50%;
+					    	top: 50%;
+					    	@include transform( translate(-50%, -50%));
+					    	height: 0.556em;
+					    	border-color: #b5b5b5;
+					    }
+					}
+				}
+			}
+
+			&:hover,
+			&:focus {
+				background: #fff !important;
+
+				.vc_tta-panel-title {
+					> a {
+						span {
+							color: #000;
+						}
+					}
+				}
+			}
+		}
+
+		.vc_tta-panel-body {
+			padding: dir-values(1em 2.000em 1em 4.214em);
+		}
+
+		.vc_tta-panel.vc_active {
+			.vc_tta-panel-heading {
+				.vc_tta-panel-title {
+					font-weight: 700;
+
+					> a{
+						span {
+							color: #333e48;
+						}
+
+						i {
+							&:before {
+								border-color: #333e48;
+							}
+						}
+						
+					}
+				}
+			}
+		}
+	}
+}
+
+.about-features{
+	text-align: center;
+
+	h2 {
+		font-size: 1.286em;
+		line-height: 1.000em;
+		font-weight: 600;
+		margin-bottom: 1.556em;
+
+	}
+}
+
+
+.team-member-wrapper {
+	padding: 6.429em 0;
+
+	a.team-member {
+		color: #333e48;
+		display: block;
+	}
+	
+	.team-member {
+		img {
+			border-radius: 50%;
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+
+		.profile {
+			text-align: center;
+
+			h3 {
+				font-size: 1.286em;
+				line-height: 1.556em;
+				font-weight: 600;
+				padding-top: 0.833em;
+				padding-bottom: 0;
+				margin-bottom: 0;
+
+				small {
+					display: block;
+					font-size: 14px;
+					line-height: 1.7em;
+					color: #989898;
+				}
+			}
+		}
+
+	}
+}

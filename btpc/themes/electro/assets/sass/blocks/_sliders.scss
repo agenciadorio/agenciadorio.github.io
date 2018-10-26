@@ -1,0 +1,57 @@
+.home-v1-slider,
+.home-v2-slider,
+.home-v3-slider {
+	background-color: #f9f9f9;
+	width: 100vw;
+	position: relative;
+	margin-#{$start}: -50vw;
+	#{$start}: 50%;
+	margin-bottom: 3em;
+}
+
+.home-v2-slider {
+	#{$start}: 33.33%;
+}
+
+.hero {
+	font-size: 3.429em !important;
+	color: #333e48 !important;
+	font-weight: 200 !important;
+	line-height: 1em !important;
+	margin-bottom: 0.896em !important;
+
+	span {
+		font-weight: 700 !important;
+	}
+}
+
+.hero-v2 {
+	font-size: 4.143em !important;
+}
+
+.hero-subtitle {
+	font-size: 1.286em !important;
+	color: #34bcec !important;
+}
+
+.hero-subtitle-v2 {
+	font-weight: 900 !important;
+	color: #333e48 !important;
+}
+
+.hero-action-btn {
+	color: #333e48 !important;
+	font-size: 1.286em !important;
+	@extend .btn;
+	padding: 0.611em 3.172em !important;
+	border-radius: 0.714em !important;
+	line-height: 1.3em !important;
+}
+
+.hero-v2-price {
+	line-height: 1em !important;
+
+	sup {
+		font-weight: 400 !important;
+	}
+}
