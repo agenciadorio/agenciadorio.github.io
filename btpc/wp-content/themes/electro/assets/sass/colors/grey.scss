@@ -1,0 +1,11 @@
+// Grey
+
+@import '../bs-variables';
+@import '../variables';
+@import '../mixins';
+
+$primary-color: #808080;
+$primary-text-color: #fff;
+
+@import 'color';
+@import 'light';

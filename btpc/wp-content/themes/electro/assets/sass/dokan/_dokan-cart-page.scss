@@ -1,0 +1,34 @@
+.dokan-theme-electro {
+	table.shop_table {
+		 tbody {
+		 	tr.cart_item {
+		 		td.product-name {
+		 			dl.variation {
+		 				dt.variation-Seller,
+		 				dd.variation-Seller p {
+		 					float: $start;
+		 					margin: 0;
+		 				}
+
+		 				dd.variation-Seller {
+							padding-#{$start}: 5px;
+							display: inline-block;
+							margin: 0;
+						}
+		 			}
+		 		}
+		 	}
+		}
+	}
+
+	.checkout_coupon {
+		
+		.form-row-first {
+			padding: 0;
+		}
+
+		.form-row-last {
+			padding: 0;
+		}
+	}
+}

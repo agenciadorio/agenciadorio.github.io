@@ -1,0 +1,26 @@
+.electro-tabs #tab-seller, .woocommerce-tabs  {
+	&.electro-tab .tab-content, #tab-seller{
+		h2 {
+			color: #333e48;
+			font-size: 1.643em;
+			line-height: 1.043em;
+			margin-bottom: 1em;
+		}
+
+		ul.list-unstyled {
+			li.clearfix {
+				span.seller-rating {
+					display: block;
+				}
+
+				span.text {
+					display: none;
+				}
+
+				.star-rating {
+					display: inline-block;
+				}
+			}
+		}
+	}
+}

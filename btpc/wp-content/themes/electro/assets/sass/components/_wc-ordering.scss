@@ -1,0 +1,8 @@
+.woocommerce-ordering {
+	.orderby {
+		@include c-select();
+		border-radius: 1.071em;
+		color: #7e7e7e;
+		border-color: #e3e3e3;
+	}
+}

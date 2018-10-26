@@ -1,0 +1,15 @@
+.dokan-rating .star-rating {
+	float: $start;
+
+}
+
+.dokan-store {
+	.comment-text {
+		display: table;
+		width: 100%;
+
+		p {
+			display: table-footer-group;
+		}
+	}
+}
