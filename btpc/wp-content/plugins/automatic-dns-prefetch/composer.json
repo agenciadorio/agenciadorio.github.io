@@ -1,0 +1,24 @@
+{
+    "name": "mabujo/automatic-dns-prefetch",
+    "keywords": [
+		"wordpress",
+		"DNS prefetch",
+		"page speed",
+		"optimisation"
+	],
+    "version": "1.0.0",
+    "license": "GPL-2.0+",
+    "homepage": "https://mabujo.com/",
+    "authors": [
+		{
+			"name": "mabujo",
+			"email": "contact@mabujo.com",
+			"homepage": "https://mabujo.com"
+		}
+	],
+    "type": "wordpress-plugin",
+    "dist": {
+        "url": "https://github.com/mabujo/Automatic-DNS-Prefetch/archive/master.zip",
+        "type": "zip"
+    }
+}
