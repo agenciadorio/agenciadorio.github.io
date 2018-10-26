@@ -1,0 +1,8 @@
+[05-Sep-2018 15:13:43 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/quick-pagepost-redirect-plugin/page_post_redirect_plugin.php on line 79
+[14-Sep-2018 19:18:35 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/quick-pagepost-redirect-plugin/page_post_redirect_plugin.php on line 79
+[21-Sep-2018 09:00:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/quick-pagepost-redirect-plugin/page_post_redirect_plugin.php:79
+Stack trace:
+#0 /home/bestpecascom/public_html/wp-content/plugins/quick-pagepost-redirect-plugin/page_post_redirect_plugin.php(2360): quick_page_post_reds->__construct()
+#1 /home/bestpecascom/public_html/wp-content/plugins/quick-pagepost-redirect-plugin/page_post_redirect_plugin.php(38): start_ppr_class()
+#2 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/quick-pagepost-redirect-plugin/page_post_redirect_plugin.php on line 79
