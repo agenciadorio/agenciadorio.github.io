@@ -1,0 +1,54 @@
+[05-Sep-2018 16:53:44 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-replacer.php on line 3
+[05-Sep-2018 16:53:45 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-editor.php on line 3
+[05-Sep-2018 16:53:45 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-visibility.php on line 3
+[05-Sep-2018 16:53:46 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-explain.php on line 3
+[05-Sep-2018 16:53:47 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-checkup-notification.php on line 3
+[05-Sep-2018 16:53:47 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-cloning.php on line 3
+[05-Sep-2018 16:53:48 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-export.php on line 4
+[05-Sep-2018 16:53:48 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-widgets.php on line 3
+[05-Sep-2018 16:53:49 America/Chicago] PHP Warning:  require_once(CSB_INC_DIRclass-custom-sidebars-widgets.php): failed to open stream: No such file or directory in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars.php on line 4
+[05-Sep-2018 16:53:49 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'CSB_INC_DIRclass-custom-sidebars-widgets.php' (include_path='.:/opt/php56/lib/php') in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars.php on line 4
+[18-Sep-2018 14:37:47 America/Chicago] PHP Warning:  require_once(CSB_INC_DIRclass-custom-sidebars-widgets.php): failed to open stream: No such file or directory in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars.php on line 4
+[18-Sep-2018 14:37:47 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'CSB_INC_DIRclass-custom-sidebars-widgets.php' (include_path='.:/opt/php56/lib/php') in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars.php on line 4
+[18-Sep-2018 20:00:03 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-export.php on line 4
+[18-Sep-2018 20:05:48 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-editor.php on line 3
+[18-Sep-2018 20:28:47 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-cloning.php on line 3
+[18-Sep-2018 21:17:59 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-widgets.php on line 3
+[18-Sep-2018 21:20:28 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-explain.php on line 3
+[18-Sep-2018 21:40:37 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-replacer.php on line 3
+[18-Sep-2018 21:57:51 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-visibility.php on line 3
+[19-Sep-2018 01:10:18 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-checkup-notification.php on line 3
+[21-Sep-2018 20:08:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-replacer.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-replacer.php on line 3
+[21-Sep-2018 22:07:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-editor.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-editor.php on line 3
+[21-Sep-2018 22:58:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-visibility.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-visibility.php on line 3
+[21-Sep-2018 23:38:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-explain.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-explain.php on line 3
+[22-Sep-2018 01:32:45 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-checkup-notification.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-checkup-notification.php on line 3
+[22-Sep-2018 01:47:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-cloning.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-cloning.php on line 3
+[22-Sep-2018 02:25:52 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-export.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-export.php on line 4
+[22-Sep-2018 02:58:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-widgets.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-widgets.php on line 3
+[22-Sep-2018 05:21:06 America/Chicago] PHP Warning:  require_once(CSB_INC_DIRclass-custom-sidebars-widgets.php): failed to open stream: No such file or directory in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars.php on line 4
+[22-Sep-2018 05:21:06 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'CSB_INC_DIRclass-custom-sidebars-widgets.php' (include_path='.:/opt/php70/lib/php') in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars.php on line 4

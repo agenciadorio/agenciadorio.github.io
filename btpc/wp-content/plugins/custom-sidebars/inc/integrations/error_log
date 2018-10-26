@@ -1,0 +1,18 @@
+[05-Sep-2018 16:58:30 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/integrations/class-custom-sidebars-integration-polylang.php on line 3
+[05-Sep-2018 16:58:55 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/integrations/class-custom-sidebars-integration-wpml.php on line 3
+[21-Sep-2018 03:23:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/integrations/class-custom-sidebars-integration-wpml.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/integrations/class-custom-sidebars-integration-wpml.php on line 3
+[22-Sep-2018 09:31:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/integrations/class-custom-sidebars-integration-polylang.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/integrations/class-custom-sidebars-integration-polylang.php on line 3
+[22-Sep-2018 09:39:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/integrations/class-custom-sidebars-integration-wpml.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/integrations/class-custom-sidebars-integration-wpml.php on line 3
+[22-Sep-2018 22:23:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/integrations/class-custom-sidebars-integration-polylang.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/integrations/class-custom-sidebars-integration-polylang.php on line 3

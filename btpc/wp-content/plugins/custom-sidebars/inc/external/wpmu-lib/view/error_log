@@ -1,0 +1,7 @@
+[06-Sep-2018 22:23:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/view/list.php on line 48
+[07-Sep-2018 12:23:34 America/Chicago] PHP Fatal error:  Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/view/pointer.php on line 30
+[08-Sep-2018 06:06:39 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/view/list.php on line 48
+[23-Sep-2018 18:59:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/view/pointer.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/view/pointer.php on line 30

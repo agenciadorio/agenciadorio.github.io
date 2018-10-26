@@ -1,0 +1,8 @@
+[05-Sep-2018 16:58:49 America/Chicago] PHP Fatal error:  Call to undefined function get_site_option() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/external/wdev-frash/module.php on line 67
+[23-Sep-2018 09:18:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_site_option() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/external/wdev-frash/module.php:67
+Stack trace:
+#0 /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/external/wdev-frash/module.php(52): WDev_Frash->read_stored_data()
+#1 /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/external/wdev-frash/module.php(40): WDev_Frash->__construct()
+#2 /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/external/wdev-frash/module.php(456): WDev_Frash::instance()
+#3 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/inc/external/wdev-frash/module.php on line 67

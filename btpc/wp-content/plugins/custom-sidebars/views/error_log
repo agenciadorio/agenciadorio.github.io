@@ -1,0 +1,18 @@
+[05-Sep-2018 16:54:47 America/Chicago] PHP Fatal error:  Class 'CustomSidebars' not found in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/metabox.php on line 12
+[05-Sep-2018 16:54:54 America/Chicago] PHP Fatal error:  Class 'CustomSidebars' not found in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/col-sidebars.php on line 11
+[05-Sep-2018 16:55:34 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/widgets-export.php on line 10
+[05-Sep-2018 16:55:37 America/Chicago] PHP Fatal error:  Class 'CustomSidebars' not found in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/bulk-edit.php on line 10
+[05-Sep-2018 16:55:41 America/Chicago] PHP Fatal error:  Class 'CustomSidebarsExport' not found in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/import.php on line 8
+[05-Sep-2018 16:56:00 America/Chicago] PHP Fatal error:  Class 'CustomSidebars' not found in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/widgets-location.php on line 9
+[05-Sep-2018 16:56:03 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/widgets.php on line 17
+[05-Sep-2018 16:56:21 America/Chicago] PHP Fatal error:  Call to undefined function wp_nonce_field() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/widgets-editor.php on line 12
+[05-Sep-2018 16:56:48 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/widgets-delete.php on line 11
+[05-Sep-2018 16:56:54 America/Chicago] PHP Fatal error:  Class 'CustomSidebars' not found in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/quick-edit.php on line 10
+[15-Sep-2018 12:47:55 America/Chicago] PHP Fatal error:  Class 'CustomSidebarsExport' not found in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/import.php on line 8
+[15-Sep-2018 12:55:38 America/Chicago] PHP Fatal error:  Class 'CustomSidebars' not found in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/metabox.php on line 12
+[15-Sep-2018 12:58:30 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/widgets.php on line 17
+[15-Sep-2018 13:15:43 America/Chicago] PHP Fatal error:  Class 'CustomSidebars' not found in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/bulk-edit.php on line 10
+[15-Sep-2018 13:18:35 America/Chicago] PHP Fatal error:  Class 'CustomSidebars' not found in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/quick-edit.php on line 10
+[15-Sep-2018 13:30:04 America/Chicago] PHP Fatal error:  Class 'CustomSidebars' not found in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/col-sidebars.php on line 11
+[15-Sep-2018 13:35:48 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/widgets-delete.php on line 11
+[15-Sep-2018 13:42:27 America/Chicago] PHP Fatal error:  Call to undefined function wp_nonce_field() in /home/bestpecascom/public_html/wp-content/plugins/custom-sidebars/views/widgets-editor.php on line 12
