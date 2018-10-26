@@ -1,0 +1,46 @@
+[05-Sep-2018 16:30:08 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-translation.php on line 14
+[05-Sep-2018 16:30:15 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-left-column.php on line 23
+[05-Sep-2018 16:30:23 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-donate-box.php on line 14
+[05-Sep-2018 16:30:31 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-tipps-box.php on line 15
+[05-Sep-2018 16:31:46 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-plugin-favicon-settings.php on line 12
+[05-Sep-2018 16:31:51 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-delete-settings.php on line 15
+[05-Sep-2018 16:31:55 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-plugin-meta-settings.php on line 14
+[05-Sep-2018 16:32:03 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-donations.php on line 14
+[05-Sep-2018 16:32:18 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-donations.php on line 14
+[20-Sep-2018 18:46:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-donations.php:14
+Stack trace:
+#0 /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-right-column.php(14): require_once()
+#1 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-donations.php on line 14
+[20-Sep-2018 23:05:29 America/Chicago] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-left-column.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-left-column.php on line 23
+[20-Sep-2018 23:38:21 America/Chicago] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-plugin-favicon-settings.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-plugin-favicon-settings.php on line 12
+[21-Sep-2018 01:00:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-delete-settings.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-delete-settings.php on line 15
+[21-Sep-2018 01:03:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-tipps-box.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-tipps-box.php on line 15
+[21-Sep-2018 01:20:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-donations.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-donations.php on line 14
+[21-Sep-2018 06:27:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-translation.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-translation.php on line 14
+[22-Sep-2018 17:19:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-donate-box.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-donate-box.php on line 14
+[23-Sep-2018 06:52:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-plugin-meta-settings.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page/sp-plugin-meta-settings.php on line 14

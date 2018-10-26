@@ -1,0 +1,2 @@
+[05-Sep-2018 15:42:26 America/Chicago] PHP Fatal error:  Call to undefined function is_plugin_active() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page.php on line 14
+[17-Sep-2018 23:03:14 America/Chicago] PHP Fatal error:  Call to undefined function is_plugin_active() in /home/bestpecascom/public_html/wp-content/plugins/all-in-one-favicon/includes/settings-page.php on line 14
