@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-04-03 23:07+0200\n"
+"PO-Revision-Date: 2017-04-03 23:07+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: loading-page.php:122
+msgid "Request custom changes"
+msgstr ""
+
+#: loading-page.php:126
+msgid "Settings"
+msgstr ""
+
+#: loading-page.php:138
+msgid "Help"
+msgstr ""
+
+#: loading-page.php:335
+msgid "The Loading Page has been stored successfully"
+msgstr ""
+
+#: loading-page.php:337
+msgid "The Loading Page settings could not be stored"
+msgstr ""
+
+#: loading-page.php:344
+msgid "Loading Page Settings"
+msgstr ""
+
+#: loading-page.php:348
+msgid "Loading Screen"
+msgstr ""
+
+#: loading-page.php:356
+msgid ""
+"Displays a loading screen until the webpage is ready, the screen shows the "
+"loading percent."
+msgstr ""
+
+#: loading-page.php:362
+msgid "Enable loading screen"
+msgstr ""
+
+#: loading-page.php:366
+msgid "Display the loading screen on"
+msgstr ""
+
+#: loading-page.php:374
+msgid "All Screens"
+msgstr ""
+
+#: loading-page.php:380
+msgid "Greater Than"
+msgstr ""
+
+#: loading-page.php:386
+msgid "Lesser Than"
+msgstr ""
+
+#: loading-page.php:392
+msgid "Width"
+msgstr ""
+
+#: loading-page.php:405
+msgid "Display the loading screen"
+msgstr ""
+
+#: loading-page.php:420
+msgid "always"
+msgstr ""
+
+#: loading-page.php:421
+msgid "once per session"
+msgstr ""
+
+#: loading-page.php:422
+msgid "once per page"
+msgstr ""
+
+#: loading-page.php:427
+msgid "Display loading screen in"
+msgstr ""
+
+#: loading-page.php:437
+msgid "Exclude loading screen from"
+msgstr ""
+
+#: loading-page.php:442
+msgid "Select the loading screen"
+msgstr ""
+
+#: loading-page.php:464
+msgid "Select background color"
+msgstr ""
+
+#: loading-page.php:468
+msgid "Select image as background"
+msgstr ""
+
+#: loading-page.php:480
+msgid "Display image in fullscreen"
+msgstr ""
+
+#: loading-page.php:483
+msgid "(The fullscreen attribute can fail in some browsers)"
+msgstr ""
+
+#: loading-page.php:487
+msgid "Select foreground color"
+msgstr ""
+
+#: loading-page.php:491
+msgid "Additional seconds"
+msgstr ""
+
+#: loading-page.php:494
+msgid "Show the loading screen some few seconds after loading the page."
+msgstr ""
+
+#: loading-page.php:498
+msgid "Include an ad, or your own block of code"
+msgstr ""
+
+#: loading-page.php:504
+msgid "Apply the effect on page"
+msgstr ""
+
+#: loading-page.php:520
+msgid "Display loading percent"
+msgstr ""
+
+#: loading-page.php:525
+msgid "Troubleshoot Area - Loading Screen"
+msgstr ""
+
+#: loading-page.php:528
+msgid "Disable the search in deep"
+msgstr ""
+
+#: loading-page.php:531
+msgid ""
+"If your loading screen is stopping in some percentage, and the page is not "
+"loaded, tick the checkbox: \"Disable the search in deep\""
+msgstr ""
+
+#: loading-page.php:539
+msgid "Lazy Loading"
+msgstr ""
+
+#: loading-page.php:543
+msgid ""
+"To load only the images visible in the viewport to improve the loading rate "
+"of your website and reduce the bandwidth consumption."
+msgstr ""
+
+#: loading-page.php:555
+msgid "Enable lazy loading"
+msgstr ""
+
+#: loading-page.php:559
+msgid "Select the image to load by default"
+msgstr ""
+
+#: loading-page.php:565
+msgid "Exclude lazy loading from"
+msgstr ""
+
+#: loading-page.php:570
+msgid "Troubleshoot Area - Lazy Loading"
+msgstr ""
+
+#: loading-page.php:573
+msgid "Exclude images whose tag includes the class or attribute"
+msgstr ""
+
+#: loading-page.php:576
+msgid ""
+"Don't apply the lazy loading to the images with the classes or attributes "
+"(separate them by comma symbol \",\")"
+msgstr ""
