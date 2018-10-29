@@ -1,0 +1,235 @@
+// Default helpers
+.prop(@var1, @var2) when not (@var1 = undefined) {
+	@{var2}: @var1;
+}
+
+.prop-darken(@var1, @var2, @var3: 10%) when not (@var1 = undefined) {
+	@{var2}: darken(@var1, @var3);
+}
+
+.prop-spin(@var1, @var2, @var3: 0) when not (@var1 = undefined) {
+	@{var2}: spin(@var1, @var3);
+}
+
+.prop-lighten(@var1, @var2, @var3: 10%) when not (@var1 = undefined) {
+	@{var2}: lighten(@var1, @var3);
+}
+
+.if(@var1, @var2, @var3) {
+  .prop_if(@var1, @var3);
+  .prop_if(@var2, @var3, @var1);
+}
+
+.prop_if(@var1, @var2, @var3:undefined) when not (@var1 = undefined) and (@var3 = undefined){
+  @{var2}: @var1;
+}
+
+.ifnot(@var1, @var2, @var3) when (@var1 = undefined) {
+	@{var2}: @var3;
+}
+
+.hex-opacity(@var1, @var2, @var3) when not (@var1 = undefined) {
+	@{var2}: fade(@var1, @var3);
+}
+
+.bg(@var) when not (@var = undefined) {
+	background-color: @var;
+}
+
+.color(@var) when not (@var = undefined) {
+	color: @var;
+}
+
+.img_repeat(@var) when not (@var = undefined) {
+	background-repeat: @var;
+}
+
+.img_size(@var) when not (@var = undefined) {
+	background-size: @var;
+}
+
+.bg_img(@var1, @var2, @var3) when not (@var1 = undefined) {
+	background-image: url(@var1);
+	.img_repeat(@var2);
+	.img_size(@var3);
+}
+
+.font-size(@var1, @var2: 1) when not (@var1 = undefined) {
+	font-size: @var1 * @var2 * 1px;
+}
+
+.font-family(@var) when not (@var = undefined) {
+	font-family: @var;
+}
+
+.font(@var1, @var2, @var3) {
+	.color(@var1);
+	.font-family(@var2);
+	.font-size(@var3);
+}
+
+.size-w(@var) when not (@var = undefined) {
+	width: @var * 1px;
+}
+
+.size-h(@var) when not (@var = undefined) {
+	height: @var * 1px;
+}
+
+.size(@var1, @var2) {
+	.size-w(@var1);
+	.size-h(@var2);
+}
+
+.check(@var) when not (@var = undefined) {
+	display: none;
+}
+
+// Check color lightness
+.wb(@var1, @var2) when (lightness(@var1) > 40%) {
+  @{var2}: darken(@var1, 40%);
+}
+.wb(@var1, @var2) when (lightness(@var1) <= 60%) {
+  @{var2}: white;
+}
+
+.w-or-b(@var1, @var2) when not (@var1 = undefined) {
+	.wb(@var1, @var2);
+}
+
+// No shadow
+.shadow(@var) when (alpha(@var) < 0.5) {
+	box-shadow: none;
+}
+
+.no-shadow(@var) when not (@var = undefined) {
+	.shadow(@var);
+}
+
+// Form position
+.form-placement(@var) when not (@var = undefined) {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	@media (max-width: 420px) {
+		position: static;
+	}
+}
+
+.form-placement(@var) when (@var = center) {
+	top: 5%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	@media (min-height: 750px) {
+		top: 50%;
+		left: 50%;
+		right: auto;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+}
+
+.form-placement(@var) when (@var = left) {
+	top: 5%;
+	left: 5%;
+	@media (min-height: 750px) {
+		top: 50%;
+		left: 5%;
+		-webkit-transform: translate(0, -50%);
+		-moz-transform: translate(0, -50%);
+		-ms-transform: translate(0, -50%);
+		transform: translate(0, -50%);
+	}
+}
+
+.form-placement(@var) when (@var = right) {
+	top: 5%;
+	right: 5%;
+	@media (min-height: 750px) {
+		top: 50%;
+		right: 5%;
+		-webkit-transform: translate(0, -50%);
+		-moz-transform: translate(0, -50%);
+		-ms-transform: translate(0, -50%);
+		transform: translate(0, -50%);
+	}
+}
+
+.form-placement(@var) when (@var = top) {
+	top: 5%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	@media (min-height: 750px) {
+		top: 5%;
+		left: 50%;
+		right: auto;
+		-webkit-transform: translate(-50%, 0);
+		-moz-transform: translate(-50%, 0);
+		-ms-transform: translate(-50%, 0);
+		transform: translate(-50%, 0);
+	}
+}
+
+.form-placement(@var) when (@var = bottom) {
+	top: 5%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	@media (min-height: 750px) {
+		bottom: 5%;
+		left: 50%;
+		right: auto;
+		top: auto;
+		-webkit-transform: translate(-50%, 0);
+		-moz-transform: translate(-50%, 0);
+		-ms-transform: translate(-50%, 0);
+		transform: translate(-50%, 0);
+	}
+}
+
+.form-placement(@var) when (@var = top-left) {
+	top: 5%;
+	left: 5%
+}
+
+.form-placement(@var) when (@var = top-right) {
+	top: 5%;
+	right: 5%
+}
+
+.form-placement(@var) when (@var = bottom-left) {
+	top: 5%;
+	left: 5%;
+	@media (min-height: 600px) {
+		bottom: 5%;
+		top: auto;
+	}
+}
+
+.form-placement(@var) when (@var = bottom-right) {
+	top: 5%;
+	right: 5%;
+	@media (min-height: 750px) {
+		bottom: 5%;
+		top: auto;
+	}
+}
+
+// Optional mixin
+.button-border(@var) when not (@var = undefined) {
+	border: 1px solid darken(@var, 10%);
+	box-shadow: none;
+}
+
+.button-hover(@var) when not (@var = undefined) {
+	background-color: lighten(@var, 10%);
+}
+
+.no-logo(@var1, @var2, @var3) when not (@var1 = undefined) {
+	.size(@var2, @var3);
+}
+

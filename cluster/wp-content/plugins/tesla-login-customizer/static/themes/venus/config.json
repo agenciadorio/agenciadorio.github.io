@@ -1,0 +1,23 @@
+{
+  "options" : {
+    "primary_color" : "#39daf7",
+    "bg_image" : "",
+    "bg_image_repeat" : "",
+    "bg_image_size_type" : "",
+    "bg_color" : "#1b2b42",
+    "font_family" : "Raleway",
+    "font_size" : "20",
+    "font_variations" : [100, 300],
+    "font_color" : "#ffffff",
+    "logo_width" : {"if":"100"},
+    "logo_height" : {"if":"100"},
+    "form_heading" : {"if":"Member Login"},
+    "form_bg_image" : "",
+    "form_bg_size_type" : "",
+    "form_bg_image_repeat" : "",
+    "form_bg_color" : "#2f4159",
+    "form_padding" : {"top" : "100", "right" : "40", "bottom" : "40", "left" : "40"},
+    "form_button_color" : "",
+    "form_button_bg_color" : ""
+  }
+}
