@@ -1,0 +1,75 @@
+declare let eventManager: any;
+declare let rntinymce: any;
+declare let smartFormsFixedFields: any;
+declare let RedNaoEmailEditorVar: any;
+declare let smartFormsTranslation: any;
+declare let sfRedNaoEmail: any;
+declare let wp: any;
+declare let smartFormsEmailDoctorUrl: any;
+declare let smartFormId: any;
+declare let SmartFormsPopUpWizard: any;
+declare let SFEmailWizardCondition: any;
+declare function RedNaoGetValueOrEmpty(any: any): any;
+declare class RedNaoEmailEditor {
+    SelectedEmail: EmailInfo;
+    FocusEventsInitialized: boolean;
+    LastFocus: string;
+    FirstTimeLoaded: boolean;
+    Dialog: JQuery;
+    Emails: EmailInfo[];
+    FormElements: sfFormElementBase<any>[];
+    MultiSelectOptions: any;
+    EmailToOptions: any;
+    $tabsContainer: JQuery;
+    AdvancedOptionsShown: boolean;
+    ElementToShow: string;
+    constructor();
+    InitializeFocusEvents(): void;
+    EmailConfigurationIsValid(): boolean;
+    SetUpFixedFields($container: any, tinyMCEID: any): void;
+    CreateFixedFieldButton(buttonProperties: any, tinyMCEID: any): JQuery;
+    ExecuteFixedFieldButton(buttonProperties: any, tinyMCEID: any): void;
+    UpdateSelectedEmail(): void;
+    SetupEmailTo(emailToOptions: any, alreadySelectedEmails: any, jQuerySelect: any, callBack: any, multiple: any): void;
+    OpenMultipleOptionsFieldDialog(fieldId: any): void;
+    AddMultipleOptionsEmail(fieldId: any, label: any, $dialog: any): void;
+    AddEmailIfValid: (text: any, select: any, multiple: any) => void;
+    AddEmail(email: any, select: any): void;
+    OpenEmailEditor(redNaoFormElements: any, emails: any): void;
+    EmailSelected(email: any): void;
+    CloseEmailEditor(): void;
+    AddFieldToEmail(id: any, tinyMCEID: any): boolean;
+    private InitializeTabs;
+    AddEmailTab(emailInfo: EmailInfo, goToTab?: boolean): void;
+    private TabClicked;
+    private EditName;
+    private ExecuteConditionalLogic;
+    private ToggleAdvancedOptions;
+    private SanitizeText;
+    private EncodeText;
+    private GetCalculatedFieldHtml;
+    private GetFieldHtml;
+    private DecodeText;
+    private GetFieldById;
+    private GetLabelByOPId;
+    private RefreshElements;
+    private InitializeConditions;
+    private AddCondition;
+    private InitializeEmailEditor;
+}
+interface EmailInfo {
+    ToEmail: string;
+    Bcc: string;
+    FromEmail: string;
+    FromName: string;
+    EmailSubject: string;
+    EmailText: string;
+    ReplyTo: string;
+    MultipleOptionsToEmails: any;
+    Name: string;
+    Condition: EmailCondition;
+}
+interface EmailCondition {
+    Use: 'always' | 'condition';
+    ConditionSettings: {};
+}
