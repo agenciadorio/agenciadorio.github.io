@@ -1,0 +1,320 @@
+.control-section.control-panel > .accordion-section-title:after {
+    content: '\f139';
+    border-left: none;
+    background: none;
+}
+
+#customize-theme-controls .control-section.control-panel > h3.accordion-section-title:focus:after,
+#customize-theme-controls .control-section.control-panel > h3.accordion-section-title:hover:after {
+    background: none;
+    border: none;
+}
+
+.control-panel-back:before {
+    top: auto;
+    left: auto;
+    line-height: 45px;
+}
+
+.control-panel-back {
+    text-align: center;
+    line-height: 45px;
+}
+
+.accordion-section-content {
+    overflow: visible;
+}
+
+.customize-control {
+    float: none;
+}
+
+.customize-control:before,
+.customize-control:after {
+    content: " ";
+    display: table;
+}
+
+.customize-control:after {
+    clear: both;
+}
+
+.accordion-sub-container.control-panel-content {
+    position: relative;
+    margin-left: 300px;
+    left: auto;
+}
+
+hr.customizer-separator {
+    margin: 13px -20px 15px;
+    clear: both;
+    display: block;
+    float: left;
+    width: 116%;
+    border-top: none;
+    border-bottom-color: #EEEEEE;
+}
+
+.customize-control label {
+    cursor: auto;
+}
+
+.ui-buttonset .ui-button {
+    cursor: pointer;
+}
+
+#customize-theme-controls .accordion-section-title,
+#customize-info .accordion-section-title {
+    -webkit-transition: background 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -moz-transition: background 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -o-transition: background 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: background 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.accordion-sub-container.control-panel-content {
+    background-color: #fff;
+}
+
+#customize-info .accordion-section-content {
+    color: #666;
+}
+
+#customize-theme-controls .control-panel h3.accordion-section-title:before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 1;
+    font-family: dashicons;
+    content: '\f108';
+    text-decoration: inherit;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: top;
+    text-align: center;
+    -webkit-transition: color .1s ease-in;
+    transition: color .1s ease-in;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#customize-theme-controls #accordion-section-header_settings_section .customize-section-description,
+#customize-theme-controls #accordion-section-footer_settings_section .customize-section-description,
+#customize-theme-controls #accordion-section-post_settings_section .customize-section-description,
+#customize-theme-controls #accordion-section-page_settings_section .customize-section-description,
+#customize-theme-controls #accordion-section-category_settings_section .customize-section-description,
+#customize-theme-controls #accordion-section-search_settings_section .customize-section-description,
+#customize-theme-controls #accordion-section-portfolio_settings_section .customize-section-description {
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.12);
+    background-color: #ff5722;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+#customize-theme-controls #accordion-panel-site_settings_panel h3.accordion-section-title:before {
+    content: "\f226";
+}
+
+#customize-theme-controls [id*="accordion-"] h3.accordion-section-title:before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 1;
+    font-family: dashicons;
+    content: '\f108';
+    text-decoration: inherit;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: top;
+    text-align: center;
+    -webkit-transition: color .1s ease-in;
+    transition: color .1s ease-in;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#customize-theme-controls #accordion-section-themes h3.accordion-section-title:before {
+    display: none;
+}
+
+#customize-theme-controls #accordion-section-site_skin_section h3.accordion-section-title:before {
+    content: "\f115";
+}
+
+#customize-theme-controls #accordion-section-site_settings_section h3.accordion-section-title:before {
+    content: "\f111";
+}
+
+#customize-theme-controls #accordion-section-site_logo_section h3.accordion-section-title:before {
+    content: "\f177";
+}
+
+#customize-theme-controls #accordion-section-site_typography_section h3.accordion-section-title:before {
+    content: "\f215";
+}
+
+#customize-theme-controls #accordion-section-site_colors_section h3.accordion-section-title:before {
+    content: "\f309";
+}
+
+#customize-theme-controls #accordion-section-background_image h3.accordion-section-title:before {
+    content: "\f159";
+}
+
+#customize-theme-controls #accordion-section-header_settings_section h3.accordion-section-title:before {
+    content: "\f227";
+}
+
+#customize-theme-controls #accordion-section-nav h3.accordion-section-title:before {
+    content: "\f333";
+}
+
+#customize-theme-controls #accordion-panel-nav_menus h3.accordion-section-title:before {
+    content: '\f333';
+}
+
+#customize-theme-controls #accordion-section-footer_settings_section h3.accordion-section-title:before {
+    content: "\f334";
+}
+
+#customize-theme-controls #accordion-section-widgets h3.accordion-section-title:before {
+    content: "\f180";
+}
+
+#customize-theme-controls #accordion-section-custom_code_section h3.accordion-section-title:before {
+    content: "\f107";
+}
+
+#customize-theme-controls #accordion-section-post_settings_section h3.accordion-section-title:before {
+    content: "\f119";
+}
+
+#customize-theme-controls #accordion-section-page_settings_section h3.accordion-section-title:before {
+    content: "\f105";
+}
+
+#customize-theme-controls #accordion-section-category_settings_section h3.accordion-section-title:before {
+    content: "\f318";
+}
+
+#customize-theme-controls #accordion-section-search_settings_section h3.accordion-section-title:before {
+    content: "\f179";
+}
+
+#customize-theme-controls #accordion-section-portfolio_settings_section h3.accordion-section-title:before {
+    content: "\f161";
+}
+
+#customize-theme-controls #accordion-section-io_section h3.accordion-section-title:before {
+    content: "\f468";
+}
+
+.onoffswitch {
+    position: relative;
+    width: 50px;
+    margin: 5px 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+    display: none !important;
+}
+
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer !important;
+    border: 0px solid #999999;
+    border-radius: 0px;
+}
+
+.onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s;
+    -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner > span {
+    display: block;
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 20px;
+    padding: 0;
+    line-height: 20px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner .onoffswitch-active {
+    padding-left: 11px;
+    background-color: #C2C2C2;
+    color: #FFFFFF;
+}
+
+.onoffswitch-inner .onoffswitch-inactive {
+    padding-right: 11px;
+    background-color: #C2C2C2;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.onoffswitch-switch {
+    display: block;
+    width: 29px;
+    margin: 0px;
+    text-align: center;
+    border: 0px solid #999999;
+    border-radius: 0px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.onoffswitch-active .onoffswitch-switch {
+    background: #1ABC9C;
+    left: 0;
+}
+
+.onoffswitch-inactive .onoffswitch-switch {
+    background: #7D7B7B;
+    right: 0;
+}
+
+.onoffswitch-active .onoffswitch-switch:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 29px;
+    border-style: solid;
+    border-color: #1ABC9C transparent transparent #1ABC9C;
+    border-width: 10px 5px;
+}
+
+.onoffswitch-inactive .onoffswitch-switch:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 29px;
+    border-style: solid;
+    border-color: transparent #7D7B7B #7D7B7B transparent;
+    border-width: 10px 5px;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}

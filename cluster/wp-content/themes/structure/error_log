@@ -1,0 +1,69 @@
+[19-Aug-2017 18:54:27 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[10-Sep-2017 09:13:53 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[11-Sep-2017 22:15:24 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/index.php on line 13
+[15-Sep-2017 12:44:30 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[19-Sep-2017 01:33:50 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[22-Sep-2017 20:50:25 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[27-Sep-2017 06:08:07 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/archive.php on line 9
+[01-Oct-2017 05:15:39 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/agenc546/public_html/wp-content/themes/structure/header.php on line 12
+[08-Oct-2017 16:41:48 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/archive.php on line 9
+[13-Oct-2017 09:06:57 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[13-Oct-2017 21:10:45 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/agenc546/public_html/wp-content/themes/structure/header.php on line 12
+[13-Oct-2017 21:10:45 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/archive.php on line 9
+[16-Oct-2017 03:32:13 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/agenc546/public_html/wp-content/themes/structure/header.php on line 12
+[17-Oct-2017 18:42:19 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/index.php on line 13
+[18-Oct-2017 02:39:37 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[19-Oct-2017 04:23:29 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/archive.php on line 9
+[19-Oct-2017 22:12:12 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/agenc546/public_html/wp-content/themes/structure/header.php on line 12
+[20-Oct-2017 22:54:42 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/agenc546/public_html/wp-content/themes/structure/header.php on line 12
+[21-Oct-2017 13:10:47 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[23-Oct-2017 06:09:24 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/index.php on line 13
+[24-Oct-2017 09:21:46 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/agenc546/public_html/wp-content/themes/structure/header.php on line 12
+[08-Dec-2017 01:10:29 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[03-Jan-2018 13:42:37 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[07-Jan-2018 17:38:25 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[08-Jan-2018 06:28:43 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[09-Jan-2018 15:12:50 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[02-Mar-2018 02:22:14 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[15-Mar-2018 06:34:39 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/archive.php on line 9
+[15-Mar-2018 17:54:44 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/index.php on line 13
+[15-Mar-2018 17:57:40 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/index.php on line 13
+[15-Mar-2018 18:07:19 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/index.php on line 13
+[15-Mar-2018 18:33:11 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/index.php on line 13
+[18-Mar-2018 03:17:19 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/archive.php on line 9
+[19-Mar-2018 02:30:55 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/agenc546/public_html/wp-content/themes/structure/header.php on line 12
+[19-Mar-2018 21:30:13 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/agenc546/public_html/wp-content/themes/structure/header.php on line 12
+[20-Mar-2018 10:47:26 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/archive.php on line 9
+[21-Mar-2018 04:05:55 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/agenc546/public_html/wp-content/themes/structure/header.php on line 12
+[25-Mar-2018 02:37:44 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/agenc546/public_html/wp-content/themes/structure/header.php on line 12
+[28-Mar-2018 20:51:53 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/index.php on line 13
+[10-Apr-2018 08:31:16 America/Chicago] PHP Deprecated:  Comments starting with '#' are deprecated in /home/agenc546/public_html/.user.ini on line 1 in Unknown on line 0
+[10-Apr-2018 08:31:16 America/Chicago] PHP Deprecated:  Comments starting with '#' are deprecated in /home/agenc546/public_html/.user.ini on line 2 in Unknown on line 0
+[10-Apr-2018 08:31:16 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[19-Aug-2018 21:34:01 America/Chicago] PHP Deprecated:  Comments starting with '#' are deprecated in /home/agenc546/public_html/.user.ini on line 1 in Unknown on line 0
+[19-Aug-2018 21:34:01 America/Chicago] PHP Deprecated:  Comments starting with '#' are deprecated in /home/agenc546/public_html/.user.ini on line 2 in Unknown on line 0
+[19-Aug-2018 21:34:01 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/archive.php on line 9
+[30-Aug-2018 16:25:51 America/Chicago] PHP Deprecated:  Comments starting with '#' are deprecated in /home/agenc546/public_html/.user.ini on line 1 in Unknown on line 0
+[30-Aug-2018 16:25:51 America/Chicago] PHP Deprecated:  Comments starting with '#' are deprecated in /home/agenc546/public_html/.user.ini on line 2 in Unknown on line 0
+[30-Aug-2018 16:25:51 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/agenc546/public_html/wp-content/themes/structure/header.php on line 12
+[30-Aug-2018 16:25:51 America/Chicago] PHP Deprecated:  Comments starting with '#' are deprecated in /home/agenc546/public_html/.user.ini on line 1 in Unknown on line 0
+[30-Aug-2018 16:25:51 America/Chicago] PHP Deprecated:  Comments starting with '#' are deprecated in /home/agenc546/public_html/.user.ini on line 2 in Unknown on line 0
+[30-Aug-2018 16:25:51 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/index.php on line 13
+[30-Aug-2018 16:25:51 America/Chicago] PHP Deprecated:  Comments starting with '#' are deprecated in /home/agenc546/public_html/.user.ini on line 1 in Unknown on line 0
+[30-Aug-2018 16:25:51 America/Chicago] PHP Deprecated:  Comments starting with '#' are deprecated in /home/agenc546/public_html/.user.ini on line 2 in Unknown on line 0
+[30-Aug-2018 16:25:51 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/404.php on line 7
+[30-Aug-2018 16:25:51 America/Chicago] PHP Deprecated:  Comments starting with '#' are deprecated in /home/agenc546/public_html/.user.ini on line 1 in Unknown on line 0
+[30-Aug-2018 16:25:51 America/Chicago] PHP Deprecated:  Comments starting with '#' are deprecated in /home/agenc546/public_html/.user.ini on line 2 in Unknown on line 0
+[30-Aug-2018 16:25:51 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/archive.php on line 9
+[25-Oct-2018 22:22:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_sidebar() in /home/agenc546/public_html/wp-content/themes/structure/footer.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/agenc546/public_html/wp-content/themes/structure/footer.php on line 11
+[25-Oct-2018 22:22:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/agenc546/public_html/wp-content/themes/structure/header.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/agenc546/public_html/wp-content/themes/structure/header.php on line 12
+[25-Oct-2018 22:22:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_mod() in /home/agenc546/public_html/wp-content/themes/structure/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/agenc546/public_html/wp-content/themes/structure/index.php on line 13
