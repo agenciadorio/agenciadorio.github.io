@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: simple-lightbox-gallery\n"
+"POT-Creation-Date: 2015-07-20 18:04+0530\n"
+"PO-Revision-Date: 2015-07-20 18:08+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;_e;_;__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../simple-lightbox-gallery.php:28
+msgid "Help and Support"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:88
+msgid "No Title"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:145
+msgid "Slimple Lightbox Gallery"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:146
+msgid "Parent Item:"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:147
+msgid "All Galleries"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:148
+msgid "View Gallery"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:149
+msgid "Add New Lightbox Gallery"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:150
+msgid "Add Lightbox Gallery"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:151
+msgid "Edit Lightbox Gallery"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:152
+msgid "New Gallery"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:153
+msgid "Update Lightbox Gallery"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:154
+msgid "Search Gallery"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:155
+msgid "No Lightbox Gallery Found"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:156
+msgid "No Lightbox Gallery found in Trash"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:159
+msgid "slgf_slider"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:160
+msgid "Free Lightbox Gallery"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:186
+msgid "Gallery"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:187
+msgid "Gallery Shortcode"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:188
+msgid "Date"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:207
+msgid "Add Images"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:208
+msgid "Apply Setting On Photo Gallery"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:209
+msgid "Photo Gallery Shortcode"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:264
+msgid "Add New Image"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:282
+msgid "Use below shortcode in any Page/Post to publish your photo gallery"
+msgstr ""
+
+#: ../simple-lightbox-gallery.php:462
+msgid "No Gallery Found"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:76
+msgid "Image Hover Animation"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:84
+msgid "Choose an animation effect apply on images after mouse hover."
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:89
+msgid "Gallery Layout"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:94
+msgid "Two Column"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:95
+msgid "Three Column"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:98
+msgid "Choose a column layout for image gallery"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:117
+msgid "Hover Color"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:123
+msgid "Select Image Hover Color"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:128
+msgid "Text Background Color"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:133
+msgid "Select Text Background Color"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:138
+msgid "Text Color"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:143
+msgid "Select Text Color"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:158
+msgid "Caption Font Style"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:181
+msgid "Choose a caption font style"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:186
+msgid "Image Box Shadow"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:191
+msgid "Select Yes/No option to hide or show Image Box Shadow"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:196
+msgid "Custom CSS"
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:201
+msgid "Enter any custom css you want to apply on this gallery."
+msgstr ""
+
+#: ../simple-lightbox-slider-setting-metabox.php:202
+msgid "Note: Please Do Not Use <b>Style</b> Tag With Custom CSS."
+msgstr ""
+
+#: ../simple-lightbox-slider-shortcode.php:172
+msgid "No Photo Found In Photo Gallery."
+msgstr ""
