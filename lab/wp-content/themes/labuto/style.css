@@ -1,0 +1,202 @@
+/*  
+Theme Name: Labuto Assessoria
+Theme URI: http://www.basesoft.com.br
+Author: Base Software
+Author URI: http://www.basesoft.com.br
+*/
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+
+/* GLOBAL SETTINGS
+====================================================================================================== */
+body{ text-align:center; background: url(imagens/background.jpg) repeat;}
+.bg_top{ background: url(imagens/background-top.png) top center no-repeat; padding-top: 146px;}
+#layout{ width:1010px; background: url(imagens/background-corpo.png) -1px 0 repeat-y; text-align:left; margin:0 auto; position:relative;}
+body, table, tr, td, th{ font:12px Verdana, Geneva, sans-serif;}
+a, a:link, a:visited{text-decoration: none; color: #800a0a;}
+a:hover, a:active{text-decoration: none; color: #800a0a;}
+
+strong, b, .negrito{ font-weight:bold;}
+em, i, .italico {font-style:italic;}
+u, .sublinhado{ text-decoration:underline;}
+s, .riscado{text-decoration:line-through;}
+#meio p{margin:10px 0;}
+
+.imgleft {float:left; margin-right:5px;}
+.imgright {float:right; margin-left:5px;}
+
+.alignleft, .esquerda {text-align:left}
+.alignright, .direita {text-align:right}
+.alignjustfy, .justificado {text-align:justify}
+.aligncenter, .center, .centralizado {text-align:center}
+.vcenter{vertical-align:middle;}
+
+img.centered {display: block; margin-left: auto; margin-right: auto; }
+img.alignright { float: right; margin:0 0 0 5px;}
+img.alignleft {float: left; margin:0 5px 0 0;}
+
+.fleft{float:left;}
+.fright{float:right;}
+.clear{clear:both;}
+.none, .hidden{display:none;}
+.block{display:block;}
+.inline{display:inline;}
+
+blockquote{}
+.cor1{}
+.cor2{}
+.cor3{}
+
+
+/* HEADER (cabecalho)
+====================================================================================================== */
+#header{ position:relative; width: 980px; margin: 0 auto; height: 85px; z-index: 90;}
+#header h1{ position: absolute; top: -67px; left: 15px;}
+#header h1 a{ display: inline-block; width: 283px; height: 86px; background: url(imagens/logo-assessoria.png) no-repeat;}
+#header h1 span{display: none;}
+.page-id-99 #header h1 a{background:url(imagens/logo-administradora.png) no-repeat;}
+.page-id-123 #header h1 a{background:url(imagens/logo-administradora.png) no-repeat;}
+.page-id-126 #header h1 a{background:url(imagens/logo-administradora.png) no-repeat;}
+.page-id-129 #header h1 a{background:url(imagens/logo-administradora.png)) no-repeat;}
+
+.atendimento{position: absolute; top: -52px; right: 400px;}
+.favoritos{position: absolute; top: 27px; right: 0;}
+
+#arearestrita{ background: url(imagens/area-restrita_bg.png) no-repeat; width:336px; height: 180px; position: absolute; top:-146px; right:15px; }
+#arearestrita label{ display: none; }
+#arearestrita .cmp{ position: absolute; left: 76px; border: 0 none; padding: 5px 0; width: 227px; font-size: 16px; color: #777; background: transparent; }
+#arearestrita .login {top: 29px;}
+#arearestrita .senha{top: 71px;}
+#arearestrita .ok{ background: transparent; width: 93px; height: 32px; border: 0 none; position: absolute; bottom: 30px; right: 30px; cursor: pointer; }
+#arearestrita .fpw{ position: absolute; bottom:42px; left: 43px;}
+#arearestrita .fpw a{ text-decoration: none; color:#fff; }
+#arearestrita .fpw a:hover{ text-decoration:underline; }
+
+#menu{background: #800a0a; position: absolute; width: 1000px; top: 50px; left: -11px; z-index: 90;}
+#menu li {display:inline;}
+#menu li a{display:inline-block; padding: 10px; font: 15px Arial; color: white; margin: 0 44px 0 0; text-transform: uppercase; text-decoration: none;}
+#menu li a:hover{background:#971117;}
+#menu .current-menu-item a, #menu .current-menu-item a:hover{background:#e81717; }
+
+#menu .menu-parent, #menu .sub-menu-parent{position:relative; z-index:9999; }
+#menu .sub-menu, #menu .sub-sub-menu{display:none; padding: 3px; position:absolute; z-index:9999; background: #800a0a; font-size:13px; top: 23px; left: 0;}
+#menu .sub-menu li, #menu .sub-sub-menu li{display: block; width: 220px; text-align: left;}
+#menu .sub-menu li a, #menu .sub-sub-menu li a{ color:#fff; display: block;  width:97%; height: auto; padding: 4px 3px; color: #fff; text-decoration: none; line-height: 1em; font:12px Verdana, Geneva, sans-serif; background: none; margin: 0;}
+#menu .sub-menu li a:hover, #menu .sub-sub-menu li a:hover{background: #e81717;}
+#menu .sub-sub-menu{top: -4px; left: 223px;}
+
+.ie7 #menu .sub-menu, .ie7 #menu .sub-sub-menu{top: 37px;}
+.ie7 #menu .sub-sub-menu {top: -12px;}
+.ie7 #menu li a {}
+
+
+/* MIDDLE (meio)
+====================================================================================================== */
+#middle{ position: relative; width: 1000px; margin-left: 4px; margin-top: 2px;}
+
+#slideshow{position: relative;}
+#nav {position: absolute; bottom: 9px; right: 9px; z-index: 90;}
+#nav a{display: inline-block; padding: 3px 5px; background-color: #800A0A; color: white; margin: 0 5px; font-size: 13px; text-decoration: none; font-weight: bold;}
+#nav .activeSlide {background-color: #5e0808;}
+#slide{ height:348px;}
+
+#menumeio{background: #800a0a;}
+#menumeio li{display:inline; }
+#menumeio li a{display: inline-block; background:url(imagens/menumeio.jpg); height:100px; margin: 0 9px}
+#menumeio .areadeatuacao a{width:220px; background-position: -12px 0px;}
+#menumeio .servicoscontabeis a {width:234px; background-position: -259px 0px;}
+#menumeio .admdecondominios a{width:280px; background-position: -519px 0px;}
+#menumeio .advocacia a {width:174px; background-position: -814px 0px;}
+#menumeio span{display:none;}
+
+#ngg-albumtitle a{}
+
+/* SIDEBAR (lateral esquerda)
+====================================================================================================== */
+#sidebaresq{float: left;  width: 438px; height:233px; margin-top: 4px; font-family: 'Questrial', sans-serif; font-size:24px;}
+#videos { }
+#videos h1{margin-top: 26px; margin-left: 12px; margin-right: 22px; border-bottom: 1px dashed #343434; }
+.ie7 #videos h1 { font-weight:normal;}
+
+/* MEIO (centro)
+====================================================================================================== */
+#meio{float: left;  width: 269px;  background:#e4e4e4; margin:22px 13px 0px 0px; font-family: 'Questrial', sans-serif; font-size:24px;}
+#noticias {background: #e4e4e4;}
+#noticias h1{margin-top: 9px; margin-left: 12px; margin-right: 13px; border-bottom: 1px dashed #343434;}
+#noticias li {font-family: Verdana; font-size:12px; margin: 10px;}
+#noticias li .data{ background:url(imagens/botnot.jpg) no-repeat; width: 40px; height: 40px; text-align: center; float:left;}
+#noticias li .dia{display: block; padding-top: 6px; font-weight: bold;}
+#noticias li .mes{}
+#noticias li .titulo{float: left; width: 200px; margin-left: 7px;}
+#noticias li a{color:#000; text-decoration: none;}
+#noticias .mais {text-align: right;}
+#noticias .mais a{background-color: #666; color: white; font-size: 15px; text-align: center; margin: 4px; display: inline-block; width: 150px; padding: 6px 5px; text-decoration: none;}
+
+.ie7 #noticias h1 { font-weight:normal;}
+
+
+
+
+/* SIDEBAR (lateral direita)
+====================================================================================================== */
+#sidebardir{float: left; width: 269px; background:#e4e4e4; margin: 22px 0px 0px 0px; font-family: 'Questrial', sans-serif; font-size:24px;}
+#links { background: #E4E4E4;}
+#links h3 {margin-top: 9px; margin-left: 12px; margin-right: 13px; border-bottom: 1px dashed #343434;}
+#links li {font-family: Verdana; font-size:12px; margin: 10px;}
+#links li a{color:#000; text-decoration: none;}
+#links .veja {text-align: right;}
+#links .veja a {background-color: #666; color: white; font-size: 15px; text-align: center; margin: 10px; display: inline-block; width: 150px; padding: 6px 5px; text-decoration: none;}
+
+.ie7 #links h3 { font-weight:normal;}
+
+
+/* PÁGINAS e POSTS
+====================================================================================================== */
+/* Páginas */
+.news{}
+
+.cntt h1{font-size: 2em; font-weight:bold; margin:10px 0;}
+.cntt h2{font-size: 1.5em; font-weight:bold; margin:10px 0;}
+.cntt h3{font-size: 1.17em; font-weight:bold; margin:10px 0;}
+.cntt h4{font-weight:bold; margin:5px 0;} 
+.cntt h5{font-size: .83em; font-weight:bold; margin:5px 0;}
+.cntt h6{font-size: .75em; font-weight:bold; margin:5px 0;}
+.error404 .cntt h2{font-size: 1.3em;}
+.cntt ul{ list-style:inside disc;}
+.cntt ol{ list-style:inside decimal;}
+.cntt li{margin:5px 0; color: #000;}
+.cntt .attachment-full {float: right; margin-right: 5px; border: 1px solid #AAA; background: #F2F2F2; padding: 5px;}
+.pageconteudo {padding: 21px; }
+#crumbs{text-align: right; margin-bottom: 3px; padding-right: 5px; font-size: 0.8em;}
+#crumbs a{font-size: 1em; text-decoration: none;}
+.ntitle {background: #fff; text-align: left; padding: 8px 0px; font-size: 28px; color: #800a0a;}
+.ft{}
+
+/* FORMULÁRIOS */
+.wpcf7 input{color: #000; background-color:#fff; border-bottom-color: #800a0a;}
+.wpcf7 .txt{ border:1px solid #800a0a;}
+.wpcf7 .txt:focus{ border:1px solid #909090;}
+.wpcf7 input.txt{}
+.wpcf7 textarea.txt{}
+.wpcf7 .ok{ background: none repeat scroll 0 0 #fff; border: 1px solid #800a0a; color: #000; margin: 2px; padding: 5px; -moz-border-radius: 10px;}
+/* Fale Conosco */
+
+/* MAPA DO SITE */
+#mapasite{}
+#mapasite li{}
+#mapasite li a:hover, #mapasite li a:active {}
+
+/* Editar/Voltar */
+.voltar{ font:bold 12px Tahoma, Verdana, Geneva, sans-serif; text-align:right; margin-top: 30px; padding: 12px;}
+.voltar a{ margin: 2px; padding: 5px; text-decoration:none; background-color: #800a0a; border: 1px solid #fff; color: #ffffff;}
+.voltar a:link, .voltar a:visited{}
+.voltar a:hover{ background-color: 800a0a;}
+
+
+/* FOOTER (rodape)
+====================================================================================================== */
+#footer{ clear: both; position: relative; background: url(imagens/bckfooter.png); background-repeat: no-repeat; width: 1012px; margin: 0 auto; padding: 10px 0 0;}
+#footer .prod{margin-left: 858px; display: block; padding-top: 25px;}
+#endereco {font-family: Verdana; font-size: 12px; text-align: left; margin-left: 15px; padding-top: 21px; float: left;}
+#proposta {font-family: 'Questrial', sans-serif; font-size: 24px; text-align: right; padding-top: 7px; margin-right: 19px;}
+#proposta a{font-size: 24px; text-align: left; margin: 10px; color: #666666; text-decoration: none;}
+#proposta img {vertical-align: middle;}
