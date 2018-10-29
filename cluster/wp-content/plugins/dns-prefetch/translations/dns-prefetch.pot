@@ -1,0 +1,151 @@
+# Copyright (C) 2014 DNS Prefetch
+# This file is distributed under the same license as the DNS Prefetch package.
+msgid ""
+msgstr ""
+"Project-Id-Version: DNS Prefetch 0.0.8\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/dns-prefetch\n"
+"POT-Creation-Date: 2014-08-14 16:37:54+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: dns-prefetch.php:30
+msgid "Do not access this file directly."
+msgstr ""
+
+#: dns-prefetch.php:66
+msgid "You do not have sufficient permission to access this page"
+msgstr ""
+
+#: dns-prefetch.php:70
+msgid " by "
+msgstr ""
+
+#: dns-prefetch.php:71
+msgid "You are running plugin version"
+msgstr ""
+
+#: dns-prefetch.php:76
+msgid "Settings"
+msgstr ""
+
+#: dns-prefetch.php:77 dns-prefetch.php:99
+msgid "Support"
+msgstr ""
+
+#: dns-prefetch.php:85
+msgid "Plugin Settings"
+msgstr ""
+
+#: dns-prefetch.php:87 dns-prefetch.php:90
+msgid "Is plugin enabled? Uncheck this to turn it off temporarily."
+msgstr ""
+
+#: dns-prefetch.php:87
+msgid "Plugin enabled?"
+msgstr ""
+
+#: dns-prefetch.php:92
+msgid "Enter URLs to be prefetched"
+msgstr ""
+
+#: dns-prefetch.php:95
+msgid ""
+"Type the URLs you want to be prefetched by visitors' browsers. <strong>One "
+"URL per line.</strong> Include prefix (such as <strong>http://</strong>) "
+"<br /><strong>These domains will be prefetched in addition to the domains "
+"already linked on your pages.</strong>"
+msgstr ""
+
+#: dns-prefetch.php:102
+msgid "Disclaimer: This plugin is not affiliated with or endorsed by Mozilla."
+msgstr ""
+
+#: dns-prefetch.php:148
+msgid "is currently disabled."
+msgstr ""
+
+#: dns-prefetch.php:183
+msgid "<a href=\"http://wordpress.org/support/plugin/%s\">Support</a>"
+msgstr ""
+
+#: dns-prefetch.php:184 dns-prefetch.php:238
+msgid "<a href=\"http://wordpress.org/extend/plugins/%s/\">Documentation</a>"
+msgstr ""
+
+#: dns-prefetch.php:185
+msgid "<a href=\"http://wordpress.org/plugins/%s/faq/\">FAQ</a>"
+msgstr ""
+
+#: dns-prefetch.php:231
+msgid "<a href=\"options-general.php?page=%s\">Settings</a>"
+msgstr ""
+
+#: dns-prefetch.php:236
+msgid "Do you need help with this plugin? Check out the following resources:"
+msgstr ""
+
+#: dns-prefetch.php:239
+msgid "<a href=\"http://wordpress.org/plugins/%s/faq/\">FAQ</a><br />"
+msgstr ""
+
+#: dns-prefetch.php:240
+msgid ""
+"<a href=\"http://wordpress.org/support/plugin/%s\">Support Forum</a><br />"
+msgstr ""
+
+#: dns-prefetch.php:241
+msgid ""
+"<a href=\"http://www.jimmyscode.com/wordpress/%s\">Plugin Homepage / Demo</"
+"a><br />"
+msgstr ""
+
+#: dns-prefetch.php:242
+msgid ""
+"<a href=\"http://wordpress.org/extend/plugins/%s/developers/\">Development</"
+"a><br />"
+msgstr ""
+
+#: dns-prefetch.php:243
+msgid ""
+"<a href=\"http://wordpress.org/plugins/%s/changelog/\">Changelog</a><br />"
+msgstr ""
+
+#: dns-prefetch.php:246
+msgid ""
+"If you like this plugin, please <a href=\"http://wordpress.org/support/view/"
+"plugin-reviews/%s/\">rate it on WordPress.org</a>"
+msgstr ""
+
+#: dns-prefetch.php:247
+msgid ""
+" and click the <a href=\"http://wordpress.org/plugins/%s/#compatibility"
+"\">Works</a> button. "
+msgstr ""
+
+#: dns-prefetch.php:249
+msgid "Your donations encourage further development and support. "
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "DNS Prefetch"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.jimmyscode.com/wordpress/dns-prefetch/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add DNS prefetching meta tags to your site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Jimmy Pe&ntilde;a"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.jimmyscode.com/"
+msgstr ""
