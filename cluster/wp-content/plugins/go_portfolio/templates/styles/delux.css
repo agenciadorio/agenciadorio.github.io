@@ -1,0 +1,712 @@
+/* -------------------------------------------------------------------------------- /
+	
+	DELUX STYLE - v1.4
+	
+	You can add custom notes to code. CSS comments will be removed from the generated output.
+
+	[info] Sometimes you should use "!important" css suffix to take the changes effect 
+		   when setting a value of a CSS property (e.g. font-size: 11px !important);.
+	
+	TABLE OF CONTENT
+
+	[0] SETUP & COMMON STYLES
+	[1] POST FILTER CATEGORIES & SLIDER ARROWS
+	[2] POST WRAPPER
+	[3] MEDIA WRAP & POST OVERLAY
+	[4] POST CONTENT
+	[4.1] POST CONTENT - TITLE
+	[4.2] POST CONTENT - META
+	[4.3] POST CONTENT - EXCERPT
+	[4.4] POST CONTENT - BUTTON
+	[4.5] POST CONTENT - OTHER
+	[5] WOOCOMMERCE STYLES
+	[6] EFFECTS
+	
+/ -------------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------------- /
+
+	[0] SETUP & COMMON STYLES
+	
+	[info] The portfolio filter categories filter "buttons".
+	[tip] You can set e.g. border radius, colors, etc here.
+	
+/ -------------------------------------------------------------------------------- */	
+	
+	.gw-gopf-style-delux .gw-gopf-post-header { z-index:2; }
+
+	/* Button style */
+	.gw-gopf-style-delux a.gw-gopf-btn {
+		color:((main_color_3));
+		background:((main_color_1));
+		-moz-border-radius:((border_radius_2))px;
+		-webkit-border-radius:((border_radius_2))px;	
+		border-radius:((border_radius_2))px;
+		display:inline-block;
+		font-family:((font_family_m));
+		font-size:((font_size_m))px;
+		height:29px;	
+		line-height:29px;	
+		padding:0 9px;
+		position:relative;
+		text-align:left;
+		-moz-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		-ms-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		-o-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		-webkit-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		text-decoration:none !important;
+	}
+	
+	.gw-gopf-style-delux a.gw-gopf-btn.gw-gopf-btn-outlined {
+		color:((main_color_1));
+		background:transparent;
+		border:solid 1px ((main_color_1));
+		height:27px;	
+		line-height:27px;	
+		padding:0 8px;
+	}	
+	
+	/* Hover (mouse over) state of button */
+	.gw-gopf-style-delux a.gw-gopf-btn:hover {
+		color:((main_color_3));
+		background:((highlight_color));
+	}
+	
+	.gw-gopf-style-delux a.gw-gopf-btn.gw-gopf-btn-outlined:hover {
+		color:((highlight_color));
+		background:transparent;
+		border-color:((highlight_color));
+	}	
+	
+	/* Circle style */
+	.gw-gopf-style-delux a.gw-gopf-circle {
+		-moz-border-radius:((border_radius_3))px;
+		-webkit-border-radius:((border_radius_3))px;
+		border-radius:((border_radius_3))px;
+		display:inline-block;
+		height:44px;
+		line-height:44px;
+		position: relative;
+		margin-left:3px;
+		margin-right:3px;		
+		-moz-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		-ms-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		-o-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		-webkit-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		width:44px;
+	}
+
+	/* Highlight box */
+	.gw-gopf-style-delux .gw-gopf-post-highlight-box	{
+		background:((highlight_color));
+		padding:((post_padding))px;	
+		margin:-((post_padding))px;
+		margin-bottom:((post_padding))px;
+	}
+
+	/* Highlight box content */	
+	.gw-gopf-style-delux .gw-gopf-post-highlight-box * { 
+		color:((main_color_3)) !important;
+	}
+
+	.gw-gopf-style-delux .gw-gopf-post-highlight-box a:hover { 
+		color:((main_color_1)) !important;
+	}
+
+
+/* -------------------------------------------------------------------------------- /
+
+	[1] POST FILTER CATEGORIES & SLIDER ARROWS
+	
+	[info] The portfolio filter categories filter "buttons".
+	[tip] You can set e.g. border radius, colors, etc here.
+	
+/ -------------------------------------------------------------------------------- */
+
+	/* Filter categories (buttons) */
+	.gw-gopf-style-delux .gw-gopf-cats > span a {
+		background:((main_color_1));
+		-moz-border-radius:((border_radius_2))px;
+		-webkit-border-radius:((border_radius_2))px;	
+		border-radius:((border_radius_2))px;	
+		color:((main_color_3));
+		display:block;
+		font-family:((font_family_m));
+		font-size:((font_size_m))px;	
+		height:29px;
+		line-height:29px;
+		padding:0 10px;
+		text-decoration:none;
+		-moz-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		-ms-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		-o-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		-webkit-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+	}
+	
+	.gw-gopf-style-delux .gw-gopf-cats > span a.gw-gopf-btn-outlined {
+		color:((main_color_1));
+		background:transparent;
+		border:solid 1px ((main_color_1));
+		height:27px;	
+		line-height:27px;	
+		padding:0 8px;
+	}	
+	
+	/* Filter categories (buttons) - selected element */	
+	.gw-gopf-style-delux .gw-gopf-cats > span.gw-gopf-current a {
+		background:((highlight_color));
+	}
+	
+	.gw-gopf-style-delux .gw-gopf-cats > span.gw-gopf-current a.gw-gopf-btn-outlined  { 
+		background:transparent;	
+		border-color:((highlight_color));
+		color:((highlight_color));
+	}	
+	
+	/* Filter categories (buttons) - hovered element */
+	.gw-gopf-style-delux .gw-gopf-cats > span a:hover {
+		background:((main_color_2));
+		color:((main_color_3));
+	}
+	
+	.gw-gopf-style-delux .gw-gopf-cats > span a.gw-gopf-btn-outlined:hover { 
+		background:transparent;
+		border-color:((main_color_2));			
+		color:((main_color_2));
+	}	
+	
+	/* Arrows (buttons) */
+	.gw-gopf-style-delux .gw-gopf-slider-controls > div a {
+		background:((highlight_color));
+		-moz-border-radius:((border_radius_2))px;
+		-webkit-border-radius:((border_radius_2))px;	
+		border-radius:((border_radius_2))px;	
+		color:((main_color_3));
+		display:table-cell;
+		height:29px;
+		text-decoration:none;
+		-moz-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		-ms-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		-o-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		-webkit-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		vertical-align:middle;		
+		width:28px;
+	}
+
+	/* Arrows (buttons) - hovered element */
+	.gw-gopf-style-delux .gw-gopf-slider-controls > div a:hover {
+		background:((main_color_1));
+	}
+
+	/* Arrows (buttons) - inactive */
+	.gw-gopf-style-delux .gw-gopf-slider-controls > div a.disabled {
+		background:((main_color_1));
+	}
+	
+	/* Pagination - Load more (button) */
+	.gw-gopf-style-delux a.gw-gopf-pagination-load-more {
+		background:((main_color_1));
+		-moz-border-radius:((border_radius_2))px;
+		-webkit-border-radius:((border_radius_2))px;	
+		border-radius:((border_radius_2))px;	
+		color:((main_color_3));
+		display:inline-block;
+		font-family:((font_family_m));
+		font-size:((font_size_m))px;	
+		height:29px;
+		line-height:29px;
+		padding:0 10px;
+		text-decoration:none;
+		-moz-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		-ms-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		-o-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		-webkit-transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+		transition:color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;	
+	}
+	
+	/* Pagination - Load more (outlined button) */
+	.gw-gopf-style-delux a.gw-gopf-pagination-load-more.gw-gopf-btn-outlined {
+		color:((main_color_1));
+		background:transparent;
+		border:solid 1px ((main_color_1));
+		height:27px;	
+		line-height:27px;	
+		padding:0 8px;
+	}
+	
+	/* Pagination - Load more (button) - hovered */
+	.gw-gopf-style-delux a.gw-gopf-pagination-load-more:hover { 
+		background:((main_color_2));
+	}
+	
+	/* Pagination - Load more (outlined button) - hovered */
+	.gw-gopf-style-delux a.gw-gopf-pagination-load-more.gw-gopf-btn-outlined:hover { 
+		background:transparent;
+		border-color:((main_color_2));			
+		color:((main_color_2));
+	}		
+	
+
+/* -------------------------------------------------------------------------------- /
+	
+	[2] POST WRAPPER
+	
+	[info] The whole post container, including the media and content.
+	[tip] You can set e.g. border radius or box shadow here for the the whole post.
+
+/ -------------------------------------------------------------------------------- */
+
+	.gw-gopf-style-delux.gw-gopf-isotope-ready .gw-gopf-isotope .gw-gopf-isotope-item {
+		-moz-transition:-moz-transform 0.8s, opacity 0.8s, z-index 0s 0.2s;
+		-ms-transition:-ms-transform 0.8s, opacity 0.8s, z-index 0s 0.2s;
+		-o-transition:-o-transform 0.8s, opacity 0.8s, z-index 0s 0.2s;
+		-webkit-transition:-webkit-transform 0.8s, opacity 0.8s, z-index 0s 0.2s;
+		transition:transform 0.8s, opacity 0.8s, z-index 0s 0.2s;			
+	}
+	
+	.gw-gopf-style-delux.gw-gopf-isotope-ready .gw-gopf-isotope .gw-gopf-isotope-item:hover {
+		-moz-transition:-moz-transform 0.8s, opacity 0.8s, z-index 0s 0s;
+		-ms-transition:-ms-transform 0.8s, opacity 0.8s, z-index 0s 0s;
+		-o-transition:-o-transform 0.8s, opacity 0.8s, z-index 0s 0s;
+		-webkit-transition:-webkit-transform 0.8s, opacity 0.8s, z-index 0s 0s;
+		transition:transform 0.8s, opacity 0.8s, z-index 0s 0s;		
+	}	
+	
+	.gw-gopf-style-delux .gw-gopf-post,
+	.gw-gopf-touch.gw-gopf-style-delux .gw-gopf-post:hover {
+		-moz-border-radius:((border_radius_1))px;
+		-webkit-border-radius:((border_radius_1))px;
+		border-radius:((border_radius_1))px;			
+		overflow:hidden;
+		-moz-transition:padding 0.2s ease-in-out, margin 0.2s ease-in-out, z-index 0s 0.2s ease-in-out;	
+		-ms-transition:padding 0.2s ease-in-out, margin 0.2s ease-in-out, z-index 0s 0.2s ease-in-out;
+		-o-transition:padding 0.2s ease-in-out, margin 0.2s ease-in-out, z-index 0s 0.2s ease-in-out;
+		-webkit-transition:padding 0.2s ease-in-out, margin 0.2s ease-in-out, z-index 0s 0.2s ease-in-out;
+		transition:padding 0.2s ease-in-out, margin 0.2s ease-in-out, z-index 0s 0.2s ease-in-out;	
+		z-index:2;
+	}
+	
+	.gw-gopf-style-delux .gw-gopf-post:hover,
+	.gw-gopf-touch.gw-gopf-style-delux .gw-gopf-current.gw-gopf-post {
+		-moz-box-shadow:0 0 ((box_shadow_blur))px ((box_shadow_spread))px rgba(0,0,0,((box_shadow_opacity)));		
+		-o-box-shadow:0 0 ((box_shadow_blur))px ((box_shadow_spread))px rgba(0,0,0,((box_shadow_opacity)));
+		-webkit-box-shadow:0 0 ((box_shadow_blur))px ((box_shadow_spread))px rgba(0,0,0,((box_shadow_opacity)));
+		box-shadow:0 0 ((box_shadow_blur))px ((box_shadow_spread))px rgba(0,0,0,((box_shadow_opacity)));
+		-moz-transition:padding 0.3s ease-in-out, margin 0.3s ease-in-out, z-index 0s 0s ease-in-out;
+		-ms-transition:padding 0.3s ease-in-out, margin 0.3s ease-in-out, z-index 0s 0s ease-in-out;
+		-o-transition:padding 0.3s ease-in-out, margin 0.3s ease-in-out, z-index 0s 0s ease-in-out;
+		-webkit-transition:padding 0.3s ease-in-out, margin 0.3s ease-in-out, z-index 0s 0s ease-in-out;
+		transition:padding 0.3s ease-in-out, margin 0.3s ease-in-out, z-index 0s 0s ease-in-out;
+		z-index:3;
+	}	
+
+
+/* -------------------------------------------------------------------------------- /
+	
+	[3] MEDIA WRAP & POST OVERLAY
+	
+	[info] The whole post overlay with its content.
+	[tip] You can set e.g. overlay circles and buttons.
+
+/ -------------------------------------------------------------------------------- */
+
+	/* Light border around overlay buttons */
+	.gw-gopf-style-delux a.gw-gopf-post-overlay-btn:before {
+		background:((main_color_3));	
+		content:'';
+		display:block;
+		height:100%;
+		left:0;
+		filter:alpha(opacity=35); /* IE 5-7 */
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=35)"; /* IE 8 */
+		-khtml-opacity:35; /* Safari 1.x */
+		-moz-opacity:0.35; /* Netscape */
+		opacity:0.35;
+		position:absolute;
+		padding:5px 5px 5px 0;
+		top:-5px;
+		width:100%;
+		z-index:-1;
+	}
+	
+	.gw-gopf-style-delux a.gw-gopf-post-overlay-btn.gw-gopf-btn-outlined:before {
+		top:-6px;
+		padding:6px 6px 6px 0;
+	}
+	
+	.gw-gopf-style-delux a.gw-gopf-post-overlay-btn:first-child:before { 
+		left:-5px;	
+		padding:5px;
+	}
+	
+	.gw-gopf-style-delux a.gw-gopf-post-overlay-btn.gw-gopf-btn-outlined:first-child:before { 
+		left:-6px;	
+		padding:6px 7px 6px 6px;
+	}	
+
+	/* Overlay button - circle style - normal state */
+	.gw-gopf-style-delux a.gw-gopf-post-overlay-circle { 
+		background:((main_color_1));
+	}	
+	
+	/* Overlay button - circle style - hover state */
+	.gw-gopf-style-delux a.gw-gopf-post-overlay-circle:hover { 
+		background:((highlight_color));
+	}
+	
+	/* Overlay button - button style */
+	.gw-gopf-style-delux a.gw-gopf-post-overlay-btn {
+		height:39px;
+		line-height:39px;
+		margin-left:5px;
+		padding:0 15px;
+		text-transform:uppercase;
+	}
+	
+	.gw-gopf-style-delux a.gw-gopf-post-overlay-btn.gw-gopf-btn-outlined {
+		height:37px;
+		line-height:37px;
+		padding:0 14px;
+	}	
+	
+	.gw-gopf-style-delux a.gw-gopf-post-overlay-btn:first-child {
+		margin:0;
+	}
+
+
+/* -------------------------------------------------------------------------------- /
+
+	[4] POST CONTENT
+	
+	[info] Includes the title, post meta data (e.g. date), the excerpt and read more button or link.
+	[tip] You can set e.g. padding, etc here.
+	
+/ -------------------------------------------------------------------------------- */
+
+	.gw-gopf-style-delux .gw-gopf-post-content-wrap {
+		position:absolute;
+		width:100%;
+		z-index:1;
+	}
+	
+	.gw-gopf-style-delux .gw-gopf-post-content-wrap:before { 
+		background-color:((post_content_color)); 
+		opacity:((post_opacity));
+	}
+
+	.gw-gopf-style-delux .gw-gopf-post-content { 
+		color:((main_color_1));		
+		font-family:((font_family_m));
+		font-size:((font_size_m))px;
+		line-height:((line_height_m))px;	
+		padding:((post_padding))px;
+	}
+	
+	/* General link style */
+	.gw-gopf-style-delux .gw-gopf-post-content a {
+		color:((highlight_color));
+	}
+	
+	.gw-gopf-style-delux .gw-gopf-post-content a:hover {
+		color:((main_color_1));	
+	}	
+
+
+/* -------------------------------------------------------------------------------- /
+
+	[4.1] POST CONTENT - TITLE
+	
+	[info] The post title.
+	
+/ -------------------------------------------------------------------------------- */
+
+	/* The title */
+	.gw-gopf-style-delux .gw-gopf-post-content h2 {
+		color:((main_color_1)) !important;
+		font-family:((font_family_l)) !important;
+		font-size:((font_size_l))px !important;
+		line-height:((line_height_l))px !important;
+		text-transform:uppercase;
+	}
+	
+	/* The link inside the title  */
+	.gw-gopf-style-delux .gw-gopf-post-content h2 a {
+		color:inherit;
+		font-size:inherit !important;
+		line-height:inherit !important;		
+	}
+	
+	/* Hover state - The link inside the title  */
+	.gw-gopf-style-delux .gw-gopf-post-content h2 a:hover { color:((main_color_1)); }
+
+
+/* -------------------------------------------------------------------------------- /
+
+	[4.2] POST CONTENT - META
+	
+	[info] The post meta data e.g. post date.
+	
+/ -------------------------------------------------------------------------------- */
+
+	.gw-gopf-style-delux .gw-gopf-post-meta {
+		color:((main_color_2));
+		font-family:((font_family_s));
+		font-size:((font_size_s))px;	
+		line-height:((line_height_s))px;
+	}
+
+
+/* -------------------------------------------------------------------------------- /
+
+	[4.3] POST CONTENT - EXCERPT
+	
+	[info] The post excerpt.
+	
+/ -------------------------------------------------------------------------------- */
+
+	.gw-gopf-style-delux .gw-gopf-post-excerpt {
+		font-family:((font_family_m));
+		font-size:((font_size_m))px;
+		line-height:((line_height_m))px !important;		  
+		margin-top:15px;
+	}
+	
+	.gw-gopf-style-delux .gw-gopf-post-excerpt p { 
+		font-family:((font_family_m));
+		font-size:((font_size_m))px;
+		line-height:((line_height_m))px !important;
+		margin:0 0 15px !important;
+		padding:0 !important;	
+	}
+	
+	.gw-gopf-style-delux .gw-gopf-post-excerpt p:last-child { 
+		margin:0 !important;
+		padding:0 !important;
+	}
+
+
+/* -------------------------------------------------------------------------------- /
+
+	[4.4] POST CONTENT - BUTTON
+	
+	[info] The read more button or link
+	
+/ -------------------------------------------------------------------------------- */
+
+	.gw-gopf-style-delux .gw-gopf-post-more { margin-top:15px; }
+	
+	/* Link style - without classname */
+	.gw-gopf-style-delux .gw-gopf-post-more a {
+		color:((main_color_1));
+		font-size:((font_size_m))px;
+		font-weight:bold;
+		margin-top:15px;
+	}
+	
+	/* Hover (mouse over) state of link */
+	.gw-gopf-style-delux .gw-gopf-post-more a:hover { color:((highlight_color)); }
+	
+	/* Button style - with "gw-gopf-btn" classname */
+	.gw-gopf-style-delux .gw-gopf-post-more a.gw-gopf-btn {
+		color:((main_color_3));
+		font-weight:normal;	
+		margin-top:-3px;
+		text-transform:uppercase;
+	}
+	
+	.gw-gopf-style-delux .gw-gopf-post-more a.gw-gopf-btn.gw-gopf-btn-outlined { color:((main_color_1)); }
+	
+	.gw-gopf-style-delux .gw-gopf-post-more a.gw-gopf-btn.gw-gopf-btn-outlined:hover { color:((highlight_color)); }		
+	
+	/* Space between buttons */
+	.gw-gopf-style-delux .gw-gopf-post-more a.gw-gopf-btn { margin-left:10px }
+	.gw-gopf-style-delux .gw-gopf-post-more a.gw-gopf-btn:first-child { margin-left:0; }		
+	
+	
+/* -------------------------------------------------------------------------------- /
+
+	[4.5] POST CONTENT - OTHER
+	
+	[info] Highlight box, etc.
+	
+/ -------------------------------------------------------------------------------- */
+
+	.gw-gopf-style-delux .gw-gopf-post-content > *:first-child { margin-top:0 !important; }
+
+	/* Highlight box */
+	.gw-gopf-style-delux div.gw-gopf-post-highlight-box, .gw-gopf-style-delux div.gw-gopf-post-highlight-box:first-child	{
+		background:((highlight_color));
+		padding:((post_padding))px;	
+		margin:-((post_padding))px -((post_padding))px ((post_padding))px !important;
+	}
+
+	/* Highlight box content */	
+	.gw-gopf-style-delux .gw-gopf-post-highlight-box * { 
+		color:((main_color_3)) !important;
+	}
+
+	.gw-gopf-style-delux .gw-gopf-post-highlight-box a:hover { 
+		color:((main_color_1)) !important;
+	}
+
+
+/* -------------------------------------------------------------------------------- /
+
+	[5] WOOCOMMERCE STYLES
+		
+/ -------------------------------------------------------------------------------- */	
+
+	/* Sale circle */
+	.gw-gopf-style-delux .gw-gopf-woo-sale,
+	.gw-gopf-touch.gw-gopf-style-delux .gw-gopf-post:hover .gw-gopf-woo-sale {
+		background:((highlight_color));
+		-moz-border-radius:22px;
+		-webkit-border-radius:22px;
+		border-radius:22px;
+		color:((main_color_3));
+		display:inline-block;
+		font-size:((font_size_m))px;
+		height:44px;
+		line-height:44px;
+		position:absolute;		
+		right:10px;
+		text-align:center;
+		top:10px;
+		-moz-transition:opacity 0.1s ease-in-out;
+		-ms-transition:opacity 0.1s ease-in-out;
+		-o-transition:opacity 0.1s ease-in-out;
+		-webkit-transition:opacity 0.1s ease-in-out;
+		transition:opacity 0.1s ease-in-out;		
+		width:44px;
+		z-index:5;
+	}
+
+	.gw-gopf-style-delux .gw-gopf-post:hover .gw-gopf-woo-sale,
+	.gw-gopf-touch.gw-gopf-style-delux .gw-gopf-current.gw-gopf-post .gw-gopf-woo-sale { 
+		filter:alpha(opacity=50); /* IE 5-7 */
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+		-khtml-opacity:0.5; /* Safari 1.x */
+		-moz-opacity:0.5; /* Netscape */
+		opacity:0.5;
+	}
+
+	/* Price general */
+	.gw-gopf-style-delux .gw-gopf-post-woo-price {
+		color:((highlight_color));
+		font-size:((font_size_xl))px;
+		font-weight:bold;				
+		line-height:((line_height_xl))px;	
+		margin-top:15px;
+	}
+
+	/* Sale price */
+	.gw-gopf-style-delux .gw-gopf-post-woo-price del {
+		background:none;
+		color:((main_color_4));
+		font-size:((font_size_l))px;
+		line-height:((line_height_l))px;	
+		margin-right:5px;
+		text-decoration:line-through;
+	}
+	
+	/* Old price */
+	.gw-gopf-style-delux .gw-gopf-post-woo-price ins { 
+		background:none;
+		text-decoration:none !important;
+	}
+	
+	
+/* -------------------------------------------------------------------------------- /
+
+	[6] EFFECTS
+		
+/ -------------------------------------------------------------------------------- */
+ 
+	/* Push Up */
+	.gw-gopf-style-delux-push-up .gw-gopf-post-content-wrap { 
+		top:100%;
+	}
+	
+	.gw-gopf-style-delux-push-up .gw-gopf-post-media-wrap,
+	.gw-gopf-touch.gw-gopf-style-delux-push-up .gw-gopf-post:hover .gw-gopf-post-media-wrap {	
+		border-radius:((border_radius_1))px;
+		-webkit-transition:-webkit-border-radius 0.1s ease-in-out;
+	}
+	
+	.gw-gopf-style-delux-push-up .gw-gopf-post:hover .gw-gopf-post-media-wrap,
+	.gw-gopf-touch.gw-gopf-style-delux-push-up .gw-gopf-current.gw-gopf-post .gw-gopf-post-media-wrap {
+		-moz-border-radius:0;
+		-webkit-border-radius:0;
+		border-radius:0;			
+		-moz-border-radius-topleft:((border_radius_1))px;
+		-moz-border-radius-topright:((border_radius_1))px;
+		-webkit-border-top-left-radius:((border_radius_1))px;
+		-webkit-border-top-right-radius:((border_radius_1))px;		
+		border-top-left-radius:((border_radius_1))px;
+		border-top-right-radius:((border_radius_1))px;
+	}	
+	
+	.gw-gopf-style-delux-push-up .gw-gopf-post-overlay-bg {	
+		-moz-border-radius-topleft:((border_radius_1))px;
+		-moz-border-radius-topright:((border_radius_1))px;
+		-webkit-border-top-left-radius:((border_radius_1))px;
+		-webkit-border-top-right-radius:((border_radius_1))px;		
+		border-top-left-radius:((border_radius_1))px;
+		border-top-right-radius:((border_radius_1))px;
+	}
+	
+	.gw-gopf-style-delux-push-up .gw-gopf-post-content-wrap:before { 
+		-moz-border-radius-bottomleft:((border_radius_1))px;
+		-moz-border-radius-bottomright:((border_radius_1))px;
+		-webkit-border-bottom-left-radius:((border_radius_1))px;
+		-webkit-border-bottom-right-radius:((border_radius_1))px;		
+		border-bottom-left-radius:((border_radius_1))px;
+		border-bottom-right-radius:((border_radius_1))px;
+	}
+		
+	/* Push Down */
+	.gw-gopf-style-delux-push-down .gw-gopf-post-content-wrap { 
+		bottom:100%;	
+	}
+
+	.gw-gopf-style-delux-push-down .gw-gopf-post-media-wrap,
+	.gw-gopf-touch.gw-gopf-style-delux-push-down .gw-gopf-post:hover .gw-gopf-post-media-wrap {	
+		border-radius:((border_radius_1))px;
+		-webkit-transition:-webkit-border-radius 0.1s ease-in-out;
+	}
+	
+	.gw-gopf-style-delux-push-down .gw-gopf-post:hover .gw-gopf-post-media-wrap,
+	.gw-gopf-touch.gw-gopf-style-delux-push-down .gw-gopf-current.gw-gopf-post .gw-gopf-post-media-wrap {
+		-moz-border-radius:0;
+		-webkit-border-radius:0;
+		border-radius:0;			
+		-moz-border-radius-bottomleft:((border_radius_1))px;
+		-moz-border-radius-bottomright:((border_radius_1))px;
+		-webkit-border-bottom-left-radius:((border_radius_1))px;
+		-webkit-border-bottom-right-radius:((border_radius_1))px;		
+		border-bottom-left-radius:((border_radius_1))px;
+		border-bottom-right-radius:((border_radius_1))px;
+	}	
+
+	.gw-gopf-style-delux-push-down .gw-gopf-post-overlay-bg {	
+		-moz-border-radius-bottomleft:((border_radius_1))px;
+		-moz-border-radius-bottomright:((border_radius_1))px;
+		-webkit-border-bottom-left-radius:((border_radius_1))px;
+		-webkit-border-bottom-right-radius:((border_radius_1))px;		
+		border-bottom-left-radius:((border_radius_1))px;
+		border-bottom-right-radius:((border_radius_1))px;
+	}
+	
+	.gw-gopf-style-delux-push-down .gw-gopf-post-content-wrap:before { 
+		-moz-border-radius-topleft:((border_radius_1))px;
+		-moz-border-radius-topright:((border_radius_1))px;
+		-webkit-border-top-left-radius:((border_radius_1))px;
+		-webkit-border-top-right-radius:((border_radius_1))px;		
+		border-top-left-radius:((border_radius_1))px;
+		border-top-right-radius:((border_radius_1))px;
+	}			
+	
