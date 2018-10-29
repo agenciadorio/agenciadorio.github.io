@@ -1,0 +1,54 @@
+		
+		.room-overlay-readmore, .room-overlay-checkavail, .blog-overlay-readmore, .rooms-list-item-price, .modal-footer button,
+		.blog-single #submit-button:hover, .contact-page #submit-button:hover, .reservation-page-wrap #submit-button:hover,
+		.reservation-content #reservation-step1-button, .reservation-content #reservation-step3-button, .step4-return-home, 
+		.reservation-content .ui-state-highlight, .room-reservation-select, table th, .button-alt, .color-highlight, .accordion-header.show span, #blog-page-navigation-wrap .current {
+			background-color:#c24936		}
+		#blog-page-navigation-wrap .current {
+			border-color:#c24936		}
+		#book-button {
+			background-color:#c24936;
+			border-color:#c24936		}
+		.reservation-page-wrap #room-price, .reservation-page-wrap #tabs li#current a, #room-features .icon-star, 
+		ul.list.painted span, .accordion-header a:hover, .accordion-header.show a {
+			color:#c24936		}
+		.blog-single #submit-button, .contact-page #submit-button, .reservation-page-wrap #submit-button {
+			border-color:#c24936;
+			color:#c24936;
+		}
+		.sidebar-header {
+			border-bottom-color:#c24936;
+			color:#c24936;
+		}
+		.button-alt:hover {
+			outline-color:#c24936;
+		}
+		.button-standard {
+			color:#c24936 !important;
+			border-color:#c24936		}
+		.button-standard:hover {
+			background-color:#c24936		}
+		blockquote {
+			border-left-color:#c24936		}
+		
+				
+		#headcontainer {
+			background-color:#8f0606		}
+		#footer-wrap {
+					border-top:0px;
+			background-color:#8f0606 !important
+		}
+		footer:before {
+			content:'\a0 ';
+			display:block;
+			height:8px;
+			width:100%;
+			background-color:rgba(143, 6, 6, 0.55) !important;
+		}
+		#top-navigation-menu .sub_menu li a:hover { color: #8f0606 !important }
+		#footer-wrap { margin-top:0px; }
+		#about-us-content a { background-color: #8f0606 }
+		#top-navigation-menu .sub_menu { border-top-color: #8f0606 }
+		#top-navigation-menu .submenu-arrow-wrap .top-submenu-arrow { border-bottom-color: #8f0606 }
+		
+		

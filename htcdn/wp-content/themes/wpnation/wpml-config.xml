@@ -1,0 +1,78 @@
+<wpml-config>
+	
+	<custom-fields>
+		<custom-field action="translate">author_name</custom-field>
+		<custom-field action="translate">author_occupation</custom-field>
+		<custom-field action="ignore">breadcrumb</custom-field>
+		<custom-field action="ignore">calendar</custom-field>
+		<custom-field action="ignore">currency</custom-field>
+		<custom-field action="ignore">max_person</custom-field>
+		<custom-field action="ignore">min_price</custom-field>
+		<custom-field action="ignore">page_align</custom-field>
+		<custom-field action="ignore">page_class</custom-field>
+		<custom-field action="translate">page_description</custom-field>
+		<custom-field action="ignore">page_icon</custom-field>
+		<custom-field action="translate">page_title</custom-field>
+		<custom-field action="ignore">post_post-thumbnail_thumbnail_id</custom-field>
+		<custom-field action="ignore">rooms_slider-image-1_thumbnail_id</custom-field>
+		<custom-field action="ignore">rooms_slider-image-2_thumbnail_id</custom-field>
+		<custom-field action="translate">room_bed</custom-field>
+		<custom-field action="translate">room_features</custom-field>
+		<custom-field action="translate">room_policies</custom-field>
+		<custom-field action="translate">room_size</custom-field>
+		<custom-field action="ignore">single_template</custom-field>
+		<custom-field action="ignore">slide_template</custom-field>
+		<custom-field action="ignore">_additional_settings</custom-field>
+		<custom-field action="ignore">_form</custom-field>
+		<custom-field action="ignore">_locale</custom-field>
+		<custom-field action="ignore">_mail</custom-field>
+		<custom-field action="ignore">_mail_2</custom-field>
+		<custom-field action="ignore">_menu_item_classes</custom-field>
+		<custom-field action="ignore">_menu_item_menu_item_parent</custom-field>
+		<custom-field action="ignore">_menu_item_object</custom-field>
+		<custom-field action="ignore">_menu_item_object_id</custom-field>
+		<custom-field action="ignore">_menu_item_target</custom-field>
+		<custom-field action="ignore">_menu_item_type</custom-field>
+		<custom-field action="ignore">_menu_item_url</custom-field>
+		<custom-field action="ignore">_menu_item_xfn</custom-field>
+		<custom-field action="ignore">_messages</custom-field>
+	</custom-fields>
+	
+	<custom-types>
+		<custom-type translate="1">Contact Forms</custom-type>
+		<custom-type translate="1">Gallery</custom-type>
+		<custom-type translate="1">Rooms</custom-type>
+		<custom-type translate="1">Testimonials</custom-type>
+		<custom-type translate="0">Option Tree</custom-type>
+	</custom-types>
+	
+	<admin-texts>
+		<key name="option_tree">
+			<key name="general_address">
+			<key name="where_to_find_us_title">
+			<key name="where_to_find_us_address">
+			<key name="main_room_header">
+			<key name="main_room_description">
+			<key name="aboutus_header">
+			<key name="aboutus_text">
+			<key name="testimonials_header">
+			<key name="text_section_header">
+			<key name="text_section_content">
+			<key name="latest_news">
+			<key name="where_to_find_us_header">
+			<key name="error_code_explanation">
+			<key name="error_text">
+			<key name="available_room_header">
+			<key name="tax_note">
+			<key name="personal_info_header">
+			<key name="personal_info_description">
+			<key name="payment_info_header">
+			<key name="payment_info_description">
+			<key name="before_confirm_info">
+			<key name="reservation_complete_header">
+			<key name="reservation_complete_description">
+			<key name="copyright_text">
+		</key>
+	</admin-texts>
+
+</wpml-config>
