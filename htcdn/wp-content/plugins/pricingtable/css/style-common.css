@@ -1,0 +1,334 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.pt-cell-blank{
+display: inline-block;
+  height: 18px;
+  width: 18px;
+}
+.pt-cell-blank.normal{
+background:url("icon/item-cross.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.pricingtable-ribbon{
+/*box-shadow*/
+-webkit-box-shadow:0 2px 2px -2px #000;
+   -moz-box-shadow:0 2px 2px -2px #000;
+        box-shadow:0 2px 2px -2px #000;
+display:block;
+height:24px;
+position:absolute;
+right:-29px;
+top:5px;
+/*transform*/
+-webkit-transform:rotate(45deg);
+   -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+     -o-transform:rotate(45deg);
+        transform:rotate(45deg);
+width:90px;
+}
+.ribbon-none{
+background:url("ribbons/none.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+display:none !important;
+}
+.ribbon-free{
+background:url("ribbons/free.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-save{
+background:url("ribbons/save.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-hot{
+background:url("ribbons/hot.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-pro{
+background:url("ribbons/pro.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-best{
+background:url("ribbons/best.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-gift{
+background:url("ribbons/gift.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-sale{
+background:url("ribbons/sale.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-new{
+background:url("ribbons/new.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-top{
+background:url("ribbons/top.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-fresh{
+background:url("ribbons/fresh.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-dis_10{
+background:url("ribbons/dis-10.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-dis_20{
+background:url("ribbons/dis-20.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-dis_30{
+background:url("ribbons/dis-30.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-dis_40{
+background:url("ribbons/dis-40.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-dis_50{
+background:url("ribbons/dis-50.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-dis_60{
+background:url("ribbons/dis-60.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-dis_70{
+background:url("ribbons/dis-70.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-dis_80{
+background:url("ribbons/dis-80.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-dis_90{
+background:url("ribbons/dis-90.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ribbon-dis_100{
+background:url("ribbons/dis-100.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.pricingtable-container .tooltip{
+border-bottom:1px dashed #00ccb7;
+cursor:pointer;
+display:inline;
+font-weight:500;
+line-height:18px;
+position:relative;
+}
+.pricingtable-container .tooltip:hover{
+text-decoration:none;
+}
+.pricingtable-container .tooltip:hover:after{
+background-color:#444;
+border-top:3px solid #acacac;
+bottom:20px;
+color:#fff;
+content:attr(tip);
+display:block;
+font-size:12px;
+left:-20px;
+padding:10px;
+position:absolute;
+width:200px;
+z-index:98;
+}
+.pricingtable-container .tooltip:hover:before{
+border-color:rgba(68, 68, 68, 1) rgba(68, 68, 68, 0);
+border-image:none;
+border-style:solid;
+border-width:10px 10px 0;
+bottom:15px;
+content:"";
+display:block;
+left:7px;
+position:absolute;
+z-index:99;
+top:-5px;
+}
+/*Hover effect*/
+
+/*Hover effect*/
+.pricingtable-container div.column-hover-effect:hover{
+/*transform*/
+-webkit-transform:scale(1.1);
+   -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+     -o-transform:scale(1.1);
+        transform:scale(1.1);
+z-index:200;
+}
+
+
+/*Featured column effect*/
+
+.pricingtable-container div.pricingtable_featured{
+/*transform*/
+-webkit-transform:scale(1.1);
+   -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+     -o-transform:scale(1.1);
+        transform:scale(1.1);
+}
+span.star-rate{
+background:url("icon/star_yellow.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+display:inline-block;
+height:20px;
+vertical-align:top;
+}
+span.star-1{
+width:20px;
+}
+span.star-2{
+width:40px;
+}
+span.star-3{
+width:60px;
+}
+span.star-4{
+width:80px;
+}
+span.star-5{
+width:100px;
+}
+span.pt_icon{
+display:inline-block;
+height:20px;
+vertical-align:top;
+}
+span.co2{
+background:url("icon/2co.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:32px;
+}
+span.amazon{
+background:url("icon/amazon.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:48px;
+}
+span.bitcoin{
+background:url("icon/bitcoin.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:48px;
+}
+span.calendar{
+background:url("icon/calendar.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.chat{
+background:url("icon/chat.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:30px;
+}
+span.cloud_download{
+background:url("icon/cloud_download.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:30px;
+}
+span.american_express{
+background:url("icon/american_express.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:32px;
+}
+span.discover{
+background:url("icon/discover.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:32px;
+}
+span.ebay{
+background:url("icon/ebay.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:32px;
+}
+span.email{
+background:url("icon/email.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:22px;
+}
+span.google_wallet{
+background:url("icon/google_wallet.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:32px;
+}
+span.heart_red{
+background:url("icon/heart_red.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.like{
+background:url("icon/like.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.mastercard{
+background:url("icon/mastercard.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:32px;
+}
+span.minus_border{
+background:url("icon/minus_border.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.minus_round{
+background:url("icon/minus_round.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.money{
+background:url("icon/money.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.paypal{
+background:url("icon/paypal.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:32px;
+}
+span.plus_border{
+background:url("icon/plus_border.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.plus_round_green{
+background:url("icon/plus_round_green.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.share_hub{
+background:url("icon/share_hub.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.skrill{
+background:url("icon/skrill.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:32px;
+}
+span.star_border{
+background:url("icon/star_border.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.star_yellow{
+background:url("icon/star_yellow.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.support_phone{
+background:url("icon/support_phone.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.support_24_7{
+background:url("icon/support_24_7.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.phone{
+background:url("icon/phone.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.tik_border{
+background:url("icon/tik_border.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.tik_black{
+background:url("icon/tik_black.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.tik_black_round{
+background:url("icon/tik_black_round.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.tik_green{
+background:url("icon/tik_green.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.user{
+background:url("icon/user.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.user_group{
+background:url("icon/user_group.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:20px;
+}
+span.visa{
+background:url("icon/visa.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:32px;
+}
+span.world_pay{
+background:url("icon/world_pay.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+width:32px;
+}
+.pricingtable-price-value .sup{
+font-size:20px;
+line-height:20px;
+vertical-align:top;
+}
+.pricingtable-price-value .sub{
+font-size:20px;
+line-height:20px;
+vertical-align:bottom;
+}
+

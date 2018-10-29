@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*Flat Theme*/
+
+.pricingtable-themes-flat{
+
+}
+.pricingtable-themes-flat div.pricingtable-columns-container{
+/*box-shadow*/
+-webkit-box-shadow:0 0 4px -2px #000;
+   -moz-box-shadow:0 0 4px -2px #000;
+        box-shadow:0 0 4px -2px #000;
+display:inline-block;
+list-style:none outside none;
+margin:30px 6px;
+padding:0;
+vertical-align:top;
+width:200px;
+/*transition*/
+-webkit-transition:all 0.5s ease 0s;
+   -moz-transition:all 0.5s ease 0s;
+     -o-transition:all 0.5s ease 0s;
+        transition:all 0.5s ease 0s;
+}
+.pricingtable-themes-flat div.pricingtable-columns{
+list-style:none outside none;
+margin:0;
+padding:0;
+}
+.pricingtable-themes-flat div.pricingtable-items-container{
+margin:0;
+padding:0;
+}
+.pricingtable-themes-flat div.pricingtable-items{
+background:none repeat scroll 0 0 #01bc59;
+color:#fff;
+font-size:14px;
+list-style:none outside none;
+margin:0;
+padding:10px 0;
+position:relative;
+text-align:center;
+}
+.pricingtable-themes-flat div.pricingtable-items-odd{
+background:none repeat scroll 0 0 #ececec;
+color:#474747;
+}
+.pricingtable-themes-flat div.pricingtable-items-even{
+background:none repeat scroll 0 0 #f1f1f1;
+color:#474747;
+}
+.pricingtable-themes-flat div.pricingtable-header{
+padding:20px 0;
+overflow:hidden;
+}
+.pricingtable-themes-flat div.pricingtable-header .pricingtable-header-image{
+/*box-shadow*/
+-webkit-box-shadow:none;
+   -moz-box-shadow:none;
+        box-shadow:none;
+height:auto;
+margin-top:20px;
+max-height:150px;
+padding:0;
+width:91%;
+}
+.pricingtable-themes-flat div.pricingtable-header iframe{
+margin-top:20px;
+width:100%;
+}
+.pricingtable-themes-flat div span.pricingtable-header-name{
+clear:both;
+display:block;
+font-size:30px;
+line-height:30px;
+}
+.pricingtable-themes-flat div span.pt-hd{
+clear:both;
+display:block;
+font-size:13px;
+height:70px;
+padding:0 10px;
+}
+.pricingtable-themes-flat div.pricingtable-price{
+padding:10px 0;
+}
+.pricingtable-themes-flat div span.pricingtable-price-value{
+clear:both;
+display:block;
+font-size:35px;
+line-height:35px;
+}
+.pricingtable-themes-flat div span.pt-pd{
+clear:both;
+display:block;
+font-size:13px;
+line-height:13px;
+padding-top:10px;
+}
+.pricingtable-themes-flat div.pricingtable-signup{
+padding:15px 0;
+}
+.pricingtable-themes-flat div a.pricingtable-signup-name{
+background:none repeat scroll 0 0 #038d44;
+/*border-radius*/
+-webkit-border-radius:3px;
+   -moz-border-radius:3px;
+        border-radius:3px;
+color:#fff;
+display:inline;
+font-size:16px;
+padding:6px 15px;
+text-decoration:none;
+width:auto;
+}
