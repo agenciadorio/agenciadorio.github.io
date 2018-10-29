@@ -1,0 +1,112 @@
+
+.nation-calendar-view-overal-wrap .ui-datepicker-month {
+	text-align:center;
+	font-family:"Open Sans";
+}
+
+.nation-calendar-table-wrap {
+	border-spacing:2px !important;
+	border-collapse: separate;
+	table-layout: fixed;
+}
+
+.nation-calendar-table-wrap th {
+	background-color:transparent !important;
+	color:#444;
+	font-size:1em;
+	text-transform:inherit;
+	font-weight:300;
+}
+
+.nation-calendar-table-wrap td {
+	vertical-align:top;
+	padding:0px !important;
+	border-style:solid;
+	text-align:left;
+}
+
+.nation-header {
+	font-size:0.95em !important;
+	padding-left:4px;
+	background:#e0e0e0;
+	color:#fff;
+	line-height:18px;
+}
+
+.nation-price {
+	font-weight:bold;
+	font-size:0.85em;
+	padding-left:4px;
+	margin-top:0px;
+}
+
+.nation-availty, .nation-booked {
+	font-size:0.85em;
+	padding-left:4px;
+	color:#999;
+	line-height:18px;
+	margin-top:-6px;
+	margin-bottom:2px;
+}
+
+.day-available .nation-header {
+	background-color:#6cc06c;
+}
+
+.day-available {
+	border-color:#6cc06c;
+}
+
+.day-booked .nation-header {
+	background-color:#dd6464;
+}
+
+.day-booked {
+	border-color:#dd6464;
+}
+
+.nation-content {
+	min-height:36px;
+}
+
+.ui-datepicker-other-month .nation-content {
+	min-height:30px;
+}
+
+.ui-datepicker-other-month {
+	background-color:#f9f9f9;
+}
+
+.nation-title {
+	font-weight:300;
+	text-align:center;
+	font-size:1.3em;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+
+.nation-prev, .nation-next {
+	text-decoration:none;
+	position:relative;
+	top:30px;
+	opacity:0.7;
+	cursor:pointer;
+}
+
+.nation-next {
+	float:right;
+	padding-right:4px;
+}
+
+.nation-prev {
+	padding-left:4px;
+}
+
+#calendar-loader {
+	width:16px;
+	height:16px;
+	margin-left:auto;
+	margin-right:auto;
+	background:url(images/ajax-loader.gif);
+}
+

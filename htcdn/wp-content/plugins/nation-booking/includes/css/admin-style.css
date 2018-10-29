@@ -1,0 +1,246 @@
+.calendar-table {
+	width:700px;
+	border-collapse:collapse;
+	margin-bottom:20px;
+	margin-top:30px;
+}
+
+.calendar-table tr:nth-child(odd) .content-row {
+    background:#e5e5e5;
+}
+
+.edit-row .button-primary {
+	margin-left:10px;
+}
+
+.header-row {
+	background:none;
+}
+
+.calendar-table th {
+	padding:5px;
+	text-align:left;
+	font-size:1.1em;
+}
+
+.calendar-table td {
+	border:1px solid #e0e0e0;
+	text-align:left;
+	margin:0px;padding:5px;
+	font-size:1.1em;
+}
+
+.calendar-table td.button-wrap {
+	background:none !important;
+	border:none;
+	padding-left:15px;
+}
+
+.calendar-table td.edit-row {
+	border:none;
+}
+
+.edit-row {
+	display:none;
+}
+
+.cal-edit {
+	display:inline;
+	text-decoration:underline;
+	color:#0074a2;
+	cursor:pointer;
+}
+
+.cal-edit-form {
+	display:inline;
+}
+
+.calendar-table #delete-button, .reservation-table #delete-button {
+	background:none;
+	border:none;
+	display:inline;
+	text-decoration:underline;
+	color:#0074a2;
+	cursor:pointer;
+	font-size:1em;
+	box-shadow:none;
+	padding:0;margin:0;outline:0;
+}
+
+.calendar-table #delete-form, .reservation-table  #delete-form {
+	display:inline;
+}
+
+
+/* Calendar Style */
+
+.day-rows td {
+	height:50px;
+	width:90px;
+}
+
+.notset {
+	background-color:#bbb;
+	color:#fff;
+	padding-left:3px;
+}
+
+.cell-available {
+	padding:0px;
+	border:1px solid #36ba28;
+}
+
+.available {
+	background-color:#36ba28;
+	color:#fff;
+	padding-left:3px;
+}
+
+.booked {
+	background-color:#ff8080;
+	color:#fff;
+	padding-left:3px;
+}
+
+.cell-booked {
+	padding:0px;
+	border:1px solid #ff8080;
+}
+
+.avail-price {
+	font-weight:bold;
+	display:block;
+}
+
+.day-rows .cell-notset {
+	opacity:0.7;
+	padding:0px;
+	border:1px solid #bbb;
+	vertical-align:top;
+}
+
+#booking-calendar tr.header {
+	text-align:center;
+	height:50px;
+}
+
+#booking-calendar tr.month-year {
+	font-size:1.3em;
+}
+
+.status {
+	padding-left:3px;
+	color:#999;
+	font-size:0.9em;
+	margin-top:0px;
+}
+
+.avail-price {
+	padding-left:3px;
+	font-size:1em;
+	font-weight:bold;
+	font-family:"Open Sans",sans-serif;
+}
+
+.option-table tr, .set-data tr, .cal-table tr, #create-reservation-table tr {
+	height:40px;
+}
+
+.option-table .label, .set-data .label, #create-reservation-table .label, .cal-table .label {
+	font-size:1.1em;
+}
+
+.option-table .extra-height {
+	height:120px;
+}
+
+.option-table .extra-height textarea {
+	height:90px;
+}
+
+.date-picker-field {
+	background:url(images/date-picker-icon.png) 165px 4px no-repeat;
+}
+
+.reservation-table {
+	border-collapse:collapse;
+	margin-bottom:20px;
+	margin-top:30px;
+}
+
+.reservation-table .button-primary {
+	margin-left:10px;
+}
+
+.reservation-table .content-row, .reservation-table th {
+	text-align:center;
+	padding:10px;
+	font-size:1.1em;
+}
+
+.reservation-table .pending .content-row, .reservation-table .pending .const-row, .reservation-table .pending .edit-row-reservation-content .imitate-row {
+    background:#fcfbdc;
+	border:none;
+}
+
+.reservation-table .rejected .content-row, .reservation-table .rejected .const-row, .reservation-table .rejected .edit-row-reservation-content .imitate-row {
+	background:#fce0dc;
+	border:none;
+}
+
+.reservation-table .approved .content-row, .reservation-table .approved .const-row, .reservation-table .approved .edit-row-reservation-content .imitate-row {
+	background:#dcfcdf;
+	border:none;
+}
+
+.approved .button-secondary {
+	margin-left:10px;
+}
+
+.reservation-price-wrap {
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+#page-ot_theme_options .ui-state-default {
+	font-weight:normal !important;
+}
+
+.highlight {
+	border:1px solid red !important;
+}
+
+.add-datepicker-indication {
+	width:140px !important;
+	background:url(images/date-picker-icon.png) 120px 4px no-repeat;
+}
+
+.reservation-button-row {
+	background:#f0f0f0 !important;
+	padding:0px !important;
+	border:0 !important;
+}
+
+.reservation-edit-price {
+	width:100px;
+}
+
+.reservation-edit-email {
+	width:160px;
+}
+
+.hide-reservation-edit-room {
+	display:none;
+}
+
+.imitate-row {
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.edit-row-reservation-content {
+	padding:0;
+}

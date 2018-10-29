@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: myStickymenu\n"
+"POT-Creation-Date: 2014-12-23 01:54+0100\n"
+"PO-Revision-Date: 2014-12-23 01:55+0100\n"
+"Last-Translator: Damir Babojelic <jahmirda@gmail.com>\n"
+"Language-Team: \n"
+"Language: Croatian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../mystickymenu.php:53
+msgid "myStickymenu Settings"
+msgstr "myStickymenu Postavke"
+
+#: ../mystickymenu.php:78
+msgid "myStickymenu Options"
+msgstr "myStickymenu Opcije"
+
+#: ../mystickymenu.php:84
+msgid "Sticky Class"
+msgstr "Sticky klasa"
+
+#: ../mystickymenu.php:91
+msgid "Sticky z-index"
+msgstr "Sticky z-index"
+
+#: ../mystickymenu.php:98
+msgid "Sticky Background Color"
+msgstr "Sticky pozadinska boja"
+
+#: ../mystickymenu.php:105
+msgid "Sticky Opacity"
+msgstr "Sticky prozirnost"
+
+#: ../mystickymenu.php:112
+msgid "Sticky Transition Time"
+msgstr "Sticky vrijeme tranzicije"
+
+#: ../mystickymenu.php:119
+msgid "Disable at Small Screen Sizes"
+msgstr "Onemogući na malim ekranima"
+
+#: ../mystickymenu.php:126
+msgid "Make visible on Scroll"
+msgstr "Učini izbornik vidljivim"
+
+#: ../mystickymenu.php:133
+msgid "Make visible on Scroll at homepage"
+msgstr "Učini izbornik vidljivim na početnoj stranici"
+
+#: ../mystickymenu.php:140
+msgid "Fade or slide effect"
+msgstr "Fade ili Slide efekt"
+
+#: ../mystickymenu.php:147
+msgid ".myfixed css class"
+msgstr ".myfixed css klasa"
+
+#: ../mystickymenu.php:154
+msgid "Disable CSS style"
+msgstr "Onemogući CSS"
+
+#: ../mystickymenu.php:235
+msgid ""
+"Add nice modern sticky menu or header to any theme. Defaults works for "
+"Twenty Thirteen theme. <br />For other themes change 'Sticky Class' to div "
+"class desired to be sticky (div id can be used too)."
+msgstr ""
+"Dodajte moderan 'sticky' izbornik ili zaglavlje bilo kojem predlošku (temi). "
+"Zadane postavke rade na Twenty Thirteen temi. Za ostale teme promijenite  "
+"'Sticky klasu' u css klasu vašeg izbornika. Takodjer možete koristiti i css "
+"ID."
+
+#: ../mystickymenu.php:244
+msgid "menu or header div class or id."
+msgstr "menu ili header css div klasa ili id."
+
+#: ../mystickymenu.php:270
+msgid "numbers 1-100."
+msgstr "brojevi 1-100"
+
+#: ../mystickymenu.php:280
+msgid "in seconds."
+msgstr "u sekundama"
+
+#: ../mystickymenu.php:289
+msgid "less than"
+msgstr "manjim od"
+
+#: ../mystickymenu.php:294
+msgid "px width, 0  to disable."
+msgstr "px širine. 0 da biste onemogućili opciju."
+
+#: ../mystickymenu.php:303 ../mystickymenu.php:317
+msgid "after"
+msgstr "nakon"
+
+#: ../mystickymenu.php:308 ../mystickymenu.php:322
+msgid "px."
+msgstr "px."
+
+#: ../mystickymenu.php:333
+msgid "Checked is slide, unchecked is fade."
+msgstr "Označeno je slide, neoznačeno je fade"
+
+#: ../mystickymenu.php:342
+msgid ""
+"Add/Edit .myfixed css class to change sticky menu style. Leave it blank for "
+"default style."
+msgstr ""
+"Dodajte ili izmijenite .myfixed css klasu. Ostavite prazno za zadani stil."
+
+#: ../mystickymenu.php:349
+msgid "Default style: "
+msgstr "Zadani stil: "
+
+#: ../mystickymenu.php:351
+msgid ""
+"If you want to change sticky hover color first add default style and than: "
+msgstr ""
+"npr. ako želite promijeniti sticky hover boju, nakon zadanog stila dodajte: "
+
+#: ../mystickymenu.php:353
+msgid ""
+"More examples <a href='http://wordpress.transformnews.com/tutorials/"
+"mystickymenu-extended-style-functionality-using-myfixed-sticky-"
+"class-403'>here</a>."
+msgstr ""
+"Više primjera <a href='http://wordpress.transformnews.com/tutorials/"
+"mystickymenu-extended-style-functionality-using-myfixed-sticky-"
+"class-403'>ovdje</a>."
+
+#: ../mystickymenu.php:364
+msgid "Use this option if you plan to include CSS Style manually"
+msgstr "Koristiti ukoliko želite dodati CSS ručno"
+
+#~ msgid "px. (scroll)"
+#~ msgstr "px. (scroll)"
+
+#~ msgid "sticky z-index."
+#~ msgstr "sticky z-index."
+
+#~ msgid "full width background color."
+#~ msgstr "pozadinska boja"
+
+#~ msgid "mymessage2"
+#~ msgstr "Bye"
