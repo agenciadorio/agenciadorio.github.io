@@ -1,0 +1,22 @@
+{
+  "options" : {
+    "primary_color" : "#37e89b",
+    "bg_image" : "{theme/img}/wordpress-login-theme-mercury.jpg",
+    "bg_image_repeat" : "no-repeat",
+    "bg_image_size_type" : "cover",
+    "bg_color" : "",
+    "font_family" : "Raleway",
+    "font_size" : "20",
+    "font_variations" : [100, 300],
+    "font_color" : "#ffffff",
+    "logo_width" : {"if":"100"},
+    "logo_height" : {"if":"100"},
+    "form_bg_image" : "",
+    "form_bg_size_type" : "",
+    "form_bg_image_repeat" : "",
+    "form_bg_color" : "rgba(30,46,64,0.7)",
+    "form_padding" : {"top" : "40", "right" : "40", "bottom" : "40", "left" : "40"},
+    "form_button_color" : "#ffffff",
+    "form_button_bg_color" : "#37e89b"
+  }
+}

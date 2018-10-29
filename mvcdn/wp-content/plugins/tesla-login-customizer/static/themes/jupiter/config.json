@@ -1,0 +1,22 @@
+{
+  "options" : {
+    "primary_color" : "#90a774",
+    "bg_image" : "{theme/img}/jupiter-pattern.png",
+    "bg_image_repeat" : "repeat",
+    "bg_image_size_type" : "",
+    "bg_color" : "",
+    "font_family" : "Montserrat",
+    "font_size" : "14",
+    "font_variations" : [400],
+    "font_color" : "#0e3d47",
+    "logo_width" : {"if":"60"},
+    "logo_height" : {"if":"60"},
+    "form_bg_image" : "",
+    "form_bg_size_type" : "",
+    "form_bg_image_repeat" : "",
+    "form_bg_color" : "#ffffff",
+    "form_padding" : {"top":"100", "right":"40", "bottom":"30", "left":"40"},
+    "form_button_color" : "#ffffff",
+    "form_button_bg_color" : ""
+  }
+}

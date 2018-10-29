@@ -1,0 +1,48 @@
+/* Main stylesheet for plugin */
+
+/* General login styles */
+html, body {
+	height: auto;
+}
+
+.tt-login {
+	width: 100%;
+	min-height: 100vh;
+	overflow-y: auto;
+	text-rendering: optimizeLegibility;
+	background-attachment: fixed;
+}
+
+.tt-login iframe {
+	border: none;
+}
+
+.tt-login  #login {
+    display: none;
+}
+
+.tt-body-login {
+	opacity: 0;
+}
+
+.tt-animating {
+	overflow: hidden !important;
+}
+
+.interim-login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.interim-login.login h1 a {
+	width: 84px;
+	height: 84px;
+}
+
+#wp-submit{
+    text-shadow: none;
+}
