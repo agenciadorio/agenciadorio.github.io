@@ -1,0 +1,331 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+.slide {
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+.slide--up {
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+.slide--reset {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+.wpsm-toggle:after,
+.menu-item-has-children > a:after {
+	moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-family: "FontAwesome";
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1;
+	speak: none;
+	text-align: center;
+	text-decoration: inherit;
+	text-transform: none;
+	vertical-align: top;
+}
+.wp-sticky-menu {
+ 	position: fixed;
+ 	width: 100%;
+ 	top: 0;
+ 	background: #ffffff;
+ 	z-index: 100000;
+ 	padding: 8px 0;
+ 	box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
+}
+.admin-bar .wp-sticky-menu {
+	top: 32px;
+}
+.admin-bar .wp-sticky-menu.slide--up {
+	top: 0;
+}
+
+@media screen and (max-width: 782px) {
+	.admin-bar .wp-sticky-menu {
+		top: 46px;
+	}
+	.admin-bar .wp-sticky-menu.slide--up,
+	.admin-bar .wp-sticky-menu.slide--reset {
+		top: 0;
+	}
+}
+
+.wp-sticky-menu-wrap {
+	margin: 0 auto;
+ 	width: 100%;
+	max-width: 1000px;
+	position: relative;
+	-webkit-flex: 0 1 100%;
+	-ms-flex: 0 1 100%;
+	flex: 0 1 100%;
+}
+.wpsm-logo {
+	float: left;
+	font-weight: bold;
+	margin: 0 15px 1.076923077em;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+.wpsm-logo.image-logo {
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 50px;
+}
+.wpsm-logo a {
+	display: block;
+	height: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.wpsm-navigation ul {
+	list-style: none;
+	margin: 0;
+}
+.wpsm-navigation .wpsm-menu {
+	border-bottom: 1px solid #d1d1d1;
+}
+.wpsm-menu:before, .wpsm-menu:after {
+	content: "";
+	display: table;
+}
+.wpsm-navigation li {
+	border-top: 1px solid #d1d1d1;
+	position: relative;
+	padding: 0 8px;
+}
+.wpsm-navigation li:hover,
+.wpsm-navigation li.current-menu-item {
+	background: #e6e6e6;
+}
+.wpsm-navigation a {
+	font-size: 14px;
+	color: #1a1a1a;
+	display: block;
+	line-height: 1;
+	outline-offset: -1px;
+	padding: 17px 0;
+	text-decoration: none;
+}
+.wpsm-navigation a:hover,
+.wpsm-navigation li.current-menu-item a {
+	color: #222222;
+}
+.wpsm-navigation .menu-item-has-children > a {
+	margin-right: 56px;
+}
+.wpsm-navigation ul ul {
+	display: none;
+	margin-left: 0.875em;
+}
+.wpsm-navigation ul .toggled-on {
+	display: block;
+}
+.wpsm-toggle {
+	background-color: transparent;
+	border: 0;
+	border-radius: 0;
+	color: #1a1a1a;
+	content: "";
+	height: 48px;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	text-transform: none;
+	top: 0;
+	width: 48px;
+}
+.wpsm-toggle:after {
+	border-left: 1px solid #d1d1d1;
+	content: "\f107";
+	font-size: 24px;
+	left: 1px;
+	position: relative;
+	width: 48px;
+}
+.wpsm-toggle:focus:after {
+	border-color: transparent;
+}
+.wpsm-toggle.toggled-on:after {
+	content: "\f106";
+}
+
+.wpsm-inner {
+	display: none;
+}
+.wpsm-navigation,
+.wpsm-social-buttons {
+	padding: 0 24px;
+}
+.wpsm-inner.toggled-on, .no-js .wpsm-inner {
+	display: block;
+}
+.wpsm-menu-toggle {
+	background-color: transparent;
+	border: 1px solid #d1d1d1;
+	color: #1a1a1a;
+	margin: 0 15px 1.076923077em;
+	padding: 11px 24px 10px;
+}
+.wpsm-menu-toggle.toggled-on, 
+.wpsm-menu-toggle.toggled-on:hover, 
+.wpsm-menu-toggle.toggled-on:focus {
+	background-color: #1a1a1a;
+	border-color: #1a1a1a;
+	color: #fff;
+}
+.wpsm-social-buttons {
+	text-align: center;
+}
+.wpsm-social-button {
+	position: relative;
+	display: inline-block;
+	height: 48px;
+	line-height: 48px;
+	margin-top: 8px;
+	margin-right: 2%;
+	overflow: hidden;
+	text-align: center;
+	width: 47%;
+}
+
+.wpsm-social-button a {
+	display: block;
+	font-size: 14px;
+	color: #ffffff;
+	color: rgba(255, 255, 255, 1);
+}
+
+.wpsm-social-button a:hover,
+.wpsm-social-button a:focus,
+.wpsm-social-button a:visited {
+	color: rgba(255, 255, 255, 0.7);
+}
+.wpsm-social-button a i {
+	padding-right: 8px;
+}
+.wpsm-social-button--facebook {
+	background: #3d5a98;
+}
+.wpsm-social-button--twitter {
+	background: #09b0ed;
+}
+@media screen and (min-width: 56.875em) {
+	.wpsm-navigation .wpsm-menu {
+		border: 0;
+	}
+	.wpsm-navigation li {
+		border: 0;
+		float: left;
+		padding: 0;
+	}
+	.wpsm-navigation a {
+		outline-offset: -8px;
+		padding: 10px 14px;
+		white-space: nowrap;
+	}
+	.wpsm-navigation .menu-item-has-children > a {
+		margin: 0;
+		padding-right: 36px;
+	}
+	.wpsm-navigation .menu-item-has-children > a:after {
+		content: "\f107";
+		position: absolute;
+		right: 10px;
+		top: 10px;
+	}
+	.wpsm-navigation ul ul {
+		border-bottom: 1px solid #d1d1d1;
+		display: block;
+		left: -999em;
+		margin: 0;
+		position: absolute;
+		padding: 0;
+		z-index: 99999;
+	}
+	.wpsm-navigation ul ul li {
+		background-color: #fff;
+		border: 1px solid #d1d1d1;
+		border-bottom-width: 0;
+		width: 15em;
+	}
+	.wpsm-navigation ul ul a {
+		white-space: normal;
+	}
+	.wpsm-navigation li:hover > ul, .wpsm-navigation li.focus > ul {
+	left: auto;
+	}
+	.wpsm-navigation ul ul ul {
+		left: -999em;
+		top: -1px;
+	}
+	.wpsm-navigation ul ul li:hover > ul, .wpsm-navigation ul ul li.focus > ul {
+		left: 100%;
+	}
+	.wpsm-toggle,
+	.wpsm-menu-toggle {
+		display: none;
+	}
+	.wp-sticky-menu-wrap {
+		-webkit-flex: 0 1 auto;
+		-ms-flex: 0 1 auto;
+		flex: 0 1 auto;
+	}
+	.wpsm-inner {
+		display: block;	
+		width: calc(100% - 130px);
+	}
+
+	.wpsm-logo {
+		margin-top: 0;
+		margin-bottom: 0;
+		height: 34px;
+		line-height: 34px;
+	}
+
+	.wpsm-logo.image-logo {
+		margin-top: -8px;
+		margin-bottom: -8px;
+		height: 50px;
+		line-height: 50px;
+	}
+	.wpsm-social-buttons {
+		width: 90px;
+		float: right;
+		padding-right: 0;
+	}
+	.wpsm-social-button {
+		float: left;
+		display: inline-block;
+		margin-top: 0;
+		height: 34px;
+		line-height: 34px;
+	}
+	.wpsm-social-button a > .social-text {
+		display: none;
+	}
+	.wpsm-social-button a i {
+		padding: 0;
+	}
+
+}
