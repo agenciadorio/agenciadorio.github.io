@@ -1,0 +1,118 @@
+# Copyright (C) 2016 WS Facebook Like Box Widget
+# This file is distributed under the same license as the WS Facebook Like Box Widget package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WS Facebook Like Box Widget 3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ws-facebook-"
+"likebox\n"
+"POT-Creation-Date: 2016-05-11 09:49+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Web Shouter <info@webshouter.net>\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+
+#: ws-fecebook-likebox.php:24
+msgid "WS Facebook Likebox"
+msgstr ""
+
+#: ws-fecebook-likebox.php:25
+msgid "WS Likebox Widget!"
+msgstr ""
+
+#: ws-fecebook-likebox.php:32
+msgid "Facebook Like Box"
+msgstr ""
+
+#: ws-fecebook-likebox.php:48
+msgid "Title"
+msgstr ""
+
+#: ws-fecebook-likebox.php:56
+msgid "Page Id"
+msgstr ""
+
+#: ws-fecebook-likebox.php:64
+msgid "Width"
+msgstr ""
+
+#: ws-fecebook-likebox.php:71
+msgid "Height"
+msgstr ""
+
+#: ws-fecebook-likebox.php:78
+msgid "Adapt to plugin container width"
+msgstr ""
+
+#: ws-fecebook-likebox.php:80 ws-fecebook-likebox.php:88
+#: ws-fecebook-likebox.php:96 ws-fecebook-likebox.php:104
+msgid "No"
+msgstr ""
+
+#: ws-fecebook-likebox.php:81 ws-fecebook-likebox.php:89
+#: ws-fecebook-likebox.php:97 ws-fecebook-likebox.php:105
+msgid "Yes"
+msgstr ""
+
+#: ws-fecebook-likebox.php:86
+msgid "Use Small Header"
+msgstr ""
+
+#: ws-fecebook-likebox.php:94
+msgid "Hide Cover Photo"
+msgstr ""
+
+#: ws-fecebook-likebox.php:102
+msgid "Show Friend's Faces"
+msgstr ""
+
+#: ws-fecebook-likebox.php:110
+msgid "Tabs"
+msgstr ""
+
+#: ws-fecebook-likebox.php:112
+msgid "Hide Posts"
+msgstr ""
+
+#: ws-fecebook-likebox.php:113
+msgid "Timeline"
+msgstr ""
+
+#: ws-fecebook-likebox.php:114
+msgid "Events"
+msgstr ""
+
+#: ws-fecebook-likebox.php:115
+msgid "Messages"
+msgstr ""
+
+#: ws-fecebook-likebox.php:121
+msgid "Language"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WS Facebook Like Box Widget"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/ws-fecebook-likebox/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WS Facebook Like Box Widget provides easy and quick use in your blog. You "
+"can fully customize facebook like box in easy way."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Web Shouter"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.webshouter.net/"
+msgstr ""
