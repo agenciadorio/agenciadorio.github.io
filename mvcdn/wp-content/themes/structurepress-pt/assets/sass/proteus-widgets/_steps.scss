@@ -1,0 +1,74 @@
+/* 05.28. Steps */
+.steps {
+	display: flex;
+	flex-direction: column;
+
+	@include media-breakpoint-up(lg) {
+		flex-direction: row;
+	}
+
+	&__title {
+		margin-top: 0;
+		margin-bottom: (30rem / 16);
+	}
+}
+
+.step {
+	position: relative;
+	margin-bottom: (30rem / 16);
+	border: 1px solid rgba(0, 0, 0, .1);
+	padding: (26rem / 16) (30rem / 16) (60rem / 16);
+	flex: 1;
+	transition: $primary-transition;
+
+	@include media-breakpoint-up(lg) {
+		margin-bottom: 0;
+		margin-right: (30rem / 16);
+	}
+
+	&:last-of-type {
+		margin-bottom: 0;
+
+		@include media-breakpoint-up(lg) {
+			margin-right: 0;
+		}
+	}
+
+	&__title {
+		color: $gray-dark;
+		font-family: $secondary-font;
+		font-weight: bold;
+		font-size: (16rem / 16);
+		margin-bottom: (20rem / 16);
+
+		.fa {
+			color: $gray-dark;
+			font-size: (20rem / 16);
+			margin-right: (10rem / 16);
+		}
+	}
+
+	&__number {
+		font-family: $secondary-font;
+		position: absolute;
+		bottom: (15rem / 16);
+		font-size: (30rem / 16);
+		font-weight: bold;
+		color: rgba(0, 0, 0, .1);
+		transition: $primary-transition;
+	}
+
+	&__content {
+		font-size: (14rem / 16);
+	}
+
+	&:hover {
+		border: 1px solid transparent;
+		box-shadow: $box-shadow;
+		background-color: #ffffff;
+
+		.step__number {
+			color: $brand-primary;
+		}
+	}
+}

@@ -1,0 +1,62 @@
+/* 05.16. Contact Form 7 */
+
+// scss-lint:disable QualifyingElement
+
+.wpcf7-select,
+.wpcf7-text,
+.wpcf7-number,
+.wpcf7-date,
+.wpcf7-textarea {
+	padding: (18rem / 16) (20rem / 16);
+	margin-bottom: (30rem / 16);
+	font-size: (14rem / 16);
+}
+
+.wpcf7-textarea {
+	height: (220rem / 16);
+	margin-bottom: (30rem / 16);
+}
+
+.wpcf7-submit {
+	margin-bottom: (15rem / 16);
+	margin-top: (20rem / 16);
+
+	@include media-breakpoint-up(sm) {
+		float: right;
+		margin-top: (-40rem / 16);
+	}
+}
+
+// Fix for the date field - Bootstrap 4.0 issue
+input[type="date"].form-control.wpcf7-date {
+	line-height: inherit;
+}
+
+.wpcf7 {
+	.wpcf7-response-output {
+		margin: (5rem / 16) 0;
+		padding: (10rem / 16) (20rem / 16);
+	}
+
+	.wpcf7-validation-errors {
+		background-color: #faf8d2;
+		border: 2px solid #faf8d2;
+		color: darken(#faf8d2, 50);
+	}
+
+	.wpcf7-mail-sent-ng {
+		background-color: #ffe5e5;
+		border: 2px solid #ffe5e5;
+		color: darken(#ffe5e5, 50);
+	}
+
+	.wpcf7-mail-sent-ok {
+		background-color: #dcf2dc;
+		border: 2px solid #dcf2dc;
+		color: darken(#dcf2dc, 50);
+	}
+
+	.wpcf7-not-valid-tip {
+		margin: 0 0 (5rem / 16);
+	}
+}

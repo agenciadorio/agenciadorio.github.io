@@ -1,0 +1,858 @@
+# Copyright (C) 2016 ProteusThemes
+# This file is distributed under the GPL 2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: StructurePress PT 0.0.0-tmp\n"
+"Report-Msgid-Bugs-To: http://support.proteusthemes.com/\n"
+"POT-Creation-Date: 2015-11-23 10:09:17+00:00\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: 404.php:14
+msgid "404 Picture"
+msgstr "404 Resim"
+
+#: 404.php:16
+msgid "Looks like something went wrong"
+msgstr "Bir sorun oluştu."
+
+#. translators: the first %s for line break, the second and third %s for link
+#. to home page wrap
+#: 404.php:21
+msgid ""
+"Page you are looking for is not here. %s Go %s Home %s or try to search:"
+msgstr ""
+"Aradığınız sayfa burada değil. %s Anasayfa'ya %s gidin %s veya aramayı "
+"deneyin:"
+
+#: comments.php:21
+msgid "Comment Navigation"
+msgstr "Yorumlarda Gezinme"
+
+#: comments.php:22
+msgid "&larr; Older Comments"
+msgstr "&larr; Eski Yorumlar"
+
+#: comments.php:23
+msgid "Newer Comments &rarr;"
+msgstr "Yeni Yorumlar &rarr;"
+
+#: comments.php:32 comments.php:87
+msgid "Comments for this post are closed."
+msgstr "Bu gönderinin yorumları kapatılmış."
+
+#: comments.php:43
+msgid "Write a Comment"
+msgstr "Bir Yorum Yazın"
+
+#: comments.php:54
+msgid "First and Last name"
+msgstr "Adı ve Soyadı"
+
+#: comments.php:60
+msgid "E-mail Address"
+msgstr "E-posta Adresi"
+
+#: comments.php:66
+msgid "Website"
+msgstr "Web sitesi"
+
+#: functions.php:12
+msgid ""
+"This theme requires %2$sPHP 5.3.2+%3$s to run. Please contact your hosting "
+"company and ask them to update the PHP version of your site to at least PHP "
+"5.3.2.%4$s Your current version of PHP: %2$s%1$s%3$s"
+msgstr ""
+
+#: header.php:50
+msgid "MENU"
+msgstr "MENÜ"
+
+#: header.php:52
+#, fuzzy
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: inc/filters.php:360
+msgid "After import setup ended!"
+msgstr ""
+
+#: inc/filters.php:368
+msgid ""
+"Please try to manually import the demo data. Here are instructions on how to "
+"do that: %sDocumentation: Import XML File%s"
+msgstr ""
+
+#: inc/filters.php:400
+#, fuzzy
+msgid "ProteusThemes Widgets"
+msgstr "ProteusThemes"
+
+#. translators: %s represents a number
+#: inc/helpers.php:35
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s Yorum"
+msgstr[1] "%s Yorum"
+
+#: inc/helpers.php:219
+msgid "Edit"
+msgstr "Düzenle"
+
+#: inc/helpers.php:223
+msgid "Your comment is awaiting moderation."
+msgstr "Yorumunuz moderatör onayını bekliyor."
+
+#: inc/so-widgets/widget-open-position/tpl/open-position-template.php:28
+#: inc/so-widgets/widget-open-position/tpl/open-position-template.php:48
+#: inc/visual-composer/elements/vc-open-position.php:80
+#: inc/visual-composer/elements/vc-open-position.php:100
+msgid "Read more"
+msgstr "Daha fazla oku"
+
+#: inc/so-widgets/widget-open-position/tpl/open-position-template.php:45
+#: inc/visual-composer/elements/vc-open-position.php:97
+msgid "Close"
+msgstr "Kapat"
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:19
+msgid "Open Position"
+msgstr ""
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:22
+msgid "Widget for displaying job offers in Page Builder."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-call-to-action.php:21
+msgid "Do you need Professionals to project and build your dream home?"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-call-to-action.php:22
+msgid "We offer the best engineers and builders to make your dreams come true."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:21
+#: inc/widgets/widget-portfolio-grid.php:353
+msgid "All Projects"
+msgstr ""
+
+#: inc/widgets/widget-call-to-action.php:11
+msgid "Call to Action"
+msgstr ""
+
+#: inc/widgets/widget-call-to-action.php:12
+msgid "Call to Action widget for Page Builder."
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:17
+msgid "Contact Profile"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:18
+msgid "Widget displaying contact info."
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:99
+msgid "Picture of"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:208
+msgid "Items:"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:218
+#: inc/widgets/widget-contact-profile.php:249
+msgid "Click on the icon below or manually select from the %s website"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:239
+msgid "Social Icons:"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:11
+msgid "Portfolio Grid"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:197
+msgid "FILTER"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:342
+msgid "Post ID"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:343
+#, fuzzy
+msgid "Title"
+msgstr "Başlık:"
+
+#: inc/widgets/widget-portfolio-grid.php:344
+msgid "Date"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:345
+msgid "Last modified date"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:346
+msgid "Random order"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:352
+msgid "Label for all items"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:357
+#, fuzzy
+msgid "Layout"
+msgstr "Düzen"
+
+#: inc/widgets/widget-portfolio-grid.php:359
+msgid "Display all the items in grid (4 in a row)"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:360
+msgid "Display only one row of items, with arrows to see more"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:366
+msgid "Maximum number of items"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:369
+msgid "Set -1 to show all."
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:373
+msgid "Order items by"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:382
+msgid "Ascending"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:383
+msgid "Descending"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:388
+msgid "Filter by categories"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:403
+msgid "Add CTA (click to action) project."
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:408
+msgid "CTA text"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:413
+msgid "CTA button"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:418
+msgid "CTA link"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search for:"
+msgstr "Şunu ara:"
+
+#: searchform.php:12
+msgid "Search"
+msgstr "Ara"
+
+#: single-portfolio.php:33
+msgid "Construction Date"
+msgstr "Yapım Tarihi"
+
+#: single-portfolio.php:40
+msgid "Category"
+msgstr "Kategori"
+
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr "Hiçbir Şey Bulunamadı"
+
+#: template-parts/content-none.php:18
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"İlk gönderinizi yayınlamaya hazır mısınız? <a href=\"%1$s\">Buradan "
+"başlayın</a>."
+
+#: template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Üzgünüz ancak arama terimlerinizle eşleşen bir şey bulunamadı. Lütfen farklı "
+"anahtar sözcüklerle yeniden deneyin."
+
+#: template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Aradığınızı bulamıyor olabilirsiniz. Arama yapmanız yardımcı olabilir."
+
+#. translators: after that comes pagination like 1, 2, 3 ... 10
+#: template-parts/content-page.php:14 template-parts/content-single.php:24
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#. translators: %s: Name of current post
+#: template-parts/content.php:30
+msgid "Read more %s"
+msgstr "Daha fazla oku %s"
+
+#: template-parts/meta.php:2
+msgid "by "
+msgstr "yazan:"
+
+#: template-parts/page-header.php:82
+msgid "Search Results For"
+msgstr "Şunun İçin Arama Sonuçları:"
+
+#: template-parts/page-header.php:85
+msgid "Error 404"
+msgstr "Hata 404"
+
+#: template-parts/top-bar.php:8
+msgid "Top Menu"
+msgstr "Üst Menü"
+
+#. Theme Name of the plugin/theme
+msgid "StructurePress PT"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://demo.proteusthemes.com/structurepress/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"StructurePress - the most versatile WordPress theme for interior design, "
+"renovation, architecture, landscaping, gardening or contracting businesses. "
+"Developed by ProteusThemes."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ProteusThemes"
+msgstr "ProteusThemes"
+
+#. Author URI of the plugin/theme
+msgid "https://www.proteusthemes.com/"
+msgstr "https://www.proteusthemes.com/"
+
+#. Template Name of the plugin/theme
+msgid "Front Page With Layer/Revolution Slider"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Front Page With Slider"
+msgstr ""
+
+#: comments.php:76
+msgctxt "noun"
+msgid "Your comment"
+msgstr "Yorumunuz"
+
+#: functions.php:92
+msgctxt "backend"
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: functions.php:93
+msgctxt "backend"
+msgid "Top Bar Menu"
+msgstr "Üst Çubuk Menüsü"
+
+#: inc/documentation-link.php:9 inc/documentation-link.php:10
+#: inc/documentation-link.php:21
+msgctxt "backend"
+msgid "Documentation"
+msgstr "Dokümantasyon"
+
+#: inc/documentation-link.php:24
+msgctxt "backend"
+msgid "Click here to see online documentation of the theme!"
+msgstr "Temanın çevrimiçi dokümantasyonunu görmek için burayı tıklayın!"
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:31
+#: inc/visual-composer/elements/vc-call-to-action.php:47
+#: inc/visual-composer/elements/vc-counter.php:43
+#: inc/visual-composer/elements/vc-open-position.php:118
+#: inc/visual-composer/elements/vc-portfolio-grid.php:80
+msgctxt "backend"
+msgid "Title"
+msgstr ""
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:35
+#: inc/visual-composer/elements/vc-open-position.php:123
+#: inc/visual-composer/elements/vc-portfolio-grid.php:81
+msgctxt "backend"
+msgid "Date"
+msgstr ""
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:39
+#: inc/visual-composer/elements/vc-call-to-action.php:41
+#: inc/visual-composer/elements/vc-contact-detail-item.php:35
+#: inc/visual-composer/elements/vc-container-contact-profile.php:64
+#: inc/visual-composer/elements/vc-counter.php:37
+#: inc/visual-composer/elements/vc-open-position.php:112
+#: inc/visual-composer/elements/vc-open-position.php:129
+#: inc/visual-composer/elements/vc-portfolio-grid.php:46
+msgctxt "backend"
+msgid "Content"
+msgstr ""
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:43
+#: inc/visual-composer/elements/vc-open-position.php:134
+msgctxt "backend"
+msgid "Details Title"
+msgstr ""
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:47
+#: inc/visual-composer/elements/vc-open-position.php:139
+msgctxt "backend"
+msgid "Detail Items"
+msgstr ""
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:48
+msgctxt "backend"
+msgid "Item"
+msgstr "Öğe"
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:52
+#: inc/visual-composer/elements/vc-contact-detail-item.php:47
+msgctxt "backend"
+msgid "Icon"
+msgstr "Simge"
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:56
+#: inc/visual-composer/elements/vc-contact-detail-item.php:42
+msgctxt "backend"
+msgid "Text"
+msgstr "Metin"
+
+#: inc/theme-sidebars.php:12
+msgctxt "backend"
+msgid "Blog Sidebar"
+msgstr "Blog Kenar Çubuğu"
+
+#: inc/theme-sidebars.php:14
+msgctxt "backend"
+msgid "Sidebar on the blog layout."
+msgstr "Blog düzeninde kenar çubuğu."
+
+#: inc/theme-sidebars.php:26
+msgctxt "backend"
+msgid "Regular Page Sidebar"
+msgstr "Normal Sayfa Kenar Çubuğu"
+
+#: inc/theme-sidebars.php:28
+msgctxt "backend"
+msgid "Sidebar on the regular page."
+msgstr "Normal sayfada kenar çubuğu."
+
+#: inc/theme-sidebars.php:41
+msgctxt "backend"
+msgid "Shop Sidebar"
+msgstr "Mağaza Kenar Çubuğu"
+
+#: inc/theme-sidebars.php:43
+msgctxt "backend"
+msgid "Sidebar for the shop page"
+msgstr "Mağaza sayfasında kenar çubuğu"
+
+#: inc/theme-sidebars.php:56
+msgctxt "backend"
+msgid "Slider"
+msgstr "Kaydırıcı"
+
+#: inc/theme-sidebars.php:58
+msgctxt "backend"
+msgid "Slider widget area for Icon Box and Social Icons widgets."
+msgstr ""
+"Simge Kutusu ve Sosyal Simgeler görsel öğeleri için kaydırıcı görsel öğe "
+"alanı."
+
+#: inc/theme-sidebars.php:71
+msgctxt "backend"
+msgid "Footer"
+msgstr "Altbilgi"
+
+#: inc/theme-sidebars.php:73
+msgctxt "backend"
+msgid ""
+"Footer area works best with %d widgets. This number can be changed in the "
+"Appearance &rarr; Customize &rarr; Theme Options &rarr; Footer."
+msgstr ""
+"Altbilgi alanı en iyi %d görsel öğe ile çalışır. Bu sayı şu sıra izlenerek "
+"değiştirilebilir: Görünüm &rarr; Özelleştir &rarr; Tema Seçenekleri &rarr; "
+"Altbilgi."
+
+#: inc/visual-composer/elements/vc-call-to-action.php:39
+msgctxt "backend"
+msgid "Call to Action"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-call-to-action.php:53
+msgctxt "backend"
+msgid "Subtitle"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-call-to-action.php:59
+msgctxt "backend"
+msgid "Button Area"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-call-to-action.php:61
+msgctxt "backend"
+msgid ""
+"For adding buttons you must use button shortcode which look like this: "
+"[button]Text[/button]. Please take a look at the documentation for more "
+"details."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-contact-detail-item.php:33
+msgctxt "backend"
+msgid "Contact Detail Item"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-contact-detail-item.php:50
+msgctxt "backend"
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-container-contact-profile.php:62
+msgctxt "backend"
+msgid "Contact Profile"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-container-contact-profile.php:72
+msgctxt "backend"
+msgid "Name"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-container-contact-profile.php:77
+msgctxt "backend"
+msgid "Picture URL"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-container-contact-profile.php:82
+msgctxt "backend"
+msgid "Social icons"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-container-contact-profile.php:83
+msgctxt "backend"
+msgid ""
+"Enter values for social links - <em>URL</em>|<em>font awesome icon class "
+"name</em>. Divide value sets with linebreak \"Enter\" (Example: https://www."
+"facebook.com/ProteusThemes|fa-facebook-square)."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-container-contact-profile.php:89
+#: inc/widgets/widget-contact-profile.php:203
+msgctxt "backend"
+msgid "Open social links in new tab"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-counter.php:22
+msgctxt "backend"
+msgid "Test Title"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-counter.php:35
+msgctxt "backend"
+msgid "Counter"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-counter.php:48
+msgctxt "backend"
+msgid "Number"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-counter.php:49
+msgctxt "backend"
+msgid "Input a positive number."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-open-position.php:110
+msgctxt "backend"
+msgid "Open Position"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-open-position.php:140
+msgctxt "backend"
+msgid ""
+"Enter values for detail items - <em>item text</em>|<em>font awesome icon "
+"class name</em>. Divide value sets with linebreak \"Enter\" (Example: 227 "
+"Marion Street Columbia SC 2921|fa-home)."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:44
+msgctxt "backend"
+msgid "Portfolio Grid"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:52
+msgctxt "backend"
+msgid "Label for all items"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:54
+msgctxt "backend"
+msgid "All Projects"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:58
+msgctxt "backend"
+msgid "Layout"
+msgstr "Düzen"
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:61
+msgctxt "backend"
+msgid "Display all the items in grid (4 in a row)"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:62
+msgctxt "backend"
+msgid "Display only one row of items, with arrows to see more"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:67
+msgctxt "backend"
+msgid "Maximum number of items"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:68
+msgctxt "backend"
+msgid "Set -1 to show all."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:76
+msgctxt "backend"
+msgid "Order items by"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:79
+msgctxt "backend"
+msgid "Post ID"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:82
+msgctxt "backend"
+msgid "Last modified date"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:83
+msgctxt "backend"
+msgid "Random Order"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:88
+msgctxt "backend"
+msgid "Order"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:91
+msgctxt "backend"
+msgid "Ascending"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:92
+msgctxt "backend"
+msgid "Descending"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:97
+msgctxt "backend"
+msgid "Add CTA (click to action) project."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:102
+msgctxt "backend"
+msgid "CTA text"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:111
+msgctxt "backend"
+msgid "CTA button text"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:120
+msgctxt "backend"
+msgid "CTA link"
+msgstr ""
+
+#: inc/visual-composer/templates/vc-about-us-template.php:11
+msgctxt "backend"
+msgid "StructurePress: About"
+msgstr ""
+
+#: inc/visual-composer/templates/vc-contact-us-template.php:11
+msgctxt "backend"
+msgid "StructurePress: Contact"
+msgstr ""
+
+#: inc/visual-composer/templates/vc-home-page-template.php:11
+msgctxt "backend"
+msgid "StructurePress: Home Page"
+msgstr ""
+
+#: inc/visual-composer/templates/vc-our-services-template.php:11
+msgctxt "backend"
+msgid "StructurePress: Services"
+msgstr ""
+
+#: inc/visual-composer/templates/vc-projects-template.php:11
+msgctxt "backend"
+msgid "StructurePress: Projects"
+msgstr ""
+
+#: inc/widgets/widget-call-to-action.php:84
+msgctxt "backend"
+msgid "Title:"
+msgstr "Başlık:"
+
+#: inc/widgets/widget-call-to-action.php:88
+msgctxt "backend"
+msgid "Subtitle:"
+msgstr ""
+
+#: inc/widgets/widget-call-to-action.php:92
+msgctxt "backend"
+msgid "Button Area:"
+msgstr ""
+
+#: inc/widgets/widget-call-to-action.php:95
+msgctxt "backend"
+msgid ""
+"Input a button shortcode in the above field. Please take a look at the <a "
+"href=\"%1$s\" target=\"_blank\">Buttons Shortcode documentation</a> to learn "
+"more on how to write button shortcodes."
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:191
+msgctxt "backend"
+msgid "Name:"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:196
+msgctxt "backend"
+msgid "Picture URL:"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:212
+msgctxt "backend"
+msgid "Text:"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:217
+msgctxt "backend"
+msgid "Select icon:"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:227
+msgctxt "backend"
+msgid "Remove item"
+msgstr "Öğe Kaldır"
+
+#: inc/widgets/widget-contact-profile.php:233
+msgctxt "backend"
+msgid "Add New Item"
+msgstr "Yeni Öğe Ekle"
+
+#: inc/widgets/widget-contact-profile.php:243
+msgctxt "backend"
+msgid "Link:"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:248
+msgctxt "backend"
+msgid "Select social icon:"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:258
+msgctxt "backend"
+msgid "Remove social icon"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:264
+msgctxt "backend"
+msgid "Add New Social Icon"
+msgstr ""
+
+#: inc/filters.php:83
+msgctxt "custom read more text after the post excerpts"
+msgid " &hellip;"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by Roboto or Open Sans, translate this to 'off'. Do not translate into your
+#. own language.
+#: inc/filters.php:194
+msgctxt "Roboto or Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: inc/helpers.php:94
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "latin-ext"
+
+#: inc/widgets/widget-portfolio-grid.php:12
+msgctxt ""
+"%s represents a link to plugin: https://wordpress.org/plugins/portfolio-post-"
+"type/"
+msgid "Displays portfolio items from the %s plugin."
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:187
+msgctxt "screen reader label for previous slide"
+msgid "Previous"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:190
+msgctxt "screen reader label for next slide"
+msgid "Next"
+msgstr ""
+
+#. translators: Read %s as word 'project' in English
+#: single-portfolio.php:28
+msgctxt "%s represents Project by default, must be included"
+msgid "%s Info"
+msgstr "%s Bilgi"
+
+#. translators: Read %s as word 'project' in English
+#: single-portfolio.php:94 single-portfolio.php:125
+msgctxt "% must be included"
+msgid "Previous %s"
+msgstr "Önceki %s"
+
+#: single-portfolio.php:95 single-portfolio.php:126
+msgctxt "% must be included"
+msgid "Next %s"
+msgstr "Sonraki %s"

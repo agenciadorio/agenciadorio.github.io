@@ -1,0 +1,83 @@
+/* 05.33. Blog (index.php) */
+.hentry {
+	margin-bottom: 3.75rem;
+
+	&__container {
+		@include media-breakpoint-up(lg) {
+			border-left: 3px solid #dddddd;
+			border-right: 1px solid $gray-lighter;
+			border-top: 1px solid $gray-lighter;
+			border-bottom: 1px solid $gray-lighter;
+			padding: 3rem 2.8125rem 3.3125rem;
+			transition: $primary-transition;
+		}
+
+		@include media-breakpoint-up(xl) {
+			padding: 3rem 3.75rem 3.3125rem;
+		}
+
+		.sticky & {
+			@include media-breakpoint-up(lg) {
+				border-left-color: $brand-primary;
+			}
+		}
+
+		&:hover {
+			border-left-color: $brand-primary;
+		}
+	}
+
+	&__date {
+		display: inline-block;
+		font-family: $secondary-font;
+		color: #cccccc;
+		font-weight: bold;
+		font-size: 1.25rem;
+		margin-bottom: .625rem;
+	}
+
+	&__featured-image {
+		margin-bottom: 2.0625rem;
+	}
+
+	&__title {
+		font-size: 1.875rem;
+		margin-bottom: 1.8125rem;
+		word-wrap: break-word;
+
+		a {
+			color: $gray-dark;
+
+			&:focus,
+			&:hover {
+				color: darken($gray-dark, 5);
+			}
+		}
+	}
+
+	&__meta {
+		border-top: 1px solid $gray-lighter;
+		margin-top: 1.4375rem;
+		padding-top: 1.3125rem;
+		font-size: .9375rem;
+		font-family: $secondary-font;
+	}
+
+	&__content {
+		> p {
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+
+		.more-link {
+			display: none;
+		}
+	}
+
+	a + .hentry__container {
+		@include media-breakpoint-up(lg) {
+			margin-top: -2.0625rem;
+		}
+	}
+}

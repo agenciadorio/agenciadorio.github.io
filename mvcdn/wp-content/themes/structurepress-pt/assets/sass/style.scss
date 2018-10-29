@@ -1,0 +1,229 @@
+/*
+Theme Name: StructurePress PT
+Theme URI: https://demo.proteusthemes.com/structurepress/
+Author: ProteusThemes
+Author URI: https://www.proteusthemes.com/
+Description: StructurePress - the most versatile WordPress theme for interior design, renovation, architecture, landscaping, gardening or contracting businesses. Developed by ProteusThemes.
+Version: 0.0.0-tmp
+License: GPL 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: gray, orange, silver, white, yellow, light, responsive-layout, custom-background, custom-colors, custom-menu, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+Text domain: structurepress-pt
+*/
+
+/*
+ TABLE OF CONTENTS
+	01. Project variables............Imported variables
+	02. Twitter Bootstrap............Remove what is not neccessary
+	03. Tags.........................Like <body>, <h1> etc.
+	04. Helpers and utility classes..The general styles like .push-down-15 etc.
+	05. Components...................Imported files, like partials, Compass etc.
+		05.01. Top Bar
+		05.02. Header
+		05.03. Page Header
+		05.04. Breadcrumbs
+		05.05. Sidebar
+		05.06. Footer
+		05.07. Error 404
+		05.08. Boxed Container
+		05.09. Top Navigation
+		05.10. Main Navigation
+		05.11. Jumbotron
+		05.12. Buttons
+		05.13. Pricing Table
+		05.14. Portfolio
+		05.15. Portfolio Grid
+		05.16. Contact Form 7
+		05.17. Latest News
+		05.18. Featured Page
+		05.19. Call to Action
+		05.20. Person Profile
+		05.21. Contact Profile
+		05.22. Skype Button
+		05.23. Logo Panel
+		05.24. Icon Box
+		05.25. Social Icons
+		05.26. Testimonial
+		05.27. Accordion
+		05.28. Steps
+		05.29. Brochure Box
+		05.30. Opening Time
+		05.31. Number Counter
+		05.32. Open Position
+		05.33. Hentry
+		05.34. Meta
+		05.35. Comments
+		05.36. Pagination
+		05.37. WordPress Specific
+		05.38. WordPress Widgets
+*/
+
+/*------------------------------------*\
+	01. Project variables
+
+	only visible in SASS source files
+\*------------------------------------*/
+
+@import 'vars';
+
+/*------------------------------------*\
+	02. Twitter Bootstrap
+
+	Remove what is not necessary
+\*------------------------------------*/
+
+// Core variables and mixins
+@import 'variables';
+@import 'mixins';
+
+// // Reset and dependencies
+@import 'normalize';
+@import 'print';
+
+// Core CSS
+@import 'reboot';
+@import 'type';
+@import 'images';
+@import 'code';
+@import 'grid';
+@import 'tables';
+@import 'forms';
+@import 'buttons';
+
+// // Components
+@import 'animation';
+// @import 'dropdown';
+// @import 'button-group';
+// @import 'input-group';
+@import 'custom-forms';
+// @import 'nav';
+@import 'navbar';
+@import 'card';
+// @import 'breadcrumb';
+// @import 'pagination';
+// @import 'pager';
+// @import 'labels';
+// @import 'jumbotron';
+// @import 'alert';
+// @import 'progress';
+// @import 'media';
+// @import 'list-group';
+// @import 'close';
+@import 'responsive-embed';
+
+// Components w/ JavaScript
+// @import 'modal';
+@import 'tooltip';
+// @import 'popover';
+@import 'carousel';
+
+// Utility classes
+@import 'utilities';
+@import 'utilities-spacing';
+@import 'utilities-responsive';
+
+
+/*------------------------------------*\
+	03. Tags
+\*------------------------------------*/
+
+html {
+	font-size: 15px; // Default value for mobile, 1rem = 15px.
+
+	@include media-breakpoint-up(lg) {
+		font-size: 16px; // Default value for desktop, 1rem = 16px.
+	}
+}
+
+input,
+textarea {
+	outline: none; // We can do that because background-color is different on :hover.
+
+	&:focus {
+		background-color: #ffffff;
+	}
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*------------------------------------*\
+	04. Helpers and very general classes
+\*------------------------------------*/
+
+.screen-reader-text {
+	// scss-lint:disable PlaceholderInExtend
+	@extend .sr-only;
+}
+
+// BS Card override
+.card-block {
+	border: 1px solid $card-border-color;
+}
+
+.widget-title {
+	font-size: (30rem / 16);
+	margin-bottom: (40rem / 16);
+}
+
+/*------------------------------------*\
+	05. Components
+\*------------------------------------*/
+
+// Layout
+@import 'components/top-bar';
+@import 'components/header';
+@import 'components/page-header';
+@import 'components/breadcrumbs';
+@import 'components/sidebar';
+@import 'components/footer';
+@import 'components/error-404';
+@import 'components/boxed-container';
+
+// Elements
+@import 'components/top-navigation';
+@import 'components/main-navigation';
+@import 'components/jumbotron';
+@import 'components/buttons';
+@import 'components/pricing-table';
+@import 'components/portfolio';
+@import 'components/portfolio-grid';
+@import 'components/contact-form-7';
+@import 'components/visual-composer';
+
+// Proteus Widgets
+@import 'proteus-widgets/latest-news';
+@import 'proteus-widgets/featured-page';
+@import 'proteus-widgets/call-to-action';
+@import 'proteus-widgets/person-profile';
+@import 'proteus-widgets/contact-profile';
+@import 'proteus-widgets/skype-button';
+@import 'proteus-widgets/logo-panel';
+@import 'proteus-widgets/icon-box';
+@import 'proteus-widgets/social-icons';
+@import 'proteus-widgets/testimonial';
+@import 'proteus-widgets/accordion';
+@import 'proteus-widgets/steps';
+@import 'proteus-widgets/brochure-box';
+@import 'proteus-widgets/opening-time';
+@import 'proteus-widgets/number-counter';
+@import 'proteus-widgets/open-position';
+
+// WordPress Specific
+@import 'components/hentry';
+@import 'components/meta';
+@import 'components/comments';
+@import 'components/pagination';
+@import 'components/wp';
+@import 'components/wp-widgets';
+
+// Fonts
+@import '../../bower_components/font-awesome/scss/font-awesome';
+
+/*------------------------------------*\
+	The End :)
+\*------------------------------------*/
+
+/*# sourceMappingURL=style.css.map */

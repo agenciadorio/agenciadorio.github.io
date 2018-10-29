@@ -1,0 +1,863 @@
+# Copyright (C) 2015 ProteusThemes 
+# This file is distributed under the GPL 2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: StructurePress PT 0.0.0-tmp\n"
+"Report-Msgid-Bugs-To: http://support.proteusthemes.com/\n"
+"POT-Creation-Date: 2015-11-23 10:09:17+00:00\n"
+"PO-Revision-Date: 2015-12-30 15:16+0100\n"
+"Last-Translator: Primoz Cigler <primoz@proteusnet.com>\n"
+"Language-Team: \n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "404 Picture"
+msgstr "404 Slika"
+
+#: 404.php:16
+msgid "Looks like something went wrong"
+msgstr "Nekaj je šlo narobe."
+
+#. translators: the first %s for line break, the second and third %s for link
+#. to home page wrap
+#: 404.php:21
+msgid ""
+"Page you are looking for is not here. %s Go %s Home %s or try to search:"
+msgstr ""
+"Stran, ki jo iščeš ne obstaja. %s Nadaljuj %s Domov %s ali poskusi z "
+"iskanjem:"
+
+#: comments.php:21
+msgid "Comment Navigation"
+msgstr "Navigacija po komentarjih"
+
+#: comments.php:22
+msgid "&larr; Older Comments"
+msgstr "&larr; Starejši komentarji"
+
+#: comments.php:23
+msgid "Newer Comments &rarr;"
+msgstr "Novejši komentarji &rarr;"
+
+#: comments.php:32 comments.php:87
+msgid "Comments for this post are closed."
+msgstr "Komentiranje tega prispevka je onemogočeno."
+
+#: comments.php:43
+msgid "Write a Comment"
+msgstr "Napiši komentar"
+
+#: comments.php:54
+msgid "First and Last name"
+msgstr "Ime in priimek"
+
+#: comments.php:60
+msgid "E-mail Address"
+msgstr "E-mail naslov"
+
+#: comments.php:66
+msgid "Website"
+msgstr "Spletna stran"
+
+#: functions.php:12
+#, fuzzy
+msgid ""
+"This theme requires %2$sPHP 5.3.2+%3$s to run. Please contact your hosting "
+"company and ask them to update the PHP version of your site to at least PHP "
+"5.3.2.%4$s Your current version of PHP: %2$s%1$s%3$s"
+msgstr ""
+"Ta tema zahteva %$2sPHP 5.3.2+%$3s. Prosimo, kontaktirajte vašega ponudnika "
+"gostovanja in ga prosite, da posodobi PHP vsaj na PHP 5.3.2.%$4s Trenutna "
+"PHP verizja je: %$2s%1$s%$3s"
+
+#: header.php:50
+msgid "MENU"
+msgstr "MENI"
+
+#: header.php:52
+msgid "Main Menu"
+msgstr "Glavni meni"
+
+#: inc/filters.php:360
+msgid "After import setup ended!"
+msgstr ""
+
+#: inc/filters.php:368
+msgid ""
+"Please try to manually import the demo data. Here are instructions on how to "
+"do that: %sDocumentation: Import XML File%s"
+msgstr ""
+
+#: inc/filters.php:400
+msgid "ProteusThemes Widgets"
+msgstr ""
+
+#. translators: %s represents a number
+#: inc/helpers.php:35
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s komentar"
+msgstr[1] "%s komentarja"
+msgstr[2] "%s komentarji"
+msgstr[3] "%s komentarjev"
+
+#: inc/helpers.php:219
+msgid "Edit"
+msgstr "Uredi"
+
+#: inc/helpers.php:223
+msgid "Your comment is awaiting moderation."
+msgstr "Tvoj komentar čaka na odobritev."
+
+#: inc/so-widgets/widget-open-position/tpl/open-position-template.php:28
+#: inc/so-widgets/widget-open-position/tpl/open-position-template.php:48
+#: inc/visual-composer/elements/vc-open-position.php:80
+#: inc/visual-composer/elements/vc-open-position.php:100
+#, fuzzy
+msgid "Read more"
+msgstr "Preberi več %s"
+
+#: inc/so-widgets/widget-open-position/tpl/open-position-template.php:45
+#: inc/visual-composer/elements/vc-open-position.php:97
+msgid "Close"
+msgstr ""
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:19
+msgid "Open Position"
+msgstr ""
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:22
+msgid "Widget for displaying job offers in Page Builder."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-call-to-action.php:21
+msgid "Do you need Professionals to project and build your dream home?"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-call-to-action.php:22
+msgid "We offer the best engineers and builders to make your dreams come true."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:21
+#: inc/widgets/widget-portfolio-grid.php:353
+msgid "All Projects"
+msgstr ""
+
+#: inc/widgets/widget-call-to-action.php:11
+msgid "Call to Action"
+msgstr ""
+
+#: inc/widgets/widget-call-to-action.php:12
+msgid "Call to Action widget for Page Builder."
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:17
+msgid "Contact Profile"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:18
+msgid "Widget displaying contact info."
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:99
+#, fuzzy
+msgid "Picture of"
+msgstr "404 Slika"
+
+#: inc/widgets/widget-contact-profile.php:208
+msgid "Items:"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:218
+#: inc/widgets/widget-contact-profile.php:249
+msgid "Click on the icon below or manually select from the %s website"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:239
+msgid "Social Icons:"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:11
+msgid "Portfolio Grid"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:197
+msgid "FILTER"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:342
+msgid "Post ID"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:343
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:344
+msgid "Date"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:345
+msgid "Last modified date"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:346
+msgid "Random order"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:352
+msgid "Label for all items"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:357
+msgid "Layout"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:359
+msgid "Display all the items in grid (4 in a row)"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:360
+msgid "Display only one row of items, with arrows to see more"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:366
+msgid "Maximum number of items"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:369
+msgid "Set -1 to show all."
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:373
+msgid "Order items by"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:382
+msgid "Ascending"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:383
+msgid "Descending"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:388
+msgid "Filter by categories"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:403
+msgid "Add CTA (click to action) project."
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:408
+msgid "CTA text"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:413
+msgid "CTA button"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:418
+msgid "CTA link"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search for:"
+msgstr "Išči:"
+
+#: searchform.php:12
+msgid "Search"
+msgstr "Išči"
+
+#: single-portfolio.php:33
+msgid "Construction Date"
+msgstr "Datum gradnje"
+
+#: single-portfolio.php:40
+msgid "Category"
+msgstr "Kategorija"
+
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr "Nič ni bilo najdeno."
+
+#: template-parts/content-none.php:18
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pripravljen na prvo objavo?<a href=\"%1$s\">Začni tukaj</a>."
+
+#: template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "Nič ni bilo najdeno. Poskusite z drugačnimi ključnimi besedami."
+
+#: template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Žal ne moremo najti tega, kar iščete. Poskusite z iskanjem."
+
+#. translators: after that comes pagination like 1, 2, 3 ... 10
+#: template-parts/content-page.php:14 template-parts/content-single.php:24
+msgid "Pages:"
+msgstr "Strani:"
+
+#. translators: %s: Name of current post
+#: template-parts/content.php:30
+msgid "Read more %s"
+msgstr "Preberi več %s"
+
+#: template-parts/meta.php:2
+msgid "by "
+msgstr "Objavil/a "
+
+#: template-parts/page-header.php:82
+msgid "Search Results For"
+msgstr "Najdeni rezultati za"
+
+#: template-parts/page-header.php:85
+msgid "Error 404"
+msgstr "Napaka 404"
+
+#: template-parts/top-bar.php:8
+msgid "Top Menu"
+msgstr "Vrhnji meni"
+
+#. Theme Name of the plugin/theme
+msgid "StructurePress PT"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://demo.proteusthemes.com/structurepress/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"StructurePress - the most versatile WordPress theme for interior design, "
+"renovation, architecture, landscaping, gardening or contracting businesses. "
+"Developed by ProteusThemes."
+msgstr ""
+"StructurePress - najboljša WordPress tema za notranje oblikovanje, prenovo, "
+"arhitekutro, krajisnk arhitekturo, vrtnastvo in gradbena podjetja. Razvili "
+"ProteusThemes."
+
+#. Author of the plugin/theme
+msgid "ProteusThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.proteusthemes.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Front Page With Layer/Revolution Slider"
+msgstr "Naslovna stran z Layer/Revolution sliderjem"
+
+#. Template Name of the plugin/theme
+msgid "Front Page With Slider"
+msgstr "Naslovna stran s sliderjem"
+
+#: comments.php:76
+msgctxt "noun"
+msgid "Your comment"
+msgstr "Tvoj komentar"
+
+#: functions.php:92
+msgctxt "backend"
+msgid "Main Menu"
+msgstr "Glavni meni"
+
+#: functions.php:93
+msgctxt "backend"
+msgid "Top Bar Menu"
+msgstr "Meni v vrhjni vrstici"
+
+#: inc/documentation-link.php:9 inc/documentation-link.php:10
+#: inc/documentation-link.php:21
+msgctxt "backend"
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: inc/documentation-link.php:24
+msgctxt "backend"
+msgid "Click here to see online documentation of the theme!"
+msgstr "Klikni tukaj za ogled dokumentacije teme na spletu!"
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:31
+#: inc/visual-composer/elements/vc-call-to-action.php:47
+#: inc/visual-composer/elements/vc-counter.php:43
+#: inc/visual-composer/elements/vc-open-position.php:118
+#: inc/visual-composer/elements/vc-portfolio-grid.php:80
+msgctxt "backend"
+msgid "Title"
+msgstr ""
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:35
+#: inc/visual-composer/elements/vc-open-position.php:123
+#: inc/visual-composer/elements/vc-portfolio-grid.php:81
+msgctxt "backend"
+msgid "Date"
+msgstr ""
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:39
+#: inc/visual-composer/elements/vc-call-to-action.php:41
+#: inc/visual-composer/elements/vc-contact-detail-item.php:35
+#: inc/visual-composer/elements/vc-container-contact-profile.php:64
+#: inc/visual-composer/elements/vc-counter.php:37
+#: inc/visual-composer/elements/vc-open-position.php:112
+#: inc/visual-composer/elements/vc-open-position.php:129
+#: inc/visual-composer/elements/vc-portfolio-grid.php:46
+msgctxt "backend"
+msgid "Content"
+msgstr ""
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:43
+#: inc/visual-composer/elements/vc-open-position.php:134
+msgctxt "backend"
+msgid "Details Title"
+msgstr ""
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:47
+#: inc/visual-composer/elements/vc-open-position.php:139
+msgctxt "backend"
+msgid "Detail Items"
+msgstr ""
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:48
+msgctxt "backend"
+msgid "Item"
+msgstr ""
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:52
+#: inc/visual-composer/elements/vc-contact-detail-item.php:47
+msgctxt "backend"
+msgid "Icon"
+msgstr ""
+
+#: inc/so-widgets/widget-open-position/widget-open-position.php:56
+#: inc/visual-composer/elements/vc-contact-detail-item.php:42
+msgctxt "backend"
+msgid "Text"
+msgstr ""
+
+#: inc/theme-sidebars.php:12
+msgctxt "backend"
+msgid "Blog Sidebar"
+msgstr "Stranska vrstica v blogu"
+
+#: inc/theme-sidebars.php:14
+msgctxt "backend"
+msgid "Sidebar on the blog layout."
+msgstr "Stranska vrstica, prikazana na blog straneh."
+
+#: inc/theme-sidebars.php:26
+msgctxt "backend"
+msgid "Regular Page Sidebar"
+msgstr "Osnovna stranska vrstica"
+
+#: inc/theme-sidebars.php:28
+msgctxt "backend"
+msgid "Sidebar on the regular page."
+msgstr "Stranska vrstica, prikazana na osnovnih straneh."
+
+#: inc/theme-sidebars.php:41
+msgctxt "backend"
+msgid "Shop Sidebar"
+msgstr "Stranska vrstica v trgovini"
+
+#: inc/theme-sidebars.php:43
+msgctxt "backend"
+msgid "Sidebar for the shop page"
+msgstr "Stranska vrstica, prikazana v trgovini"
+
+#: inc/theme-sidebars.php:56
+msgctxt "backend"
+msgid "Slider"
+msgstr "Slider"
+
+#: inc/theme-sidebars.php:58
+msgctxt "backend"
+msgid "Slider widget area for Icon Box and Social Icons widgets."
+msgstr ""
+"Prostor v glavi spletne strani, namenjen gradnikom z ikonami in družabnimi "
+"ikonami."
+
+#: inc/theme-sidebars.php:71
+msgctxt "backend"
+msgid "Footer"
+msgstr "Noga"
+
+#: inc/theme-sidebars.php:73
+msgctxt "backend"
+msgid ""
+"Footer area works best with %d widgets. This number can be changed in the "
+"Appearance &rarr; Customize &rarr; Theme Options &rarr; Footer."
+msgstr ""
+"Noga spletne strani najbolje funkcionira z %d gradniki. To številko lahko "
+"spremeniš v Izgled &rarr; Prilagodi &rarr; Možnosti teme &rarr; Noga."
+
+#: inc/visual-composer/elements/vc-call-to-action.php:39
+msgctxt "backend"
+msgid "Call to Action"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-call-to-action.php:53
+msgctxt "backend"
+msgid "Subtitle"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-call-to-action.php:59
+msgctxt "backend"
+msgid "Button Area"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-call-to-action.php:61
+msgctxt "backend"
+msgid ""
+"For adding buttons you must use button shortcode which look like this: "
+"[button]Text[/button]. Please take a look at the documentation for more "
+"details."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-contact-detail-item.php:33
+msgctxt "backend"
+msgid "Contact Detail Item"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-contact-detail-item.php:50
+msgctxt "backend"
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-container-contact-profile.php:62
+msgctxt "backend"
+msgid "Contact Profile"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-container-contact-profile.php:72
+msgctxt "backend"
+msgid "Name"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-container-contact-profile.php:77
+#, fuzzy
+msgctxt "backend"
+msgid "Picture URL"
+msgstr "404 Slika"
+
+#: inc/visual-composer/elements/vc-container-contact-profile.php:82
+msgctxt "backend"
+msgid "Social icons"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-container-contact-profile.php:83
+msgctxt "backend"
+msgid ""
+"Enter values for social links - <em>URL</em>|<em>font awesome icon class "
+"name</em>. Divide value sets with linebreak \"Enter\" (Example: https://www."
+"facebook.com/ProteusThemes|fa-facebook-square)."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-container-contact-profile.php:89
+#: inc/widgets/widget-contact-profile.php:203
+msgctxt "backend"
+msgid "Open social links in new tab"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-counter.php:22
+msgctxt "backend"
+msgid "Test Title"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-counter.php:35
+msgctxt "backend"
+msgid "Counter"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-counter.php:48
+msgctxt "backend"
+msgid "Number"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-counter.php:49
+msgctxt "backend"
+msgid "Input a positive number."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-open-position.php:110
+msgctxt "backend"
+msgid "Open Position"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-open-position.php:140
+msgctxt "backend"
+msgid ""
+"Enter values for detail items - <em>item text</em>|<em>font awesome icon "
+"class name</em>. Divide value sets with linebreak \"Enter\" (Example: 227 "
+"Marion Street Columbia SC 2921|fa-home)."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:44
+msgctxt "backend"
+msgid "Portfolio Grid"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:52
+msgctxt "backend"
+msgid "Label for all items"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:54
+msgctxt "backend"
+msgid "All Projects"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:58
+msgctxt "backend"
+msgid "Layout"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:61
+msgctxt "backend"
+msgid "Display all the items in grid (4 in a row)"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:62
+msgctxt "backend"
+msgid "Display only one row of items, with arrows to see more"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:67
+msgctxt "backend"
+msgid "Maximum number of items"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:68
+msgctxt "backend"
+msgid "Set -1 to show all."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:76
+msgctxt "backend"
+msgid "Order items by"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:79
+msgctxt "backend"
+msgid "Post ID"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:82
+msgctxt "backend"
+msgid "Last modified date"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:83
+msgctxt "backend"
+msgid "Random Order"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:88
+msgctxt "backend"
+msgid "Order"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:91
+msgctxt "backend"
+msgid "Ascending"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:92
+msgctxt "backend"
+msgid "Descending"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:97
+msgctxt "backend"
+msgid "Add CTA (click to action) project."
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:102
+msgctxt "backend"
+msgid "CTA text"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:111
+msgctxt "backend"
+msgid "CTA button text"
+msgstr ""
+
+#: inc/visual-composer/elements/vc-portfolio-grid.php:120
+msgctxt "backend"
+msgid "CTA link"
+msgstr ""
+
+#: inc/visual-composer/templates/vc-about-us-template.php:11
+msgctxt "backend"
+msgid "StructurePress: About"
+msgstr ""
+
+#: inc/visual-composer/templates/vc-contact-us-template.php:11
+msgctxt "backend"
+msgid "StructurePress: Contact"
+msgstr ""
+
+#: inc/visual-composer/templates/vc-home-page-template.php:11
+msgctxt "backend"
+msgid "StructurePress: Home Page"
+msgstr ""
+
+#: inc/visual-composer/templates/vc-our-services-template.php:11
+msgctxt "backend"
+msgid "StructurePress: Services"
+msgstr ""
+
+#: inc/visual-composer/templates/vc-projects-template.php:11
+msgctxt "backend"
+msgid "StructurePress: Projects"
+msgstr ""
+
+#: inc/widgets/widget-call-to-action.php:84
+msgctxt "backend"
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-call-to-action.php:88
+msgctxt "backend"
+msgid "Subtitle:"
+msgstr ""
+
+#: inc/widgets/widget-call-to-action.php:92
+msgctxt "backend"
+msgid "Button Area:"
+msgstr ""
+
+#: inc/widgets/widget-call-to-action.php:95
+msgctxt "backend"
+msgid ""
+"Input a button shortcode in the above field. Please take a look at the <a "
+"href=\"%1$s\" target=\"_blank\">Buttons Shortcode documentation</a> to learn "
+"more on how to write button shortcodes."
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:191
+msgctxt "backend"
+msgid "Name:"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:196
+#, fuzzy
+msgctxt "backend"
+msgid "Picture URL:"
+msgstr "404 Slika"
+
+#: inc/widgets/widget-contact-profile.php:212
+msgctxt "backend"
+msgid "Text:"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:217
+msgctxt "backend"
+msgid "Select icon:"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:227
+msgctxt "backend"
+msgid "Remove item"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:233
+msgctxt "backend"
+msgid "Add New Item"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:243
+msgctxt "backend"
+msgid "Link:"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:248
+msgctxt "backend"
+msgid "Select social icon:"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:258
+msgctxt "backend"
+msgid "Remove social icon"
+msgstr ""
+
+#: inc/widgets/widget-contact-profile.php:264
+msgctxt "backend"
+msgid "Add New Social Icon"
+msgstr ""
+
+#: inc/filters.php:83
+msgctxt "custom read more text after the post excerpts"
+msgid " &hellip;"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by Roboto or Open Sans, translate this to 'off'. Do not translate into your
+#. own language.
+#: inc/filters.php:194
+msgctxt "Roboto or Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: inc/helpers.php:94
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "latin-ext"
+
+#: inc/widgets/widget-portfolio-grid.php:12
+msgctxt ""
+"%s represents a link to plugin: https://wordpress.org/plugins/portfolio-post-"
+"type/"
+msgid "Displays portfolio items from the %s plugin."
+msgstr ""
+
+#: inc/widgets/widget-portfolio-grid.php:187
+#, fuzzy
+msgctxt "screen reader label for previous slide"
+msgid "Previous"
+msgstr "Prejšnji %s"
+
+#: inc/widgets/widget-portfolio-grid.php:190
+#, fuzzy
+msgctxt "screen reader label for next slide"
+msgid "Next"
+msgstr "Naslednji %s"
+
+#. translators: Read %s as word 'project' in English
+#: single-portfolio.php:28
+msgctxt "%s represents Project by default, must be included"
+msgid "%s Info"
+msgstr "Podrobnosti"
+
+#. translators: Read %s as word 'project' in English
+#: single-portfolio.php:94 single-portfolio.php:125
+msgctxt "% must be included"
+msgid "Previous %s"
+msgstr "Prejšnji %s"
+
+#: single-portfolio.php:95 single-portfolio.php:126
+msgctxt "% must be included"
+msgid "Next %s"
+msgstr "Naslednji %s"

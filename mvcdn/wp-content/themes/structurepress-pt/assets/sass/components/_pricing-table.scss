@@ -1,0 +1,71 @@
+// 05.13. Pricing Table
+.structurepress-table {
+	width: 100%;
+	max-width: 100%;
+	color: $gray-light;
+	font-size: (16rem / 16);
+
+	thead {
+		th {
+			background-color: $brand-primary;
+			padding: (15rem / 16) (20rem / 16);
+			border-radius: $border-radius;
+			color: #ffffff;
+			border-right: 2px solid transparent;
+			border-top: 1px solid transparent;
+			border-bottom: 1px solid transparent;
+			background-clip: padding-box;
+			text-transform: uppercase;
+			font-size: (14rem / 16);
+			font-family: $secondary-font;
+
+			&:first-of-type {
+				background-color: transparent;
+				box-shadow: 0 0 0 1px $gray-lighter inset;
+				color: $gray-dark;
+				font-size: (20rem / 16);
+				text-transform: inherit;
+			}
+
+			&:last-of-type {
+				border-right: 0;
+			}
+		}
+	}
+
+	tbody {
+		td {
+			background-color: #ffffff;
+			box-shadow: 0 0 0 1px $gray-lighter inset;
+			padding: (15rem / 16) (20rem / 16);
+			border-right: 2px solid transparent;
+			border-bottom: 1px solid transparent;
+			border-top: 1px solid transparent;
+			background-clip: padding-box;
+			border-radius: $border-radius;
+
+			&:first-of-type {
+				font-family: $secondary-font;
+				box-shadow: none;
+				background-color: $gray-lightest;
+				font-weight: bold;
+				font-size: (15rem / 16);
+			}
+
+			&:last-of-type {
+				border-right: 0;
+			}
+		}
+	}
+}
+
+// Default Table
+.table {
+	thead {
+		th {
+			font-family: $primary-font;
+			font-size: (16rem / 16);
+			color: $gray-dark;
+		}
+	}
+}

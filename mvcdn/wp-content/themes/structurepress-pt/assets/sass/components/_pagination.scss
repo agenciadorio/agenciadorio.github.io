@@ -1,0 +1,49 @@
+/* 05.36. Pagination */
+.pagination {
+	position: relative;
+	margin-bottom: (90rem / 16);
+
+	.page-numbers {
+		display: inline-block;
+		background-color: $gray-lighter;
+		color: $gray-light;
+		font-weight: bold;
+		font-family: $secondary-font;
+		font-size: .875rem;
+		margin-right: .375rem;
+		width: 3.75rem;
+		height: 3.75rem;
+		text-align: center;
+		line-height: 3.75rem;
+		border-radius: $border-radius;
+		transition: $primary-transition;
+
+		&:focus,
+		&:hover {
+			color: $gray-dark;
+			text-decoration: none;
+		}
+	}
+
+	.current {
+		background-color: $brand-primary;
+		color: #ffffff;
+
+		&:focus,
+		&:hover {
+			color: #ffffff;
+		}
+	}
+
+	.prev,
+	.next {
+		position: absolute;
+		margin-right: 0;
+		right: 0;
+		font-size: 1rem;
+	}
+
+	.prev {
+		right: 4.375rem;
+	}
+}

@@ -1,0 +1,55 @@
+/* 05.08. Boxed Container */
+body {
+	.boxed-container {
+		background-color: #ffffff;
+		overflow-x: hidden;
+	}
+
+	&.boxed {
+		> .boxed-container {
+			margin: 0 auto;
+			box-shadow: 0 0 (30rem / 16) rgba(0, 0, 0, .1);
+			max-width: 100%;
+
+			@include media-breakpoint-up(md) {
+				width: (map-get($container-max-widths, md) + 60px);
+			}
+
+			@include media-breakpoint-up(lg) {
+				width: (map-get($container-max-widths, lg) + 60px);
+			}
+
+			@include media-breakpoint-up(xl) {
+				width: (map-get($container-max-widths, xl) + 60px);
+			}
+		}
+
+		.jumbotron {
+			&-content {
+				@include media-breakpoint-up(xl) {
+					top: 10%;
+				}
+
+				@media (min-width: 1700px) {
+					top: 10%;
+				}
+			}
+
+			&__extras {
+				position: static;
+				background: $gray-dark;
+
+				@include media-breakpoint-up(lg) {
+					position: relative;
+				}
+			}
+		}
+
+		.footer-bottom::before,
+		.footer-bottom::after,
+		.footer-bottom__left::before,
+		.footer-bottom__right::after {
+			display: none;
+		}
+	}
+}

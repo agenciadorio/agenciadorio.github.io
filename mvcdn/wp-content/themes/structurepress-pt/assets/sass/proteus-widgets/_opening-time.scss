@@ -1,0 +1,48 @@
+/* 05.30. Opening Time */
+.time-table {
+	.inner-bg {
+		border: 1px solid $gray-lighter;
+		padding: (24rem / 16) (30rem / 16) (30rem / 16);
+	}
+
+	.week-day {
+		clear: both;
+		padding: (10rem / 16) 0 (14rem / 16);
+		font-size: (14rem / 16);
+
+		dt {
+			float: left;
+			padding-right: (10rem / 16);
+			font-weight: normal;
+		}
+
+		dd {
+			float: right;
+			padding-left: (10rem / 16);
+		}
+
+		&.today {
+			font-family: $secondary-font;
+			color: $gray-dark;
+
+			dt,
+			dd {
+				font-weight: bold;
+			}
+		}
+
+		&:first-of-type {
+			border-top: 0;
+			padding-top: 0;
+		}
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+
+	h3 {
+		font-size: (30rem / 16);
+		margin-bottom: (25rem / 16);
+	}
+}

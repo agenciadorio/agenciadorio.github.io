@@ -1,0 +1,19 @@
+/**
+ * Admin CSS
+ */
+
+.pt-widget-single-open-position-item,
+.pt-widget-single-contact-profile-item {
+	padding: 0 10px;
+	border: 1px solid rgba(0,0,0,0.1);
+	background-color: rgba(0,0,0,0.03);
+	margin-bottom: 10px;
+}
+
+.pt-remove-contact-profile-item {
+	text-decoration: none;
+}
+
+.icon-widget {
+	margin-right: 5px;
+}

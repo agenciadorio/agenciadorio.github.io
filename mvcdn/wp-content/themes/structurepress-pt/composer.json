@@ -1,0 +1,19 @@
+{
+  "name":         "proteusthemes/structurepress-pt",
+  "description":  "WordPress theme by ProteusThemes.",
+  "license":      "GPL-2.0+",
+  "type":         "project",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/proteusthemes/visual-composer-elements.git"
+    }
+  ],
+  "require": {
+    "tgmpa/tgm-plugin-activation":                   "~2.5.0",
+    "proteusthemes/wai-aria-walker-nav-menu":        "^1.2.0",
+    "proteusthemes/wp-customizer-utilities":         "^2.0.2",
+    "proteusthemes/visual-composer-elements":        "^0.4.1",
+    "proteusthemes/proteuswidgets":                  "^3.7.2"
+  }
+}

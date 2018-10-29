@@ -1,0 +1,115 @@
+/* 05.17. Latest News */
+.latest-news {
+	margin-bottom: 0;
+	transition: $primary-transition;
+
+	&__date {
+		font-size: .875rem;
+	}
+
+	&__image {
+		img {
+			width: 100%;
+		}
+	}
+
+	&--block {
+		.latest-news__content {
+			position: relative;
+			border-top: 3px solid $brand-primary;
+		}
+
+		.latest-news__date {
+			position: absolute;
+			background-color: $brand-primary;
+			color: #ffffff;
+			top: -1rem;
+			padding: .25rem .625rem;
+			font-family: $secondary-font;
+			font-weight: bold;
+			text-shadow: 0 1px rgba(0, 0, 0, .15);
+		}
+
+		.latest-news__title {
+			margin-top: .5rem;
+			margin-bottom: 1.125rem;
+			line-height: 1.35;
+
+			a {
+				color: $gray-dark;
+			}
+		}
+
+		.latest-news__text {
+			font-size: .875rem;
+		}
+	}
+
+	&--inline {
+		display: block;
+		border-top: 0;
+		border-left: 3px solid $gray-lighter;
+
+		.latest-news__content {
+			padding-top: 1.5625rem;
+			padding-bottom: 1.4375rem;
+			border-left: 0;
+			border-top: 0;
+		}
+
+		.latest-news__title {
+			font-size: .9375rem;
+			margin-bottom: .375rem;
+			line-height: 1.54;
+		}
+
+		.latest-news__date {
+			color: $gray-light;
+		}
+
+		&:focus,
+		&:hover {
+			background-color: $gray-lightest;
+			text-decoration: none;
+			border-left-color: $brand-primary;
+		}
+
+		// First inline item has border top (all others have just border bottom).
+		&:first-of-type {
+			border-top: 1px solid $gray-lighter;
+		}
+
+		// scss-lint:disable SelectorFormat
+		+ .latest-news--more-news {
+			border-left: 3px solid $gray-lighter;
+
+			&:hover {
+				border-left-color: $brand-primary;
+			}
+		}
+	}
+
+	&--more-news {
+		display: block;
+		position: relative;
+		border-top: 0;
+		padding: 1.09375rem 1.875rem;
+		font-family: $secondary-font;
+		font-weight: bold;
+		font-size: .9375rem;
+		text-transform: uppercase;
+		transition: $primary-transition;
+
+		&::after {
+			position: absolute;
+			content: '\f105';
+			font-family: 'FontAwesome';
+			right: 1.875rem;
+		}
+
+		&:hover {
+			background-color: $gray-lightest;
+			text-decoration: none;
+		}
+	}
+}

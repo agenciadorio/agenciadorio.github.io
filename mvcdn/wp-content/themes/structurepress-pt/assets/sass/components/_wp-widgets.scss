@@ -1,0 +1,262 @@
+/* 05.38. WordPress Widgets */
+
+// scss-lint:disable SelectorFormat, NestingDepth
+
+/* Applies to all widgets */
+.widget {
+	select,
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+/* Calendar Widget */
+.widget_calendar {
+	table {
+		width: 100%;
+	}
+
+	caption {
+		font-family: $secondary-font;
+		background-color: $brand-primary;
+		color: #ffffff;
+		padding: .3125rem 0;
+		text-align: center;
+		border-radius: $border-radius;
+		caption-side: inherit;
+	}
+
+	thead {
+		th {
+			padding: .3125rem 0;
+			text-align: center;
+			color: $gray-light;
+			background-color: rgba(0, 0, 0, .05);
+			border: 1px solid rgba(0, 0, 0, .05);
+		}
+	}
+
+	tbody {
+		td {
+			padding: .1875rem 0;
+			text-align: center;
+			border: 1px solid rgba(0, 0, 0, .05);
+		}
+	}
+
+	tfoot {
+		td {
+			padding: .3125rem;
+
+			&:last-of-type {
+				a {
+					float: right;
+				}
+			}
+		}
+	}
+}
+
+/* Tag Cloud Widget */
+.widget_tag_cloud {
+	a {
+		display: inline-block;
+		padding: .375rem .625rem .25rem;
+		margin: .125rem 0;
+		font-family: $secondary-font;
+		font-weight: bold;
+		background-color: $gray-lighter;
+		color: $gray-light;
+		border-radius: $border-radius;
+		transition: $primary-transition;
+
+		&:focus,
+		&:hover {
+			background-color: darken($gray-lighter, 5);
+			color: darken($gray-light, 5);
+			text-decoration: none;
+		}
+	}
+
+	.footer-top & {
+		a {
+			background-color: darken($gray-lighter, 5);
+		}
+	}
+}
+
+/* Search Widget */
+.widget_search {
+	label {
+		width: 100%;
+
+		@include media-breakpoint-up(lg) {
+			float: left;
+			width: 70%;
+			margin-right: .5rem;
+		}
+	}
+
+	.search-field {
+		height: 3.75rem;
+		padding-left: 1rem;
+		box-sizing: border-box;
+
+		&:focus {
+			background-color: #ffffff;
+		}
+	}
+
+	.search-submit {
+		width: 100%;
+		padding: (17rem / 16) 0;
+
+		@include media-breakpoint-up(lg) {
+			width: calc(30% - .5rem);
+		}
+	}
+}
+
+/* Widgets With Lists */
+.widget_archive,
+.widget_pages,
+.widget_categories,
+.widget_meta,
+.widget_recent_comments,
+.widget_recent_entries,
+.widget_rss {
+	ul {
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+	}
+
+	a {
+		word-wrap: break-word;
+	}
+}
+
+/* Custom Menu */
+.widget_nav_menu {
+	ul {
+		@include list-unstyled;
+	}
+
+	.sub-menu {
+		padding-left: (10rem / 16);
+	}
+}
+
+.footer-top {
+	.widget_nav_menu {
+		.menu {
+			a {
+				line-height: 1.9;
+				color: $gray-light;
+				margin: (3rem / 16) 0;
+				font-size: (14rem / 16);
+			}
+		}
+	}
+}
+
+.sidebar {
+	.widget_nav_menu {
+		// Generic links
+		a {
+			display: block;
+			color: $gray-light;
+
+			&:focus,
+			&:hover {
+				text-decoration: none;
+				color: $gray-dark;
+			}
+		}
+
+		// Main (1. level) links.
+		.menu {
+			> li {
+				border-bottom: 1px solid $gray-lighter;
+
+				> a {
+					font-weight: bold;
+					font-family: $secondary-font;
+					border-right: 1px solid $gray-lighter;
+					border-left: .1875rem solid #dddddd;
+					padding: 1.0625rem 1.875rem;
+					font-size: .9375rem;
+					border-radius: 0;
+					transition: $primary-transition;
+
+					&:focus,
+					&:hover {
+						border-left-color: $brand-primary;
+						background-color: $gray-lightest;
+					}
+				}
+
+				&.current-menu-item > a {
+					border-left-color: $brand-primary;
+					background-color: $gray-lightest;
+					color: $gray-dark;
+				}
+
+				&.menu-item-has-children {
+					> a {
+						position: relative;
+						border-bottom: 1px solid $gray-lighter;
+
+						&::after {
+							position: absolute;
+							content: '\f0d7';
+							font-family: 'FontAwesome';
+							right: 1.25rem;
+							color: $gray-light;
+						}
+					}
+
+					&:last-of-type {
+						border-bottom: 0;
+					}
+				}
+
+				&:first-of-type {
+					border-top: 1px solid $gray-lighter;
+				}
+			}
+		}
+
+		// Sub-menu (2. level) links.
+		.sub-menu {
+			margin-left: 2.125rem;
+			border-left: 2px solid $gray-lighter;
+			padding-top: .8125rem;
+			padding-bottom: 1rem;
+
+			a {
+				padding: .438rem 1.875rem;
+			}
+
+			// Sub-menu (3. level and further) links.
+			.sub-menu {
+				padding-top: .1875rem;
+				padding-bottom: .375rem;
+				margin-top: .4375rem;
+				margin-bottom: .4375rem;
+			}
+		}
+	}
+}
+
+// Images in text widgets.
+.textwidget {
+	a > img {
+		&.alignright,
+		&.alignnone,
+		&.alignleft,
+		&.aligncenter {
+			margin-top: 0;
+		}
+	}
+}

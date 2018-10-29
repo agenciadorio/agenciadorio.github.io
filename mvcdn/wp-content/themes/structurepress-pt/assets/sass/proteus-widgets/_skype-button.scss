@@ -1,0 +1,34 @@
+/* 05.22. Skype Button */
+.skype-button {
+	position: relative;
+	display: block;
+	padding: .6875rem;
+	background-color: #1fa7da;
+	border-radius: 2px;
+	transition: $primary-transition;
+
+	.fa {
+		font-size: 2.5rem;
+		float: right;
+		color: #79cae9;
+		transition: $primary-transition;
+	}
+
+	&:focus,
+	&:hover {
+		background-color: darken(#1fa7da, 2);
+
+		.fa {
+			color: lighten(#79cae9, 5);
+		}
+	}
+
+	&__title {
+		display: inline-block;
+		padding: .3125rem .625rem;
+		margin: 0;
+		color: #ffffff;
+		font-family: $secondary-font;
+		font-size: 1.125rem;
+	}
+}

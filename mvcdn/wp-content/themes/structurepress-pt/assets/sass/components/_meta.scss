@@ -1,0 +1,28 @@
+/* 05.34. Meta */
+.meta {
+	a {
+		color: $gray-light;
+	}
+
+	&__item {
+		position: relative;
+		margin-left: 1.6875rem;
+
+		&::before {
+			position: absolute;
+			content: '';
+			left: -1rem;
+			width: 1px;
+			height: 1.25rem;
+			background-color: $gray-lighter;
+		}
+
+		&:first-of-type {
+			margin-left: 0;
+
+			&::before {
+				display: none;
+			}
+		}
+	}
+}

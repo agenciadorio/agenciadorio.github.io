@@ -1,0 +1,25 @@
+/* Visual Composer */
+
+// scss-lint:disable SelectorFormat, ImportantRule
+
+.wpb-js-composer {
+
+	.page-box--inline {
+		padding-bottom: 30px;
+	}
+
+	.call-to-action__button p {
+		margin: 0;
+	}
+
+	.widget-testimonials .widgettitle {
+		margin-bottom: 2.5rem;
+	}
+
+	.wpcf7-select,
+	.wpcf7-text,
+	.wpcf7-textarea {
+		margin-bottom: 30px !important;
+	}
+
+}

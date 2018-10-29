@@ -1,0 +1,12 @@
+/* 05.05. Sidebar */
+.sidebar {
+	&__headings {
+		font-size: 1.875rem;
+		margin-top: 0;
+		margin-bottom: 1.5rem;
+	}
+
+	.widget {
+		margin-bottom: 3.5rem;
+	}
+}

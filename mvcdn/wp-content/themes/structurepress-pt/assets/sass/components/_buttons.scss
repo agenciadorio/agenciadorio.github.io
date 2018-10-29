@@ -1,0 +1,39 @@
+/* 05.12. Buttons */
+.btn {
+	font-family: $secondary-font;
+	font-size: .875rem;
+	border-radius: $border-radius;
+	transition: $primary-transition;
+	border-width: 2px;
+
+	&-primary {
+		background: linear-gradient($brand-primary, #e0a314);
+		text-shadow: 0 1px rgba(0, 0, 0, .15);
+		transition: none;
+
+		&:hover {
+			background: darken($brand-primary, 8);
+		}
+	}
+
+	&-secondary {
+		&:hover {
+			border-color: rgba(0, 0, 0, .5);
+		}
+	}
+
+	&-tertiary {
+		background-color: #ffffff;
+		color: $gray-dark;
+		box-shadow: $box-shadow;
+
+		&:hover {
+			color: darken($gray-dark, 8);
+			box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+		}
+	}
+
+	.fa {
+		margin-right: (10rem / 16);
+	}
+}

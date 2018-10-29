@@ -1,0 +1,37 @@
+/* 05.31. Number Counter */
+.number-counters {
+	display: flex;
+	flex-direction: column;
+
+	@include media-breakpoint-up(lg) {
+		flex-direction: row;
+	}
+}
+
+.number-counter {
+	flex: 1;
+	text-align: center;
+	transition: $primary-transition;
+	background-color: #ffffff;
+	box-shadow: $box-shadow;
+	padding: (36rem / 16) 0 (33rem / 16);
+	margin-bottom: (10rem / 16);
+
+	@include media-breakpoint-up(lg) {
+		margin-right: (10rem / 16);
+		margin-bottom: 0;
+	}
+
+	&__number {
+		font-size: (40rem / 16);
+		font-family: $secondary-font;
+		font-weight: bold;
+		color: $gray-dark;
+		line-height: 1;
+	}
+
+	&:last-of-type {
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+}

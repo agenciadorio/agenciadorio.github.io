@@ -1,0 +1,79 @@
+/* 05.21. Contact Profile */
+.contact-profile {
+	&__container {
+		position: relative;
+		border-top: 3px solid $brand-primary;
+		border-bottom: 9px solid $gray-lightest;
+		padding-bottom: (26rem / 16);
+	}
+
+	&__name {
+		position: absolute;
+		background-color: $brand-primary;
+		color: #ffffff;
+		top: (-16rem / 16);
+		left: (30rem / 16);
+		padding: (4rem / 16) (10rem / 16);
+		font-family: $secondary-font;
+		font-weight: bold;
+		font-size: (14rem / 16);
+		text-shadow: 0 1px rgba(0, 0, 0, .15);
+	}
+
+	&__item {
+		padding-bottom: (19rem / 16);
+		margin-bottom: (19rem / 16);
+		border-bottom: 1px solid $gray-lighter;
+
+		&:last-of-type {
+			padding-bottom: 0;
+			margin-bottom: 0;
+			border-bottom: 0;
+		}
+	}
+
+	&__icon {
+		float: left;
+	}
+
+	&__text {
+		margin-left: (30rem / 16);
+		margin-bottom: 0;
+		font-size: (14rem / 16);
+	}
+
+	&__social-icons {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background-color: $gray-lightest;
+		padding: (11rem / 16) (30rem / 16) (1rem / 16) (10rem / 16);
+		line-height: 1;
+
+		&::before {
+			position: absolute;
+			content: '';
+			left: (-35rem / 16);
+			bottom: 0;
+			width: 0;
+			height: 0;
+			border-bottom: (35rem / 16) solid $gray-lightest;
+			border-left: (35rem / 16) solid transparent;
+		}
+
+		+ .contact-profile__items {
+			margin-bottom: (30rem / 16);
+		}
+	}
+
+	&__social-icon {
+		font-size: (22rem / 16);
+		color: $gray-light;
+		padding-left: (1rem / 16);
+
+		&:focus,
+		&:hover {
+			color: $brand-primary;
+		}
+	}
+}

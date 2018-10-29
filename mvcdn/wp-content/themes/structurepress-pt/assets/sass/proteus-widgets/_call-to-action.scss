@@ -1,0 +1,39 @@
+/* 05.19. Call to Action */
+.call-to-action {
+	&__text {
+		text-align: center;
+		padding: 0 0 .9375rem;
+
+		@include media-breakpoint-up(lg) {
+			text-align: left;
+			float: left;
+			padding: .34375rem 0;
+		}
+	}
+
+	&__title {
+		color: $gray-light;
+		margin-bottom: .3125rem;
+	}
+
+	&__subtitle {
+		font-size: .875rem;
+		margin-bottom: 0;
+	}
+
+	&__button {
+		text-align: center;
+
+		@include media-breakpoint-up(lg) {
+			float: right;
+		}
+
+		.btn {
+			margin-left: .9375rem;
+
+			&:first-of-type {
+				margin-left: 0;
+			}
+		}
+	}
+}

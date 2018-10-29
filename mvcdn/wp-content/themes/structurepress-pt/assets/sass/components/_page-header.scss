@@ -1,0 +1,22 @@
+/* 05.03. Page Header */
+.page-header {
+	background-color: $gray-lightest;
+	margin-bottom: (60rem / 16);
+	padding-top: (56rem / 16);
+	padding-bottom: (53rem / 16);
+	border-bottom: 1px solid $gray-lighter;
+
+	&__title {
+		margin-bottom: 0;
+	}
+
+	&__subtitle {
+		margin-top: (6rem / 16);
+		margin-bottom: 0;
+		font-size: (16rem / 16);
+	}
+
+	.site-header + & {
+		margin-top: (-60rem / 16);
+	}
+}

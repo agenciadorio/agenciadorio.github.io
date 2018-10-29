@@ -1,0 +1,45 @@
+/* 05.29. Brochure Box */
+.brochure-box {
+	position: relative;
+	display: block;
+	padding: (14rem / 16);
+	transition: $primary-transition;
+	border: 1px solid $gray-lighter;
+	border-left: 3px solid $gray-lighter;
+
+	&__icon {
+		vertical-align: middle;
+	}
+
+	.fa {
+		transition: $primary-transition;
+		display: inline-block;
+		font-size: (20rem / 16);
+		color: $gray-light;
+		width: (30rem / 16);
+		text-align: center;
+	}
+
+	&__text {
+		transition: $primary-transition;
+		display: inline-block;
+		color: $gray-dark;
+		font-size: (14rem / 16);
+		font-weight: bold;
+		font-family: $secondary-font;
+		margin-left: (7rem / 16);
+	}
+
+	&:focus,
+	&:hover {
+		text-decoration: none;
+		border-left-color: $brand-primary;
+		background-color: $gray-lightest;
+	}
+}
+
+// scss-lint:disable SelectorFormat
+
+.widget-brochure-box + .widget-brochure-box {
+	margin-top: (-31rem / 16);
+}

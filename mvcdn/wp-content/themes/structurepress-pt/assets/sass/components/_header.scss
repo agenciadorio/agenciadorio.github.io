@@ -1,0 +1,223 @@
+/* 05.02. Header */
+.site-header {
+	margin-bottom: (60rem / 16);
+}
+
+.header {
+	position: relative;
+	box-shadow: 0 2px 3px #dedede;
+	z-index: 10;
+
+	.page-template-template-front-page-slider & {
+		box-shadow: none;
+	}
+
+	&__logo {
+		position: relative;
+		z-index: 1;
+		width: 55%;
+		float: left;
+
+		@media (min-width: 450px) {
+			width: 18.75rem;
+			height: 7.5rem;
+		}
+
+		img {
+			display: inline-block;
+			margin: 1.59375rem 0;
+			transition: $primary-transition;
+		}
+
+		// Color of text if Logo is not used.
+		a {
+			color: $gray-dark;
+		}
+
+		// Text must be verticaly centered if Logo is not used.
+		h1 {
+			margin-top: 2.4375rem;
+		}
+	}
+
+	&__navigation {
+		width: 100%;
+		float: left;
+		background-color: $gray-lightest;
+		border: 1px solid darken($gray-lightest, 8);
+		border-radius: 2px;
+		margin-bottom: 15px;
+
+		@include media-breakpoint-up(lg) {
+			width: calc(80% - 18.75rem);
+			background-color: #ffffff;
+			border: 0;
+			margin-bottom: 0;
+		}
+
+		@at-root {
+			// Sticky Navigation, .is-sticky-nav is added via JS (StickyNavbar.js)
+			// scss-lint:disable SelectorFormat, SelectorDepth, NestingDepth
+			@include media-breakpoint-up(lg) {
+				.is-sticky-nav {
+					.top {
+						&::after {
+							display: none;
+						}
+					}
+
+					.site-header {
+						margin-top: 120px;
+
+						&--no-top {
+							display: inline-block;
+							margin-top: 113px;
+						}
+					}
+
+					.header {
+						position: fixed;
+						top: 0;
+						left: 0;
+						width: 100%;
+						z-index: 5;
+						border-radius: 0 0 2px 2px;
+						box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+
+						.main-navigation {
+							> .menu-item {
+								> a {
+									padding-top: 48px;
+									padding-bottom: 48px;
+								}
+							}
+
+							> .menu-item-has-children::after {
+								bottom: 22px;
+							}
+						}
+					}
+
+					&.admin-bar {
+						.header {
+							top: 32px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&__navbar-toggler {
+		float: right;
+
+		&.btn {
+			font-size: 14px;
+			border-radius: 2px;
+			padding: 15px 20px;
+			margin: 12px 0 0;
+
+			@media (min-width: 450px) {
+				margin: 22px 0 0;
+			}
+		}
+
+		.hamburger {
+			font-size: 26px;
+			vertical-align: middle;
+			color: #ffffff;
+			line-height: 1;
+			padding-right: 10px;
+		}
+
+		span {
+			font-size: 14px;
+			vertical-align: middle;
+		}
+	}
+
+	&__featured-link {
+		width: 100%;
+		clear: both;
+		padding-bottom: (20rem / 16);
+		padding-top: (20rem / 16);
+		text-shadow: none;
+
+		@include media-breakpoint-up(lg) {
+			padding-top: 1.875rem;
+			padding-bottom: 1.875rem;
+			float: right;
+			width: 20%;
+			text-align: right;
+			clear: inherit;
+			text-shadow: 0 1px rgba(0, 0, 0, .15);
+		}
+
+		.btn {
+			width: 100%;
+
+			@include media-breakpoint-up(lg) {
+				width: auto;
+				padding: .9375rem 1.1875rem;
+			}
+
+			@include media-breakpoint-up(xl) {
+				padding: 1.0625rem 1.8125rem;
+			}
+		}
+
+		.btn-primary {
+			@include media-breakpoint-down(md) {
+				background: $gray-lighter;
+				border-color: $gray-lighter;
+				color: $gray-light;
+			}
+
+			&:hover {
+				@include media-breakpoint-down(md) {
+					background: darken($gray-lighter, 8);
+					border-color: darken($gray-lighter, 8);
+				}
+			}
+		}
+	}
+
+	/* Top Cosmetic Detail just for Desktop */
+	&::before,
+	&::after {
+		@include media-breakpoint-up(lg) {
+			position: absolute;
+			content: '';
+			background-color: #ffffff;
+			width: 2.375rem;
+			height: 2.375rem;
+			top: -1.0625rem;
+		}
+	}
+
+	/* Top Cosmetic Detail just for Desktop */
+	&::before {
+		@include media-breakpoint-up(lg) {
+			transform: rotate(52deg);
+			border-left: 1px solid $gray-lighter;
+			left: calc(50% - #{map-get($container-max-widths, lg) / 2} - .4375rem);
+
+			@include media-breakpoint-up(xl) {
+				left: calc(50% - #{map-get($container-max-widths, xl) / 2} - .4375rem);
+			}
+		}
+	}
+
+	/* Top Cosmetic Detail just for Desktop */
+	&::after {
+		@include media-breakpoint-up(lg) {
+			transform: rotate(-52deg);
+			border-right: 1px solid $gray-lighter;
+			left: calc(50% - #{map-get($container-max-widths, lg) / 2} + 16.875rem);
+
+			@include media-breakpoint-up(xl) {
+				left: calc(50% - #{map-get($container-max-widths, xl) / 2} + 16.875rem);
+			}
+		}
+	}
+}

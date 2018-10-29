@@ -1,0 +1,22 @@
+/* 05.23. Logo Panel (Normal TextWidget) */
+.logo-panel {
+	text-align: center;
+
+	@include media-breakpoint-up(lg) {
+		text-align: left;
+	}
+
+	img {
+		border: 1px solid rgba(0, 0, 0, .1);
+		margin-bottom: 1.25rem;
+		transition: $primary-transition;
+
+		@include media-breakpoint-up(lg) {
+			margin-bottom: 0;
+		}
+
+		&:hover {
+			border: 1px solid $brand-primary;
+		}
+	}
+}

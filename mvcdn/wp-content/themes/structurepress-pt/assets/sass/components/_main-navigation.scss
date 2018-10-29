@@ -1,0 +1,298 @@
+/* 05.10. Main Navigation */
+.main-navigation {
+	@include list-unstyled;
+	font-size: 0; // Hack for having 0px space between menu-items.
+	margin: 0;
+
+	@include media-breakpoint-up(lg) {
+		display: inline; // Keeps Home Icon and Main Navigation in same line when there is break.
+	}
+
+	.menu-item {
+		position: relative;
+		font-size: .9375rem;
+
+		@include media-breakpoint-up(lg) {
+			display: inline-block;
+		}
+
+		// :hover colors for Main Navigation links (without sub-menus).
+		&:focus,
+		&:hover,
+		&.is-hover,
+		&[aria-expanded="true"] {
+			> a {
+				color: #000000;
+				text-decoration: none;
+
+				@include media-breakpoint-up(lg) {
+					color: $gray-dark;
+				}
+			}
+
+			// 1. level sub-menus are open on :hover.
+			> .sub-menu {
+				visibility: visible;
+				opacity: 1;
+				z-index: 1;
+			}
+		}
+	}
+
+	// Last menu item on mobile is without bottom border.
+	> .menu-item {
+		&:last-of-type {
+			a {
+				border-bottom: 0;
+			}
+
+			// Hack in case if last main link has sub-menus.
+			.sub-menu {
+				a {
+					border-top: 1px solid darken($gray-lightest, 8);
+				}
+			}
+		}
+	}
+
+	// Main Navigation Links and Colors.
+	a {
+		display: block;
+		color: $gray-dark;
+		padding: 17.5px 30px;
+		font-weight: bold;
+		font-family: $secondary-font;
+		border-bottom: 1px solid darken($gray-lightest, 8);
+
+		@include media-breakpoint-up(lg) {
+			padding: 3rem .625rem;
+			color: $gray-light;
+			border-bottom: 0;
+		}
+
+		@include media-breakpoint-up(xl) {
+			padding: 3rem 1.1875rem;
+		}
+	}
+
+	// Active current link.
+	> .current-menu-item {
+		> a {
+			@include media-breakpoint-up(lg) {
+				color: $gray-dark;
+			}
+
+			// Line under the links for active current link.
+			&::after {
+				@include media-breakpoint-up(lg) {
+					position: absolute;
+					content: '';
+					width: calc(100% - 1.75rem);
+					height: .1875rem;
+					left: .875rem;
+					bottom: 2rem;
+					background-color: $brand-primary;
+				}
+			}
+		}
+
+		&.menu-item-has-children {
+			&::after {
+				@include media-breakpoint-up(lg) {
+					display: none;
+				}
+			}
+		}
+	}
+
+	// Item with children.
+	> .menu-item-has-children {
+		// Indicator for sub-menus.
+		&::after {
+			@include media-breakpoint-up(lg) {
+				position: absolute;
+				content: '\f0d7';
+				font-family: 'FontAwesome';
+				bottom: (22rem / 16);
+				left: calc(50% - #{(5rem / 16)});
+				color: $gray-light;
+			}
+		}
+	}
+
+	// scss-lint:disable SelectorDepth
+
+	// Sub-menu items.
+	.sub-menu {
+		@include list-unstyled;
+		transition: $primary-transition;
+
+		@include media-breakpoint-up(lg) {
+			position: absolute;
+			visibility: hidden;
+			opacity: 0;
+		}
+
+		.menu-item {
+			display: block;
+
+			// 2. level sub menus are open on :hover.
+			&:focus,
+			&:hover,
+			&[aria-expanded="true"] {
+				> .sub-menu {
+					visibility: visible;
+					opacity: 1;
+				}
+
+				> a {
+					@include media-breakpoint-up(lg) {
+						color: #ffffff;
+					}
+				}
+			}
+
+			> a {
+				&:hover {
+					@include media-breakpoint-up(lg) {
+						background-color: darken($brand-primary, 5);
+					}
+				}
+			}
+
+			// Sub-menu has shadow-like 2px border on top.
+			&:first-of-type {
+				@include media-breakpoint-up(lg) {
+					border-top: 2px solid darken($brand-primary, 5);
+				}
+			}
+
+			// Last sub-menu is without border and with border radius.
+			&:last-of-type {
+				a {
+					@include media-breakpoint-up(lg) {
+						border-bottom: 0;
+						border-bottom-right-radius: 2px;
+						border-bottom-left-radius: 2px;
+					}
+				}
+			}
+		}
+
+		// Sub menu links on mobile.
+		a {
+			display: block;
+			padding-left: 50px;
+			color: $gray-light;
+			font-weight: normal;
+			font-family: $primary-font;
+
+			// Sub menu links on desktop.
+			@include media-breakpoint-up(lg) {
+				background-color: $brand-primary;
+				color: #ffffff;
+				padding: .75rem 1.25rem;
+				min-width: 150px;
+				white-space: nowrap;
+				border-bottom: 1px solid darken($brand-primary, 5);
+			}
+		}
+
+		// 2. level + are opening next to each other.
+		.sub-menu {
+			left: 100%;
+			top: 0;
+
+			// Border on top of sub-menu is removed for 2. level +.
+			.menu-item {
+				@include media-breakpoint-up(lg) {
+					border-top: 0;
+				}
+			}
+
+			a {
+				padding-left: 65px;
+
+				@include media-breakpoint-up(lg) {
+					padding-left: 1.25rem;
+					border-left: 1px solid darken($brand-primary, 5);
+				}
+			}
+
+			.sub-menu a {
+				padding-left: 80px;
+
+				@include media-breakpoint-up(lg) {
+					padding-left: 1.25rem;
+				}
+			}
+
+			.sub-menu .sub-menu a {
+				padding-left: 95px;
+
+				@include media-breakpoint-up(lg) {
+					padding-left: 1.25rem;
+				}
+			}
+
+			.sub-menu .sub-menu .sub-menu a {
+				padding-left: 110px;
+
+				@include media-breakpoint-up(lg) {
+					padding-left: 1.25rem;
+				}
+			}
+		}
+
+		.menu-item-has-children {
+			&::after {
+				@include media-breakpoint-up(lg) {
+					position: absolute;
+					content: '\f0da';
+					font-family: 'FontAwesome';
+					right: 15px;
+					top: calc(50% - 12px);
+					color: darken($brand-primary, 5);
+				}
+			}
+		}
+	}
+}
+
+// Home Icon.
+.home-icon {
+	display: block;
+	color: $gray-dark;
+	padding: 17.5px 30px;
+	border-bottom: 1px solid darken($gray-lightest, 8);
+	transition: $primary-transition;
+
+	@include media-breakpoint-up(lg) {
+		display: inline-block;
+		color: $gray-light;
+		font-size: 24px;
+		border-bottom: 0;
+		border-right: 0;
+		margin-right: 0;
+		padding: 7px 2px 14px 0;
+	}
+
+	@include media-breakpoint-up(xl) {
+		border-right: 1px solid rgba(0, 0, 0, .1);
+		margin-right: 8px;
+		padding: 7px 30px 14px 0;
+	}
+
+	&:focus,
+	&:hover {
+		color: $gray-dark;
+	}
+
+	.fa {
+		vertical-align: middle;
+
+		@include media-breakpoint-up(lg) {
+			padding-top: 3px;
+		}
+	}
+}

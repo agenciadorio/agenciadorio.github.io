@@ -1,0 +1,113 @@
+/* 05.27. Accordion */
+.accordion {
+	border: 1px solid $gray-lighter;
+
+	&__panel {
+		border-left: 3px solid $gray-lighter;
+
+		&:focus,
+		&:hover {
+			border-left: 3px solid $brand-primary;
+		}
+
+		.panel-title {
+			a {
+				position: relative;
+				display: block;
+				color: $gray-dark;
+				padding: (22rem / 16) (20rem / 16) (22rem / 16) (55rem / 16);
+				font-size: (14rem / 16);
+				border-top: 1px solid rgba(0, 0, 0, .08);
+				transition: $primary-transition;
+
+				&::before {
+					position: absolute;
+					content: '\f068';
+					font-family: 'FontAwesome';
+					left: (15.5rem / 16);
+					top: calc(50% - #{(12.5rem / 16)});
+					width: (25rem / 16);
+					height: (25rem / 16);
+					text-align: center;
+					line-height: (26rem / 16);
+					color: $gray-light;
+				}
+
+				&.collapsed {
+					&::before {
+						content: '\f067';
+					}
+				}
+
+				&:focus {
+					text-decoration: none;
+				}
+
+				&:hover {
+					text-decoration: none;
+					background-color: $gray-lightest;
+				}
+
+				&[aria-expanded="true"] {
+					background-color: $gray-lightest;
+				}
+			}
+		}
+
+		&:first-of-type {
+			a {
+				border-top: 0;
+			}
+		}
+	}
+
+	&__content {
+		.panel-body {
+			font-size: (14rem / 16);
+			padding: (20rem / 16) (20rem / 16) (20rem / 16) (55rem / 16);
+			border-top: 1px solid rgba(0, 0, 0, .08);
+		}
+	}
+
+	h4 {
+		margin: 0;
+	}
+
+	.more-link {
+		position: relative;
+		display: block;
+		border-left: 3px solid $gray-lighter;
+		border-top: 1px solid rgba(0, 0, 0, .08);
+		padding: (18.5rem / 16) (20rem / 16) (18.5rem / 16) (55rem / 16);
+		transition: $primary-transition;
+		font-family: $secondary-font;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: (14rem / 16);
+
+		&::before {
+			position: absolute;
+			content: '\f0c9';
+			font-family: 'FontAwesome';
+			left: (15.5rem / 16);
+			top: calc(50% - #{(12.5rem / 16)});
+			width: (25rem / 16);
+			height: (25rem / 16);
+			text-align: center;
+			line-height: (26rem / 16);
+			color: $gray-light;
+		}
+
+		&::after {
+			right: (20rem / 16);
+			margin-left: (10rem / 16);
+		}
+
+		&:focus,
+		&:hover {
+			text-decoration: none;
+			background-color: $gray-lightest;
+			border-left-color: $brand-primary;
+		}
+	}
+}

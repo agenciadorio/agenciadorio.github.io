@@ -1,0 +1,142 @@
+/* 05.06. Footer */
+.footer {
+	&-top {
+		position: relative;
+		z-index: 1;
+		background-color: $gray-lighter;
+		padding: (58rem / 16) 0  (18rem / 16);
+		font-size: (14rem / 16);
+		margin-bottom: (10rem / 16);
+		border-bottom: 1px solid darken($gray-lighter, 2);
+
+		&__headings {
+			font-size: (15rem / 16);
+			margin-bottom: (18rem / 16);
+			text-transform: uppercase;
+		}
+
+		.icon-container {
+			display: inline-block;
+			margin-right: (3rem / 16);
+			width: (20rem / 16);
+			margin-bottom: (5rem / 16);
+		}
+
+		a {
+			&.icon-container {
+				color: $gray-light;
+				width: auto;
+
+				&:hover {
+					color: $brand-primary;
+				}
+
+				.fa {
+					font-size: (30rem / 16);
+				}
+			}
+		}
+
+		.widget {
+			margin-bottom: (30rem / 16);
+		}
+	}
+
+	&-middle {
+		text-align: center;
+		padding-bottom: (10rem / 16);
+	}
+
+	&-bottom {
+		position: relative;
+		background-color: $gray-lighter;
+		font-size: (13rem / 16);
+		padding: (12rem / 16) 0;
+		border-top: 1px solid darken($gray-lighter, 2);
+
+		a {
+			color: $gray-dark;
+			font-weight: bold;
+		}
+
+		&__left {
+			position: relative;
+			text-align: center;
+
+			@include media-breakpoint-up(lg) {
+				float: left;
+			}
+
+			/* Footer Cosmetic Detail just for Desktop */
+			&::before {
+				@include media-breakpoint-up(lg) {
+					position: absolute;
+					content: '';
+					background-color: #ffffff;
+					height: (48rem / 16);
+					width: (47rem / 16);
+					left: (-58rem / 16);
+					top: (-40rem / 16);
+					transform: rotate(52deg);
+					border-right: 1px solid darken($gray-lighter, 2);
+				}
+			}
+		}
+
+		&__right {
+			position: relative;
+			text-align: center;
+
+			@include media-breakpoint-up(lg) {
+				float: right;
+			}
+
+			/* Footer Cosmetic Detail just for Desktop */
+			&::after {
+				@include media-breakpoint-up(lg) {
+					position: absolute;
+					content: '';
+					background-color: #ffffff;
+					height: (48rem / 16);
+					width: (47rem / 16);
+					right: (-58rem / 16);
+					top: (-40rem / 16);
+					transform: rotate(-52deg);
+					border-left: 1px solid darken($gray-lighter, 2);
+				}
+			}
+		}
+
+		/* Footer Cosmetic Detail just for Desktop */
+		&::before,
+		&::after {
+			@include media-breakpoint-up(lg) {
+				position: absolute;
+				content: '';
+				height: (30rem / 16);
+				top: -1px;
+				background-color: #ffffff;
+				width: calc(50% - #{map-get($container-max-widths, lg) / 2} - #{(23rem / 16)});
+				border-bottom: 1px solid darken($gray-lighter, 2);
+
+				@include media-breakpoint-up(xl) {
+					width: calc(50% - #{map-get($container-max-widths, xl) / 2} - #{(23rem / 16)});
+				}
+			}
+		}
+
+		/* Footer Cosmetic Detail just for Desktop */
+		&::before {
+			@include media-breakpoint-up(lg) {
+				left: 0;
+			}
+		}
+
+		/* Footer Cosmetic Detail just for Desktop */
+		&::after {
+			@include media-breakpoint-up(lg) {
+				right: 0;
+			}
+		}
+	}
+}

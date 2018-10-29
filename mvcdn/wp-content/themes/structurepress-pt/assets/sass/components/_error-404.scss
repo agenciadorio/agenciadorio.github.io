@@ -1,0 +1,37 @@
+/* 05.07. Error 404 */
+.error-404 {
+	text-align: center;
+	margin-top: (90rem / 16);
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	&__content {
+		margin-bottom: (30rem / 15);
+
+		@include media-breakpoint-up(lg) {
+			margin-bottom: (120rem / 16);
+		}
+	}
+
+	&__text {
+		margin-bottom: (30rem / 16);
+	}
+
+	// scss-lint:disable SelectorFormat
+
+	.widget_search {
+		@include media-breakpoint-up(lg) {
+			display: inline-block;
+			text-align: center;
+		}
+
+		.search-form {
+			@include media-breakpoint-up(lg) {
+				width: (400rem / 16);
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+/* 05.25. Social Icons */
+.social-icons__link {
+	color: #656565;
+
+	.jumbotron__widgets & {
+		display: inline-block;
+		font-size: 30px;
+		margin-top: -3px;
+
+		@include media-breakpoint-up(xl) {
+			margin-right: 7px;
+		}
+	}
+
+	&:hover {
+		color: #bbbbbb;
+	}
+
+	&:last-of-type {
+		margin-right: 0;
+	}
+}

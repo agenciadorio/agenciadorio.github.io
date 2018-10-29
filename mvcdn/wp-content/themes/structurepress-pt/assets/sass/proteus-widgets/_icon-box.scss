@@ -1,0 +1,61 @@
+/* 05.24. Icon Box */
+.icon-box {
+	&:focus,
+	&:hover {
+		text-decoration: none;
+	}
+
+	.fa {
+		float: left;
+		font-size: 40px;
+		margin-right: 10px;
+		color: $brand-primary;
+	}
+
+	&__text {
+		margin-left: 60px;
+	}
+
+	&__title {
+		padding-top: 8px;
+		font-size: 25px;
+		margin-bottom: 15px;
+	}
+
+	&__subtitle {
+		font-size: 14px;
+		color: $gray-light;
+	}
+}
+
+.header,
+.jumbotron {
+	.icon-box {
+		&__text {
+			margin-left: 50px;
+		}
+
+		&__title {
+			margin: 0;
+			padding: 0;
+			font-size: 13px;
+			font-family: $primary-font;
+			font-weight: normal;
+			color: $gray-light;
+			line-height: inherit;
+		}
+
+		&__subtitle {
+			display: block;
+			margin-top: -2px;
+			font-size: 15px;
+			font-family: $secondary-font;
+			font-weight: bold;
+			color: #666666;
+
+			@include media-breakpoint-up(lg) {
+				color: #bbbbbb;
+			}
+		}
+	}
+}

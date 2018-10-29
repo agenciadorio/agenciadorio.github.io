@@ -1,0 +1,132 @@
+/* 05.14. Single portfolio */
+%gallery-flex {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.portfolio {
+	margin-bottom: (90rem / 16);
+
+	%box-padding {
+		padding-left: (44rem / 16);
+		padding-right: (43rem / 16);
+	}
+
+	&__title {
+		margin-bottom: (39rem / 16);
+		margin-top: (17rem / 16);
+	}
+
+	&__meta {
+		@extend %box-padding;
+		background-color: $gray-lightest;
+		color: #666666;
+		padding-top: (36rem / 16);
+		padding-bottom: (18rem / 16);
+
+		.list-unstyled {
+			margin-bottom: 0;
+		}
+
+		&-title {
+			margin-bottom: (26rem / 16);
+		}
+
+		&-item {
+			border-top: 1px solid #dddddd;
+			position: relative;
+			padding-top: (20rem / 16);
+			padding-bottom: (18rem / 16);
+			padding-right: (45rem / 16);
+		}
+
+		&-key {
+			margin-bottom: (4rem / 16);
+		}
+
+		&-value {
+			color: $gray-light;
+			margin-bottom: 0;
+			font-size: 14px;
+		}
+
+		&-icon {
+			position: absolute;
+			right: 0;
+			top: calc(50% - #{(20rem / 16)});
+			min-width: (40rem / 16);
+			text-align: center;
+			color: #cccccc;
+			font-size: (40rem / 16);
+			line-height: 1;
+		}
+	}
+
+	&__content {
+		@extend %box-padding;
+		border: 1px solid $gray-lighter;
+		border-left: 0;
+		padding-top: (35rem / 16);
+		padding-bottom: (35rem / 16);
+	}
+
+	&__navigation {
+		margin-bottom: (30rem / 16);
+
+		&-item {
+			min-height: 1px;
+			color: $gray-light;
+			text-transform: uppercase;
+			background-color: $gray-lighter;
+			font-size: (13rem / 16);
+			width: calc(50% - 5px);
+			overflow: hidden;
+			text-overflow: ellipsis;
+
+			&:hover,
+			&:focus {
+				color: $gray-dark;
+			}
+
+			&--right {
+				margin-left: 10px;
+			}
+		}
+
+	}
+
+	&__gallery {
+		&-link {
+			display: block;
+			margin-bottom: (30rem / 16);
+		}
+
+		&--col-2 {
+			@extend %gallery-flex;
+
+			.portfolio__gallery-link {
+				width: calc(50% - #{(15rem / 16)});
+			}
+		}
+
+		&--col-3 {
+			@extend %gallery-flex;
+
+			.portfolio__gallery-link {
+				width: calc(33.3% - #{(15rem / 16)});
+			}
+		}
+	}
+
+	&--left {
+		border-left: 3px solid $brand-primary;
+	}
+}
+
+.single-portfolio {
+	.content-area {
+		padding-top: (30rem / 16);
+	}
+}

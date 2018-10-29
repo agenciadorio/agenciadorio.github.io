@@ -1,0 +1,107 @@
+/**
+ * Admin CSS
+ */
+
+/* Google map widget */
+.pt-widget-single-location,
+.pt-widget-single-testimonial,
+.pt-widget-single-person,
+.pt-widget-single-social-icon,
+.pt-widget-single-counter,
+.pt-widget-single-accordion-item,
+.pt-widget-single-step,
+.pt-widget-single-pricing-list-item,
+.pt-widget-single-skill,
+.pt-widget-single-carousel-item {
+	border: 1px solid rgba(0,0,0,0.1);
+	background-color: rgba(0,0,0,0.03);
+	margin-bottom: 10px;
+}
+
+.pt-widget-single-location,
+.pt-widget-single-person,
+.pt-widget-single-social-icon,
+.pt-widget-single-counter,
+.pt-widget-single-step,
+.pt-widget-single-skill,
+.pt-widget-single-carousel-item,
+.pt-sortable-setting__content {
+	padding: 0 10px;
+}
+
+.pt-remove-location,
+.pt-remove-testimonial,
+.pt-remove-person,
+.pt-remove-social-icon,
+.pt-remove-counter,
+.pt-remove-accordion-item,
+.pt-remove-step-item,
+.pt-remove-skill,
+.pt-remove-carousel-item,
+.pt-remove-pricing-list-item {
+	text-decoration: none;
+}
+
+/* Banner widget */
+.button-shortcodes {
+	color: #999999;
+}
+
+/* Icon box */
+.icon-widget {
+	font-size: 16px;
+	color: #999999;
+}
+
+.icon-widget:hover {
+	color: #454545;
+}
+
+/* Skype widget */
+.skype-widget-small-text {
+	color: #999999;
+}
+
+.skype-widget-small-text code{
+	font-size: 10px;
+}
+
+/* Sortable settings */
+.pt-sortable-setting__header {
+	position: relative;
+	padding: 10px;
+	background-color: #dddddd;
+	color: #777777;
+	cursor: move;
+}
+
+.pt-sortable-setting__header-title {
+	color: initial;
+	font-weight: bold;
+}
+
+.pt-sortable-setting__toggle {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	margin-top: -16px;
+	padding: 6px;
+	cursor: pointer;
+}
+
+.pt-sortable-setting__placeholder {
+	border: 1px dotted #777777;
+	height: 40px;
+	margin-bottom: 10px;
+}
+
+/* Remove Custom Sidebar premium buttons */
+.csb-pro-layer {
+	display: none;
+}
+
+/* PT/PW icon for page builder widgets (add new widget section) */
+.widget-icon.pw-pb-widget-icon {
+	background-size: cover;
+	background-image: url("../images/pt.svg");
+}

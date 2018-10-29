@@ -1,0 +1,80 @@
+/* 05.18. Featured Page */
+.page-box {
+	&__title {
+		margin-top: 0;
+		margin-bottom: 1rem;
+
+		a {
+			color: $gray-dark;
+
+			&:focus,
+			&:hover {
+				color: darken($gray-dark, 5);
+			}
+		}
+	}
+
+	&__text {
+		font-size: .875rem;
+	}
+
+	&__more-link {
+		position: relative;
+		font-family: $secondary-font;
+		font-weight: bold;
+		font-size: .9375rem;
+		text-transform: uppercase;
+
+		&::after {
+			position: absolute;
+			content: '\f105';
+			font-family: 'FontAwesome';
+			right: -.9375rem;
+			top: calc(50% - .75rem);
+		}
+	}
+
+	&--block {
+		.page-box__picture {
+			img {
+				width: 100%;
+			}
+
+			+ .page-box__content {
+				.page-box__title {
+					margin-top: 1.4375rem;
+				}
+			}
+		}
+
+	}
+
+	&--inline {
+		.page-box__picture {
+			float: left;
+
+			img {
+				margin-right: 1.25rem;
+				margin-bottom: 1.25rem;
+			}
+		}
+
+		.page-box__title {
+			font-size: .9375rem;
+			margin-top: 0;
+			padding-top: .3125rem;
+			margin-bottom: .5625rem;
+		}
+
+		.page-box__text {
+			margin-bottom: (26rem / 16);
+		}
+	}
+}
+
+// scss-lint:disable SelectorFormat
+.widget-featured-page + .widget-featured-page {
+	.page-box--inline {
+		margin-top: -1.875rem;
+	}
+}

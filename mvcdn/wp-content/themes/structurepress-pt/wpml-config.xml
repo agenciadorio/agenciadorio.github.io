@@ -1,0 +1,15 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_structurepress-pt">
+			<key name="charset_setting" />
+			<key name="logo_img" />
+			<key name="logo2x_img" />
+			<key name="footer_left_txt" />
+			<key name="footer_right_txt" />
+			<key name="portfolio_parent_page" />
+			<key name="portfolio_name_signular" />
+			<key name="portfolio_name_plural" />
+			<key name="portfolio_slug" />
+		</key>
+	</admin-texts>
+</wpml-config>
