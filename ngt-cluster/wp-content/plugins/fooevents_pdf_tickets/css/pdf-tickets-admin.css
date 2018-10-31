@@ -1,0 +1,4 @@
+#woocommerce-coupon-data ul.wc-tabs li.custom_tab_pdf_tickets a::before, #woocommerce-product-data ul.wc-tabs li.custom_tab_pdf_tickets a::before, .woocommerce ul.wc-tabs li.custom_tab_pdf_tickets a::before {
+    font-family: "dashicons";
+    content: "\f498";
+}
