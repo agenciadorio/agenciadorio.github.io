@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FooEvents Check-ins\n"
+"POT-Creation-Date: 2016-09-16 09:48+0200\n"
+"PO-Revision-Date: 2016-09-16 09:48+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: fooevents-express-check_in.php:42
+msgid ""
+"The FooEvents Express Check-in plugin requires FooEvents for WooCommerce to "
+"be installed."
+msgstr ""
+
+#: templates/express-check-in.php:3
+msgid "Express Check-in"
+msgstr ""
+
+#: templates/express-check-in.php:8
+msgid "Search Attendees"
+msgstr ""
+
+#: templates/tickets.php:6
+msgid "Ticket ID"
+msgstr ""
+
+#: templates/tickets.php:7 templates/tickets.php:19
+msgid "Purchaser"
+msgstr ""
+
+#: templates/tickets.php:8 templates/tickets.php:20
+msgid "Attendee"
+msgstr ""
+
+#: templates/tickets.php:9
+msgid "Event"
+msgstr ""
+
+#: templates/tickets.php:10
+msgid "Check-in Status"
+msgstr ""
+
+#: templates/tickets.php:23
+msgid "Cancel"
+msgstr ""
+
+#: templates/tickets.php:25
+msgid "Confirm"
+msgstr ""
+
+#: templates/tickets.php:33
+msgid "No tickets found, please try again"
+msgstr ""

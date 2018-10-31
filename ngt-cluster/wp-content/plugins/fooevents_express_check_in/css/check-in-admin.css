@@ -1,0 +1,151 @@
+
+
+/* Start page containers */
+
+    #fooevents-express-check-in-wrapper {  
+        padding:2em 0 0;  
+
+    }
+
+    .fooevents-express-check-in-container {
+        max-width: 400px;
+        padding:3em;
+        margin: auto;
+        text-align: center
+    }
+
+    .fooevents-express-check-in-container h1 {
+        margin-bottom:1em
+    }
+/* End page containers */
+
+/* Start tickets list */
+
+    #fooevents-express-check-in-wrapper {
+        margin-right:1em
+    }
+    
+    .fooevents-express-check-in-notickets { 
+        text-align: center
+    }
+    
+    .fooevents-express-check-in-status-checked-in {
+        color: #26a34d;
+        padding-left:20px;
+        background: url(../images/icon-status-checked-in.png) no-repeat top left
+    }
+    
+    .fooevents-express-check-in-status-not-checked-in {
+        color: #df772a;
+        padding-left:20px;
+        background: url(../images/icon-status-not-checked-in.png) no-repeat top left
+    }
+    
+    .fooevents-express-check-in-status-unpaid {
+        color: #d02525;
+        padding-left:20px;
+        background: url(../images/icon-status-unpaid.png) no-repeat top left
+    } 
+    
+    .fooevents-express-check-in-status-canceled {
+        color: #d02525;
+        padding-left:20px;
+        background: url(../images/icon-status-unpaid.png) no-repeat top left
+    } 
+    
+    .fooevents-express-check-in-button-td {
+        text-align: right
+    }
+    
+    .fooevents-express-check-in-button-td button {
+        width:100%
+    }
+    
+    .fooevents-express-check-in-mobile {
+        display: none
+    }
+    
+    .fooevents-express-check-in-button-group {
+        width:220px
+    }
+/* End tickets list */
+
+/* Start forms elements */
+ 
+    #fooevents-express-check-in-value {
+        width:100%;
+        padding:1em;
+        margin:2em 0 1em
+    }
+
+    #fooevents-express-check-submit {
+        width:100%
+    }
+    
+    .wp-core-ui .fooevents-express-check-in-cancel {
+        background:transparent !important;
+        border:0 !important;
+        box-shadow: none !important; 
+    }
+    
+    .fooevents-express-check-in-loading 
+    {
+       background: url('../images/ajax-loader.gif') no-repeat right center;
+    }
+
+/* End forms elements */
+
+/* Notice messages */
+
+    .notice {
+        margin-bottom: 1em;
+    }
+    
+    #fooevents-express-check-in-message-wrapper {
+        position: absolute;
+        top:1em;
+        left:0;
+        right:0;
+    }
+    #fooevents-express-check-in-message-wrapper div {
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+    }
+
+/* End notice messages */
+
+
+/* Start Responsiveness */
+
+@media screen and (max-width: 784px) { 
+    
+    #fooevents-express-check-in-wrapper thead {
+        display: none
+    }
+    
+    #fooevents-express-check-in-wrapper .fooevents-express-check-in-button-td {
+        text-align: left
+    }
+    
+    #fooevents-express-check-in-wrapper td {
+        border-bottom: solid 1px #eee !important;
+    }  
+ 
+    .wp-core-ui .fooevents-express-check-in-cancel {
+        background:transparent !important;
+        border:0 !important;
+        box-shadow: none !important;  
+    }   
+    
+    .fooevents-express-check-in-mobile {
+        display: inline; 
+        font-weight: bold;
+    } 
+    
+    #fooevents-express-check-in-message-wrapper {
+        top:3em;
+    }
+}    
+/* End Responsiveness */    

@@ -1,0 +1,52 @@
+#woocommerce-coupon-data ul.wc-tabs li.custom_tab_fooevents a::before, #woocommerce-product-data ul.wc-tabs li.custom_tab_fooevents a::before, .woocommerce ul.wc-tabs li.custom_tab_fooevents a::before {
+    font-family: "dashicons";
+    content: "\f508";
+}
+
+.woocommerce-events-help h3.woocommerce-events-intro {
+	font-weight: normal; 
+	line-height: 1.4em;
+}
+
+.woocommerce-events-extension {
+	width: 200px;
+	float: left;
+	margin: 0 20px 20px 0;
+	min-height: 330px;
+	position: relative;
+}
+
+.woocommerce-events-extension .install-status {
+	position: absolute;
+	top:0;
+	right:0;
+	width: 40px;
+	height:40px; 
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.woocommerce-events-extension h3 span {
+	font-weight: normal;
+	font-size:14px;
+	font-style: italic;
+}
+
+.woocommerce-events-extension .installed {
+	background: url(../images/icon-check.png) no-repeat center center;
+	background-size: 50% 50%;
+}
+
+.woocommerce-events-extension .notinstalled {
+	background: url(../images/icon-close.png) no-repeat center center;
+	background-size: 50% 50%;
+}
+
+.woocommerce-events-extension img {
+	width: 100%;
+	height: auto;
+}
+
+.woocommerce-events-extension .clearfix {
+	clear: both;
+}
