@@ -1,0 +1,1 @@
+[07-Sep-2018 15:04:56 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/vendor-dashboard/coupon-manager/add-coupons.php on line 4

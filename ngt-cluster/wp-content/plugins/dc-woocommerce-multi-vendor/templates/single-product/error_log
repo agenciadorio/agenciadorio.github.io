@@ -1,0 +1,2 @@
+[05-Sep-2018 15:58:38 America/Chicago] PHP Fatal error:  Call to a member function get_parent_id() on null in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/single-product/multiple_vendors_products_link.php on line 47
+[06-Sep-2018 15:03:53 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/single-product/load-more-button.php on line 19

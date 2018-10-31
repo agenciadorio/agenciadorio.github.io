@@ -1,0 +1,1 @@
+[06-Sep-2018 14:16:13 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/vendor-dashboard/product-manager/add-product.php on line 12

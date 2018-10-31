@@ -1,0 +1,2 @@
+[05-Sep-2018 16:58:32 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/vendor-dashboard/dashboard-widgets/wcmp_vendor_transaction_details.php on line 3
+[05-Sep-2018 16:58:44 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/vendor-dashboard/dashboard-widgets/wcmp_vendor_product_stats.php on line 16

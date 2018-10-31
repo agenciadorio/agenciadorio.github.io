@@ -1,0 +1,5 @@
+[05-Sep-2018 15:58:36 America/Chicago] PHP Fatal error:  Call to undefined function wp_nonce_field() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/widget/vendor-list.php on line 16
+[05-Sep-2018 15:58:37 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/widget/quick-info.php on line 13
+[05-Sep-2018 15:58:42 America/Chicago] PHP Fatal error:  Call to undefined function esc_attr() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/widget/vendor-info.php on line 28
+[06-Sep-2018 14:49:13 America/Chicago] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/widget/store-location.php on line 11
+[06-Sep-2018 14:49:13 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/widget/store-location.php on line 16

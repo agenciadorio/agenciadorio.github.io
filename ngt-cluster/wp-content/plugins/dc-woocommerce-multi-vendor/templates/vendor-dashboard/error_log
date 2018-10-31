@@ -1,0 +1,4 @@
+[05-Sep-2018 16:50:38 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/vendor-dashboard/vendor-announcements.php on line 19
+[05-Sep-2018 16:51:29 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/vendor-dashboard/vendor-report.php on line 19
+[05-Sep-2018 16:51:31 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/vendor-dashboard/vendor-policy.php on line 12
+[05-Sep-2018 16:53:32 America/Chicago] PHP Fatal error:  Call to undefined function get_user_meta() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/vendor-dashboard/profile.php on line 13

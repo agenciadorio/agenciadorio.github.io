@@ -1,0 +1,1 @@
+[13-Sep-2018 11:32:38 America/Chicago] PHP Fatal error:  Interface 'Stripe\HttpClient\ClientInterface' not found in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/lib/Stripe/lib/HttpClient/CurlClient.php on line 26

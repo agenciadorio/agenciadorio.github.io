@@ -1,0 +1,3 @@
+[05-Sep-2018 15:53:47 America/Chicago] PHP Fatal error:  Call to undefined function get_wcmp_vendor() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/archive_vendor_info.php on line 12
+[05-Sep-2018 15:53:48 America/Chicago] PHP Fatal error:  Call to undefined function get_wcmp_product_vendors() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/vendor_tab.php on line 14
+[05-Sep-2018 15:53:51 America/Chicago] PHP Fatal error:  Call to undefined function get_wcmp_product_policies() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/policies_tab.php on line 12

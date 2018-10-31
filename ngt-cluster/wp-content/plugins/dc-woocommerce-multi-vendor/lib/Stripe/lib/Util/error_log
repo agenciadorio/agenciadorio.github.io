@@ -1,0 +1,1 @@
+[13-Sep-2018 11:27:45 America/Chicago] PHP Fatal error:  Interface 'Stripe\Util\LoggerInterface' not found in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/lib/Stripe/lib/Util/DefaultLogger.php on line 10

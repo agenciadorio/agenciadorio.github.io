@@ -1,0 +1,2 @@
+[05-Sep-2018 16:58:32 America/Chicago] PHP Warning:  require_once(lib/paypal/constants.php): failed to open stream: No such file or directory in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/lib/paypal/CallerService.php on line 15
+[05-Sep-2018 16:58:32 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'lib/paypal/constants.php' (include_path='.:/opt/php56/lib/php') in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/lib/paypal/CallerService.php on line 15

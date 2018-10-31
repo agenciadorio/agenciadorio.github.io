@@ -1,0 +1,1 @@
+[05-Sep-2018 16:17:09 America/Chicago] PHP Fatal error:  Call to undefined function wc_print_notices() in /home/bestpecascom/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/templates/shortcode/vendor_registration.php on line 2
