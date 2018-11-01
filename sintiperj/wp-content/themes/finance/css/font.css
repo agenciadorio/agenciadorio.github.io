@@ -1,0 +1,357 @@
+/*-----------------------------------------------------------------------------------*/
+/*  FONT FACE
+/*-----------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/opensans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fira_sansbold';
+    src: url('fonts/firasans-bold-webfont.woff2') format('woff2'),
+         url('fonts/firasans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fira_sansregular';
+    src: url('fonts/firasans-regular-webfont.woff2') format('woff2'),
+         url('fonts/firasans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  FONT ICON
+/*-----------------------------------------------------------------------------------*/
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "finance";
+  src:url("fonts/finance.eot");
+  src:url("fonts/finance.eot?#iefix") format("embedded-opentype"),
+    url("fonts/finance.woff") format("woff"),
+    url("fonts/finance.ttf") format("truetype"),
+    url("fonts/finance.svg#finance") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "finance" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "finance" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-finance-timer:before {
+  content: "\62";
+}
+.icon-finance-call-in:before {
+  content: "\63";
+}
+.icon-finance-mail:before {
+  content: "\64";
+}
+.icon-finance-close:before {
+  content: "\65";
+}
+.icon-finance-bars:before {
+  content: "\66";
+}
+.icon-finance-arrow-down:before {
+  content: "\67";
+}
+.icon-finance-arrow-left:before {
+  content: "\68";
+}
+.icon-finance-arrow-right:before {
+  content: "\69";
+}
+.icon-finance-arrow-up:before {
+  content: "\6a";
+}
+.icon-500px:before {
+  content: "\6b";
+}
+.icon-behance:before {
+  content: "\6c";
+}
+.icon-behance-square:before {
+  content: "\6d";
+}
+.icon-codepen:before {
+  content: "\6e";
+}
+.icon-digg:before {
+  content: "\6f";
+}
+.icon-dropbox:before {
+  content: "\70";
+}
+.icon-dribbble:before {
+  content: "\71";
+}
+.icon-drupal:before {
+  content: "\72";
+}
+.icon-deviantart:before {
+  content: "\73";
+}
+.icon-facebook:before {
+  content: "\75";
+}
+.icon-facebook-official:before {
+  content: "\76";
+}
+.icon-facebook-square:before {
+  content: "\77";
+}
+.icon-git:before {
+  content: "\78";
+}
+.icon-git-square:before {
+  content: "\79";
+}
+.icon-github:before {
+  content: "\7a";
+}
+.icon-github-alt:before {
+  content: "\41";
+}
+.icon-github-square:before {
+  content: "\42";
+}
+.icon-google:before {
+  content: "\43";
+}
+.icon-google-plus:before {
+  content: "\44";
+}
+.icon-google-plus-square:before {
+  content: "\45";
+}
+.icon-linkedin-square:before {
+  content: "\46";
+}
+.icon-linkedin:before {
+  content: "\47";
+}
+.icon-instagram:before {
+  content: "\49";
+}
+.icon-pinterest-square:before {
+  content: "\4a";
+}
+.icon-pinterest-p:before {
+  content: "\4b";
+}
+.icon-pinterest:before {
+  content: "\4c";
+}
+.icon-reddit:before {
+  content: "\4d";
+}
+.icon-reddit-square:before {
+  content: "\4e";
+}
+.icon-rss-square:before {
+  content: "\4f";
+}
+.icon-rss:before {
+  content: "\50";
+}
+.icon-skype:before {
+  content: "\51";
+}
+.icon-soundcloud:before {
+  content: "\52";
+}
+.icon-steam:before {
+  content: "\53";
+}
+.icon-steam-square:before {
+  content: "\54";
+}
+.icon-twitter:before {
+  content: "\57";
+}
+.icon-twitter-square:before {
+  content: "\58";
+}
+.icon-tumblr:before {
+  content: "\59";
+}
+.icon-tumblr-square:before {
+  content: "\5a";
+}
+.icon-trello:before {
+  content: "\30";
+}
+.icon-vk:before {
+  content: "\31";
+}
+.icon-vimeo-square:before {
+  content: "\32";
+}
+.icon-vimeo:before {
+  content: "\33";
+}
+.icon-vine:before {
+  content: "\34";
+}
+.icon-weibo:before {
+  content: "\35";
+}
+.icon-weixin:before {
+  content: "\36";
+}
+.icon-whatsapp:before {
+  content: "\37";
+}
+.icon-youtube-square:before {
+  content: "\38";
+}
+.icon-youtube-play:before {
+  content: "\39";
+}
+.icon-youtube:before {
+  content: "\21";
+}
+.icon-yelp:before {
+  content: "\22";
+}
+.icon-xing-square:before {
+  content: "\23";
+}
+.icon-wordpress:before {
+  content: "\25";
+}
+.icon-yahoo:before {
+  content: "\74";
+}
+.icon-social-yahoo:before {
+  content: "\48";
+}
+.icon-finance-tags:before {
+  content: "\55";
+}
+.icon-finance-map-marker:before {
+  content: "\56";
+}
+.icon-finance-search:before {
+  content: "\24";
+}
+.icon-finance-check-mark:before {
+  content: "\61";
+}
+.icon-finance-trophy:before {
+  content: "\26";
+}
+.icon-finance-coffee:before {
+  content: "\27";
+}
+.icon-finance-crown:before {
+  content: "\29";
+}
+.icon-finance-clock:before {
+  content: "\28";
+}
+.icon-finance-quote:before {
+  content: "\2c";
+}
+.icon-graphic:before {
+  content: "\2a";
+}
+.icon-airplane:before {
+  content: "\2b";
+}
+.icon-courthouse:before {
+  content: "\2d";
+}
+.icon-truck:before {
+  content: "\2e";
+}
+.icon-cart:before {
+  content: "\2f";
+}
+.icon-lamp:before {
+  content: "\3a";
+}
+.icon-finance-goods:before {
+  content: "\3b";
+}
+.icon-finance-airplane:before {
+  content: "\3c";
+}
+.icon-finance-bag:before {
+  content: "\3d";
+}
+.icon-finance-shop:before {
+  content: "\3e";
+}
+.icon-finance-thunder:before {
+  content: "\3f";
+}
+.icon-finance-chart:before {
+  content: "\40";
+}
+.icon-finance-plus:before {
+  content: "\5b";
+}
+.icon-finance-paper-plane:before {
+  content: "\5d";
+}
+.icon-finance-checkmark-1:before {
+  content: "\5e";
+}
+.icon-finance-checkmark-2:before {
+  content: "\5f";
+}

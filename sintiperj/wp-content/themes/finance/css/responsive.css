@@ -1,0 +1,212 @@
+/* #Media Queries
+================================================== */
+
+    @media only screen and (max-width: 1024px) {
+        /* Counter Section */
+        .counter-item .counter-text {
+            padding-right: 10px;
+        }
+
+        /* Features Section */
+        .features .feature.col-md-4 {
+            width: 50%;
+        }
+
+        /* Contact Form Section */
+        .form-section .the-form form p.name, .form-section .the-form form p.email {
+            width: 100%;
+        }
+
+        /* About Page */
+        .about-img .img-bord {
+            bottom: -25px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        /* Top Section */
+        .address-bar {
+            text-align: center;
+        }
+        .top-bar-left .address-bar i {
+            display: inline-block;
+            float: none;
+        }
+        .address-bar p {
+            display: inline-block;
+        }
+        .top-bar-right {
+            text-align: center;
+            overflow: hidden;
+        }
+        .top-bar-right .quote-link {
+            float: none;
+        }
+        .site-header .top-header .info {
+            display: none;
+        }
+        .logo-image {
+            position: relative;
+            z-index: 150;
+        }
+
+        /* Menu Mobile */
+        #header .site-header .navigation {
+            position: absolute;
+            top: 130px;
+            right: 0;
+            border: none;
+        }
+        #header .site-header .navigation .row {
+            margin: 0;
+        }
+        .main-menu {
+            display: none;
+        }
+        .c-menu .search input {
+            width: 100%;
+        }
+        .c-menu .info {
+            margin-bottom: 30px;
+        }
+        .navigation #main-menu {
+            display: none;
+        }
+        #header .mobile-menu {
+            display: block;
+        }
+        .c-menu--slide-right {
+            width: 350px;
+            height: 100%;
+        }
+
+        /* Service Section */
+        .service-post .service-item {
+            margin-bottom: 90px;
+        }
+        .service-item .post-thumb img {
+            width: 100%;
+        }
+        #content .service-section .section-button {
+            margin-top: 0;
+            text-align: left;
+            top: 0 !important;
+        }
+
+        /* Counter Section */
+        .the-counter {
+            margin-bottom: 60px;
+        }
+        .counter-item {
+            width: 50%;
+            float: left;
+        }
+
+        /* Features Section */
+        .features .feature.col-md-4 {
+            width: 100%;
+        }
+
+        /* Form Section */
+        .form-html {
+            text-align: center;
+        }
+        .form-html img {
+            margin: 0 auto;
+        }
+
+        /* Footer Widget */
+        .footer-widget {
+            margin-bottom: 40px;
+            overflow: hidden;
+        }
+        .copyright-text {
+            text-align: center;
+        }
+
+        /* About Page */
+        .about-section .about-images {
+            padding-right: 15px;
+        }
+        .about-image {
+            width: 50%;
+            display: inline-block;
+            float: left;
+        }
+        .about-image img {
+            width: 100%;
+        }
+        .the-faq {
+            margin-bottom: 60px;
+        }
+        .team-member {
+            margin-bottom: 60px;
+        }
+        .team-img img,
+        .single-team .post-thumb img {
+            margin: 0 auto;
+        }
+        .contact-team {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* Case Studies */
+        .project-item .post-thumb img {
+            width: 100%;
+        }
+
+        /* Single Post */
+        .site-main .single-content {
+            padding-right: 15px;
+        }
+        .slogan-section {
+            text-align: center;
+        }
+        .slogan-section .slogan-title {
+            display: block;
+        }
+
+        /* Sidebar */
+        .blog-sidebar {
+            margin-top: 100px;
+        }
+        .widget.recent-post .post-item {
+            overflow: hidden;
+        }
+        .blog-sidebar .widget.recent-post .post-content h4 {
+            font-size: 18px;
+            font-size: 1.8rem;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .site-main .page-title .left-side,
+        .site-main .page-title .right-side {
+            float: none;
+            text-align: center;
+        }
+        .page-title {
+            text-align: center;
+        }
+        .counter-item {
+            width: 100%;
+            float: left;
+        }
+        .slider-home .tp-caption {
+            min-width: 312px !important;
+            max-width: 312px !important;
+        }
+        .slider-home .tp-caption.slider-title {
+            font-size: 34px !important;
+            line-height: 34px !important;
+        }
+        .slider-home .tp-caption.slider-subtitle {
+            font-size: 16px !important;
+            line-height: 24px !important;
+        }
+        .slider-home .tp-caption.rev-btn {
+            min-width: 153px !important;
+            max-width: 153px !important;
+        }
+    }

@@ -1,0 +1,1439 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: finance\n"
+"POT-Creation-Date: 2016-08-05 14:24+0700\n"
+"PO-Revision-Date: 2016-08-05 14:25+0700\n"
+"Last-Translator: Rizki Akmanda <rizkiakmanda@gmail.com>\n"
+"Language-Team: themesawesome <admin@themesawesome.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;esc_html_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPath-2: ..\n"
+"X-Poedit-SearchPath-3: .\n"
+
+#: ../finance/404.php:11 ../finance/inc/format/content-no-result.php:8
+#: 404.php:11 inc/format/content-no-result.php:8
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../finance/404.php:15 ../finance/inc/format/content-no-result.php:12
+#: 404.php:15 inc/format/content-no-result.php:12
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:334
+#: class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:335
+#: class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:337
+#: class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:339
+#: class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:340
+#: class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:392
+#: class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:393
+#: ../finance/class-tgm-plugin-activation.php:920
+#: ../finance/class-tgm-plugin-activation.php:2626
+#: ../finance/class-tgm-plugin-activation.php:3673
+#: class-tgm-plugin-activation.php:393 class-tgm-plugin-activation.php:920
+#: class-tgm-plugin-activation.php:2626 class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:394
+#: ../finance/class-tgm-plugin-activation.php:3252
+#: class-tgm-plugin-activation.php:394 class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:395
+#: class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:397
+#: class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:399
+#: class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:401
+#: class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:402
+#: class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:403
+#: class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:404
+#: class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:608
+#: class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:725
+#: class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:1027
+#: class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:1027
+#: ../finance/class-tgm-plugin-activation.php:1030
+#: class-tgm-plugin-activation.php:1027 class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:1030
+#: class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2075
+#: class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2366
+#: class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2369
+#: class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2385
+#: class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2388
+#: class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2391
+#: class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2408
+#: class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2412
+#: class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2414
+#: class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2420
+#: class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2423
+#: class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2426
+#: class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2583
+#: class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2591
+#: class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2603
+#: class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2626
+#: class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2640
+#: class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2641
+#: class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2642
+#: class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2646
+#: class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2647
+#: class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2696
+#: class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2701
+#: class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2707
+#: class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2777
+#: class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2810
+#: class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2816
+#: class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2819
+#: class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2850
+#: class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2852
+#: class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2893
+#: class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:2895
+#: class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3001
+#: class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3027
+#: class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3251
+#: class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3591
+#: class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3594
+#: class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3596
+#: class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3600
+#: class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3602
+#: class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3602
+#: ../finance/class-tgm-plugin-activation.php:3610
+#: class-tgm-plugin-activation.php:3602 class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3602
+#: ../finance/class-tgm-plugin-activation.php:3610
+#: class-tgm-plugin-activation.php:3602 class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3603
+#: class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3605
+#: class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3608
+#: class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3610
+#: class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3611
+#: class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../finance/class-tgm-plugin-activation.php:3613
+#: class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../finance/class-tgm.php:64 class-tgm.php:64
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../finance/class-tgm.php:75 class-tgm.php:75
+msgid "ACF Pro"
+msgstr ""
+
+#: ../finance/class-tgm.php:86 class-tgm.php:86
+msgid "Finance Extra"
+msgstr ""
+
+#: ../finance/class-tgm.php:97 class-tgm.php:97
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: ../finance/class-tgm.php:108 class-tgm.php:108
+msgid "Redux Framework"
+msgstr ""
+
+#: ../finance/class-tgm.php:119 class-tgm.php:119
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../finance/comments.php:52 comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: ../finance/functions.php:102 functions.php:102
+msgid "Header Menu"
+msgstr ""
+
+#: ../finance/functions.php:155 functions.php:155
+msgid "logo"
+msgstr ""
+
+#: ../finance/functions.php:178 functions.php:178
+msgid "Primary Sidebar"
+msgstr ""
+
+#: ../finance/functions.php:187 functions.php:187
+msgid "Service Sidebar"
+msgstr ""
+
+#: ../finance/functions.php:196 functions.php:196
+msgid "Project Sidebar"
+msgstr ""
+
+#: ../finance/functions.php:205 functions.php:205
+msgid "Team Sidebar"
+msgstr ""
+
+#: ../finance/inc/format/content.php:15 inc/format/content.php:15
+msgid "Posted by:"
+msgstr ""
+
+#: ../finance/inc/format/content.php:18 inc/format/content.php:18
+msgid "Categories:"
+msgstr ""
+
+#: ../finance/inc/format/loop.php:34 ../finance/template/home-template.php:85
+#: ../finance/template/home-template.php:383
+#: ../finance/template/service-template.php:45 inc/format/loop.php:34
+#: template/home-template.php:85 template/home-template.php:383
+#: template/service-template.php:45
+msgid "Read More"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:26
+#: inc/function/akmanda-customizer.php:26
+msgid "Header Section"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:143
+#: inc/function/akmanda-customizer.php:143
+msgid "Header Top Bar Background Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:150
+#: inc/function/akmanda-customizer.php:150
+msgid "Header Top Bar Text Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:157
+#: inc/function/akmanda-customizer.php:157
+msgid "Header Top Bar Map Icon Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:164
+#: inc/function/akmanda-customizer.php:164
+msgid "Button Request a Quote Background Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:171
+#: inc/function/akmanda-customizer.php:171
+msgid "Button Request a Quote Text Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:178
+#: inc/function/akmanda-customizer.php:178
+msgid "Top Header Background Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:185
+#: inc/function/akmanda-customizer.php:185
+msgid "Icon Info Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:192
+#: inc/function/akmanda-customizer.php:192
+msgid "Text Info Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:199
+#: inc/function/akmanda-customizer.php:199
+msgid "Border Top & Bottom Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:206
+#: inc/function/akmanda-customizer.php:206
+msgid "Navigation menu Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:213
+#: inc/function/akmanda-customizer.php:213
+msgid "Navigation SubMenu Background Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:220
+#: inc/function/akmanda-customizer.php:220
+msgid "Navigation SubMenu Background Hover Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:227
+#: inc/function/akmanda-customizer.php:227
+msgid "Navigation SubMenu Text Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:234
+#: inc/function/akmanda-customizer.php:234
+msgid "Navigation SubMenu Text Hover Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:247
+#: inc/function/akmanda-customizer.php:247
+msgid "Content Section"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:545
+#: inc/function/akmanda-customizer.php:545
+msgid "Title Section Black Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:552
+#: inc/function/akmanda-customizer.php:552
+msgid "Title Section White Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:559
+#: inc/function/akmanda-customizer.php:559
+msgid "About Section Text and Other Text/Description colored Black"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:566
+#: inc/function/akmanda-customizer.php:566
+msgid "About Section Icon Check List Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:573
+#: inc/function/akmanda-customizer.php:573
+msgid "Review Section Text and Other Text/Description colored White"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:580
+#: inc/function/akmanda-customizer.php:580
+msgid "Counter Icon Background color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:587
+#: inc/function/akmanda-customizer.php:587
+msgid "Counter Icon Background Hover color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:594
+#: inc/function/akmanda-customizer.php:594
+msgid "Counter Icon color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:601
+#: inc/function/akmanda-customizer.php:601
+msgid "Counter Value color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:608
+#: inc/function/akmanda-customizer.php:608
+msgid "Counter Title color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:615
+#: inc/function/akmanda-customizer.php:615
+msgid "Testi Icon color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:622
+#: inc/function/akmanda-customizer.php:622
+msgid "Testimonial Background color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:629
+#: inc/function/akmanda-customizer.php:629
+msgid "Testimonial Text color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:636
+#: inc/function/akmanda-customizer.php:636
+msgid "Testimonial Author Name color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:643
+#: inc/function/akmanda-customizer.php:643
+msgid "Testimonial Author Job color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:650
+#: inc/function/akmanda-customizer.php:650
+msgid "Testimonial Arrow Button Background color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:657
+#: inc/function/akmanda-customizer.php:657
+msgid "Testimonial Arrow Icon color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:664
+#: inc/function/akmanda-customizer.php:664
+msgid "Feature Section Border color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:671
+#: inc/function/akmanda-customizer.php:671
+msgid "Feature Section Border & Background Hover color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:678
+#: inc/function/akmanda-customizer.php:678
+msgid "Feature Section Icon color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:685
+#: inc/function/akmanda-customizer.php:685
+msgid "Feature Section Title color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:692
+#: inc/function/akmanda-customizer.php:692
+msgid "Feature Section Description color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:699
+#: inc/function/akmanda-customizer.php:699
+msgid "Service Title color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:706
+#: inc/function/akmanda-customizer.php:706
+msgid "Service Description color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:713
+#: inc/function/akmanda-customizer.php:713
+msgid "Service Post Background color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:720
+#: inc/function/akmanda-customizer.php:720
+msgid "Form Section Description color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:727
+#: inc/function/akmanda-customizer.php:727
+msgid "Service Title Border & Team Email (Single Team) color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:734
+#: inc/function/akmanda-customizer.php:734
+msgid "Page Title Background color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:741
+#: inc/function/akmanda-customizer.php:741
+msgid "Page Title color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:748
+#: inc/function/akmanda-customizer.php:748
+msgid "FAQ Border color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:755
+#: inc/function/akmanda-customizer.php:755
+msgid ""
+"Team Name, Job, Description, arrow icon color (About Page & Single Project)"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:762
+#: inc/function/akmanda-customizer.php:762
+msgid "Team Background color (About Page)"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:769
+#: inc/function/akmanda-customizer.php:769
+msgid "Team Social media icon and border color (About Page)"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:776
+#: ../finance/inc/function/akmanda-customizer.php:783
+#: inc/function/akmanda-customizer.php:776
+#: inc/function/akmanda-customizer.php:783
+msgid "Team Social media icon Hover color (About Page)"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:790
+#: inc/function/akmanda-customizer.php:790
+msgid "Team Social media icon and border color (Single Team)"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:797
+#: inc/function/akmanda-customizer.php:797
+msgid "Slogan Title color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:810
+#: inc/function/akmanda-customizer.php:810
+msgid "Blog Section"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:874
+#: inc/function/akmanda-customizer.php:874
+msgid "Title Blog Post Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:881
+#: inc/function/akmanda-customizer.php:881
+msgid "Post Author Name Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:888
+#: inc/function/akmanda-customizer.php:888
+msgid "Post Date Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:895
+#: inc/function/akmanda-customizer.php:895
+msgid "Post Text Content Color (Single Blog, Service, Project, Team)"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:902
+#: inc/function/akmanda-customizer.php:902
+msgid "Post Meta Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:909
+#: inc/function/akmanda-customizer.php:909
+msgid "Post Meta Link and Other Text Link Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:916
+#: inc/function/akmanda-customizer.php:916
+msgid "Post Meta Link and Other Text Link Hover Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:928
+#: inc/function/akmanda-customizer.php:928
+msgid "Sidebar Section"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1024
+#: inc/function/akmanda-customizer.php:1024
+msgid "Title Heading Sidebar Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1031
+#: inc/function/akmanda-customizer.php:1031
+msgid "Title latest Post & Team Name (single team) Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1038
+#: inc/function/akmanda-customizer.php:1038
+msgid "Meta latest Post & Team Job (single team) Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1045
+#: inc/function/akmanda-customizer.php:1045
+msgid "Border Bottom Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1052
+#: inc/function/akmanda-customizer.php:1052
+msgid ""
+"Categories, archives, recent service, recent project, recent team Background "
+"Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1059
+#: inc/function/akmanda-customizer.php:1059
+msgid ""
+"Categories, archives, recent service, recent project, recent team Border "
+"Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1066
+#: inc/function/akmanda-customizer.php:1066
+msgid ""
+"Categories, archives, recent service, recent project, recent team Border "
+"Left Hover Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1073
+#: inc/function/akmanda-customizer.php:1073
+msgid ""
+"Categories, archives, recent service, recent project, recent team Text Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1080
+#: inc/function/akmanda-customizer.php:1080
+msgid "Sidebar Contact Background Color (single Service)"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1087
+#: inc/function/akmanda-customizer.php:1087
+msgid "Sidebar Contact Text Color (single Service)"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1094
+#: inc/function/akmanda-customizer.php:1094
+msgid "Tags Border Color (single Post)"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1106
+#: inc/function/akmanda-customizer.php:1106
+msgid "Button Style Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1221
+#: inc/function/akmanda-customizer.php:1221
+msgid "Blue Button Background Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1228
+#: inc/function/akmanda-customizer.php:1228
+msgid "Blue Button & Tags (post sidebar) Background Hover Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1235
+#: inc/function/akmanda-customizer.php:1235
+msgid "Blue Button Text Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1242
+#: inc/function/akmanda-customizer.php:1242
+msgid "Blue Button Text Hover Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1249
+#: inc/function/akmanda-customizer.php:1249
+msgid "White Button Border Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1256
+#: inc/function/akmanda-customizer.php:1256
+msgid "White Button Border and Background Hover Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1263
+#: inc/function/akmanda-customizer.php:1263
+msgid "White Button Text Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1270
+#: inc/function/akmanda-customizer.php:1270
+msgid "White Button Text Hover Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1277
+#: inc/function/akmanda-customizer.php:1277
+msgid "Service Button Background Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1284
+#: inc/function/akmanda-customizer.php:1284
+msgid "Service Button Background Hover Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1291
+#: inc/function/akmanda-customizer.php:1291
+msgid "Service Button Text Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1298
+#: inc/function/akmanda-customizer.php:1298
+msgid "Service Button Text Hover Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1305
+#: inc/function/akmanda-customizer.php:1305
+msgid "Service Button Plus Background Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1312
+#: inc/function/akmanda-customizer.php:1312
+msgid "Service Button Plus Icon Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1323
+#: inc/function/akmanda-customizer.php:1323
+msgid "Footer Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1402
+#: inc/function/akmanda-customizer.php:1402
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1409
+#: inc/function/akmanda-customizer.php:1409
+msgid "Footer Border Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1416
+#: inc/function/akmanda-customizer.php:1416
+msgid "Title Widget Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1423
+#: inc/function/akmanda-customizer.php:1423
+msgid "Content Widget Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1430
+#: inc/function/akmanda-customizer.php:1430
+msgid "Social Share Background Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1437
+#: inc/function/akmanda-customizer.php:1437
+msgid "Social Share Background Hover Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1444
+#: inc/function/akmanda-customizer.php:1444
+msgid "Social Share Text Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1451
+#: inc/function/akmanda-customizer.php:1451
+msgid "Social Share Text Hover Color"
+msgstr ""
+
+#: ../finance/inc/function/akmanda-customizer.php:1458
+#: inc/function/akmanda-customizer.php:1458
+msgid "Copyright Text Color"
+msgstr ""
+
+#: ../finance/inc/function/comment.php:16 inc/function/comment.php:16
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../finance/inc/function/comment.php:21 inc/function/comment.php:21
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../finance/inc/function/comment.php:35 inc/function/comment.php:35
+msgid "Edit"
+msgstr ""
+
+#: ../finance/inc/function/custom.php:249 inc/function/custom.php:249
+msgid "You Are Here : "
+msgstr ""
+
+#: ../finance/inc/function/custom.php:255 inc/function/custom.php:255
+msgid "Home"
+msgstr ""
+
+#: ../finance/inc/function/custom.php:272 inc/function/custom.php:272
+msgid "Service"
+msgstr ""
+
+#: ../finance/inc/function/custom.php:281 inc/function/custom.php:281
+msgid "Author Archive\""
+msgstr ""
+
+#: ../finance/inc/function/custom.php:283 inc/function/custom.php:283
+msgid "Blog Archives"
+msgstr ""
+
+#: ../finance/inc/function/custom.php:285 inc/function/custom.php:285
+msgid "Search Results"
+msgstr ""
+
+#: ../finance/inc/function/custom.php:303 inc/function/custom.php:303
+msgid "Contact Time"
+msgstr ""
+
+#: ../finance/inc/function/custom.php:313 inc/function/custom.php:313
+msgid "Phone Number"
+msgstr ""
+
+#: ../finance/inc/function/custom.php:323 inc/function/custom.php:323
+msgid "Contact Email"
+msgstr ""
+
+#: ../finance/inc/function/navigation.php:36
+#: ../finance/inc/function/navigation.php:46 inc/function/navigation.php:36
+#: inc/function/navigation.php:46
+msgid "OLDER POST"
+msgstr ""
+
+#: ../finance/inc/function/navigation.php:37
+#: ../finance/inc/function/navigation.php:50 inc/function/navigation.php:37
+#: inc/function/navigation.php:50
+msgid "NEWER POST"
+msgstr ""
+
+#: ../finance/inc/function/thefooter.php:9
+#: ../finance/inc/function/thefooter.php:23
+#: ../finance/inc/function/thefooter.php:46
+#: ../finance/inc/function/thefooter.php:79 inc/function/thefooter.php:9
+#: inc/function/thefooter.php:23 inc/function/thefooter.php:46
+#: inc/function/thefooter.php:79
+msgid "Footer 1"
+msgstr ""
+
+#: ../finance/inc/function/thefooter.php:33
+#: ../finance/inc/function/thefooter.php:56
+#: ../finance/inc/function/thefooter.php:89 inc/function/thefooter.php:33
+#: inc/function/thefooter.php:56 inc/function/thefooter.php:89
+msgid "Footer 2"
+msgstr ""
+
+#: ../finance/inc/function/thefooter.php:66
+#: ../finance/inc/function/thefooter.php:99 inc/function/thefooter.php:66
+#: inc/function/thefooter.php:99
+msgid "Footer 3"
+msgstr ""
+
+#: ../finance/inc/function/thefooter.php:109 inc/function/thefooter.php:109
+msgid "Footer 4"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:58 inc/option/panel/config.php:58
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:75 inc/option/panel/config.php:75
+msgid "Header Options"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:83 inc/option/panel/config.php:83
+msgid "Logo"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:84 inc/option/panel/config.php:84
+msgid "Upload your logo here (any size)."
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:90 inc/option/panel/config.php:90
+msgid "Top Header Address"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:91
+#: ../finance/inc/option/panel/config.php:115 inc/option/panel/config.php:91
+#: inc/option/panel/config.php:115
+msgid "Add Your Open Time here"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:98 inc/option/panel/config.php:98
+msgid "Header Button"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:99 inc/option/panel/config.php:99
+msgid "Add Your Button Text"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:106 inc/option/panel/config.php:106
+msgid "Header Link"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:107 inc/option/panel/config.php:107
+msgid "Add Your Button Link"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:114 inc/option/panel/config.php:114
+msgid "Header Menu Opening"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:122 inc/option/panel/config.php:122
+msgid "Header Menu Phone"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:123 inc/option/panel/config.php:123
+msgid "Add Your Phone here"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:130 inc/option/panel/config.php:130
+msgid "Header Menu Email"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:131 inc/option/panel/config.php:131
+msgid "Add Your Email here"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:141 inc/option/panel/config.php:141
+msgid "Page Options"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:159 inc/option/panel/config.php:159
+msgid "Blog Title"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:160 inc/option/panel/config.php:160
+msgid "Add blog title for index here"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:167 inc/option/panel/config.php:167
+msgid "Blog Subtitle"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:168 inc/option/panel/config.php:168
+msgid "Add blog subtitle here"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:178 inc/option/panel/config.php:178
+msgid "Footer Options"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:184 inc/option/panel/config.php:184
+msgid "Allow Page Comment"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:185 inc/option/panel/config.php:185
+msgid "This option allow you to turn on or off your page comment."
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:186 inc/option/panel/config.php:186
+msgid "Check the box for display comment."
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:194 inc/option/panel/config.php:194
+msgid "Main Layout"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:195 inc/option/panel/config.php:195
+msgid ""
+"Select footer and widget alignment. Choose between 1, 2, 3 or 4 column "
+"layout."
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:208 inc/option/panel/config.php:208
+msgid "Footer Text"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:209 inc/option/panel/config.php:209
+msgid "Add Your Copyright Here"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:220 inc/option/panel/config.php:220
+msgid "Typography Options"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:226 inc/option/panel/config.php:226
+msgid "Google API"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:227 inc/option/panel/config.php:227
+msgid "Insert your google API keys for fonts"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:235 inc/option/panel/config.php:235
+msgid "Body Options"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:249 inc/option/panel/config.php:249
+msgid "Set website body font (leave form empty if you want to use default)"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:262 inc/option/panel/config.php:262
+msgid "Heading Typography"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:276 inc/option/panel/config.php:276
+msgid "Set website heading font (leave form empty if you want to use default)"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:290 inc/option/panel/config.php:290
+msgid "Menu Typography"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:304 inc/option/panel/config.php:304
+msgid "Set website menu font (leave form empty if you want to use default)"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:320 inc/option/panel/config.php:320
+msgid "Social Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:326 inc/option/panel/config.php:326
+msgid "Facebook Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:334 inc/option/panel/config.php:334
+msgid "twitter Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:343 inc/option/panel/config.php:343
+msgid "Google+ Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:352 inc/option/panel/config.php:352
+msgid "linkedin Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:361 inc/option/panel/config.php:361
+msgid "Pinterest Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:369 inc/option/panel/config.php:369
+msgid "Dribble Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:377 inc/option/panel/config.php:377
+msgid "Flickr Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:385 inc/option/panel/config.php:385
+msgid "Behance Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:393 inc/option/panel/config.php:393
+msgid "Youtube Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:401 inc/option/panel/config.php:401
+msgid "Soundcloud Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:409 inc/option/panel/config.php:409
+msgid "Codepen Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:417 inc/option/panel/config.php:417
+msgid "Deviantart Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:425 inc/option/panel/config.php:425
+msgid "Digg Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:433 inc/option/panel/config.php:433
+msgid "Dropbox Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:441 inc/option/panel/config.php:441
+msgid "Github Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:449 inc/option/panel/config.php:449
+msgid "Instagram Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:457 inc/option/panel/config.php:457
+msgid "Skype Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:465 inc/option/panel/config.php:465
+msgid "Spotify Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:473 inc/option/panel/config.php:473
+msgid "Steam Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:481 inc/option/panel/config.php:481
+msgid "Trello Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:489 inc/option/panel/config.php:489
+msgid "Tumblr Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:497 inc/option/panel/config.php:497
+msgid "Vimeo Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:505 inc/option/panel/config.php:505
+msgid "Wechat Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:513 inc/option/panel/config.php:513
+msgid "Weibo Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:521 inc/option/panel/config.php:521
+msgid "WordPress Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:529 inc/option/panel/config.php:529
+msgid "Xing Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:537 inc/option/panel/config.php:537
+msgid "Yahoo Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:545 inc/option/panel/config.php:545
+msgid "Yelp Profile"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:568 inc/option/panel/config.php:568
+msgid "Theme Information 1"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:569 inc/option/panel/config.php:569
+msgid "<p>Please go to themesawesome.com to get support</p>"
+msgstr ""
+
+#: ../finance/inc/option/panel/config.php:587
+#: ../finance/inc/option/panel/config.php:588 inc/option/panel/config.php:587
+#: inc/option/panel/config.php:588
+msgid "Options"
+msgstr ""
+
+#: ../finance/inc/widget/finance-latestpost-widget.php:43
+#: inc/widget/finance-latestpost-widget.php:43
+msgid "latestwid-img"
+msgstr ""
+
+#: ../finance/inc/widget/finance-latestpost-widget.php:96
+#: ../finance/inc/widget/finance-socialbox-widget.php:29
+#: inc/widget/finance-latestpost-widget.php:96
+#: inc/widget/finance-socialbox-widget.php:29
+msgid "Title"
+msgstr ""
+
+#: ../finance/inc/widget/finance-latestpost-widget.php:100
+#: inc/widget/finance-latestpost-widget.php:100
+msgid "Amount of Posts"
+msgstr ""
+
+#: ../finance/inc/widget/finance-socialbox-widget.php:33
+#: inc/widget/finance-socialbox-widget.php:33
+msgid "Insert the URLs to your social networks"
+msgstr ""
+
+#: ../finance/inc/widget/finance-socialbox-widget.php:35
+#: inc/widget/finance-socialbox-widget.php:35
+msgid "Facebook"
+msgstr ""
+
+#: ../finance/inc/widget/finance-socialbox-widget.php:39
+#: inc/widget/finance-socialbox-widget.php:39
+msgid "Twitter"
+msgstr ""
+
+#: ../finance/inc/widget/finance-socialbox-widget.php:43
+#: inc/widget/finance-socialbox-widget.php:43
+msgid "Google+"
+msgstr ""
+
+#: ../finance/inc/widget/finance-socialbox-widget.php:47
+#: inc/widget/finance-socialbox-widget.php:47
+msgid "Linkedin"
+msgstr ""
+
+#: ../finance/inc/widget/finance-socialbox-widget.php:51
+#: inc/widget/finance-socialbox-widget.php:51
+msgid "Youtube"
+msgstr ""
+
+#: ../finance/inc/widget/finance-socialbox-widget.php:56
+#: inc/widget/finance-socialbox-widget.php:56
+msgid "Pinterest"
+msgstr ""
+
+#: ../finance/inc/widget/finance-socialbox-widget.php:60
+#: inc/widget/finance-socialbox-widget.php:60
+msgid "Dribbble"
+msgstr ""
+
+#: ../finance/inc/widget/finance-socialbox-widget.php:64
+#: inc/widget/finance-socialbox-widget.php:64
+msgid "Instagram"
+msgstr ""
+
+#: ../finance/single-finance-service.php:149
+#: ../finance/single-finance-team.php:111 single-finance-service.php:149
+#: single-finance-team.php:111
+msgid "Our Brochures"
+msgstr ""
+
+#: ../finance/template/about-template.php:40 template/about-template.php:40
+msgid "about-img"
+msgstr ""
+
+#: ../finance/template/about-template.php:495
+#: ../finance/template/contact-template.php:114
+#: ../finance/template/home-template.php:460 template/about-template.php:495
+#: template/contact-template.php:114 template/home-template.php:460
+msgid "Please Activate ACF plugin to use this Page Template"
+msgstr ""
+
+#: ../finance/template/contact-template.php:60 template/contact-template.php:60
+msgid "Telephone"
+msgstr ""
+
+#: ../finance/template/contact-template.php:66 template/contact-template.php:66
+msgid "Email"
+msgstr ""
+
+#: ../finance/template/contact-template.php:72 template/contact-template.php:72
+msgid "Location"
+msgstr ""
+
+#: ../finance/template/contact-template.php:78 template/contact-template.php:78
+msgid "Work Hours"
+msgstr ""
+
+#: ../finance/template/project-template.php:45 template/project-template.php:45
+msgid "Learn More"
+msgstr ""
