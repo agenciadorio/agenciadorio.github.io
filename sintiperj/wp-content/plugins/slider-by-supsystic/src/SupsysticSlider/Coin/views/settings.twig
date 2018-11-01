@@ -1,0 +1,313 @@
+{% extends '@slider/view.twig' %}
+
+{% macro checked(expected, actual, default) %}
+    {% if actual is empty and default %}
+        checked="checked"
+    {% elseif expected == actual %}
+        checked="checked"
+    {% endif %}
+{% endmacro %}
+
+{% block buttons %}
+    {# {% import '@slider/macro/tabs.twig' as tabs %}
+
+    {{ tabs.button(translate('Effects'), 'effects', 'gears') }}
+    <div class="separator">|</div>
+    {{ tabs.button(translate('Controls'), 'controls', 'laptop') }} #}
+{% endblock %}
+
+{% block form %}
+    {% import '@core/form.twig' as form %}
+
+    {% import _self as macro %}
+
+    <table class="form-table">
+    <thead>
+    <tr data-tab="effects" id="effects">
+        <th scope="row">
+            <label for="effectsEffect">
+                {{ translate('Effect') }}
+                {{ form.tooltip('general-effect') }}
+            </label>
+        </th>
+        <td>
+            <span id="effectName" style="position: relative; bottom: -5px; margin-right: 5px;">{{ slider.settings.effects.effect|title }}</span>
+            <button id="showEffectsPreview" class="button">
+                {{ translate('Select effect') }}
+            </button>
+            <input name="effects[effect]" value="{{ slider.settings.effects.effect }}" type="hidden"/>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+            <label for="generalResponsive">
+                {{ translate('Responsive Mode') }}
+                {{ form.tooltip('general-responsive') }}
+            </label>
+        </th>
+        <td>
+            <label for="responsiveTrue">
+                <input type="radio" name="general[responsive]"
+                       id="responsiveTrue"
+                       value="true" {{ macro.checked('true', slider.settings.general.responsive, false) }}/>
+                <span>{{ translate('Yes') }}</span>
+                <br/>
+            </label>
+            <label for="responsiveFalse">
+                <input type="radio" name="general[responsive]"
+                       id="responsiveFalse"
+                       value="false" {{ macro.checked('false', slider.settings.general.responsive, true) }}/>
+                <span>{{ translate('No') }}</span>
+                <br/>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+            <label for="generalCaptions">
+                {{ translate('Captions') }}
+                {{ form.tooltip('general-captions') }}
+            </label>
+        </th>
+        <td class="coin-caption">
+            {% for value in ['true', 'false'] %}
+                <label for="generalCaptions{{ value|capitalize }}" style="margin-right: 10px;">
+                    <input type="radio" name="general[captions]"
+                           id="generalCaptions{{ value|capitalize }}"
+                           value="{{ value }}"
+                            {% if slider.settings.general.captions == value or (slider.settings.general.captions is empty and value == 'false') %}
+                        checked="checked"
+                            {% endif %}/>
+                        <span>
+                            {{ translate(value|replace({ 'true': 'Enable', 'false': 'Disable' })) }}
+                        </span>
+                </label>
+            {% endfor %}
+            {% if slider.settings.general.captions == 'true' %}
+                {% set display = '' %}
+            {% else %}
+                {% set display = 'none' %}
+            {% endif %}
+            <button id="show-caption-settings" class="button button-primary" style="margin-top: 10px; display: {{ display }};">{{ translate('Show caption settings') }}</button>
+            <input type="text" name="post[caption_color]" value="{{ slider.settings.post.caption_color|default('#fff') }}" hidden>
+            <input type="text" name="caption[font-size]" value="{{ slider.settings.caption['font-size']|default('14') }}" hidden>
+            <input type="text" name="caption[text-align]" value="{{ slider.settings.caption['text-align']|default('auto') }}" hidden>
+            <input type="text" name="caption[font-family]" value="{{ slider.settings.caption['font-family']|default('Open Sans') }}" hidden>
+            <input type="text" name="caption[background-color-hex]" value="{{ slider.settings.caption['background-color-hex']|default('#000') }}" hidden>
+            <input type="text" name="post[caption_bg]" value="{{ slider.settings.post.caption_bg|default('rgba(0, 0, 0, 1)') }}" hidden>
+            <input type="text" name="effects[opacity]" value="{{ slider.settings.effects.opacity|default('1.0') }}" hidden>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+            <label for="effectsTitleSpeed">
+                {{ translate('Title Speed') }}
+                {{ form.tooltip('general-title-speed') }}
+            </label>
+        </th>
+        <td>
+            <input class="regular-text" type="number" name="effects[titleSpeed]"
+                   id="effectsTitleSpeed" value="{{ slider.settings.effects.titleSpeed }}" step="100" min="0" style="width: auto !important;"/>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+            <label for="effectsDelay">
+                {{ translate('Delay') }}
+                {{ form.tooltip('general-delay') }}
+            </label>
+        </th>
+        <td>
+            <input class="regular-text" type="number" name="effects[delay]"
+                   id="effectsDelay" value="{{ slider.settings.effects.delay }}" min="0" step="100" style="width: auto !important;"/>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+            <label for="effectsHoverPause">
+                {{ translate('Pause') }}
+                {{ form.tooltip('general-pause') }}
+            </label>
+        </th>
+        <td>
+            <label for="effectsHoverPauseFalse">
+                <input type="radio" name="effects[hoverPause]"
+                       id="effectsHoverPauseTrue"
+                       value="true" {{ macro.checked('true', slider.settings.effects.hoverPause, true) }}/>
+                <span>{{ translate('Yes') }}</span>
+                <br/>
+            </label>
+            <label for="effectsHoverPauseFalse">
+                <input type="radio" name="effects[hoverPause]"
+                       id="effectsHoverPauseFalse"
+                       value="false" {{ macro.checked('false', slider.settings.effects.hoverPause, false) }}/>
+                <span>{{ translate('No') }}</span>
+                <br/>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+            <label for="controlsNavigation">
+                {{ translate('Navigation') }}
+                {{ form.tooltip('general-navigation-coin') }}
+            </label>
+        </th>
+        <td>
+            <label for="controlsNavigationTrue">
+                <input type="radio" name="controls[navigation]"
+                       id="controlsNavigationTrue"
+                       value="true"
+                        {% if 'true' == slider.settings.controls.navigation %}
+                            checked="checked"
+                        {% endif %}
+                        />
+                <span>{{ translate('Yes') }}</span>
+                <br/>
+            </label>
+            <label for="controlsNavigationFalse">
+                <input type="radio" name="controls[navigation]"
+                       id="controlsNavigationFalse"
+                       value="false"
+                        {% if 'false' == slider.settings.controls.navigation %}
+                            checked="checked"
+                        {% endif %}
+                        />
+                <span>{{ translate('No') }}</span>
+                <br/>
+            </label>
+        </td>
+    </tr>
+    <tr data-tab="controls" id="controls">
+        <th scope="row">
+            <label for="controlsLinks">
+                {{ translate('Links') }}
+                {{ form.tooltip('general-links') }}
+            </label>
+        </th>
+        <td>
+            <label for="controlsLinksTrue">
+                <input type="radio" name="controls[links]"
+                       id="controlsLinksTrue"
+                       value="true"
+                        {% if 'true' == slider.settings.controls.links %}
+                            checked="checked"
+                        {% endif %}
+                        />
+                <span>{{ translate('Yes') }}</span>
+                <br/>
+            </label>
+            <label for="controlsLinksFalse">
+                <input value="false" type="radio" name="controls[links]"
+                       id="controlsLinksFalse"
+                        {% if 'false' == slider.settings.controls.links %}
+                            checked="checked"
+                        {% endif %}
+                        />
+                <span>{{ translate('No') }}</span>
+                <br/>
+            </label>
+        </td>
+    </tr>
+    </thead>
+    </table>
+
+    <!-- Effect preview modal window -->
+    <div id="previewWindow" style="display: none" title="Effects">
+        {% for current in ['random', 'swirl', 'rain', 'straight'] %}
+            <div id="effectPreview-{{ current }}" class="effectPreview" data-effect="{{ current }}" style="display: none;">
+                {% for i in 0..3 %}
+                    <a href="{{ environment.getModule('coin').getLocationUrl() }}/assets/samples/{{ i }}.jpg" target="_blank">
+                        <img src="{{ environment.getModule('coin').getLocationUrl() }}/assets/samples/{{ i }}.jpg">
+                    <span>
+                        {{ current|title }}
+                    </span>
+                    </a>
+                {% endfor %}
+            </div>
+        {% endfor %}
+        <div id="effectPreviewVariants" style="margin-top: 20px;">
+            {% for effect in ['random', 'swirl', 'rain', 'straight'] %}
+                <label style="width: 190px; float: left; margin-bottom: 10px;" for="effect{{ effect|title }}">
+                    <input type="radio" name="unsusedvalueradiobutton" value="{{ effect }}" id="effect{{ effect|title }}" class="changeEffect" {% if slider.settings.effects.effect == effect %}checked="checked"{% endif %}/>
+                    <span>{{ effect|title }}</span>
+                </label>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!--Option available in PRO version Wnd-->
+    <div id="rsOptInProWnd" style="display: none;" title="Improve Free version">
+        <p class="supsystic-plugin">
+            Please be advised that this option is available only in <a target="_blank" href="http://supsystic.com/plugins/slider?utm_source=plugin&utm_medium=caption&utm_campaign=slider">PRO version</a>. You can <a target="_blank" href="http://supsystic.com/plugins/slider?utm_source=plugin&utm_medium=caption&utm_campaign=slider" class="button button-primary">Get PRO</a> today and get this and other PRO option for your Sliders!
+        </p>
+    </div>
+
+    <div class="coin-caption-settings-editor supsystic-plugin" title="{{ translate('Caption settings editor') }}" style="display: none;">
+        <table>
+            <thead>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Text color: ') }}
+                    </label>
+                </th>
+                <td>
+                    <input type="text" class="gg-color-picker" name="post[caption_color]" value="{{ slider.settings.post.caption_color|default('#ffffff') }}">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Font size: ') }}
+                    </label>
+                </th>
+                <td>
+                    <input type="text" name="caption[font-size]" value="{{ slider.settings.caption['font-size']|default('14') }}" style="width: 190px;">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Text align: ') }}
+                    </label>
+                </th>
+                <td>
+                    {{ form.select('caption[text-align]', {'left': 'Left', 'right': 'Right', 'center': 'Center', 'auto': 'Auto'}, slider.settings.caption['text-align']|default('auto'), { 'style': 'width: 190px;' }) }}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Font family: ') }}
+                    </label>
+                </th>
+                <td>
+                    {{ form.selectv('caption[font-family]', fontList, slider.settings.caption['font-family']|default('Open Sans'), { 'style': 'width: 190px;' }) }}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Background color: ') }}
+                    </label>
+                </th>
+                <td>
+                    <input type="text" class="gg-color-picker" name="caption[background-color-hex]" value="{{ slider.settings.caption['background-color-hex']|default('#000000') }}">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Background opacity: ') }}
+                    </label>
+                </th>
+                <td>
+                    <input type="text" id="captionOpacity" name="effects[opacity]" value="{{ slider.settings.effects.opacity|default('0.5') }}" style="width: 190px;"/>
+                    <div id="caption-opacity"></div>
+                </td>
+            </tr>
+            </thead>
+        </table>
+    </div>
+{% endblock %}

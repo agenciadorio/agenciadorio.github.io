@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Admin CSS*/
+
+
+.section-box {
+    padding: 10px 25px;
+}
+.section-box .section-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #888585;
+}
+.section-box .section-info,
+.section-box .section-box-label {
+    font-size: 13px;
+	font-style:italic;
+    margin: 10px 0 15px;
+}
+
+
+
+.back-settings .option-box {
+	margin: 10px 0;
+	padding: 10px;
+    width: 180px; 
+    vertical-align: top;
+}
+
+.back-settings .option-box .input-box {
+    padding: 8px 0;
+}
+.back-settings .option-box  input[type=text],
+.back-settings .option-box textarea,
+.back-settings .option-box select{
+	width:100%;
+}
+
+.back-settings .option-box  .checkbox-label{
+    width: 80%;
+    display: inline-block;
+}
+
+
+.back-settings .option-box:hover {
+  
+}
+
+
+.back-settings .option-box .option-title {
+	color: rgb(6, 120, 175);
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.back-settings .option-box .option-info.vb_checking {
+    color:#DE5044;
+}
+
+
+
+.back-settings ul.tab-nav {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+.back-settings ul.tab-nav li {
+  background: rgb(230, 230, 230) none repeat scroll 0 0;
+  border-right: 1px solid rgb(221, 221, 221);
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 15px 20px;
+}
+
+.back-settings ul.tab-nav li:last-child {
+  border-right: 1px solid rgba(0, 0, 0, 0);
+
+}
+
+
+.back-settings ul.tab-nav li.active{
+	background:#ffffff;
+	font-weight: bold;
+	}
+	
+	
+	
+.back-settings ul.box {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+.back-settings ul.box li.tab-box {
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  display: none;
+  margin: 0;
+  width: 100%;
+}
+
+
+
+.back-settings .new_user_profile_social {
+  margin: 15px 5px;
+}
+
+
+
+.back-settings ul.voting-bg-img-list{}
+
+.back-settings ul.voting-bg-img-list li {
+  display: inline-block;
+  margin: 5px;
+}
+.back-settings ul.voting-bg-img-list li.bg-selected {}
+
+.back-settings ul.voting-bg-img-list li img{border: 2px solid #ffffff;}
+
+.back-settings ul.voting-bg-img-list li.bg-selected img{
+  border: 2px solid #ff5a11;
+}
+
+
+.back-settings h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+
+.back-settings .expandable {
+
+}
+
+.back-settings .expandable .items {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  margin: 2px 0;
+}
+
+.back-settings .expandable .items.ui-sortable-helper {
+border: 1px dashed rgb(153, 153, 153);
+}
+
+
+
+.back-settings .expandable .header {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  padding: 5px;
+}
+
+
+.back-settings .expandable .header .remove {
+  background: rgb(255, 73, 10) none repeat scroll 0 0;
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  padding: 1px 6px;
+}
+
+.back-settings .expandable .active .options {
+  
+  display: block;
+
+}
+.back-settings .expandable .options {
+	background: none repeat scroll 0 0 rgb(240, 240, 240);
+  display: none;
+  padding: 10px;
+}
+
+
+@media all and (max-width: 799px) {
+
+	
+	.back-settings ul.tab-nav li {
+	  display: block;
+	  float: none;
+	
+	}
+	
+	.back-settings ul.tab-nav li.active{
+		font-weight: bold;
+		}	
+	
+
+
+
+
+	.back-settings .pricing-table .column {
+		display:block;
+		float:none;
+		width:100%;
+		border-right: 1px solid #ff9601;
+		margin: 50px 0;
+	
+	}
+
+
+
+
+
+	
+}
+
+
+
+.vb_buttons {
+    display: inline-block;
+}
+
+.button_single {
+    float: left;
+    padding: 20px;
+}
+
+.button_single input {
+    width: 140px;
+}
+
+.vb_buttons .button_single  .button-hero{
+    outline:none;
+    box-shadow: none;
+}
+ 
+
+
+
+
+
+
+
+
+

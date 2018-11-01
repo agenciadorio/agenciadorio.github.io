@@ -1,0 +1,847 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Slider by Supsystic\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Pieter van Dijk <info@backsidesitedesign.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl_NL\n"
+"X-Generator: Poedit 1.8.6\n"
+
+msgid "Slider by Supsystic"
+msgstr "Slider door Supsystic"
+
+msgid "Overview"
+msgstr "Overzicht"
+
+msgid "New Slider"
+msgstr "Nieuwe slider"
+
+msgid "Sliders"
+msgstr "Sliders"
+
+msgid "Images"
+msgstr "Afbeeldingen"
+
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "License"
+msgstr "Licentie"
+
+msgid "Get PRO"
+msgstr "Koop PRO"
+
+msgid "Loading"
+msgstr "Laden"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "An error has occurred"
+msgstr "Er is een fout opgetreden"
+
+msgid "Authorization code is not specified."
+msgstr "Autorisatiecode is niet opgegeven."
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Upload your images from the Facebook Media Library"
+msgstr "Upload uw foto’s uit de mediabibliotheek van Facebook"
+
+msgid "Upload from Facebook"
+msgstr "Uploaden van Facebook"
+
+msgid "Return to the slider"
+msgstr "Terug naar de slider"
+
+msgid "Upload new images"
+msgstr "Upload nieuwe afbeeldingen"
+
+msgid "Import images"
+msgstr "Afbeeldingen importeren"
+
+msgid "Logout"
+msgstr "Uitloggen"
+
+msgid "Select/unselect all photos"
+msgstr "Selecteer / Deselecteer alle foto’s"
+
+msgid "Empty user data."
+msgstr "Leeg gebruikersgegevens."
+
+msgid "Flickr"
+msgstr "Flickr"
+
+msgid "Upload your images from the Flickr Media Library"
+msgstr "Upload uw foto’s uit de Flickr mediabibliotheek"
+
+msgid "Upload from Flickr"
+msgstr "Uploaded van Flickr"
+
+msgid "Effects"
+msgstr "Effecten"
+
+msgid "Controls"
+msgstr "Besturing"
+
+msgid "Mode"
+msgstr "Modus"
+
+msgid "Distance"
+msgstr "Afstand"
+
+msgid "Arrows"
+msgstr "Pijlen"
+
+msgid "Select Arrows"
+msgstr "Selecteer pijlen"
+
+msgid "Bullet Control"
+msgstr "Opsommingsteken controle"
+
+msgid "Select Bullet Control"
+msgstr "Selecteer Opsommingstekens controle"
+
+msgid "Responsive Size Slider"
+msgstr "Responsieve Size Slider"
+
+msgid "Captions"
+msgstr "Bijschriften"
+
+msgid "Show caption settings"
+msgstr "Toon bijschrift instellingen"
+
+msgid "Caption position"
+msgstr "Bijschrift positie"
+
+msgid "Select Caption position"
+msgstr "Selecteer de positie van het bijschrift"
+
+msgid "Thumbnails Slider Navigation"
+msgstr "Miniaturen Slider navigatie"
+
+msgid "Thumbnails Type"
+msgstr "Miniaturen Type"
+
+msgid "Enable Slideshow"
+msgstr "Inschakelen Slideshow"
+
+msgid "Slideshow Speed"
+msgstr "Slideshow Snelheid"
+
+msgid "Select Shadow"
+msgstr "Selecteer schaduwkleur"
+
+msgid "Select arrows"
+msgstr "Selecteer pijlen"
+
+msgid "Select bullet control"
+msgstr "Selecteer Opsommingstekens controle"
+
+msgid "Select shadow effect"
+msgstr "Selecteer schaduweffect"
+
+msgid "Customize slide content"
+msgstr "Slider-inhoud aanpassen"
+
+msgid "Main"
+msgstr "Hoofd"
+
+msgid "Buttons"
+msgstr "Knoppen"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Font size: "
+msgstr "Lettergrootte"
+
+msgid "Font color: "
+msgstr "Lettertype kleur"
+
+msgid "Content"
+msgstr "Inhoud"
+
+msgid "Transition"
+msgstr "Overgang"
+
+msgid "Effect: "
+msgstr "Effect:"
+
+msgid "Duration: "
+msgstr "Tijdsduur:"
+
+msgid "Add button"
+msgstr "Knop toevoegen…"
+
+msgid "Save"
+msgstr "Opslaan"
+
+msgid "Preview"
+msgstr "Voorbeeld"
+
+msgid "Button properties"
+msgstr "Eigenschappen van knop"
+
+msgid "Text: "
+msgstr "Tekst:"
+
+msgid "Link: "
+msgstr "Link:"
+
+msgid "Color: "
+msgstr "Kleur:"
+
+msgid "Background: "
+msgstr "Achtergrond::"
+
+msgid "Color on hover: "
+msgstr "Kleur bij aanwijzen:"
+
+msgid "Background on hover: "
+msgstr "Achtergrond bij aanwijzen:"
+
+msgid "Position: "
+msgstr "Positie:"
+
+msgid "Open in new window: "
+msgstr "In nieuw venster openen"
+
+msgid "Remove"
+msgstr "Verwijderen"
+
+msgid "Caption settings editor"
+msgstr "Bijschrift instellingen editor"
+
+msgid "Text color: "
+msgstr "Tekstkleur:"
+
+msgid "Text align: "
+msgstr "Tekst uitlijning"
+
+msgid "Vertical align: "
+msgstr "Verticaal uitlijnen"
+
+msgid "Font family: "
+msgstr "Lettertap-Familie:"
+
+msgid "Background color: "
+msgstr "Achtergrondkleur:"
+
+msgid "Background opacity: "
+msgstr "Achtergrond  Ondoorzichtigheid"
+
+msgid "Activate License"
+msgstr "Activeren Licentie"
+
+msgid "Renew License"
+msgstr "Licentie verlengen"
+
+msgid "Congratulations! You have successfully installed and activated PRO version of Slider by Supsystic plugin."
+msgstr "Gefeliciteerd! U hebt met succes de ProVersie van Slider door Supsystic geïnstalleerd en geactiveerd ."
+
+msgid "Your premium support is expired in ' ~ days ~ ' days"
+msgstr "Uw premium ondersteuning is verloopt in ‘ ~ days ~ ‘ dagen"
+
+msgid "You will not be able to update your pro version with expired license"
+msgstr "U zal  uw pro versie niet kunnen updaten met een verlopen licentie"
+
+msgid "Activate"
+msgstr "Activeren"
+
+msgid "Authorization oauth_verifier is not specified."
+msgstr "Autorisatie oauth_verifier is niet opgegeven."
+
+msgid "Tumblr"
+msgstr "Tumblr"
+
+msgid "Upload your images from the Tumblr Media Library"
+msgstr "Upload uw foto’s uit de mediabibliotheek Tumblr"
+
+msgid "Upload from Tumblr"
+msgstr "Upload van Tumblr"
+
+msgid "Text align"
+msgstr "Tekst uitlijnen"
+
+msgid "Align left"
+msgstr "Links uitlijnen"
+
+msgid "Align center"
+msgstr "centraal uitlijnen (midden)"
+
+msgid "Align right"
+msgstr "Rechts uitlijnen"
+
+msgid "Text color"
+msgstr "Tekstkleur"
+
+msgid "Background color"
+msgstr "Achtergrond kleur"
+
+msgid "Text size"
+msgstr "Tekstgrootte"
+
+msgid "Text Animation"
+msgstr "Tekstanimatie"
+
+msgid "Disable"
+msgstr "Uitschakelen"
+
+msgid "Enable"
+msgstr "Inschakelen"
+
+msgid "Text in effect"
+msgstr "Tekst in-effect"
+
+msgid "Select Text in effect"
+msgstr "Selecteer tekst in-effect"
+
+msgid "Text out effect"
+msgstr "Tekst uit-effect"
+
+msgid "Select Text out effect"
+msgstr "Selecteer tekst uit-effect"
+
+msgid "Controls type"
+msgstr "Controle type"
+
+msgid "Select Controls type"
+msgstr "Kies Controle type"
+
+msgid "Border style:"
+msgstr "Randstijl"
+
+msgid "None"
+msgstr "Geen"
+
+msgid "Solid"
+msgstr "Vast"
+
+msgid "Dashed"
+msgstr "Gestreept"
+
+msgid "Border width:"
+msgstr "De breedte van de rand:"
+
+msgid "Border color:"
+msgstr "Randkleur"
+
+msgid "Thumbnails margin"
+msgstr "Miniaturen marge"
+
+msgid "General"
+msgstr "Algemeen"
+
+msgid "Touch"
+msgstr "aanraking"
+
+msgid "Pager"
+msgstr "Paging"
+
+msgid "Properties"
+msgstr "Eigenschappen"
+
+msgid "Autostart Slideshow"
+msgstr "Autostart Slideshow"
+
+msgid "Slideshow Controls"
+msgstr "Besturingselementen van de diavoorstelling"
+
+msgid "Navigation"
+msgstr "Navigatie"
+
+msgid "Transition Speed"
+msgstr "Transitiesnelheid"
+
+msgid "Margin"
+msgstr "Marge"
+
+msgid "Starting Slide"
+msgstr "Start Slider"
+
+msgid "Start slider on a random slide"
+msgstr "Slider beginnen op een willekeurige dia"
+
+msgid "Easing"
+msgstr "Easing"
+
+msgid "Enable Touch"
+msgstr "Touch inschakelen"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Nee"
+
+msgid "One-to-One Touch"
+msgstr "One-to-One Touch"
+
+msgid "Swipe Threshold"
+msgstr "Swipe drempel"
+
+msgid "Enable Pager"
+msgstr "Pager inschakelen"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Effect"
+msgstr "Effect"
+
+msgid "Select effect"
+msgstr "Selecteer effect"
+
+msgid "Title Speed"
+msgstr "Titel snelheid"
+
+msgid "Delay"
+msgstr "Vertraging"
+
+msgid "Pause"
+msgstr "Pauzeren"
+
+msgid "Links"
+msgstr "Links"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "Upload your images from the Instagram Media Library"
+msgstr "Upload uw foto’s uit de Instagram mediabibliotheek"
+
+msgid "Upload from Instagram"
+msgstr "Uploaded van Instagram"
+
+msgid "Gallery by Supsystic"
+msgstr "Galerij door Supsystic"
+
+msgid "Most common FAQs"
+msgstr "Meest voorkomende FAQs"
+
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "Hoe krijg ik de Pro Versie van plugin kosteloos?"
+
+msgid "You have an incredible opportunity to get PRO version for free. Make Translation of plugin. It will be amazing if you take advantage of this offer!"
+msgstr "U heeft een ongelooflijke kans om Proversie kosteloos te verkrijgen. Vertaal de plugin. Het zou geweldig zijn als u van deze aanbieding wilt profiteren!"
+
+msgid "Translation"
+msgstr "Vertaling"
+
+msgid "Check all FAQs"
+msgstr "Controleer alle veelgestelde vragen"
+
+msgid "Video tutorial will be added soon"
+msgstr "Video tutorial zal spoedig worden toegevoegd"
+
+msgid "All news"
+msgstr "Al het nieuws"
+
+msgid "Your name"
+msgstr "Uw naam"
+
+msgid "Your email"
+msgstr "Uw e-mail"
+
+msgid "Website"
+msgstr "Website"
+
+msgid "Subject"
+msgstr "Onderwerp"
+
+msgid "Topic"
+msgstr "Onderwerp"
+
+msgid "Plugin options"
+msgstr "Plugin Opties"
+
+msgid "Report a bug"
+msgstr "Meld een bug (fout)"
+
+msgid "Require a new functionallity"
+msgstr "Vereis nieuwe functies"
+
+msgid "Other"
+msgstr "Andere"
+
+msgid "Message"
+msgstr "Bericht"
+
+msgid "Send email"
+msgstr "E-mail verzenden"
+
+msgid "Fields with * are required to fill"
+msgstr "Velden met * zijn verplicht in te vullen"
+
+msgid "Unable to save chosen photo %s: %s"
+msgstr "Kan de gekozen foto %s: %s niet opslaan"
+
+msgid "New Folder"
+msgstr "Nieuwe map"
+
+msgid "The title can't be empty"
+msgstr "De titel kan niet leeg zijn"
+
+msgid "Title successfully updated"
+msgstr "Titel met succes bijgewerkt"
+
+msgid "Failed to update position."
+msgstr "Positie bijwerken mislukt."
+
+msgid "Position updated successfully!"
+msgstr "Positie bijgewerkt!"
+
+msgid "Rename folder"
+msgstr "Map hernoemen"
+
+msgid "Folder name:"
+msgstr "Mapnaam"
+
+msgid "Add images to the slider"
+msgstr "Voeg afbeeldingen aan de slider toe."
+
+msgid "Please wait while the plugin to get the list of sliders..."
+msgstr "Wacht terwijl de plugin de lijst met sliders ophaalt…"
+
+msgid "Select slider:"
+msgstr "Selecteer slider"
+
+msgid "New folder"
+msgstr "Nieuwe map"
+
+msgid "Add images to the new slider"
+msgstr "Afbeeldingen toevoegen aan de nieuwe slider"
+
+msgid "Slider title:"
+msgstr "Slider Titel"
+
+msgid "Add new video"
+msgstr "Voeg video toe"
+
+msgid "Import videos"
+msgstr "Video’s importeren"
+
+msgid "Create new folder"
+msgstr "Nieuwe map aanmaken"
+
+msgid "Delete selected items"
+msgstr "Verwijder geselecteerde items."
+
+msgid "Create new slider from the selected items"
+msgstr "Nieuwe slider maken op basis van de geselecteerde items"
+
+msgid "New slider from selected"
+msgstr "Nieuwe slider van het geselecteerde"
+
+msgid "Add the selected items to the existing slider"
+msgstr "De geselecteerde items toevoegen aan de bestaande slider"
+
+msgid "Add selected to the slider"
+msgstr "Voeg het geselecteerde aan de slider toe"
+
+msgid "Upload your images from the WordPress Media Library"
+msgstr "Upload uw foto’s uit de WordPress mediabibliotheek"
+
+msgid "All photos"
+msgstr "Alle Foto’s"
+
+msgid "Drop photos here to move them from the folder"
+msgstr "Sleep foto’s hier naar toe om ze te verplaatsen uit de map"
+
+msgid "Lifetime for cached data"
+msgstr "Levensduur van de gegevens in de cache:"
+
+msgid "The field \"%s\" available only for numeric values"
+msgstr "Het veld “%s” is alleen beschikbaar voor numerieke waarden"
+
+msgid "Settings successfully updated!"
+msgstr "Instellingen met succes aangepast"
+
+msgid "Please correct following errors:"
+msgstr "Gelieve het volgende fouten te corrigeren:"
+
+msgid "Plugin settings"
+msgstr "Plugin instellingen"
+
+msgid "Use build-in caching:"
+msgstr "Gebruik ingebouwde caching:"
+
+msgid "<strong>%s</strong> has its own caching system in order to significantly reduce the load on the database."
+msgstr "<strong>%s</strong> heeft zijn eigen caching systeem om de database aanzienlijk minder te belasten."
+
+msgid "Caching is not available because your uploads directory is not writable."
+msgstr "Caching is niet beschikbaar omdat uw Upload directory niet beschrijfbaar is."
+
+msgid "Lifetime for cached data:"
+msgstr "Levensduur van de gegevens in de cache:"
+
+msgid "The time in seconds after which the cache will be considered obsolete. Default: 86400 (24 hours)."
+msgstr "De tijd in seconden waarna de cache (geheugen) achterhaald wordt beschouwd. Standaard: 86400 (24 uur)."
+
+msgid "Clear cache"
+msgstr "Cake leegmaken"
+
+msgid "Allow plugin to send anonymous usage statistics:"
+msgstr "Sta Plugin toe om anonieme gebruiksstatistieken te verzenden:"
+
+msgid "We don't collect statistics on you, we only collect the errors encountered during use in order to improve our product."
+msgstr "Wij verzamelen geen statistieken over u, wij verzamelen alleen de fouten die zijn opgetreden tijdens het gebruik om ons product te verbeteren."
+
+msgid "Slider \"%s\" successfully created."
+msgstr "Slider “%s” met succes gemaakt."
+
+msgid "Plugin for this type of slider is missing, or is available in the PRO version"
+msgstr "Plugin voor dit soort slider ontbreekt of is beschikbaar in de proversie"
+
+msgid "Failed to update positions."
+msgstr "Posities bijwerken mislukt."
+
+msgid "Positions are successfully updated!"
+msgstr "Posities met succes bijgewerkt!"
+
+msgid "Unable to delete selected slider"
+msgstr "Niet gelukt de geselecteerde slider te verwijderen"
+
+msgid "Failed to import selected items."
+msgstr "Niet gelukt om geselecteerde items te importeren."
+
+msgid "Invalid slider identifier."
+msgstr "Ongeldige slider id."
+
+msgid "Unable to find requested slider."
+msgstr "Kan de gevraagde slider niet vinden."
+
+msgid "Failed to save settings. %s"
+msgstr "Instellingen opslaan mislukt. %s"
+
+msgid "Failed to change plugin: %s"
+msgstr "Niet gelukt plugin: %s te wijzigen"
+
+msgid "Failed to attach resources."
+msgstr "Mislukt bronnen toe te voegen."
+
+msgid "%s resources successfully attached to <a href=\"%s\">%s</a>"
+msgstr "%s middelen met succes gekoppeld aan <a href=“%s”>%s</a>"
+
+msgid "Successfully removed!"
+msgstr "Succesvol verwijderd!"
+
+msgid "Failed to load settings"
+msgstr "Fout bij het laden van de instellingen"
+
+msgid "Import"
+msgstr "Importeer"
+
+msgid "You have no images"
+msgstr "U heeft geen enkel beeld/foto."
+
+msgid "Upload to images"
+msgstr "Afbeeldingen uploaden"
+
+msgid "Delete Slider"
+msgstr "Slider verwijderen"
+
+msgid "Total images: "
+msgstr "Totale afbeeldingen:"
+
+msgid "Total videos: "
+msgstr "Totale video’s:"
+
+msgid "Shortcode: "
+msgstr "Shortcode"
+
+msgid "PhpCode: "
+msgstr "PhpCode:"
+
+msgid "Sliders List"
+msgstr "Slider lijst"
+
+msgid "You haven't any sliders yet"
+msgstr "Je hebt nog geen slider"
+
+msgid "Choose Slider Template. You can change it later."
+msgstr "Kies slider template (sjabloon). U kunt dit later wijzigen."
+
+msgid "Slider Name"
+msgstr "Slider naam:"
+
+msgid "Select module"
+msgstr "Selecteer module"
+
+msgid "Create new slider"
+msgstr "Nieuwe slider"
+
+msgid "Slider Name:"
+msgstr "Slider naam:"
+
+msgid "Add Images"
+msgstr "Afbeeldingen toevoegen"
+
+msgid "Add Video"
+msgstr "Video toevoegen"
+
+msgid "Add images"
+msgstr "Afbeeldingen toevoegen"
+
+msgid "Change Slider"
+msgstr "Slider wijzigen"
+
+msgid "Delete"
+msgstr "Verwijderen"
+
+msgid "Do you really want to delete "
+msgstr "Wilt u dit echt verwijderen?"
+
+msgid "Auto Posts"
+msgstr "Auto berichten"
+
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+msgid "Number of post"
+msgstr "Nummer van bericht"
+
+msgid "Posts and Pages"
+msgstr "Berichten en pagina’s"
+
+msgid "Select posts to show"
+msgstr "Selecteer berichten om te tonen"
+
+msgid "Pages: "
+msgstr "Pagina’s:"
+
+msgid "Add page"
+msgstr "Voeg pagina toe"
+
+msgid "Posts: "
+msgstr "Berichten:"
+
+msgid "Add post"
+msgstr "Toevoegen post (bericht)"
+
+msgid "Media"
+msgstr "Media"
+
+msgid "Shortcode"
+msgstr "Shortcode"
+
+msgid "Slider width"
+msgstr "Slider-breedte"
+
+msgid "pixels"
+msgstr "pixels"
+
+msgid "Slider height"
+msgstr "Slider hoogte"
+
+msgid "Change Slider Type"
+msgstr "Slider Type wijzigen"
+
+msgid "Select plugin"
+msgstr "Selecteer plugin"
+
+msgid "Jssor PRO"
+msgstr "Jssor PRO"
+
+msgid "Please note:"
+msgstr "N.B."
+
+msgid "Current settings will be removed without ability to restore."
+msgstr "Huidige instellingen zal worden verwijderd zonder mogelijkheid om te herstellen."
+
+msgid "Change"
+msgstr "Wijzigen"
+
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgid "Import video"
+msgstr "Video importeren"
+
+msgid "Unfortunately Coin slider don't support video. Would you like to change slider?"
+msgstr "Helaas ondersteunt de Coin-slider geen video. Zou u willen de slider willen veranderen?"
+
+msgid "Slider Template Design Builder"
+msgstr "Slider Template Design Builder"
+
+msgid "Choose import source"
+msgstr "Kies import bron."
+
+msgid "Import from WordPress Media Library"
+msgstr "Importeren uit WordPress Media bibliotheek"
+
+msgid "Import from social networks"
+msgstr "Importeren van sociale netwerken"
+
+msgid "Import from your Instagram account"
+msgstr "Importeren van uw Instagram account"
+
+msgid "Import from your Flickr account"
+msgstr "Importeren van uw Flickr-account"
+
+msgid "Import from your Tumblr account"
+msgstr "Importeren vanuit uw account Tumblr"
+
+msgid "Import from your Facebook account"
+msgstr "Importeren van uw Facebook-account"
+
+msgid "Get Pro to enable import"
+msgstr "Koop PRO om te importeren"
+
+msgid "Video URL:"
+msgstr "Video URL:"
+
+msgid "Supported platforms: %s."
+msgstr "Ondersteunde platformen: %s."
+
+msgid "Close"
+msgstr "Sluiten"
+
+msgid "Edit image"
+msgstr "Afbeelding bewerken"
+
+msgid "Caption"
+msgstr "Bijschrift"
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid "Description"
+msgstr "Beschrijving"
+
+msgid "Alternative text"
+msgstr "Alternatieve tekst"
+
+msgid "External link"
+msgstr "Externe link"
+
+msgid "Available in PRO version."
+msgstr "Beschikbaar in PRO-versie."
+
+msgid "Link"
+msgstr "Koppelen"
+
+msgid "Open in new window"
+msgstr "Openen in nieuw venster"
+
+msgid "Embeded video"
+msgstr "Embedded (ingesloten) video"
+
+msgid "Video URL"
+msgstr "Video URL"
+
+msgid "Supports Youtube and Vimeo. URL will be converted to embed automatically."
+msgstr "Ondersteunt Youtube en Vimeo. URL zal automatisch worden omgezet bij insluiten."
+
+msgid "Select %s"
+msgstr "Selecteer %s"
+
+msgid "Crop"
+msgstr "Bijsnijden"

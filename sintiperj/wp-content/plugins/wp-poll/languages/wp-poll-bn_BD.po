@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Poll\n"
+"POT-Creation-Date: 2017-01-26 12:37+0600\n"
+"PO-Revision-Date: 2017-01-26 12:37+0600\n"
+"Last-Translator: \n"
+"Language-Team: pluginbazar <pluginbazar@gmail.com>\n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: templates\n"
+"X-Poedit-SearchPath-1: includes\n"
+
+#: includes/class-widget.php:18
+msgid "Show the poll of Today"
+msgstr "আজকের মতামতটি দেখান"
+
+#: includes/class-widget.php:35
+msgid "New title"
+msgstr "নতুন নাম"
+
+#: includes/class-widget.php:38
+msgid "Title:"
+msgstr "নামঃ"
+
+#: includes/classes/class-menu.php:22
+msgid "Reports"
+msgstr "প্রতিবেদন"
+
+#: includes/classes/class-poll-column.php:26
+msgid "Poll Report"
+msgstr "মতামতের প্রতিবেদন"
+
+#: includes/classes/class-poll-column.php:30
+msgid "Poll title"
+msgstr "মতামতের শিরোনাম"
+
+#: includes/classes/class-poll-column.php:38
+msgid "Published at"
+msgstr "প্রকাশিত হয়েছে"
+
+#: includes/classes/class-poll-column.php:50
+msgid "people polled on this"
+msgstr "জন লোক এখানে মতামত দিয়েছে"
+
+#: includes/classes/class-poll-column.php:53
+msgid "View Reports"
+msgstr "প্রতিবেদন দেখুন"
+
+#: includes/classes/class-poll-column.php:61
+msgid "ago"
+msgstr "পূর্বে"
+
+#: includes/classes/class-post-meta-poll.php:22
+msgid "Poll Data Box"
+msgstr "মতামতের তথ্য কেন্দ্র"
+
+#: includes/classes/class-post-type-poll.php:21
+msgid "Poll"
+msgstr "মতামত"
+
+#: includes/classes/class-post-type-poll.php:22
+msgid "Polls"
+msgstr "মতামতসমূহ"
+
+#: includes/classes/class-post-type-poll.php:31
+#: includes/classes/class-post-type-poll.php:75
+msgid "All"
+msgstr "সকল"
+
+#: includes/classes/class-post-type-poll.php:32
+#: includes/classes/class-post-type-poll.php:33
+#: includes/classes/class-post-type-poll.php:80
+msgid "Add"
+msgstr "নতুন"
+
+#: includes/classes/class-post-type-poll.php:34
+#: includes/classes/class-post-type-poll.php:35
+#: includes/classes/class-post-type-poll.php:78
+msgid "Edit"
+msgstr "পরিবর্তন করুন"
+
+#: includes/classes/class-post-type-poll.php:36
+msgid "New"
+msgstr "নতুন"
+
+#: includes/classes/class-post-type-poll.php:37
+#: includes/classes/class-post-type-poll.php:38
+msgid "View"
+msgstr "দেখুন"
+
+#: includes/classes/class-post-type-poll.php:39
+#: includes/classes/class-post-type-poll.php:74
+msgid "Search"
+msgstr "খুজুন"
+
+#: includes/classes/class-post-type-poll.php:40
+#, php-format
+msgid "No %s found"
+msgstr "কোনো %s পাওয়া যায় নি"
+
+#: includes/classes/class-post-type-poll.php:41
+#, php-format
+msgid "No %s found in trash"
+msgstr "ট্রাশে কোনো %s পাওয়া যায় নি"
+
+#: includes/classes/class-post-type-poll.php:42
+#: includes/classes/class-post-type-poll.php:76
+#: includes/classes/class-post-type-poll.php:77
+msgid "Parent"
+msgstr "আগের"
+
+#: includes/classes/class-post-type-poll.php:44
+msgid "This is where you can create and manage"
+msgstr "এখানে আপনি নতুন ভাবে তৈরি ও ব্যাবস্থাপনা করতে পারবেন"
+
+#: includes/classes/class-post-type-poll.php:60
+msgid "Poll Category"
+msgstr "মতামত বিভাগ"
+
+#: includes/classes/class-post-type-poll.php:61
+msgid "Poll Categories"
+msgstr "মতামতের বিভাগসমূহ"
+
+#: includes/classes/class-post-type-poll.php:79
+msgid "Update"
+msgstr "হালনাগাদ করুন"
+
+#: includes/classes/class-post-type-poll.php:81
+#, php-format
+msgid "New %s Name"
+msgstr "নতুন %s নাম"
+
+#: includes/classes/class-update-db.php:26
+msgid "Welcome to WP Poll."
+msgstr "WP Poll এ আপনাকে স্বাগতম"
+
+#: includes/classes/class-update-db.php:27
+msgid "You may have Previous poll data."
+msgstr "আপনার পূর্বের তথ্য থাকতে পারে।"
+
+#: includes/classes/class-update-db.php:28
+msgid "You need to Update Database to get back them all."
+msgstr "ওইসকল তথ্যকে ফিরে পেতে আপনাকে অবশ্যই ডাটাবেজ হালনাগাদ করতে হবে।"
+
+#: includes/classes/class-update-db.php:32
+msgid "Update Now"
+msgstr "এখনি হালনাগাদ করুন"
+
+#: includes/classes/class-update-db.php:33
+msgid "Skip Update"
+msgstr "হালনাগাদ এড়িয়ে যান"
+
+#: includes/menus/reports.php:31
+msgid "Select a Poll"
+msgstr "একটি পোল নির্বাচন করুন"
+
+#: includes/menus/settings.php:534
+msgid "Changes Saved."
+msgstr "পরিবর্তন সংরক্ষন করা হয়েছে।"
+
+#: includes/menus/settings.php:546
+msgid " Settings"
+msgstr "সেটিংস"
+
+#: includes/menus/settings.php:558
+msgid "Save Changes"
+msgstr "পরিবর্তন সংরক্ষন করুন"
+
+#: templates/single-poll/buttons.php:17
+msgid "Submit"
+msgstr "জমা দিন"
+
+#: templates/single-poll/buttons.php:18
+msgid "Results"
+msgstr "ফলাফল"
+
+#: templates/single-poll/message.php:33
+msgid "Sorry, This poll is completed on"
+msgstr "দুঃখিত! এই পোলটি বর্নিত তারিখে শেষ হয়েছে"
+
+#: templates/single-poll/message.php:48
+msgid "This poll is open till "
+msgstr "এই পোলটি বর্নিত তারিখ পর্যন্ত উম্নোক্ত আছে"
+
+#: templates/single-poll/message.php:49
+msgid "remaining only"
+msgstr "বাকি আছে মাত্র"
+
+#: templates/single-poll/options.php:42
+msgid "Confirm Add"
+msgstr "নিশ্চিত করুন"
+
+#: templates/single-poll/options.php:49
+msgid "New Option"
+msgstr "নতুন  অপশন"
+
+#~ msgid "Welcome to WP Poll. "
+#~ msgstr "WP Poll এ আপনাকে স্বাগতম।"
+
+#~ msgid "Welcome to WP Poll"
+#~ msgstr "WP Poll এ আপনাকে স্বাগতম"
+
+#~ msgid "You may have Previous poll data"
+#~ msgstr "আপনার পূর্বের তথ্য থাকতে পারে।"
+
+#~ msgid "Parent %s"
+#~ msgstr "আগের %s"
+
+#~ msgid "Add "
+#~ msgstr "নতুন"
+
+#~ msgid "Add %s"
+#~ msgstr "নতুন %s"

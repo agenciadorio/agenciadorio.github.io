@@ -1,0 +1,848 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Supsystic Slider - 简体中文语系\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: 楊舒淳 Chaneswin <chacha@chaneswin.idv.tw>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "Slider by Supsystic"
+msgstr "Supsystic 幻灯片滑块"
+
+msgid "Overview"
+msgstr "概观"
+
+msgid "New Slider"
+msgstr "创建新的幻灯片滑块"
+
+msgid "Sliders"
+msgstr "幻灯片滑块"
+
+msgid "Images"
+msgstr "图片"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "License"
+msgstr "许可证"
+
+msgid "Get PRO"
+msgstr "获取专业版"
+
+msgid "Loading"
+msgstr "加载中"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "An error has occurred"
+msgstr "发生一个错误"
+
+msgid "Authorization code is not specified."
+msgstr "无效的许可证"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Upload your images from the Facebook Media Library"
+msgstr "从Facebook的媒体库上传图片"
+
+msgid "Upload from Facebook"
+msgstr "从Facebook上传"
+
+msgid "Return to the slider"
+msgstr "返回幻灯片滑块"
+
+msgid "Upload new images"
+msgstr "上传新图片"
+
+msgid "Import images"
+msgstr "导入图片"
+
+msgid "Logout"
+msgstr "退出"
+
+msgid "Select/unselect all photos"
+msgstr "全选/取消全选 图片"
+
+msgid "Empty user data."
+msgstr "清空用户数据。"
+
+msgid "Flickr"
+msgstr "Flickr"
+
+msgid "Upload your images from the Flickr Media Library"
+msgstr "从 Flickr 的媒体库上传您的图片"
+
+msgid "Upload from Flickr"
+msgstr "从 Flickr 上传"
+
+msgid "Effects"
+msgstr "效果"
+
+msgid "Controls"
+msgstr "控制"
+
+msgid "Mode"
+msgstr "模式"
+
+msgid "Distance"
+msgstr "距离"
+
+msgid "Arrows"
+msgstr "箭头"
+
+msgid "Select Arrows"
+msgstr "选择箭头"
+
+msgid "Bullet Control"
+msgstr "圆点控制"
+
+msgid "Select Bullet Control"
+msgstr "选择圆点控制"
+
+msgid "Responsive Size Slider"
+msgstr "自适应尺寸幻灯片滑块"
+
+msgid "Captions"
+msgstr "图片标题"
+
+msgid "Show caption settings"
+msgstr "显示图片标题设置"
+
+msgid "Caption position"
+msgstr "标题位置"
+
+msgid "Select Caption position"
+msgstr "选择标题位置"
+
+msgid "Thumbnails Slider Navigation"
+msgstr "缩略图幻灯片滑块导航"
+
+msgid "Thumbnails Type"
+msgstr "缩略图类型"
+
+msgid "Enable Slideshow"
+msgstr "启用幻灯片滑块"
+
+msgid "Slideshow Speed"
+msgstr "幻灯片滑块播放速度"
+
+msgid "Select Shadow"
+msgstr "选择阴影"
+
+msgid "Select arrows"
+msgstr "选择箭头"
+
+msgid "Select bullet control"
+msgstr "选择圆点控制"
+
+msgid "Select shadow effect"
+msgstr "选择阴影效果"
+
+msgid "Customize slide content"
+msgstr "自定义幻灯片滑块内容"
+
+msgid "Main"
+msgstr "主要"
+
+msgid "Buttons"
+msgstr "按钮"
+
+msgid "Title"
+msgstr "标题"
+
+msgid "Font size: "
+msgstr "字体大小："
+
+msgid "Font color: "
+msgstr "文本颜色："
+
+msgid "Content"
+msgstr "内容"
+
+msgid "Transition"
+msgstr "转场切换"
+
+msgid "Effect: "
+msgstr "效果："
+
+msgid "Duration: "
+msgstr "切换时长："
+
+msgid "Add button"
+msgstr "添加按钮"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Preview"
+msgstr "预览"
+
+msgid "Button properties"
+msgstr "按钮属性"
+
+msgid "Text: "
+msgstr "文本："
+
+msgid "Link: "
+msgstr "链接："
+
+msgid "Color: "
+msgstr "颜色："
+
+msgid "Background: "
+msgstr "背景颜色："
+
+msgid "Color on hover: "
+msgstr "悬停时的颜色"
+
+msgid "Background on hover: "
+msgstr "悬停时的背景颜色"
+
+msgid "Position: "
+msgstr "位置："
+
+msgid "Open in new window: "
+msgstr "在新窗口中打开："
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Caption settings editor"
+msgstr "标题设置编辑器"
+
+msgid "Text color: "
+msgstr "文本颜色："
+
+msgid "Text align: "
+msgstr "文字对齐方式："
+
+msgid "Vertical align: "
+msgstr "垂直对齐方式："
+
+msgid "Font family: "
+msgstr "字体家族："
+
+msgid "Background color: "
+msgstr "背景颜色："
+
+msgid "Background opacity: "
+msgstr "背景透明度"
+
+msgid "Activate License"
+msgstr "激活您的许可"
+
+msgid "Renew License"
+msgstr "更新许可证"
+
+msgid "Congratulations! You have successfully installed and activated PRO version of Slider by Supsystic plugin."
+msgstr "恭喜！您已成功安装并激活您的专业版 Supsystic 幻灯片滑块插件！"
+
+msgid "Your premium support is expired in ' ~ days ~ ' days"
+msgstr "您的高级支持将在 ' ~ days ~ ' 天后过期"
+
+msgid "You will not be able to update your pro version with expired license"
+msgstr "您不能用已过期的许可证来更新您的专业版"
+
+msgid "Activate"
+msgstr "激活"
+
+msgid "Authorization oauth_verifier is not specified."
+msgstr "没有指定的 oauth_verifier 许可证。"
+
+msgid "Tumblr"
+msgstr "Tumblr"
+
+msgid "Upload your images from the Tumblr Media Library"
+msgstr "从 Tumblr 的媒体库上传您的图片"
+
+msgid "Upload from Tumblr"
+msgstr "从 Tumblr 上传"
+
+msgid "Text align"
+msgstr "文字对齐方式"
+
+msgid "Align left"
+msgstr "左对齐"
+
+msgid "Align center"
+msgstr "居中对齐"
+
+msgid "Align right"
+msgstr "右对齐"
+
+msgid "Text color"
+msgstr "文本颜色"
+
+msgid "Background color"
+msgstr "背景颜色"
+
+msgid "Text size"
+msgstr "字体大小"
+
+msgid "Text Animation"
+msgstr "文字动画"
+
+msgid "Disable"
+msgstr "禁用"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Text in effect"
+msgstr "文字效果"
+
+msgid "Select Text in effect"
+msgstr "选择文字出现效果"
+
+msgid "Text out effect"
+msgstr "文字消失效果"
+
+msgid "Select Text out effect"
+msgstr "选择文字消失效果"
+
+msgid "Controls type"
+msgstr "控制类型"
+
+msgid "Select Controls type"
+msgstr "选择控制类型"
+
+msgid "Border style:"
+msgstr "边框样式："
+
+msgid "None"
+msgstr "无"
+
+msgid "Solid"
+msgstr "实心线"
+
+msgid "Dashed"
+msgstr "虚线"
+
+msgid "Border width:"
+msgstr "边框粗细："
+
+msgid "Border color:"
+msgstr "边框颜色："
+
+msgid "Thumbnails margin"
+msgstr "缩略图边距"
+
+msgid "General"
+msgstr "常规"
+
+msgid "Touch"
+msgstr "触屏"
+
+msgid "Pager"
+msgstr "传呼机"
+
+msgid "Properties"
+msgstr "属性"
+
+msgid "Autostart Slideshow"
+msgstr "自动开始幻燈片滑块"
+
+msgid "Slideshow Controls"
+msgstr "幻燈片滑块控制"
+
+msgid "Navigation"
+msgstr "导航"
+
+msgid "Transition Speed"
+msgstr "转场切换速率"
+
+msgid "Margin"
+msgstr "边距"
+
+msgid "Starting Slide"
+msgstr "开始幻灯片滑块动画"
+
+msgid "Start slider on a random slide"
+msgstr "启动滑块上随机幻灯片"
+
+msgid "Easing"
+msgstr "緩動"
+
+msgid "Enable Touch"
+msgstr "启用触屏"
+
+msgid "Yes"
+msgstr "是"
+
+msgid "No"
+msgstr "否"
+
+msgid "One-to-One Touch"
+msgstr "一对一触控"
+
+msgid "Swipe Threshold"
+msgstr "滑动阀值"
+
+msgid "Enable Pager"
+msgstr "启用传呼机"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "Effect"
+msgstr "效果"
+
+msgid "Select effect"
+msgstr "选择效果"
+
+msgid "Title Speed"
+msgstr "标题速度"
+
+msgid "Delay"
+msgstr "延迟"
+
+msgid "Pause"
+msgstr "暂停"
+
+msgid "Links"
+msgstr "链接"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "Upload your images from the Instagram Media Library"
+msgstr "从Instagram的媒体库上传你的图片"
+
+msgid "Upload from Instagram"
+msgstr "从 Instagram 上传"
+
+msgid "Gallery by Supsystic"
+msgstr "Supsystic 的画廊"
+
+msgid "Most common FAQs"
+msgstr "常见问题解答"
+
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "如何免费获得专业版插件？"
+
+msgid "You have an incredible opportunity to get PRO version for free. Make Translation of plugin. It will be amazing if you take advantage of this offer!"
+msgstr "你有一个令人难以置信的机会免费获得专业版插件。制作插件的翻译。如果你得到这个优惠带来的好处，结果这将是惊人的！"
+
+msgid "Translation"
+msgstr "翻译"
+
+msgid "Check all FAQs"
+msgstr "查看所有的常见问题解答"
+
+msgid "Video tutorial will be added soon"
+msgstr "很快将添加视频教程"
+
+msgid "All news"
+msgstr "全部新信息"
+
+msgid "Your name"
+msgstr "你的名字"
+
+msgid "Your email"
+msgstr "你的邮箱地址"
+
+msgid "Website"
+msgstr "网站信息"
+
+msgid "Subject"
+msgstr "邮件主旨"
+
+msgid "Topic"
+msgstr "话题"
+
+msgid "Plugin options"
+msgstr "插件选项"
+
+msgid "Report a bug"
+msgstr "提交一个错误"
+
+msgid "Require a new functionallity"
+msgstr "要求新功能"
+
+msgid "Other"
+msgstr "其他"
+
+msgid "Message"
+msgstr "信息"
+
+msgid "Send email"
+msgstr "发送电子邮件"
+
+msgid "Fields with * are required to fill"
+msgstr "*号为必填项"
+
+msgid "Unable to save chosen photo %s: %s"
+msgstr "无法保存选择的照片 %s ： %s"
+
+msgid "New Folder"
+msgstr "新建文件夹"
+
+msgid "The title can't be empty"
+msgstr "标题不能为空"
+
+msgid "Title successfully updated"
+msgstr "标题更新成功"
+
+msgid "Failed to update position."
+msgstr "位置更新失败。"
+
+msgid "Position updated successfully!"
+msgstr "位置已成功更新！"
+
+msgid "Rename folder"
+msgstr "重新命名文件夹"
+
+msgid "Folder name:"
+msgstr "文件夹名称："
+
+msgid "Add images to the slider"
+msgstr "添加图片到幻灯片滑块中"
+
+msgid "Please wait while the plugin to get the list of sliders..."
+msgstr "插件正在获取幻灯片滑块的列表，请稍候..."
+
+msgid "Select slider:"
+msgstr "选择幻灯片滑块："
+
+msgid "New folder"
+msgstr "新文件夹"
+
+msgid "Add images to the new slider"
+msgstr "添加图片到新的幻灯片滑块中"
+
+msgid "Slider title:"
+msgstr "幻灯片滑块标题："
+
+msgid "Add new video"
+msgstr "添加新视频"
+
+msgid "Import videos"
+msgstr "导入视频"
+
+msgid "Create new folder"
+msgstr "创建新的文件夹"
+
+msgid "Delete selected items"
+msgstr "删除被选取的项目"
+
+msgid "Create new slider from the selected items"
+msgstr "用选取的项目建立新的幻灯片滑块"
+
+msgid "New slider from selected"
+msgstr "用选取的项目建立新的幻灯片滑块"
+
+msgid "Add the selected items to the existing slider"
+msgstr "添加选取的项目到已存在的幻灯片滑块"
+
+msgid "Add selected to the slider"
+msgstr "添加选取的项目到幻灯片滑块"
+
+msgid "Upload your images from the WordPress Media Library"
+msgstr "从WordPress的媒体库上传您的图片"
+
+msgid "All photos"
+msgstr "所有相片"
+
+msgid "Drop photos here to move them from the folder"
+msgstr "将照片从文件夹拖放到这里来移动位置"
+
+msgid "Lifetime for cached data"
+msgstr "缓存的有效时间"
+
+msgid "The field \"%s\" available only for numeric values"
+msgstr " \"%s\"的输入字段只允许数值。"
+
+msgid "Settings successfully updated!"
+msgstr "设置已成功更新。"
+
+msgid "Please correct following errors:"
+msgstr "请更正以下错误："
+
+msgid "Plugin settings"
+msgstr "插件设置"
+
+msgid "Use build-in caching:"
+msgstr "使用内置的缓存："
+
+msgid "<strong>%s</strong> has its own caching system in order to significantly reduce the load on the database."
+msgstr "为了显著减少数据库的负载，<strong>%s</strong> 有自己的缓存系统。"
+
+msgid "Caching is not available because your uploads directory is not writable."
+msgstr "缓存无法使用，因为你的上传目录不可写入。"
+
+msgid "Lifetime for cached data:"
+msgstr "缓存数据的有效时间："
+
+msgid "The time in seconds after which the cache will be considered obsolete. Default: 86400 (24 hours)."
+msgstr "缓存将在指定时间后失效。默认值为 86400 毫秒（24小时）。"
+
+msgid "Clear cache"
+msgstr "清空缓存"
+
+msgid "Allow plugin to send anonymous usage statistics:"
+msgstr "允许插件发送匿名使用统计信息："
+
+msgid "We don't collect statistics on you, we only collect the errors encountered during use in order to improve our product."
+msgstr "我们不收集你的统计数据，我们只收集使用过程中遇到的错误，以提高我们的产品质量。"
+
+msgid "Slider \"%s\" successfully created."
+msgstr "幻灯片滑块 \"%s\" 创建成功。"
+
+msgid "Plugin for this type of slider is missing, or is available in the PRO version"
+msgstr "找不到这类型的幻灯片滑块插件，有可能在专业版才可用。，"
+
+msgid "Failed to update positions."
+msgstr "位置更新失败。"
+
+msgid "Positions are successfully updated!"
+msgstr "位置已成功更新！"
+
+msgid "Unable to delete selected slider"
+msgstr "无法删除选定的幻灯片滑块"
+
+msgid "Failed to import selected items."
+msgstr "无法导入选定的项目。"
+
+msgid "Invalid slider identifier."
+msgstr "无效的幻灯片滑块标识符。"
+
+msgid "Unable to find requested slider."
+msgstr "找不到要求的幻灯片滑块。"
+
+msgid "Failed to save settings. %s"
+msgstr "无法保存设置。 %s"
+
+msgid "Failed to change plugin: %s"
+msgstr "插件 %s  变更失败"
+
+msgid "Failed to attach resources."
+msgstr "资源附加失败。"
+
+msgid "%s resources successfully attached to <a href=\"%s\">%s</a>"
+msgstr "%s 的资源成功地附加到<a href=\"%s\">％S</a>"
+
+msgid "Successfully removed!"
+msgstr "已经成功删除！"
+
+msgid "Failed to load settings"
+msgstr "设置加载失败"
+
+msgid "Import"
+msgstr "导入"
+
+msgid "You have no images"
+msgstr "你没有图片"
+
+msgid "Upload to images"
+msgstr "上传图片"
+
+msgid "Delete Slider"
+msgstr "删除幻灯片滑块"
+
+msgid "Total images: "
+msgstr "所有图片："
+
+msgid "Total videos: "
+msgstr "所有视频"
+
+msgid "Shortcode: "
+msgstr "简码："
+
+msgid "PhpCode: "
+msgstr "PHP 代码："
+
+msgid "Sliders List"
+msgstr "幻灯片滑块清单"
+
+msgid "You haven't any sliders yet"
+msgstr "您还没有创建任何幻灯片滑块。"
+
+msgid "Choose Slider Template. You can change it later."
+msgstr "选择幻灯片滑块模板。您以后可以更改它。"
+
+msgid "Slider Name"
+msgstr "幻灯片滑块名称"
+
+msgid "Select module"
+msgstr "选择模块"
+
+msgid "Create new slider"
+msgstr "创建立新的幻灯片滑块"
+
+msgid "Slider Name:"
+msgstr "幻灯片滑块名称"
+
+msgid "Add Images"
+msgstr "添加图片"
+
+msgid "Add Video"
+msgstr "添加视频"
+
+msgid "Add images"
+msgstr "添加图片"
+
+msgid "Change Slider"
+msgstr "更改幻灯片滑块"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Do you really want to delete "
+msgstr "你确定要删除吗?"
+
+msgid "Auto Posts"
+msgstr "自动文章"
+
+msgid "Enabled"
+msgstr "启用"
+
+msgid "Number of post"
+msgstr "文章数量"
+
+msgid "Posts and Pages"
+msgstr "文章和页面"
+
+msgid "Select posts to show"
+msgstr "选择要显示的文章"
+
+msgid "Pages: "
+msgstr "页面："
+
+msgid "Add page"
+msgstr "添加新页面"
+
+msgid "Posts: "
+msgstr "文章："
+
+msgid "Add post"
+msgstr "添加新文章"
+
+msgid "Media"
+msgstr "媒体"
+
+msgid "Shortcode"
+msgstr "简码"
+
+msgid "Slider width"
+msgstr "幻灯片滑块宽度"
+
+msgid "pixels"
+msgstr "像素"
+
+msgid "Slider height"
+msgstr "幻灯片滑块高度"
+
+msgid "Change Slider Type"
+msgstr "更改幻灯片滑块类型"
+
+msgid "Select plugin"
+msgstr "选择插件"
+
+msgid "Jssor PRO"
+msgstr "Jssor PRO"
+
+msgid "Please note:"
+msgstr "请注意："
+
+msgid "Current settings will be removed without ability to restore."
+msgstr "当前的设置将被删除，删除后将不能恢复。"
+
+msgid "Change"
+msgstr "变更"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Import video"
+msgstr "导入视频"
+
+msgid "Unfortunately Coin slider don't support video. Would you like to change slider?"
+msgstr "不好意思，Coin 幻灯片滑块不支持视频。你要换一种幻灯片滑块吗?"
+
+msgid "Slider Template Design Builder"
+msgstr "幻灯片滑块模板设计生成器"
+
+msgid "Choose import source"
+msgstr "选择导入来源"
+
+msgid "Import from WordPress Media Library"
+msgstr "从WordPress的媒体库导入"
+
+msgid "Import from social networks"
+msgstr "从社交网络导入"
+
+msgid "Import from your Instagram account"
+msgstr "从你的 Instagram 账户导入"
+
+msgid "Import from your Flickr account"
+msgstr "从你的 Flickr 账户导入"
+
+msgid "Import from your Tumblr account"
+msgstr "从你的 Tumblr 账户导入"
+
+msgid "Import from your Facebook account"
+msgstr "从你的 Facebook 账户导入"
+
+msgid "Get Pro to enable import"
+msgstr "获取专业版以启动导入功能"
+
+msgid "Video URL:"
+msgstr "视频网址："
+
+msgid "Supported platforms: %s."
+msgstr "支持的平台：%s."
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Edit image"
+msgstr "编辑图片"
+
+msgid "Caption"
+msgstr "标题描述"
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Alternative text"
+msgstr "替代文本"
+
+msgid "External link"
+msgstr "外部链接"
+
+msgid "Available in PRO version."
+msgstr "专业版才能使用"
+
+msgid "Link"
+msgstr "链接"
+
+msgid "Open in new window"
+msgstr "在新窗口打开"
+
+msgid "Embeded video"
+msgstr "嵌入视频"
+
+msgid "Video URL"
+msgstr "视频网址"
+
+msgid "Supports Youtube and Vimeo. URL will be converted to embed automatically."
+msgstr "支持YouTube和Vimeo。 URL将自动转换为视频嵌入代码。"
+
+msgid "Select %s"
+msgstr "选取 %s"
+
+msgid "Crop"
+msgstr "裁切"

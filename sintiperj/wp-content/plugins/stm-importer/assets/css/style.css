@@ -1,0 +1,38 @@
+.stm_demo_import_choices {
+    margin: 30px -15px 0;
+}
+
+.stm_demo_import_choices label {
+    padding: 0 15px;
+    margin-bottom: 30px;
+    float: left;
+    width: 33.33%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.stm_demo_import_choices:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.stm_demo_import_choices .stm_choice_radio_button {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.stm_demo_import_choices img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.17);
+    transition: all 0.5s ease;
+}
+
+.stm_demo_import_choices img:hover {
+    box-shadow: 0 5px 17px rgba(0,0,0,0.6);
+}

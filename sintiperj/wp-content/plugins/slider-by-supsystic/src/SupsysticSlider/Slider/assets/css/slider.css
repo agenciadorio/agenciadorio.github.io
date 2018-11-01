@@ -1,0 +1,377 @@
+.gg-galleries-grid {
+    margin: 20px;
+}
+
+.gg-slider {
+    margin:0;
+    padding: 0;
+    height: 360px;
+    border-bottom: 1px solid rgba(63, 63, 63, 0.51);
+}
+
+.gg-slider .gg-control-btn {
+    opacity: 1;
+    width: 140px;
+    float: left;
+    text-align: center;
+    margin: 0 20px;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+}
+
+.gg-control-btn li {
+    display: block;
+}
+.gg-control-btn a,
+.gg-control-btn button {
+    width: 140px;
+}
+
+
+.gg-slider .image {
+    float: left;
+    display: inline-block;
+}
+
+.gg-slider .gg-counter {
+    float: left;
+    font-weight: 800;
+    font-size: 14px;
+    margin: 8px;
+}
+
+/* Visual editor */
+
+.rs-veditor-group {
+    margin-bottom: 15px;
+}
+
+.rs-veditor-group label {
+    display: block;
+}
+
+.rs-veditor-input {
+    width: 100%;
+}
+
+.rs-veditor-active {
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px #2980b9;
+    border: 1px solid #3498db;
+    z-index: 1337;
+}
+
+.bx-viewport ul {
+    margin-top: 0 !important;
+}
+
+#veditor-sidebar {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+#veditor-container .bx-viewport {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Color Picker Alpha-channel support */
+.pluto-alpha-container .transparency {
+    height:24px;
+    width:100%;
+    background-color:#FFF;
+    background-image:url(../images/transparency-grid.png);
+    box-shadow:0 0 5px rgba(0,0,0,0.4) inset;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding:0;
+    position: relative;
+    bottom: 15px;
+}
+
+.pluto-alpha-container .ui-slider-handle {
+    color:#777;
+    background-color:#FFF;
+    text-shadow:0 1px 0 #FFF;
+    text-decoration:none;
+    position:absolute;
+    z-index:2;
+    box-shadow:0 1px 2px rgba(0,0,0,0.2);
+    border:1px solid #aaa;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    opacity:0.9;
+    margin-top:-2px;
+    height:20px;
+    cursor:ew-resize;
+    font-size:12px;
+    padding:3px;
+}
+
+.pluto-alpha-container .ui-slider {
+    position:relative;
+    text-align:center;
+    width:88%;
+}
+
+.wp-picker-container a.wp-picker-open ~ div.pluto-alpha-container {
+    display:block;
+}
+
+.pluto-alpha-container {
+    box-sizing:padding-box;
+    display:none;
+    border:1px solid #dfdfdf;
+    border-top:none;
+    background:#FFF;
+    padding: 8px 11px 0 11px;
+}
+
+.pluto-alpha-container .ui-slider .ui-slider-range {
+    z-index: 0;
+}
+
+.customize-control-alphacolor .wp-picker-container .iris-picker {
+    border-bottom:none;
+}
+
+.line.name{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.line.preset {
+    float: left;
+    margin: 5px !important;
+    padding: 0 !important;
+}
+
+.preset {
+    position: relative;
+    cursor: pointer;
+}
+
+.preset .preset-image {
+    margin: 10px !important;
+    display: block;
+}
+
+/*.preset .caption {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 20%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.81);;
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 3.0;
+    -webkit-transition: height 0.8s ease-in-out;
+    -moz-transition: height 0.8s ease-in-out;
+    -ms-transition: height 0.8s ease-in-out;
+    -o-transition: height 0.8s ease-in-out;
+    transition: height 0.8s ease-in-out;
+}
+
+.preset.selected {
+    box-shadow: inset 0 0 0 4px #000000 !important;
+}
+
+.preset:hover {
+    box-shadow: inset 0 0 0 4px rgba(0, 0, 0, 0.3);
+}
+*/
+.preset .button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+    height: 35px;
+        border: 1px solid #000;
+    line-height: 34px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    display: inline-block;
+    background: #fff;
+    display: block;
+    opacity: 1;
+}
+
+.preset:hover .button {
+    opacity: 1.0 !important;
+}
+
+.preset .button:active {
+    transform: translate(-50%, -50%)!important;
+}
+
+#rs-create-slider-text {
+    margin: 40px auto !important;
+    width: 90%;
+}
+
+.rs-preset-overlay {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: #ffffff;
+    opacity: 0.0;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.preset:hover .rs-preset-overlay {
+    opacity: 1.0;
+}
+
+.preset.selected .rs-preset-overlay {
+    opacity: 1.0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.54);
+}
+
+div.rs-shortcode {
+    display: inline-block;
+    padding-left: 20px;
+    font-weight: 800;
+    position: relative;
+}
+
+.supsystic-plugin .rsCopyTextCode {
+    background-color: #f5f5f5 !important;
+    border: 1px solid #cccccc !important;
+    border-radius: 4px !important;
+    color: #333333 !important;
+    cursor: pointer;
+    font-family: monospace !important;
+    font-size: 13px !important;
+    margin: 0 0 10px !important;
+    padding: 9.5px !important;
+    width: 100%;
+}
+
+/* Customizing jQuery UI Slider for caption opacity option */
+#caption-opacity {
+    width: 188px;
+    margin-top: 10px;
+}
+.ui-slider {
+    position: relative;
+}
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey;
+    border-radius: 0;
+    cursor: pointer
+}
+.ui-slider-horizontal {
+    height: 7px;
+}
+.ui-dialog[aria-describedby="choose-import-dialog"] .ui-dialog-titlebar {
+	border-top: 1px solid #B8AEAE !important;
+	border-right: 1px solid #B8AEAE !important;
+	border-left: 1px solid #B8AEAE !important;
+}
+.ui-dialog[aria-describedby="choose-import-dialog"] #choose-import-dialog {
+	border-right: 1px solid #B8AEAE !important;
+	border-left: 1px solid #B8AEAE !important;
+	border-bottom: 1px solid #B8AEAE !important;
+}
+#captionOpacity + .ui-widget-content {
+    border: 1px solid #D4D4D4 !important;
+    border-radius: 0;
+    background: #fff;
+}
+#caption-opacity .ui-state-hover,
+#caption-opacity .ui-state-active,
+#caption-opacity .ui-state-focus {
+    background: grey !important;
+}
+
+.supsystic-plugin .separator {
+    border-top: 1px solid #e9edee;
+    margin-bottom: 20px;
+}
+
+.supsystic-plugin .post-and-pages, .supsystic-plugin .post-and-pages-select, .supsystic-plugin .additional-posts-settings {
+    margin-bottom: 20px;
+}
+
+.supsystic-plugin .post-and-pages-select .select-group, .supsystic-plugin .additional-posts-settings .select-group {
+    margin: 15px 0;
+}
+
+.supsystic-plugin .ui-jqgrid-labels {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.supsystic-plugin #add-images {
+    display: inline-block;
+    margin-top: 1em;
+    outline: none;
+}
+.supsystic-plugin .toolbar-title {
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+/* Fix of chosen multi select height */
+.supsystic-plugin #image-area .chosen-container-multi .chosen-choices li.search-field input[type="text"],
+.supsystic-plugin #image-area .chosen-container-active .chosen-choices li.search-field input[type="text"],
+.supsystic-plugin #image-area .chosen-container-multi .chosen-choices li.search-choice {
+	height: 18px !important;
+	line-height: 18px !important;
+}
+.supsystic-plugin #image-area .chosen-container-multi,
+.supsystic-plugin #image-area .chosen-container-multi ul.chosen-choices li {
+	font-size: 12px !important;
+}
+.supsystic-plugin #image-area .chosen-container-multi .chosen-choices {
+	padding: 3px 5px !important;
+}
+.supsystic-plugin #image-area .chosen-container-multi .chosen-choices li.search-choice {
+	padding: 0 20px 0 5px !important;
+	margin: 1px 5px 1px 0 !important;
+}
+.supsystic-plugin #image-area .chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+	top: 3px !important;
+}
+
+/* export popup */
+
+#settingsImportDialog {
+    width: 460px;
+}
+
+#settingsImportDialog .import {
+    overflow: hidden;
+}
+
+#settingsImportDialog select {
+    max-width: 98% !important;
+    width: 98% !important;
+}

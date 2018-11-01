@@ -1,0 +1,479 @@
+/*
+	Description: CSS for the WP Speed Grades PRO
+	Author: bestseogr
+	Author url: http://www.wp-speed.com
+	Version: 2.6
+*/
+
+.wpsgl-wpspgrades_tabs {
+  position: relative;  
+  height: auto;
+  padding-bottom: 20px;
+  min-height: 400px; /* This part sucks */
+  clear: both;
+  margin: 25px 0;
+}
+.wpsgl-wpspgrades_tab {
+  float: left;
+}
+.wpsgl-wpspgrades_tab label {
+  background: #eee; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin-left: -1px; 
+  position: relative;
+ 
+  left: 1px; 
+}
+.wpsgl-wpspgrades_tab [type=radio] {
+  display: none;   
+}
+.wpsgl-wpspgrades_content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  
+  
+  
+  border: 1px solid #ccc; 
+}
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .wpsgl-wpspgrades_content {
+  z-index: 1;
+}
+
+.wpspgl-box-region-middle {
+ width: 100%;
+ float: left;
+ padding: 5px;
+ min-height: 250px;
+}
+
+.wpspgl-box-region-right {
+ width: 28%;
+ float: right;
+ padding: 5px;
+ min-height: 250px;
+}
+
+.wpspgl-box-wpspgrpro {
+ background: #ffffff!important;
+ padding: 5px 10px 5px 10px;
+ margin-right: 3px;
+ border-width: 0px;
+ padding-bottom: 5px;
+ border-color: #eee!important;
+ border-width: 0px;
+ border-bottom: 2px;
+ border-style: solid;
+ width: 500px;
+ float: left;
+}
+
+.wpspgl-box-wpspgrpro h3 {
+ 
+ text-align: center;
+ padding: 10px;
+ padding-top: 0px;
+ border-color: #eee!important;
+ border-width: 0px;
+ border-bottom: 1px;
+ border-style: solid;
+ 
+}
+
+
+.wpspgl-box-wpspgrpro-pro {
+ background: #b4d7ff!important;
+ padding: 5px 10px 5px 10px;
+ border-width: 0px;
+ padding-bottom: 20px;
+ border-color: #eee!important;
+ border-width: 0px;
+ border-bottom: 10px;
+ border-style: solid;
+ 
+}
+
+.wpspgl-box-wpspgrpro-pro h3 {
+ 
+ text-align: center;
+ padding: 10px;
+ padding-top: 0px;
+ border-color: #eee!important;
+ border-width: 0px;
+ border-bottom: 1px;
+ border-style: solid;
+ 
+}
+
+
+
+.valueok {
+ background: #29dc00;
+ padding: 3px 10px 3px 10px;
+ width: 90%;
+ text-align: center;
+ color: #ffffff;
+ font-weight: 600;  
+ border-color: #FFFFFF!important;
+ border-width: 0px;
+ border-bottom: 1px;
+ border-style: solid;
+}
+
+.valuenotok {
+ background: #ff0a3e;
+ padding: 3px 10px 3px 10px;
+ width: 90%;
+ text-align: center;
+ color: #ffffff;
+ font-weight: 600;  
+ border-color: #FFFFFF!important;
+ border-width: 0px;
+ border-bottom: 1px;
+ border-style: solid;
+}
+
+
+.wpsgl-switch {
+  margin: 0 auto;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+
+.wpsgl-switch label {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+}
+
+.wpsgl-switch input {
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+  opacity: 0;
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.wpsgl-switch.toggle3 {
+  width: 80px;
+  height: 20px;
+}
+
+.wpsgl-switch.toggle3 label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #a5a39d;
+  border-radius: 20px;
+  box-shadow:
+      inset 0 3px 8px 1px rgba(0,0,0,0.2),
+      0 1px 0 rgba(255,255,255,0.5);
+}
+
+.wpsgl-switch.toggle3 label:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0px; right: 0px; bottom: 0px; left: 0px;
+  border-radius: inherit;
+  background: #ababab);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3),
+        0 1px 1px rgba(0,0,0,0.25)
+}
+
+.wpsgl-switch.toggle3 label:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -18px; right: -18px; bottom: -18px; left: -18px;
+  border-radius: inherit;
+  background: #eee);
+  box-shadow:
+      0 1px 0 rgba(255,255,255,0.5);
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -ms-filter: blur(1px);
+  -o-filter: blur(1px);
+  filter: blur(1px)
+}
+
+.wpsgl-switch.toggle3 label i {
+  display: block;
+  height: 100%;
+  width: 50%;
+  border-radius: inherit;
+  background: silver;
+  position: absolute;
+  z-index: 2;
+  right: 50%;
+  top: 0;
+  background: #b2ac9e;
+  background: -moz-linear-gradient(#f7f2f6, #b2ac9e);
+  background: -ms-linear-gradient(#f7f2f6, #b2ac9e);
+  background: -o-linear-gradient(#f7f2f6, #b2ac9e);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#f7f2f6), to(#b2ac9e));
+  background: -webkit-linear-gradient(#f7f2f6, #b2ac9e);
+  background: linear-gradient(#f7f2f6, #b2ac9e);
+  box-shadow:
+      inset 0 1px 0 white,
+      0 0 5px rgba(0,0,0,0.3),
+      0 2px 5px rgba(0,0,0,0.2);
+}
+
+.wpsgl-switch.toggle3 label i:after {
+  content: "";
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  width: 70%;
+  height: 50%;
+  background: #d2cbc3);
+  border-radius: inherit
+}
+
+.wpsgl-switch.toggle3 label i:before {
+  content: "off";
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  color: rgba(0,0,0,0.4);
+  text-shadow: 0 1px 0 #bcb8ae, 0 -1px 0 #97958e;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  right: -85%;
+}
+
+.wpsgl-switch.toggle3 input:checked ~ label {
+  background: #9abb82;
+}
+
+.wpsgl-switch.toggle3 input:checked ~ label i {
+  right: -1%;
+}
+
+.wpsgl-switch.toggle3 input:checked ~ label i:before {
+  content: "on";
+  right: 115%;
+  color: #82a06a;
+  text-shadow: 
+    0 1px 0 #afcb9b,
+    0 -1px 0 #6b8659;
+}
+
+.wpsgl-cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.wpsgl-cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+
+input.wpsgl-cmn-toggle-round + label {
+  padding: 2px;
+  width: 60px;
+  height: 20px;
+  border-radius: 0px!important;
+  background-color: #dddddd;
+  margin-top: -2px;
+  
+}
+input.wpsgl-cmn-toggle-round + label:before,
+input.wpsgl-cmn-toggle-round + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+input.wpsgl-cmn-toggle-round + label:before {
+  right: 1px;
+  background-color: #dadada;
+  content: "OFF";
+  padding-top:2px;
+  color: #666666;
+  text-align: right;
+  font-weight: 600;
+  padding-right: 10px;
+  transition: background 0.4s;
+}
+input.wpsgl-cmn-toggle-round + label:after {
+  width: 18px;
+  background-color: #A1A1A1;
+  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: margin 0.4s;
+}
+input.wpsgl-cmn-toggle-round:checked + label:before {
+  content: "ON";
+  padding-left: 10px;	
+  background-color: #f6f6f6;
+  padding-top:2px;
+  color: #666666;
+  text-align: left;
+  font-weight: 600;
+}
+input.wpsgl-cmn-toggle-round:checked + label:after {	
+  margin-left: 44px;
+  background-color: #27A1CA;
+}
+
+/* Yes/NO */
+
+.wpsgl-cmn-toggle2 {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.wpsgl-cmn-toggle2 + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+
+input.wpsgl-cmn-toggle2-round + label {
+  padding: 2px;
+  width: 60px;
+  height: 20px;
+  border-radius: 0px!important;
+  background-color: #dddddd;
+  margin-top: -2px;
+  
+}
+input.wpsgl-cmn-toggle2-round + label:before,
+input.wpsgl-cmn-toggle2-round + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+input.wpsgl-cmn-toggle2-round + label:before {
+  right: 1px;
+  background-color: #dadada;
+  content: "NO";
+  padding-top:2px;
+  color: red;
+  text-align: right;
+  font-weight: 600;
+  padding-right: 10px;
+  transition: background 0.4s;
+}
+input.wpsgl-cmn-toggle2-round + label:after {
+  width: 18px;
+  background-color: #A1A1A1;
+  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: margin 0.4s;
+}
+input.wpsgl-cmn-toggle2-round:checked + label:before {
+  content: "YES";
+  padding-left: 10px;	
+  background-color: #f6f6f6;
+  padding-top:2px;
+  color: #666666;
+  text-align: left;
+  font-weight: 600;
+}
+input.wpsgl-cmn-toggle2-round:checked + label:after {	
+  margin-left: 44px;
+  background-color: #c2ffa1;
+}
+
+/* Big */
+
+.wpsgl-cmn-toggle1 {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.wpsgl-cmn-toggle1 + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+
+input.wpsgl-cmn-toggle1-round + label {
+  padding: 2px;
+  width: 100px;
+  height: 40px;
+  border-radius: 0px!important;
+  background-color: #dddddd;
+  margin-top: -2px;
+  
+}
+input.wpsgl-cmn-toggle1-round + label:before,
+input.wpsgl-cmn-toggle1-round + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+input.wpsgl-cmn-toggle1-round + label:before {
+  right: 1px;
+  background-color: #dadada;
+  content: "OFF";
+  font-size: 25px;
+  padding-top:2px;
+  color: #66666;
+  text-align: right;
+  font-weight: 600;
+  padding-right: 10px;
+  transition: background 0.4s;
+}
+input.wpsgl-cmn-toggle1-round + label:after {
+  width: 30px;
+  background-color: #ff0445;
+  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: margin 0.4s;
+}
+input.wpsgl-cmn-toggle1-round:checked + label:before {
+  content: "ON";
+  padding-left: 10px;
+  font-size: 25px;  
+  background-color: #f6f6f6;
+  padding-top:2px;
+  color: #666666;
+  text-align: left;
+  font-weight: 600;
+}
+input.wpsgl-cmn-toggle1-round:checked + label:after {	
+  margin-left: 73px;
+  background-color: #53f87a;
+}

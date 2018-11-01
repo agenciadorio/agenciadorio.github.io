@@ -1,0 +1,90 @@
+/*
+Admin css
+*/
+
+
+.wpp_list_container {}
+
+.wpp_list_container .wpp_list_single{
+	padding:10px 0;
+}
+
+.wpp_list_container .wpp_list_single .wpp_left, 
+.wpp_list_container .wpp_list_single .wpp_right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wpp_list_container .wpp_list_single .wpp_left {
+    padding: 8px;
+}
+
+.wpp_list_container .wpp_list_single .wpp_left .dashicons-before:before{
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+}
+	
+.wpp_list_container .wpp_list_single .wpp_right .wpp_title{
+    display: -webkit-box;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #444;
+    font-size: 15px;
+}
+
+
+.wpp_list_container  .wpp_list_single .inline {
+    display:inline;
+	padding: 3px 18px;
+    border-radius: 3px;
+	color:#fff;
+	cursor:pointer;
+	margin-right: 10px;
+}
+
+.wpp_list_container  .wpp_list_single .inline .fa {
+	margin-right: 5px;
+}
+
+.wpp_list_container  .wpp_list_single .inline.wpp_report{
+    background-color:#757580;
+}
+
+.wpp_list_container  .wpp_list_single .inline.wpp_categories{
+    background-color:#009D91;
+}
+
+.wpp_list_container  .wpp_list_single .inline.wpp_published{
+    background-color:#2EA3F2;
+}
+
+
+
+/*paginate*/
+.wpp_list_container .paginate, .container-answer-section .paginate {
+	margin: 30px 0;
+	text-align: center;
+}
+
+.wpp_list_container .paginate .page-numbers, .container-answer-section .paginate .page-numbers {
+    background: #cc8e70 none repeat scroll 0 0;
+    margin: 0 2px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #fff;
+	border-radius: 4px;
+}
+
+.wpp_list_container .paginate .current, .container-answer-section .paginate .current {
+    background: #865944 none repeat scroll 0 0;
+}
+.wpp_list_container .paginate .pre,
+.container-answer-section .paginate .prev{
+
+}
+
+.wpp_list_container .paginate .next,
+.container-answer-section .paginate .next{
+}
+

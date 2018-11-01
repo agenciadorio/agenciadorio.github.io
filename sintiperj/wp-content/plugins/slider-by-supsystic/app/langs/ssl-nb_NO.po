@@ -1,0 +1,909 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: _default.po conversion\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Thu Mar 10 2016 08:47:20 GMT+0100\n"
+"PO-Revision-Date: 2016-04-03 21:06+0200\n"
+"Last-Translator: Christian Noer <c.m.noer@gmail.com>\n"
+"Language-Team: \n"
+"Language: nb_NO\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Source-Locale: nb_NO\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Loco-Target-Locale: zxx\n"
+"X-Generator: Poedit 1.8.7\n"
+
+msgid "Slider by Supsystic"
+msgstr "Slider av Supsystic"
+
+msgid "Overview"
+msgstr "Oversikt"
+
+msgid "New Slider"
+msgstr "Ny Slider"
+
+msgid "Sliders"
+msgstr "Slidere"
+
+msgid "Images"
+msgstr "Bilder"
+
+msgid "Settings"
+msgstr "Innstillinger"
+
+msgid "License"
+msgstr "Lisens"
+
+msgid "Get PRO"
+msgstr "Få PRO"
+
+msgid "Loading"
+msgstr "Laster"
+
+msgid "Error"
+msgstr "Feil"
+
+msgid "An error has occurred"
+msgstr "En feil har oppstått"
+
+msgid "Authorization code is not specified."
+msgstr "Autorisasjonskoden ble ikke spesifisert"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Upload your images from the Facebook Media Library"
+msgstr "Last opp bildene dine fra Facebooks mediabibliotek"
+
+msgid "Upload from Facebook"
+msgstr "Last opp fra Facebook"
+
+msgid "Return to the slider"
+msgstr "Tilbake til slideren"
+
+msgid "Upload new images"
+msgstr "Last opp nye bilder"
+
+msgid "Import images"
+msgstr "Importer bilder"
+
+msgid "Logout"
+msgstr "Logg ut"
+
+msgid "Select/unselect all photos"
+msgstr "Velg/velg bort alle bilder"
+
+msgid "Empty user data."
+msgstr "Tøm brukerdata."
+
+msgid "Flickr"
+msgstr "Flickr"
+
+msgid "Upload your images from the Flickr Media Library"
+msgstr "Laste opp bilder fra Flickr mediebiblioteket"
+
+msgid "Upload from Flickr"
+msgstr "Last opp fra Flickr"
+
+msgid "Effects"
+msgstr "Effekter"
+
+msgid "Controls"
+msgstr "Kontroller"
+
+msgid "Mode"
+msgstr "Modus"
+
+msgid "Distance"
+msgstr "Avstand"
+
+msgid "Arrows"
+msgstr "Piler"
+
+msgid "Select Arrows"
+msgstr "Velg piler"
+
+msgid "Bullet Control"
+msgstr "Punktmerke"
+
+msgid "Select Bullet Control"
+msgstr "Velg punktmerke"
+
+msgid "Responsive Size Slider"
+msgstr "Responsiv slider-størrelse"
+
+msgid "Captions"
+msgstr "Bildetekst"
+
+msgid "Show caption settings"
+msgstr "Vis innstilling for bildetekst"
+
+msgid "Caption position"
+msgstr "Bildetekstposisjon"
+
+msgid "Select Caption position"
+msgstr "Billedtekstposisjon"
+
+msgid "Thumbnails Slider Navigation"
+msgstr "Miniatyrbildenavigasjon"
+
+msgid "Thumbnails Type"
+msgstr "Miniatyrbildetype"
+
+msgid "Enable Slideshow"
+msgstr "Aktiver lysbildefremvisning"
+
+msgid "Slideshow Speed"
+msgstr "Hastighet på lysbildefremvisningen"
+
+msgid "Select Shadow"
+msgstr "Velg skygge"
+
+msgid "Select arrows"
+msgstr "Velg piler"
+
+msgid "Select bullet control"
+msgstr "Velg punktmerkekontroll"
+
+msgid "Select shadow effect"
+msgstr "Velg skyggeeffekt"
+
+msgid "Customize slide content"
+msgstr "Tilpass slideinnhold"
+
+msgid "Main"
+msgstr "Hoved"
+
+msgid "Buttons"
+msgstr "Knapper"
+
+msgid "Title"
+msgstr "Tittel"
+
+msgid "Font size: "
+msgstr "Skriftstørrelse:"
+
+msgid "Font color: "
+msgstr "Skriftfarge:"
+
+msgid "Content"
+msgstr "Innhold"
+
+msgid "Transition"
+msgstr "Overgang"
+
+msgid "Effect: "
+msgstr "Effekt:"
+
+msgid "Duration: "
+msgstr "Varighet:"
+
+msgid "Add button"
+msgstr "Legg til knapp"
+
+msgid "Save"
+msgstr "Lagre"
+
+msgid "Preview"
+msgstr "Forhåndsvisning"
+
+msgid "Button properties"
+msgstr "Knappegenskaper"
+
+msgid "Text: "
+msgstr "Tekst:"
+
+msgid "Link: "
+msgstr "Lenke:"
+
+msgid "Color: "
+msgstr "Farge:"
+
+msgid "Background: "
+msgstr "Bakgrunn:"
+
+msgid "Color on hover: "
+msgstr "Farge - peker over:"
+
+msgid "Background on hover: "
+msgstr "Bakgrunnsfarge - peker over:"
+
+msgid "Position: "
+msgstr "Plassering:"
+
+msgid "Open in new window: "
+msgstr "Åpne i nytt vindu:"
+
+msgid "Remove"
+msgstr "Fjern"
+
+msgid "Caption settings editor"
+msgstr "Vis innstilling for bildetekst"
+
+msgid "Text color: "
+msgstr "Tekstfarge:"
+
+msgid "Text align: "
+msgstr "Tekstjustering:"
+
+msgid "Vertical align: "
+msgstr "Vertikal justering"
+
+msgid "Font family: "
+msgstr "Skriftfamilie:"
+
+msgid "Background color: "
+msgstr "Bakgrunnsfarge:"
+
+msgid "Background opacity: "
+msgstr "Bakgrunnens tetthet"
+
+msgid "Activate License"
+msgstr "Aktiver lisens"
+
+msgid "Renew License"
+msgstr "Forny lisens"
+
+msgid ""
+"Congratulations! You have successfully installed and activated PRO version of "
+"Slider by Supsystic plugin."
+msgstr ""
+"Gratulerer! Du har nå installert og aktivert PRO-versjonen av Slider av Supsystic-"
+"utvidelsen."
+
+msgid "Your premium support is expired in ' ~ days ~ ' days"
+msgstr "Din premiumstøtte utløper om ' ~ days ~ 'dager"
+
+msgid "You will not be able to update your pro version with expired license"
+msgstr "Du vil ikke være i stand til å oppdatere pro-versjonen med utgått lisens"
+
+msgid "Activate"
+msgstr "Aktiver"
+
+msgid "Authorization oauth_verifier is not specified."
+msgstr "Autorisasjon oauth_verifier er ikke spesifisert."
+
+msgid "Tumblr"
+msgstr "Tumblr"
+
+msgid "Upload your images from the Tumblr Media Library"
+msgstr "Last opp dine bilder fra Tumblrs mediebibliotek"
+
+msgid "Upload from Tumblr"
+msgstr "Last opp fra Tumblr"
+
+msgid "Carousel parts"
+msgstr "Karuselldeler"
+
+msgid "Disable animation of slide transition"
+msgstr "Deaktiver animasjon av slideovergang"
+
+msgid "Text align"
+msgstr "Tekstjustering"
+
+msgid "Align left"
+msgstr "Venstrejustert"
+
+msgid "Align center"
+msgstr "Midtjustert"
+
+msgid "Align right"
+msgstr "Høyrejustert"
+
+msgid "Text color"
+msgstr "Tekstfarge"
+
+msgid "Background color"
+msgstr "Bakgrunnsfarge"
+
+msgid "Text size"
+msgstr "Tekststørrelse"
+
+msgid "Text Animation"
+msgstr "Tekstanimasjon"
+
+msgid "Disable"
+msgstr "Deaktiver"
+
+msgid "Enable"
+msgstr "Bruk"
+
+msgid "Text in effect"
+msgstr "Tekst inn-effekt"
+
+msgid "Select Text in effect"
+msgstr "Velg effekt for inntoning av tekst"
+
+msgid "Text out effect"
+msgstr "Tekst ut-effekt"
+
+msgid "Select Text out effect"
+msgstr "Velg effekt for uttoning av tekst"
+
+msgid "Controls type"
+msgstr "Kontrolltype"
+
+msgid "Select Controls type"
+msgstr "Velg kontrolltype"
+
+msgid "Border style:"
+msgstr "Kantlinjestil:"
+
+msgid "None"
+msgstr "Ingen"
+
+msgid "Solid"
+msgstr "Fast"
+
+msgid "Dashed"
+msgstr "Streker"
+
+msgid "Border width:"
+msgstr "Kantlinjebredde:"
+
+msgid "Border color:"
+msgstr "Kantlinjefarge:"
+
+msgid "Thumbnails margin"
+msgstr "Miniatyrbildemargin"
+
+msgid "General"
+msgstr "Generelt"
+
+msgid "Touch"
+msgstr "Berøring"
+
+msgid "Pager"
+msgstr "Søker"
+
+msgid "Properties"
+msgstr "Egenskaper"
+
+msgid "Autostart Slideshow"
+msgstr "Automatisk visning"
+
+msgid "Slideshow Controls"
+msgstr "Lysbildekontroller"
+
+msgid "Navigation"
+msgstr "Navigasjon"
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "Thumbnails"
+msgstr "Miniatyrbilder"
+
+msgid "Transition Speed"
+msgstr "Hastighet på overganger"
+
+msgid "Margin"
+msgstr "Marg"
+
+msgid "Starting Slide"
+msgstr "Første slide"
+
+msgid "Start slider on a random slide"
+msgstr "Begynn visningen med en tilfeldig slide"
+
+#, fuzzy
+msgid "Easing"
+msgstr "lettelser"
+
+msgid "Enable Touch"
+msgstr "Aktiver Berøring"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Nei"
+
+msgid "One-to-One Touch"
+msgstr "En-til-En Berøring"
+
+msgid "Swipe Threshold"
+msgstr "Sveipeterskel"
+
+msgid "Enable Pager"
+msgstr "Aktiver søker"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Effect"
+msgstr "Effekt:"
+
+msgid "Select effect"
+msgstr "Velg effekt"
+
+msgid "Title Speed"
+msgstr "Tittelhastighet"
+
+msgid "Delay"
+msgstr "Forsinkelse"
+
+msgid "Pause"
+msgstr "Pause"
+
+msgid "Links"
+msgstr "Lenker"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "Upload your images from the Instagram Media Library"
+msgstr "Last opp dine bilder fra Instagrams mediebibliotek"
+
+msgid "Upload from Instagram"
+msgstr "Last opp fra Instagram"
+
+msgid "Your message successfully send. We contact you soon."
+msgstr "Meldingen ble sendt Vi kontakter deg snart."
+
+msgid "Gallery by Supsystic"
+msgstr "Galleri av Supsystic"
+
+msgid "Most common FAQs"
+msgstr "Vanlige spørsmål og svar"
+
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "Hvordan få PRO-versjonen av utvidelsen GRATIS?"
+
+msgid ""
+"You have an incredible opportunity to get PRO version for free. Make Translation "
+"of plugin. It will be amazing if you take advantage of this offer!"
+msgstr ""
+"Du har en utrolig mulighet til å få PRO-versjonen gratis. Oversett utvidelsen. Det "
+"vil være fantastisk hvis du drar nytte av dette tilbudet!"
+
+msgid "Translation"
+msgstr "Oversettelse"
+
+msgid "Check all FAQs"
+msgstr "Sjekk alle FAQs"
+
+msgid "Video tutorial will be added soon"
+msgstr "Video-opplæringen vil bli lagt til snart"
+
+msgid "All news"
+msgstr "Alle nyheter"
+
+msgid "Name"
+msgstr "Navn"
+
+msgid "Email"
+msgstr "E-post"
+
+msgid "Website"
+msgstr "Nettsted"
+
+msgid "Subject"
+msgstr "Emne"
+
+msgid "Topic"
+msgstr "Tema"
+
+msgid "Plugin options"
+msgstr "Plugin options"
+
+msgid "Report a bug"
+msgstr "Report a bug"
+
+msgid "Require a new functionallity"
+msgstr "Require a new functionallity"
+
+msgid "Other"
+msgstr "Other"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "Hello Supsystic Team!"
+msgstr "Hello Supsystic Team!"
+
+msgid ""
+"Some errors occurred while sending mail please send your message trough this "
+"contact form:"
+msgstr ""
+"Feil oppstod under sending av epost. Vennligst send meldingen via kontaktskjemaet:"
+
+#, c-format
+msgid "Unable to save chosen photo %s: %s"
+msgstr "Kan ikke lagre valgt bilde %s: %s"
+
+msgid "New Folder"
+msgstr "Ny Mappe"
+
+msgid "The title can't be empty"
+msgstr "Tittelen kan ikke være tom"
+
+msgid "Title successfully updated"
+msgstr "Tittel oppdatert"
+
+msgid "Failed to update position."
+msgstr "Kunne ikke oppdatere posisjon."
+
+msgid "Position updated successfully!"
+msgstr "Posisjon oppdatert!"
+
+msgid "Rename folder"
+msgstr "Gi nytt navn til mappe"
+
+msgid "Folder name:"
+msgstr "Mappenavn"
+
+msgid "Add images to the slider"
+msgstr "Legg bilder til slideren"
+
+msgid "Please wait while the plugin to get the list of sliders..."
+msgstr "Vennligst vent mens utvidelsen får listen med slidere..."
+
+msgid "Select slider:"
+msgstr "Velg slider:"
+
+msgid "New folder"
+msgstr "Ny mappe"
+
+msgid "Add images to the new slider"
+msgstr "Legg bilder til den nye slideren"
+
+msgid "Slider title:"
+msgstr "Slider-tittel"
+
+msgid "Add new video"
+msgstr "Legg til video"
+
+msgid "Import videos"
+msgstr "Importer videoer"
+
+msgid "Create new folder"
+msgstr "Opprett ny mappe"
+
+msgid "Delete selected items"
+msgstr "Slett valgte elementer"
+
+msgid "Create new slider from the selected items"
+msgstr "Opprett ny slider fra de valgte elementene"
+
+msgid "New slider from selected"
+msgstr "Ny slider fra valgte"
+
+msgid "Add the selected items to the existing slider"
+msgstr "Legg de valgte elementene til den eksisterende slideren"
+
+msgid "Add selected to the slider"
+msgstr "Legg valgte til slideren"
+
+msgid "Upload your images from the WordPress Media Library"
+msgstr "Last opp dine bilder fra WordPress' mediebibliotek"
+
+msgid "All photos"
+msgstr "Alle bilder"
+
+msgid "Drop photos here to move them from the folder"
+msgstr "Slipp bildene her for å flytte dem fra mappen"
+
+msgid "Lifetime for cached data"
+msgstr "Levetid for bufret data"
+
+#, c-format
+msgid "The field \"%s\" available only for numeric values"
+msgstr "Feltet \"%s\" er bare tilgjengelig for tallverdier"
+
+msgid "Settings successfully updated!"
+msgstr "Innstillinger er oppdatert!"
+
+msgid "Please correct following errors:"
+msgstr "Vennligst rett opp følgende feil:"
+
+msgid "Plugin settings"
+msgstr "Innstillinger for utvidelsen"
+
+msgid "Use build-in caching:"
+msgstr "Bruk innebygd hurtiglager:"
+
+#, c-format
+msgid ""
+"<strong>%s</strong> has its own caching system in order to significantly reduce "
+"the load on the database."
+msgstr ""
+"<strong>%s</strong> har sitt eget hurtiglagersystem for å redusere belastningen på "
+"databasen."
+
+msgid "Caching is not available because your uploads directory is not writable."
+msgstr "Hurtiglagring er ikke tilgjengelig fordi opplastingsmappen ikke er skrivbar."
+
+msgid "Lifetime for cached data:"
+msgstr "Levetid for hurtiglagret data:"
+
+msgid ""
+"The time in seconds after which the cache will be considered obsolete. Default: "
+"86400 (24 hours)."
+msgstr ""
+"Tiden i sekunder som hurtiglageret vil være foreldet. Standard: 86400 (24 timer)."
+
+msgid "Clear cache"
+msgstr "Tøm hurtiglager"
+
+msgid "Allow plugin to send anonymous usage statistics:"
+msgstr "Tillat utvidelsen å sende anonym brukerstatistikk:"
+
+msgid ""
+"We don't collect statistics on you, we only collect the errors encountered during "
+"use in order to improve our product."
+msgstr ""
+"Vi samler ikke statistikk på deg, vi bare samler feilene som oppstår under bruk "
+"for å forbedre produktet."
+
+#, c-format
+msgid "Slider \"%s\" successfully created."
+msgstr "Slider \"%s\" ble opprettet."
+
+msgid "Plugin for this type of slider is missing, or is available in the PRO version"
+msgstr "Utvidelse for denne type slider mangler, eller er tilgjengelig i PRO-versjon"
+
+msgid "Failed to update positions."
+msgstr "Kunne ikke oppdatere posisjoner."
+
+msgid "Positions are successfully updated!"
+msgstr "Posisjonene er nå oppdatert!"
+
+msgid "Unable to delete selected slider"
+msgstr "Kan ikke slette valgte slider"
+
+msgid "Failed to import selected items."
+msgstr "Kunne ikke importere valgte elementer."
+
+msgid "Invalid slider identifier."
+msgstr "Ugyldig slider-identifikator."
+
+msgid "Unable to find requested slider."
+msgstr "Kunne ikke finne den ønskede slideren."
+
+#, c-format
+msgid "Failed to save settings. %s"
+msgstr "Kunne ikke lagre innstillinger. %s"
+
+#, c-format
+msgid "Failed to change plugin: %s"
+msgstr "Kunne ikke endre utvidelsen:%s"
+
+msgid "Failed to attach resources."
+msgstr "Kunne ikke legge ved ressurser."
+
+#, c-format
+msgid "%s resources successfully attached to <a href=\"%s\">%s</a>"
+msgstr "%s ressurser vellykket lagt ved <a href=\"%s\">%s</a>"
+
+msgid "Successfully removed!"
+msgstr "Fjernet!"
+
+msgid "Failed to load settings"
+msgstr "Kunne ikke laste innstillinger"
+
+msgid "Import"
+msgstr "Importer"
+
+msgid "You have no images"
+msgstr "Du har ingen bilder"
+
+msgid "Upload to images"
+msgstr "Last opp nye bilder"
+
+msgid "Delete Slider"
+msgstr "Slett Slider"
+
+msgid "Total images: "
+msgstr "Antall bilder:"
+
+msgid "Total videos: "
+msgstr "Antall videoer:"
+
+msgid "Shortcode: "
+msgstr "Shortcode"
+
+msgid "PhpCode: "
+msgstr "PHP-kode:"
+
+msgid "Sliders List"
+msgstr "Slider-liste"
+
+msgid "You haven't any sliders yet"
+msgstr "Du har ikke noen slidere ennå"
+
+msgid "Choose Slider Template. You can change it later."
+msgstr "Velg slider-mal. Du kan endre det senere."
+
+msgid "Slider Name"
+msgstr "Slider-navn"
+
+msgid "Select module"
+msgstr "Velg modul"
+
+msgid "Create new slider"
+msgstr "Opprett ny slider"
+
+msgid "Slider Name:"
+msgstr "Slider-navn"
+
+msgid "Get Pro"
+msgstr "Få PRO"
+
+msgid "Select"
+msgstr "Velg"
+
+msgid "Selected"
+msgstr "Valgt"
+
+msgid "Add Images"
+msgstr "Legg til bilder"
+
+msgid "Add Video"
+msgstr "Legg til video"
+
+msgid "Add images"
+msgstr "Legg til bilder"
+
+msgid "Change Slider"
+msgstr "Endre Slider"
+
+msgid "Delete"
+msgstr "Slett"
+
+msgid "Do you really want to delete "
+msgstr "Ønsker du å slette "
+
+msgid "Auto Posts"
+msgstr "Automatisk innlegg"
+
+msgid "Enabled"
+msgstr "Aktivert"
+
+msgid "Number of post"
+msgstr "Antall innlegg"
+
+msgid "Posts and Pages"
+msgstr "Innlegg og sider"
+
+msgid "Select posts to show"
+msgstr "Velg innlegg å vise"
+
+msgid "Pages: "
+msgstr "Sider:"
+
+msgid "Add page"
+msgstr "Legg til side"
+
+msgid "Posts: "
+msgstr "Innlegg:"
+
+msgid "Add post"
+msgstr "Legg til innlegg"
+
+msgid "Media"
+msgstr "Media"
+
+msgid "Shortcode"
+msgstr "Shortcode"
+
+msgid "Slider width"
+msgstr "Slider-bredde"
+
+msgid "pixels"
+msgstr "piksler"
+
+msgid "Slider height"
+msgstr "Slider-høyde"
+
+msgid "Change Slider Type"
+msgstr "Endre slider-type"
+
+msgid "Select plugin"
+msgstr "Velg utvidelse"
+
+msgid "Jssor PRO"
+msgstr "Jssor PRO"
+
+msgid "Please note:"
+msgstr "Vennligst merk deg:"
+
+msgid "Current settings will be removed without ability to restore."
+msgstr "Gjeldende innstillinger vil bli fjernet uten mulighet for gjenoppretting."
+
+msgid "Change"
+msgstr "Endre"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Import video"
+msgstr "Importer video"
+
+msgid ""
+"Unfortunately Coin slider don't support video. Would you like to change slider?"
+msgstr "Dessverre støtter ikke Coin-slider video. Vil du endre slideren?"
+
+msgid "Slider Template Design Builder"
+msgstr "Slider-mal designskaper"
+
+msgid "Choose import source"
+msgstr "Velg importkilde"
+
+msgid "Import from WordPress Media Library"
+msgstr "Import fra WordPress' mediabibliotek"
+
+msgid "Import from social networks"
+msgstr "Importer fra sosiale nettverk"
+
+msgid "Import from your Instagram account"
+msgstr "Importer fra Instagram-kontoen din"
+
+msgid "Import from your Flickr account"
+msgstr "Importer fra Flickr-kontoen din"
+
+msgid "Import from your Tumblr account"
+msgstr "Importer fra Tumblr-kontoen din"
+
+msgid "Import from your Facebook account"
+msgstr "Importer fra Facebook-kontoen din"
+
+msgid "Get Pro to enable import"
+msgstr "Få Pro for å aktivere import"
+
+msgid "Video URL:"
+msgstr "Video-URL:"
+
+#, c-format
+msgid "Supported platforms: %s."
+msgstr "Støttede plattformer: %s."
+
+msgid "Close"
+msgstr "Lukk"
+
+msgid "Edit image"
+msgstr "Rediger bilde"
+
+msgid "Caption"
+msgstr "Bildetekst"
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid "Description"
+msgstr "Beskrivelse"
+
+msgid "Alternative text"
+msgstr "Alternativ tekst"
+
+msgid "External link"
+msgstr "﻿Ekstern lenke"
+
+msgid "Available in PRO version."
+msgstr "Tilgjengelig i PRO-versjonen."
+
+msgid "Link"
+msgstr "Lenke:"
+
+msgid "Open in new window"
+msgstr "Åpne i nytt vindu:"
+
+msgid "Embeded video"
+msgstr "Innebygd video"
+
+msgid "Video URL"
+msgstr "Video-URL:"
+
+msgid "Supports Youtube and Vimeo. URL will be converted to embed automatically."
+msgstr "Støtter Youtube og Vimeo. URL vil bli konvertert til å legge inn automatisk."
+
+#, c-format
+msgid "Select %s"
+msgstr "Velg %s"
+
+msgid "Crop"
+msgstr "Beskjær"

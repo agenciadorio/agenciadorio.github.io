@@ -1,0 +1,128 @@
+{% extends 'base.twig' %}
+
+{% block toolbar_wrap %}{% endblock %}
+
+{% block breadcrumbs %}
+    {% import 'macro/breadcrumbs.twig' as breadcrumbs %}
+
+    {{ parent() }}
+    {{ breadcrumbs.item(environment.generateUrl('settings', 'index'), translate('Plugin settings')) }}
+{% endblock %}
+
+{% block content %}
+
+    {% set selectValues = { 'yes': translate('Yes'), 'no': translate('No') } %}
+
+    <div class="gg-item gg-gallery-panel">
+
+        {#{% if message is defined %}#}
+
+            {#<p>{{ message }}</p>#}
+
+            {% if validator is defined %}
+                <p>{{ validator.getErrors()|join('<br />') }}</p>
+            {% endif %}
+
+        {#{% endif %}#}
+
+        <form
+                method="{{ form.method|default('POST') }}"
+                action="{{ form.action|default(environment.generateUrl('settings')) }}"
+                accept-charset="{{ form.accept_charset|default('UTF-8') }}"
+                id="gg-save-settings"
+                >
+            <fieldset>
+
+                <table class="form-table">
+                    <tbody>
+                    <tr>
+                        <th scope="row">
+                            <label for="gg-cache-enabled">{{ translate('Use build-in caching:') }}</label>
+                        </th>
+                        <td>
+                            <select name="cache_enabled" id="cacheEnabled" class="chosen-select" {% if environment.config.get('uploads_rw') == false %}disabled="disabled"{% endif %}>
+                                <option value="0" {% if registry.get('cache_enabled') == 0 %}selected{% endif %}>{{ selectValues.no }}</option>
+                                <option value="1" {% if registry.get('cache_enabled') == 1 %}selected{% endif %}>{{ selectValues.yes }}</option>
+                            </select>
+                            <p class="description">{{ translate('<strong>%s</strong> has its own caching system in order to significantly reduce the load on the database.')|format('Slider by Supsystic')|raw }}</p>
+                            {% if environment.config.get('uploads_rw') == false %}
+                                <p class="description">
+                                    <strong>
+                                        {{ translate('Caching is not available because your uploads directory is not writable.') }}
+                                    </strong>
+                                </p>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr id="cacheTtlRow">
+                        <th scope="row">
+                            <label for="gg-cache-ttl">{{ translate('Lifetime for cached data:') }}</label>
+                        </th>
+                        <td>
+                            <input type="text" name="cache_ttl" id="gg-cache-ttl" value="{{ registry.get('cache_ttl')|default('86400') }}"/>
+                            <p class="description">
+                                {{ translate('The time in seconds after which the cache will be considered obsolete. Default: 86400 (24 hours).') }}
+                            </p>
+                        </td>
+                    </tr>
+                    <tr id="cacheClearRow">
+                        <th scope="row">
+                            &nbsp;
+                        </th>
+                        <td>
+                            <button class="button" id="clearCache" >{{ translate('Clear cache') }}</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <label for="gg-send-stats">{{ translate('Allow plugin to send anonymous usage statistics:') }}</label>
+                        </th>
+                        <td>
+                            <select name="send_stats" id="gg-sens-stats" class="chosen-select">
+                                <option value="0" {% if registry.get('send_stats')|default(1) == 0 %}selected{% endif %}>{{ selectValues.no }}</option>
+                                <option value="1" {% if registry.get('send_stats')|default(1) == 1 %}selected{% endif %}>{{ selectValues.yes }}</option>
+                            </select>
+                            <p class="description">{{ translate('We don\'t collect statistics on you, we only collect the errors encountered during use in order to improve our product.') }}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <label for="gg-send-stats">{{ translate('Roles:') }}</label>
+
+                            {% if environment.isPro() == false %}
+                                <a target="_blank" href="{{ build_pro_url({ 'utm_medium': 'manage_roles' }) }}">
+                                    {{ environment.translate('PRO option') }}
+                                </a>
+                            {% endif %}
+                        </th>
+                        <td>
+                            <select multiple="multiple" name="settings[access_roles][]" class="chosen-select" data-placeholder="{{ ('Select avalilable roles to use plugin.')}}">
+                                <option value="administrator" disabled selected>Administrator</option>
+                                {% set roles = {
+                                    editor:'Editor',
+                                    author:'Author',
+                                    contributor:'Contributor',
+                                    subscriber:'Subscriber'
+                                } %}
+                                {% for role, title in roles %}
+                                    <option value="{{ role }}"
+                                        {% if role in registry.get('settings').access_roles %}
+                                            selected="selected"
+                                        {% endif %}
+                                        >{{ title }}
+                                    </option>
+                                {% endfor %}
+                            </select>
+                            <p class="description">{{ translate('User roles that can use plugin. Administrator is included by default.') }}</p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <input type="submit" value="{{ translate('Save') }}" class="button button-primary"/>
+
+            </fieldset>
+        </form>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,404 @@
+{% extends '@slider/view.twig' %}
+
+{% block buttons %}
+    {# {% import '@slider/macro/tabs.twig' as tabs %}
+
+    {{ tabs.button(translate('General'), 'general-mode', 'gears') }}
+    <div class="separator">|</div>
+    {{ tabs.button(translate('Touch'), 'touch', 'dot-circle-o') }}
+    <div class="separator">|</div>
+    {{ tabs.button(translate('Pager'), 'pager', 'bars') }}
+    <div class="separator">|</div>
+    {{ tabs.button(translate('Properties'), 'properties', 'bookmark') }} #}
+
+{% endblock %}
+
+{% block form %}
+    {% import '@core/form.twig' as form %}
+
+    <table class="form-table">
+    <thead>
+    
+    {{ form.row(translate('Mode'),
+    form.select('general[mode]', {'horizontal': 'Horizontal', 'vertical': 'Vertical', 'fade': 'Fade'}, slider.settings.general.mode, {'id': 'generalMode' }), 'general-mode') }}
+
+    {{ form.row(translate('Number of slides'),
+    form.input('text', 'general[minSlides]', slider.settings.general.minSlides|default(1), {'id': 'generalNumberOfSlides', 'class': 'regular-text', 'style': 'width: 140px;' }), 'general-number-of-slides') }}
+
+    {{ form.row(translate('Distance between slides'),
+    form.input('text', 'general[slideMargin]', slider.settings.general.slideMargin|default(1), {'id': 'generalDistanceBetweenSlides', 'class': 'regular-text', 'style': 'width: 140px;' }) ~ ' pixels', 'general-distance-between-slides') }}
+
+    {{ form.row(translate('Steps'),
+    form.input('text', 'general[moveSlides]', slider.settings.general.moveSlides|default(0), {'id': 'generalSteps', 'class': 'regular-text', 'style': 'width: 140px;' }), 'general-steps') }}
+
+    {{ form.row(translate('Vertical arrows mode'),
+    form.input('checkbox', 'general[verticalArrowsMode]', slider.settings.general.verticalArrowsMode|default(0), {'id': 'generalVerticalArrowsMode' })
+    ~ form.label('generalVerticalArrowsMode',translate('Enable vertical arrows')), 'general-vertical-arrows-mode') }}
+    {{ form.row(translate('Autoplay video'), 
+        form.select(
+            'properties[videoAutoplay]', 
+            {'false':translate('No'), 'true':translate('Yes')}, 
+            slider.settings.properties.videoAutoplay
+        ), 
+        'videoAutoplay') 
+    }}
+    <tr>
+        <th scope="row">
+            <label>
+                {{ translate('Autostart Slideshow') }}
+            </label>
+        </th>
+        <td>
+            {% for value in ['enable', 'disable'] %}
+                <label style="margin-right: 10px;">
+                    <input type="radio" name="general[auto]"
+                           value="{{ value }}"
+                            {% if slider.settings.general.auto == value or (slider.settings.general.auto is empty and value == 'disable') %}
+                                checked="checked"
+                            {% endif %}/>
+                    <span>
+                        {{ translate(value|capitalize) }}
+                    </span>
+                </label>
+            {% endfor %}
+        </td>
+    </tr>
+
+    <tr>
+        <th scope="row">
+            <label>
+                {{ translate('Slideshow Controls') }}
+            </label>
+        </th>
+        <td>
+            {% for value in ['enable', 'disable'] %}
+                <label style="margin-right: 10px;">
+                    <input type="radio" name="general[slideshowControls]"
+                           value="{{ value }}"
+                            {% if slider.settings.general.slideshowControls == value or (slider.settings.general.slideshowControls is empty and value == 'disable') %}
+                                checked="checked"
+                            {% endif %}/>
+                    <span>
+                        {{ translate(value|capitalize) }}
+                    </span>
+                </label>
+            {% endfor %}
+        </td>
+    </tr>
+
+    {{ form.row(translate('Navigation'),
+        form.select('general[navigation]', [translate('Standard'), translate('Thumbnails')], 
+        slider.settings.general.navigation, {'id': 'generalNavigation' }),
+    'general-navigation') }}
+
+    {{
+        form.row(
+            translate('Multiple rows'),
+            form.input(
+                'input',
+                'general[rows]', slider.settings.general.rows|number_format, 
+                {'id': 'generalRows' }
+            ),
+            'general-rows'
+        ) 
+    }}
+    {{ 
+        form.row(
+            translate('Hide arrows'),
+            form.input(
+                'checkbox',
+                'general[hideArrowsForThumbs]',
+                slider.settings.general.hideArrowsForThumbs|default(0),
+                {'id': 'generalhideArrowsForThumbs' }
+            ), 
+            'general-thumb-hide-arrows'
+        )
+    }}
+
+    <tr>
+        <th scope="row">
+            <label for="generalCaptions">
+                {{ translate('Captions') }}
+                {{ form.tooltip('general-captions') }}
+            </label>
+        </th>
+        <td class="caption">
+            {% for value in ['true', 'false'] %}
+                <label for="generalCaptions{{ value|capitalize }}" style="margin-right: 10px;">
+                    <input type="radio" name="general[captions]"
+                           id="generalCaptions{{ value|capitalize }}"
+                           value="{{ value }}"
+                            {% if slider.settings.general.captions == value or (slider.settings.general.captions is empty and value == 'false') %}
+                        checked="checked"
+                            {% endif %}/>
+                        <span>
+                            {{ translate(value|replace({ 'true': 'Enable', 'false': 'Disable' })) }}
+                        </span>
+                </label>
+            {% endfor %}
+            {% set veditor = attribute(slider.settings, '__veditor__') %}
+            {% set caption = attribute(veditor, '.bx-caption') %}
+            {% if slider.settings.general.captions == 'true' %}
+                {% set display = '' %}
+            {% else %}
+                {% set display = 'none' %}
+            {% endif %}
+            <button id="show-caption-settings" class="button button-primary" style="margin-top: 10px; display: {{ display }};">{{ translate('Show caption settings') }}</button>
+            <input type="text" name="caption[color]" value="{{ slider.settings.caption.color|default('#fff') }}" hidden>
+            <input type="text" name="caption[font-size]" value="{{ slider.settings.caption['font-size']|default('14') }}" hidden>
+            <input type="text" name="caption[text-align]" value="{{ slider.settings.caption['text-align']|default('auto') }}" hidden>
+            <input type="text" name="caption[font-family]" value="{{ slider.settings.caption['font-family']|default('Open Sans') }}" hidden>
+            <input type="text" name="caption[background-color-hex]" value="{{ slider.settings.caption['background-color-hex']|default('#000') }}" hidden>
+            <input type="text" name="caption[background-color]" value="{{ attribute(caption, 'background-color')|default('rgba(0, 0, 0, 1)') }}" hidden>
+            <input type="text" name="caption[background-opacity]" value="{{ slider.settings.caption['background-opacity']|default('0.5') }}" hidden>
+        </td>
+    </tr>
+
+    {{ form.row(translate('Transition Speed'),
+    form.input('text', 'general[speed]', slider.settings.general.speed|default(500), {'id': 'generalSpeed', 'class': 'regular-text', 'style': 'width: 140px;' }) ~ ' ms', 'general-speed') }}
+
+    {#{{ form.row(environment.translate('Margin'),
+    form.input('text', 'general[slideMargin]', slider.settings.general.slideMargin|default(0), {'id': 'generalSlideMargin', 'class': 'regular-text', 'style': 'width: 140px;' }), 'general-margin') }}#}
+
+    {{ form.row(translate('Starting Slide'),
+    form.input('checkbox', 'general[randomStart]', slider.settings.general.randomStart|default(0), {'id': 'generalRandomStart' })
+    ~ form.label('generalRandomStart',translate('Start slider on a random slide')), 'general-start') }}
+
+
+    {% set easing = {
+        'linear': 'Linear',
+        'swing': 'Swing',
+        'easeInCirc': 'EaseInCirc',
+        'easeInBack': 'EaseInBack',
+        'easeInExpo': 'EaseInExpo',
+        'easeOutElastic': 'EaseOutElastic',
+        'easeInOutElastic': 'EaseInOutElastic'
+    } %}
+
+    {{ form.row(translate('Easing'),
+    form.select('general[easing]', easing, slider.settings.general.easing, {'id': 'generalEasing' }), 'general-easing') }}
+
+    <tr data-tab="touch" id="touch">
+        <th scope="row">
+            <label for="touchEnabled">
+                {{ translate('Enable Touch') }}
+                {{ form.tooltip('general-touch') }}
+            </label>
+        </th>
+        <td>
+            <label>
+                <input type="radio" name="touch[touchEnabled]" value="true"
+                       {% if slider.settings.touch.touchEnabled|default('true') == 'true' %}checked="checked"{% endif %}/>
+                    <span>
+                        {{ translate('Yes') }}
+                    </span>
+            </label>&nbsp;
+            <label>
+                <input type="radio" name="touch[touchEnabled]" value="false"
+                       {% if slider.settings.touch.touchEnabled|default('true') == 'false' %}checked="checked"{% endif %}/>
+                    <span>
+                        {{ translate('No') }}
+                    </span>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+            <label for="touchOneToOneTouch">
+                {{ translate('One-to-One Touch') }}
+                {{ form.tooltip('general-one-to-one') }}
+            </label>
+        </th>
+        <td>
+            <label>
+                <input type="radio" name="touch[oneToOne]" value="true"
+                       {% if slider.settings.touch.oneToOne|default('true') == 'true' %}checked="checked"{% endif %}/>
+                    <span>
+                        {{ translate('Yes') }}
+                    </span>
+            </label>&nbsp;
+            <label>
+                <input type="radio" name="touch[oneToOne]" value="false"
+                       {% if slider.settings.touch.oneToOne|default('true') == 'false' %}checked="checked"{% endif %}/>
+                    <span>
+                        {{ translate('No') }}
+                    </span>
+            </label>
+        </td>
+    </tr>
+
+    {{ form.row(translate('Swipe Threshold'),
+    form.input('text', 'touch[swipeThreshold]', slider.settings.touch.swipeThreshold|default(50), {'id': 'touchSwipeThreshold', 'class': 'regular-text', 'style': 'width: 140px;' }), 'general-threshold') }}
+
+    <tr data-tab="pager" id="pager">
+        <th scope="row">
+            <label for="pagerEnabled">
+                {{ translate('Enable Pager') }}
+                {{ form.tooltip('general-pager') }}
+            </label>
+        </th>
+        <td>
+            <label>
+                <input type="radio" name="pager[pagerEnabled]" value="true"
+                       {% if slider.settings.pager.pagerEnabled|default('false') == 'true' %}checked="checked"{% endif %}/>
+                    <span>
+                        {{ translate('Yes') }}
+                    </span>
+            </label>&nbsp;
+            <label>
+                <input type="radio" name="pager[pagerEnabled]" value="false"
+                       {% if slider.settings.pager.pagerEnabled|default('false') == 'false' %}checked="checked"{% endif %}/>
+                    <span>
+                        {{ translate('No') }}
+                    </span>
+            </label>
+
+        </td>
+    </tr>
+
+    {{ form.row(translate('Type'),
+    form.select('pager[pagerType]', {'full': 'Full', 'short': 'Short'}, slider.settings.pager.pagerType, {'id': 'pagerType' }), 'general-pager-type') }}
+
+    </thead>
+    </table>
+
+    <div id="selectTextInEffectDialog" title="{{ translate('Select Text in effect') }}" style="display: none;">
+        {% set textInEffects = {
+            'fadeIn': 'FadeIn',
+            'rollIn': 'RollIn',
+            'fadeInLeftBig': 'FadeInLeftBig',
+            'fadeInRightBig': 'FadeInRightBig',
+            'fadeInLeft': 'FadeInLeft',
+            'fadeInRight': 'FadeInRight',
+            'fadeInUp': 'FadeInUp',
+            'fadeInDown': 'FadeInDown',
+            'flipInX': 'FlipInX',
+            'flipInY': 'FlipInY'
+        } %}
+        {% for key, value in textInEffects %}
+            <div id="tieImg" class="unselectedPreset" style="position: relative; width: 400px;">
+                <img id="tieImg" data-src="holder.js/400x120?text={{ value }}" data-value="{{ key }}">
+                <div class="bx-caption-preview" style="text-align: left; color: #000000; background-color: rgba(0,0,0,.3); font-size: 1em; width: 100%;">
+                    <span data-in-effect="{{ key }}">{{ value }}</span>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div id="selectTextOutEffectDialog" title="{{ translate('Select Text out effect') }}" style="display: none;">
+        {% set textOutEffects = {
+            'fadeOut': 'FadeOut',
+            'rollOut': 'RollOut',
+            'fadeOutLeftBig': 'FadeOutLeftBig',
+            'fadeOutRightBig': 'FadeOutRightBig',
+            'fadeOutLeft': 'FadeOutLeft',
+            'fadeOutRight': 'FadeOutRight',
+            'fadeOutUp': 'FadeOutUp',
+            'fadeOutDown': 'FadeOutDown',
+            'flipOutX': 'FlipOutX',
+            'flipOutY': 'FlipOutY'
+        } %}
+        {% for key, value in textOutEffects %}
+            <div id="toeImg" class="unselectedPreset" style="position: relative; width: 400px;">
+                <img id="toeImg" data-src="holder.js/400x120?text={{ value }}" data-value="{{ key }}">
+                <div class="bx-caption-preview" style="text-align: left; color: #000000; background-color: rgba(0,0,0,.3); font-size: 1em; width: 100%;">
+                    <span data-out-effect="{{ key }}">{{ value }}</span>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div id="selectControlsDialog" title="{{ translate('Select Controls type') }}" style="display: none;">
+        {% set controlsType = {
+            'circle_arrows': 'Circle Arrows',
+            'little_arrows': 'Little Arrows',
+            'standart_big': 'Standart Big',
+            'standart_small': 'Standart Small',
+            'circle_little': 'Circle Little',
+            'square_big': 'Square Big',
+            'fast': 'Fast',
+            'little': 'Little',
+            'go_small': 'Go Small'
+        } %}
+        {% for key, value in controlsType %}
+            <div id="controlsType" class="unselectedPreset" style="position: relative; width: 400px;">
+                <img id="controlsType" data-src="holder.js/400x120?text={{ value }}" data-value="{{ key }}">
+                <div class="bx-wrapper" style="margin: inherit !important; position: static !important;">
+                    <div class="bx-controls-preview" style="">
+                        <a href="" class="bx-prev" id="{{ key }}">Prev</a>
+                        <a href="" class="bx-next" id="{{ key }}">Next</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="bx-caption-settings-editor supsystic-plugin" title="{{ translate('Caption settings editor') }}" style="display: none;">
+        <table>
+            <thead>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Text color: ') }}
+                    </label>
+                </th>
+                <td>
+                    <input type="text" class="gg-color-picker" name="caption[color]" value="{{ slider.settings.caption.color|default('#ffffff') }}">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Font size: ') }}
+                    </label>
+                </th>
+                <td>
+                    <input type="text" name="caption[font-size]" value="{{ slider.settings.caption['font-size']|default('14') }}" style="width: 190px;">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Text align: ') }}
+                    </label>
+                </th>
+                <td>
+                    {{ form.select('caption[text-align]', {'left': 'Left', 'right': 'Right', 'center': 'Center', 'auto': 'Auto'}, slider.settings.caption['text-align']|default('auto'), { 'style': 'width: 190px;' }) }}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Font family: ') }}
+                    </label>
+                </th>
+                <td>
+                    {{ form.selectv('caption[font-family]', fontList, slider.settings.caption['font-family']|default('Open Sans'), { 'style': 'width: 190px;' }) }}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Background color: ') }}
+                    </label>
+                </th>
+                <td>
+                    <input type="text" class="gg-color-picker" name="caption[background-color-hex]" value="{{ slider.settings.caption['background-color-hex']|default('#000000') }}">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Background opacity: ') }}
+                    </label>
+                </th>
+                <td>
+                    <input type="text" id="captionOpacity" name="caption[background-opacity]" value="{{ slider.settings.caption['background-opacity']|default('0.5') }}" style="width: 190px;"/>
+                    <div id="caption-opacity"></div>
+                </td>
+            </tr>
+            </thead>
+        </table>
+    </div>
+
+{% endblock %}

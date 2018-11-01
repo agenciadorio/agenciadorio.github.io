@@ -1,0 +1,152 @@
+{% extends 'base.twig' %}
+
+{% block header %}
+
+    <nav id="supsystic-breadcrumbs" class="supsystic-breadcrumbs">
+        <a href="{{ environment.generateUrl('slider') }}">{{ translate('Slider by Supsystic') }}</a>
+        <i class="fa fa-angle-right"></i>
+        <a href="{{ environment.generateUrl('overview') }}">{{ translate('Overview') }}</a>
+    </nav>
+
+{% endblock %}
+
+{% block toolbar_wrap %}
+{% endblock %}
+
+{% block content %}
+    <div class="supsystic-overview" style="min-height: 1100px;">
+        <div class="half-page-left">
+            {#<h3>Gallery by Supsystic</h3>
+            <div class="description">
+                This plugin can easily build a bright gallery especially, if you are a photographer or a designer, Grid Gallery will be useful for you because you will be able to present your works in an unusual way. It is enough to install the plugin once, and it will work for you all the time, creating a beautiful collection of your best photos. The only thing you need to do is to set the preferred parameters of the WordPress grid gallery.
+            </div>#}
+            <h3>{{ translate('Most common FAQs') }}</h3>
+            <div class="faq-list">
+                <div class="faq-title">
+                    <i class="fa fa-info-circle"></i>
+                    {{ translate('How to get PRO version of plugin for FREE?') }}
+                    <div class="description" hidden>
+                        {{ translate('You have an incredible opportunity to get PRO version for free. Make Translation of plugin. It will be amazing if you take advantage of this offer!') }}
+                    </div>
+                </div>
+                <div class="faq-title">
+                    <i class="fa fa-info-circle"></i>
+                    {{ translate('Translation') }}
+                    <div class="description" hidden>
+                        {{ translate('All available languages are provided with the Supsystic Slider plugin. If your language isn’t available, your plugin will be in English by default.
+                        Available Translations: English
+                        Translate or update a translation Slider WordPress plugin in your language and get a Premium license for FREE.') }}
+                    </div>
+                </div>
+                <a href="http://supsystic.com/slider-documentation/" class="button button-primary button-hero" style="padding: 0 10px 1px; float: right;">
+                    <i class="fa fa-info-circle"></i>
+                    {{ translate('Check all FAQs') }}
+                </a>
+            </div>
+
+            <div class="video">
+                <h3>Video tutorial</h3>
+                <iframe type="text/html"
+                        width="80%"
+                        height="240px"
+                        src="http://www.youtube.com/embed/JyJYA3rPPOg"
+                        frameborder="0">
+                </iframe>
+                {#<div style="width: 80%; height: 240px; text-align: center; font-size: 20px; font-weight: 800; border: 1px solid rgba(164, 170, 172, 0.28); line-height: 13;">{{ translate('Video tutorial will be added soon') }}</div>#}
+            </div>
+
+            <div class="server-settings">
+                <h3>Server Settings</h3>
+                <ul class="settings-list">
+                    {% for title, element in serverSettings %}
+                        <li class="settings-line" style="float: none;">
+                            <div class="settings-title">{{ title|trim }}:</div>
+                            <span>{{ element.value|trim }}</span>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="half-page-right" style="border: none !important;">
+            <div class="supsystic-overview-news">
+                {{ news|raw }}
+            </div>
+            <a href="http://supsystic.com/plugins/slider/" class="button button-primary button-hero" style="padding: 0 10px 1px; float: right;">
+                <i class="fa fa-info-circle"></i>
+                {{ translate('All news') }}
+            </a>
+
+            <div class="overview-contact-form">
+                <h3>Contact form</h3>
+                {#<div class="description">Translate plugin in your language and get a Premium license for FREE</div>#}
+                {% import '@core/form.twig' as form %}
+
+                {{ form.open('post', environment.generateUrl('overview', 'sendMail'), { 'id': 'form-settings', 'style': 'max-width: 428px;' }) }}
+
+                <table class="contact-form-table" style="width: 100%;">
+                    <thead>
+
+                    {{ form.row(translate('Name') ~ ' *',
+                        form.text('name', contactForm.name, { 'required': '' })) }}
+
+                    {{ form.row(translate('Email') ~ ' *',
+                        form.text('email', contactForm.email, { 'required': '' })) }}
+
+                    {{ form.row(translate('Website') ~ ' *',
+                        form.text('website', contactForm.website, { 'required': '' })) }}
+
+                    {{ form.row(translate('Subject') ~ ' *',
+                        form.text('subject', '', { 'required': '' })) }}
+
+                    <tr>
+                        <th scope="row">
+                            <label for="select-question">{{ translate('Topic') }}</label>
+                        </th>
+                        <td>
+                            <select id="select-question" name="question">
+                                <option value="plugin_options">
+                                    {{ translate('Plugin options') }}
+                                </option>
+                                <option value="bug">
+                                    {{ translate('Report a bug') }}
+                                </option>
+                                <option value="functionallity">
+                                    {{ translate('Require a new functionallity') }}
+                                </option>
+                                <option value="other">
+                                    {{ translate('Other') }}
+                                </option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" style="vertical-align: top;">
+                            <label for="mail-text">{{ translate('Message') ~ ' *' }}</label>
+                        </th>
+                        <td>
+                            <textarea id="mail-text" name="message" cols="50" rows="3" placeholder="{{ translate('Hello Supsystic Team!') }}" required=""></textarea>
+                        </td>
+                    </tr>
+
+                    </thead>
+                </table>
+
+                <button id="send-mail" type="submit" class="button button-primary button-hero">
+                    <i class="fa fa-upload"></i>
+                    Send email
+                </button>
+
+                <div class="required-notification" style="color: red; float: left;" hidden>Fields with * are required to fill</div>
+                {{ form.close() }}
+            </div>
+        </div>
+        <div id="contact-form-dialog" hidden>
+            <div class="on-error" style="display:none">
+                <p>{{ translate('Some errors occurred while sending mail please send your message trough this contact form:') }}</p>
+                <p><a href="https://supsystic.com/plugins/photo-gallery/#contact" target="_blank">https://supsystic.com/plugins/slider/#contact</a></p>
+            </div>
+            <div class="message"></div>
+        </div>
+    </div>
+{% endblock %}

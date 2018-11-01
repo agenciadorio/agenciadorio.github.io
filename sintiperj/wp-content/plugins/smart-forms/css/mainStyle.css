@@ -1,0 +1,297 @@
+#rednaoSmartForms{
+    margin-top:10px;
+}
+
+#rednaoSmartForms hr {
+    margin-right: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#rednaoSmartForms h2 {
+    margion-top: 0px;
+    margin-bottom: 0px;
+}
+
+#rednaoSmartForms .category {
+    margin-top: 10px;
+    margin-left:50px;
+
+}
+
+#rednaoSmartForms .description {
+}
+
+#rednaoSmartForms input {
+
+}
+
+
+
+#rednaoSmartForms .treeDiv{
+    cursor: hand;
+    cursor: pointer;
+}
+
+
+#rednaoSmartForms .treeButton{
+
+    display:inline;
+
+}
+
+#rednaoSmartForms .treeDiv h2{
+
+    display:inline;
+    font-family: verdana;
+
+
+
+}
+
+#rednaoSmartForms .description{
+    color:#A0A0A0;
+    font-family: helvetica;
+    font-size: smaller;
+    font-style: italic;
+}
+
+
+.rednaoformbuilder  .tempForm {
+    padding: 8px 4px !important;
+    border: 1px dotted #ccc !important;
+    position: absolute !important;    background: white !important;
+    box-shadow: 0 0 30px #999 !important;
+    -webkit-transition:
+        -webkit-transform .1s ease-out !important;
+    overflow: hidden !important;
+    width:570px !important;
+    z-index: 99999 !important;
+}
+
+
+
+.smartFormsActionMenu{
+    float:right;
+
+}
+.smartFormsActionMenu img{
+    width:20px;
+    height:20px;
+    margin-right: 5px;
+    cursor: hand;
+    cursor: pointer;
+
+}
+
+.formelement.last{
+    border-color: #dedede;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.formelement.last p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+}
+
+#sfSavedConditionList{
+  text-align: center !important   ;
+}
+
+.rednao-properties-control-label{
+    margin-right: 5px;
+}
+
+.listOfItems td,.listOfItems th{
+   padding-right: 5px;
+}
+
+#formSettingsScrollArea{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    /* box-sizing: content-box; */
+}
+
+.smartFormsSettingsButton {
+    -moz-box-shadow: inset 0px 1px 0px 0px #f5978e;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #f5978e;
+    box-shadow: inset 0px 1px 0px 0px #f5978e;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f));
+    background: -moz-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+    background: -webkit-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+    background: -o-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+    background: -ms-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+    background: linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f',GradientType=0);
+    background-color: #f24537;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #d02718;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff !important;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #810e05;
+}
+
+.sfConditionRow td{
+    padding-right: 5px;
+}
+
+#smartFormsAfterSubmitDiv input[type=checkbox]
+{
+    margin-top: 0px;
+}
+
+#smartFormsGeneralDiv .rednao-control-group{
+    cursor:pointer;
+    cursor:hand;
+}
+
+.rnMSRemoveStep{
+    position:absolute !important;
+    top:0 !important;
+    left:4px !important;
+    z-index:1000 !important;
+    color:lightgray !important;
+}
+
+.rnMSRemoveStep:hover{
+    color:#d43f3a !important;
+}
+#redNaoSmartFormsPlaceHolder{
+    clear:both;
+}
+
+
+.rednaotablist
+{
+    float:left;
+}
+
+.rednaotablist .component
+{
+    float:left;
+    width:100%;
+}
+
+#smartFormsGeneralDiv #target{
+    width:100%;
+}
+
+.formelement.last
+{
+    clear:both;
+}
+
+.sfAddIcon{
+    color:#ccc;
+}
+
+
+.sfAddIcon:hover,
+.sfAddIcon.sfSelected{
+    color:#428bca;
+}
+
+.sfActionIcon{
+    cursor:hand;
+    cursor:pointer;
+}
+
+.sfActionIcon:hover{
+    color:#ff0000;
+    -webkit-transition: color ease-in-out 0.15s;
+    -o-transition: color ease-in-out 0.15s;
+    transition: color ease-in-out 0.15s;
+}
+
+.bootstrap-wrapper .sfDelete:hover{
+    color:red;
+
+}
+
+.bootstrap-wrapper .sfConditionLogic:hover{
+    color:blue;
+
+}
+
+.bootstrap-wrapper .modal-content{
+    max-height: 700px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.sfHelpIconContainer{
+    padding: 10px;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor:hand;
+    cursor:pointer;
+}
+
+.sfHelpContent{
+    width: 400px;
+    background-color: white;
+    height: 100%;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.sfHelper{
+	width:auto !important;
+}
+
+.smartFormsSlider .ui-widget-overlay{
+    z-index: 10001 !important;
+}
+
+.select2-drop{
+ z-index: 10005 !important;
+}
+
+.select2-drop-mask{
+    z-index: 10003 !important;
+}
+
+.smartFormsSlider .ui-dialog {
+    z-index: 10002 !important;
+}
+
+#redNaoEmailEditor{
+    z-index: 10003 !important;
+}
+
+.smartFormsSlider .ui-dialog-titlebar-close:before{
+    content:normal;
+}
+
+.licenseDiv .ui-dialog{
+    z-index:20000 !important;
+}
+
+.smartFormsFieldPickerOverlay.smartFormsSlider .ui-widget-overlay {
+    z-index: 1001 !important;
+}
+
+.bootstrap-wrapper .modal{
+    z-index:10005 !important;
+}
+
+.sfNotReceivingEmail{
+    color:blue;
+    text-decoration: underline;
+}

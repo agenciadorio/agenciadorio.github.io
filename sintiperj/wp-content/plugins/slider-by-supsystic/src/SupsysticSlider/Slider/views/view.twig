@@ -1,0 +1,550 @@
+{% extends '@slider/index.twig' %}
+
+{% block breadcrumbs %}
+    {% import 'macro/breadcrumbs.twig' as breadcrumbs %}
+
+    {{ parent() }}
+    {{ breadcrumbs.item(environment.generateUrl('slider', 'view', { 'id': slider.id }), slider.title|title) }}
+{% endblock %}
+
+{% block toolbar %}
+    {% import 'macro/toolbar.twig' as toolbar %}
+
+    {{ toolbar.button('choose-import', translate('Add Images'), { 'icon': 'upload' }) }}
+
+    {% if environment.isPro() %}
+        {% if slider.plugin != 'coin' %}
+            {{ toolbar.button('uploadVideo', translate('Add Video'), { 'id': 'uploadVideo','icon': 'video-camera', 'dataset': { 'folder-id': '0', 'slider-id': slider.id } }) }}
+        {% else  %}
+            {{ toolbar.button('uploadVideoCoin', translate('Add Video'), { 'id': 'uploadVideoCoin', 'icon': 'video-camera' }) }}
+        {% endif %}
+    {% else %}
+        <button id="free-video" class="button button-primary">
+            <i class="fa fa-video-camera"></i>
+                Import Video
+        </button>
+    {% endif %}
+
+    {#{{ toolbar.primaryUrl('upload-images', environment.generateUrl('slider', 'add', { 'id': slider.id }), environment.translate('Add images'), { 'icon': 'upload' }) }}#}
+    {{ toolbar.button('preview-trigger', translate('Preview'), { 'icon': 'eye', 'container': { 'style': {'float': 'right'}} }) }}
+    {{ toolbar.button('change', translate('Change Slider') , { 'icon': 'wrench' }) }}
+    <li>
+        <a class="button" id="openSettingsImportDialog" href="">
+            <i class="fa fa-copy"></i> {{ translate('Import settings') }}
+        </a>
+    </li>
+
+    {{ toolbar.separator() }}
+
+    {#Uncomment to enable delete items button#}
+    {#{{ toolbar.icon('delete-element', 'trash-o') }}
+
+    {{ toolbar.separator() }}#}
+
+    {% if slider.plugin == 'bx' %}
+        {% if environment.isPro() %}
+            {{ toolbar.icon('visual-editor', 'edit', {}, 'Builder') }}
+        {% else %}
+            <button id="free-builder" class="button button-primary">
+                <i class="fa fa-edit"></i>
+                Builder
+            </button>
+        {% endif %}
+    {% endif %}
+
+    {{ toolbar.primary('save', translate('Save'), { 'icon': 'check', 'container': { 'style': {'float': 'right'} }, 'custom': {'form': 'settings'} }) }}
+    {{ toolbar.button('delete', translate('Delete'), { 'icon': 'trash-o', 'container': { 'style': {'float': 'right'} }, 'dataset': { 'id': slider.id, 'redirect-uri': environment.generateUrl('slider'), 'confirm': translate('Do you really want to delete ') ~ slider.title ~ '?' } }) }}
+{% endblock %}
+
+{% block content %}
+    {% import '@ui/type.twig' as view_type %}
+    {% import '@core/form.twig' as form %}
+    {% import 'macro/toolbar.twig' as toolbar %}
+
+    {% set small = 0 %}
+    {% for image in slider.images %}
+        {% if image.attachment.sizes.full.width < slider.settings.properties.width %}
+            {% if image.type == 'image' and (image.attachment.filename ends with '.mp4') is same as(false) %}
+                {% set small = small + 1 %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+    {% if small > 0 %}
+        <div class="error">
+            <p><strong>Warning:</strong> {{ small }} {% if small > 1 %}photos{% else %}photo{% endif %} are smaller than slider width (<span class="sliderWidth">{{ slider.settings.properties.width }}</span>px)</p>
+        </div>
+    {% endif %}
+
+    <div id="image-area" class="half-page-left">
+        {% if environment.isPro() and slider.plugin != 'bx' %}
+            <table class="form-table">
+                <thead>
+                    {% set lastPostEnabled = slider.settings.autoposts.enabled|default('false') == 'true' %}
+                    {{ form.row(translate('Auto Posts'),
+                        form.radio('autoposts[enabled]', 'true', {'id':'auto-posts-enable'}|merge(lastPostEnabled ? {'checked':'checked'} : {})) ~
+                        form.label('auto-posts-enable', translate('Enable')) ~ 
+                        form.radio('autoposts[enabled]', 'false', {'id':'auto-posts-disable'}|merge(lastPostEnabled ? {} : {'checked':'checked'})) ~
+                        form.label('auto-posts-disable', translate('Disable')), 'auto-posts', true) }}
+                </thead>
+                <tbody style="display:none;">
+                     {{ form.row(translate('Number of post'),
+                        form.input('number', 'autoposts[quantity]', slider.settings.autoposts.quantity|default(5), {'style': 'width: 140px;' })) }}
+					<tr>		
+						<td style="padding-left:0px;font-weight: bold;">
+							<label>{{ translate('Auto Posts Categories') }}</label>
+						</td>
+						<td style="padding-left:10px;">
+							<select style="width:240px;" data-placeholder="{{ translate('Select categories') }}" multiple="multiple" id="autopostCategories" name="autoposts[categories][]">
+								<option value="all"
+                                    {% if 'all' in slider.settings.autoposts.categories %}
+                                        selected="selected" 
+                                    {% endif %}
+                                >{{ translate('All') }}</option>
+								{% for category in all_categories({'posts_per_page': -1}) %}
+									<option 
+                                        {% if category.cat_ID in slider.settings.autoposts.categories %} selected="selected" 
+                                        {% endif %}
+                                        value="{{ category.cat_ID }}"
+                                    >{{ category.name  }}</option>
+								{% endfor %}
+							</select>
+						</td>
+					</tr>		
+                </thead>
+            </table>
+            <div class="separator"></div>
+            
+            <div class="post-and-pages">               
+                <button class="button remove-post" style="display: block;float:right;margin: auto 0 0 auto;"><i class="fa fa-trash-o"></i></button>
+                <h4>{{ translate('Posts and Pages') }}</h4>
+                <table id="posts-table"></table>
+                <div class="separator"></div>
+            </div>
+
+            <div class="post-and-pages-select">
+                <h4>{{ translate('Select posts to show') }}</h4>
+                <div class="select-group">               
+                    <label for="post-feed-selectPages">{{ translate('Pages: ') }}</label>
+                    <select id="post-feed-selectPages" style="max-width: 240px;">
+                        {% for page in all_pages({'posts_per_page': -1}) %}
+                            <option value="{{ page.ID }}">{{ page.post_title }}</option>
+                        {% endfor %}
+                    </select>
+                    <button class="button add-page" style="height: 29px; line-height: 1px; float: right;">{{ translate('Add page') }}</button>
+                </div>
+                <div class="select-group">
+                    <label for="post-feed-selectPosts">{{ translate('Posts: ') }}</label>
+                    <select id="post-feed-selectPosts" style="max-width: 240px;">
+                        {% for post in all_posts({'posts_per_page': -1}) %}
+                            <option value="{{ post.ID }}">{{ post.post_title }}</option>
+                        {% endfor %}
+                    </select>
+                    <button class="button add-post" style="height: 29px; line-height: 1px; float: right;">{{ translate('Add post') }}</button>
+                </div>
+                <div class="separator"></div>
+            </div>
+        <div class="additional-posts-settings">
+            <h4>{{ translate('Additional Posts Settings') }}</h4>
+            <div class="select-group">
+                <label for="post-feed-selectShowTitle">{{ translate('Show title: ') }}</label>
+                <select id="post-feed-selectShowTitle" style="max-width: 240px; float: right;">
+                    <option {% if slider.settings.post_settings.title|default('true') == 'true' %} selected="selected" {% endif %} value="true">{{ translate('Yes') }}</option>
+                    <option {% if slider.settings.post_settings.title|default('true') == 'false' %} selected="selected" {% endif %} value="false">{{ translate('No') }}</option>
+                </select>
+            </div>
+            <div class="select-group">
+                <label for="post-feed-selectOptimizeTitle">{{ translate('Optimize title: ') }}</label>
+                <select id="post-feed-selectOptimizeTitle" style="max-width: 240px; float: right;">
+                    <option {% if slider.settings.post_settings.optimize_title|default('true') == 'true' %} selected="selected" {% endif %} value="true">{{ translate('Yes') }}</option>
+                    <option {% if slider.settings.post_settings.optimize_title|default('true') == 'false' %} selected="selected" {% endif %} value="false">{{ translate('No') }}</option>
+                </select>
+            </div>
+            <div class="select-group">
+                <label for="post-feed-selectShowDate">{{ translate('Show date: ') }}</label>
+                <select id="post-feed-selectShowDate" style="max-width: 240px; float: right;">
+                    <option {% if slider.settings.post_settings.date|default('true') == 'true' %} selected="selected" {% endif %} value="true">{{ translate('Yes') }}</option>
+                    <option {% if slider.settings.post_settings.date|default('true') == 'false' %} selected="selected" {% endif %} value="false">{{ translate('No') }}</option>
+                </select>
+            </div>
+            <div class="select-group">
+                <label for="post-feed-selectShowExcerpt">{{ translate('Show excerpt: ') }}</label>
+                <select id="post-feed-selectShowExcerpt" style="max-width: 240px; float: right;">
+                    <option {% if slider.settings.post_settings.excerpt|default('false') == 'true' %} selected="selected" {% endif %} value="true">{{ translate('Yes') }}</option>
+                    <option {% if slider.settings.post_settings.excerpt|default('false') == 'false' %} selected="selected" {% endif %} value="false">{{ translate('No') }}</option>
+                </select>
+            </div>
+            <div class="select-group">
+                <label for="post-feed-selectShowReadMore">{{ translate('Show "Read more": ') }}</label>
+                <select id="post-feed-selectShowReadMore" style="max-width: 240px; float: right;">
+                    <option {% if slider.settings.post_settings.read_more|default('true') == 'true' %} selected="selected" {% endif %} value="true">{{ translate('Yes') }}</option>
+                    <option {% if slider.settings.post_settings.read_more|default('true') == 'false' %} selected="selected" {% endif %} value="false">{{ translate('No') }}</option>
+                </select>
+            </div>
+            <div class="separator"></div>
+        </div>
+        {% endif %}
+        {% if slider.entities is not empty %}
+            <button id="delete-element" class="button" style="display: block;float:right;margin: auto 0 0 auto;"><i class="fa fa-fw fa-trash-o"></i></button>
+        {% endif %}
+        <h4>{{ translate('Media') }}</h4>
+        {#<button id="button-select" class="button " data-enabled="none|one|many|all" data-toolbar-button="" value="select" name="Select all" style="margin-left: 24px;">
+            <i class="fa fa-fw fa-check"></i>
+        </button>#}
+        {% if slider.entities is not empty %}
+            {{ view_type.list_view(slider) }}
+        {% else %}
+            <h2 class="header-muted" style="text-align: center;">
+                {{ translate("You haven’t got any images yet.") }}<br>
+                <a id="add-images" href="#">Add Images</a>
+            </h2>
+        {% endif %}
+        <div id="settingsImportDialog" title="Import" hidden>
+            <div class="import">
+                <input name="sliderId" value="{{ slider.id }}" type="hidden">
+                {% if similar|length > 0 %}
+                    <p>{{ translate('Import settings from gallery') }}</p>
+                    <select class="list">
+                        {% for slideItem in similar %}
+                            <option value="{{ slideItem.id }}">{{ slideItem.title }}</option>
+                        {% endfor %}
+                    </select>
+                {% else %}
+                    <p>{{ translate('Here you can import settings from other sliders, but right now, you have only one slider, create more - and see how it works') }}</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <div id="settings-area" class="half-page-right settings">
+        <form id="change-name" method="post" action="#" style="margin-left: 20px;">
+            <input name="id" type="hidden" value="{{ slider.id }}"/>
+            <input name="route[module]" value="slider" type="hidden"/>
+            <input name="route[action]" value="changePluginName" type="hidden"/>
+            <input name="action" value="supsystic-slider" type="hidden"/>
+            <table class="form-table">
+                <thead>
+                    <tr>
+                        <th scope="row">
+                            {{ translate('Slider name') }}
+                        </th>
+                        <td>
+                            {{ form.input('text', 'title', slider.title) }}
+                        </td>
+                    </tr>
+                </thead>
+            </table>
+        </form>
+        <form id="settings" method="post" action="{{ environment.generateUrl('slider', 'saveSettings') }}">
+            <input id="sliderID" name="id" value="{{ slider.id }}" type="hidden"/>
+            <table class="form-table">
+                <thead>
+                <tr data-tab="properties" id="properties">
+                    <th scope="row">
+                        <label for="propsShortcode">
+                            {{ translate('Shortcode') }}
+                        </label>
+                    </th>
+                    <td>
+                        <span class="regular-text" id="propsShortcode" style="font-size: 13px;cursor: pointer;">[supsystic-slider id={{ slider.id }} position="center"]</span>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        <label for="propsSliderWidth">
+                            {{ translate('Slider width') }}
+                        </label>
+                    </th>
+                    <td>
+                        <input class="regular-text" type="number" style="display: inline; width: 110px;"
+                               value="{{ slider.settings.properties.width }}"
+                               min="0"
+                               name="properties[width]"
+                               id="propsSliderWidth"/>
+                        {% if slider.plugin == 'bx' or  slider.plugin == 'jssor' %}
+                            <select class="regular-text"
+                                    name="properties[widthType]"
+                                    style="display: inline; width: auto; height: inherit; position: relative; bottom: 2px;">
+                                <option value="px">pixels</option>
+                                <option value="%">percents</option>
+                            </select>
+                        {% else %}
+                            <span class="regular-text" style="display: inline; height: inherit;position: relative; bottom: 2px;">
+                                {{ translate('pixels') }}
+                            </span>
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        <label for="propsSliderHeight">
+                            {{ translate('Slider height') }}
+                        </label>
+                    </th>
+                    <td style="float: left;">
+                        <input class="regular-text" type="number"
+                               style="display: inline; width: 110px;"
+                               value="{{ slider.settings.properties.height }}"
+                               min="0"
+                               name="properties[height]"
+                               id="propsSliderHeight"/>
+                        <span class="regular-text" style="display: inline; height: inherit;position: relative; bottom: 2px;">
+                            {{ translate('pixels') }}
+                        </span>
+                    </td>
+                </tr>
+                {% block form %}{% endblock %}
+                </thead>
+            </table>
+            {% if environment.isPro() and slider.plugin != 'bx' %}
+                <input name="post_settings[title]" type="hidden" value="{{ slider.settings.post_settings.title|default('true') }}"/>
+                <input name="post_settings[optimize_title]" type="hidden" value="{{ slider.settings.post_settings.optimize_title|default('true') }}"/>
+                <input name="post_settings[date]" type="hidden" value="{{ slider.settings.post_settings.date|default('true') }}"/>
+                <input name="post_settings[excerpt]" type="hidden" value="{{ slider.settings.post_settings.excerpt|default('false') }}"/>
+                <input name="post_settings[read_more]" type="hidden" value="{{ slider.settings.post_settings.read_more|default('true') }}"/>
+            {% endif %}
+        </form>
+
+        <div id="changePluginWindow" class="supsystic-plugin" title="{{ translate('Change Slider Type') }}" style="display: none;">
+            <form id="changePlugin">
+                <input name="id" type="hidden" value="{{ slider.id }}"/>
+                <input name="route[module]" value="slider" type="hidden"/>
+                <input name="route[action]" value="changePlugin" type="hidden"/>
+                <input name="action" value="supsystic-slider" type="hidden"/>
+
+                <h3>{{ translate('Select plugin') }}</h3>
+
+                {% for plugin in environment.getModule('slider').getAvailableSliders() %}
+                    <div>
+                        <input type="radio" name="plugin"
+                               id="plugin-{{ plugin.getModuleName() }}"
+                               value="{{ plugin.getModuleName() }}"
+                               {% if slider.plugin == plugin.getModuleName() %}checked="checked"{% endif %}/>
+                        <h3 style="display: inline-block;">
+                            {{ plugin.getSliderName() }}
+                            {{ form.tooltip('general-slider-' ~ plugin.getModuleName(), { 'border': '1px solid black;', 'padding': '1px 5px;', 'border-radius': '50%' }) }}
+                        </h3>
+                        <br/>
+                    </div>
+                {% endfor %}
+                    <div style="{% if environment.isPro() %}display: none;{% endif %}">
+                        <input type="radio" disabled>
+                        <h3 style="display: inline-block;">
+                            {{ translate('Jssor PRO') }}
+                            {{ form.tooltip('general-slider-jssor', { 'border': '1px solid black;', 'padding': '1px 5px;', 'border-radius': '50%' }) }}
+                        </h3>
+                        <a href="http://supsystic.com/plugins/slider/?utm_source=plugin&utm_medium=post&utm_campaign=slider" class="button button-primary" style="display: inline-block; margin-top: 14px;">Get PRO</a>
+                        <br/>
+                    </div>
+                <p class="description">
+                    {{ translate('Please note:') }}
+                    {{ translate('Current settings will be removed without ability to restore.') }}
+                </p>
+                <div style="float: right;">
+                    <button id="changePlugin_changeBtn" class="button button-primary">
+                        {{ translate('Change') }}
+                    </button>
+                    <button id="changePlugin_cancelBtn" class="button button-primary">
+                        {{ translate('Cancel') }}
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <div id="avChangePluginWindow" class="supsystic-plugin" title="{{ translate('Import video') }}" style="display: none;">
+            <form id="avChangePlugin">
+                <input name="id" type="hidden" value="{{ slider.id }}"/>
+                <input name="route[module]" value="slider" type="hidden"/>
+                <input name="route[action]" value="changePlugin" type="hidden"/>
+                <input name="action" value="supsystic-slider" type="hidden"/>
+
+                <p>{{ translate('Unfortunately Coin slider don\'t support video. Would you like to change slider?') }}</p>
+                <h3>{{ translate('Select plugin') }}</h3>
+
+                {% for plugin in environment.getModule('slider').getAvailableSliders() %}
+                    {% if plugin.getModuleName() != 'coin' %}
+                        <div>
+                            <input type="radio" name="plugin"
+                                id="plugin-{{ plugin.getModuleName() }}"
+                                value="{{ plugin.getModuleName() }}"
+                                {% if slider.plugin == plugin.getModuleName() %}checked="checked"{% endif %}/>
+                            <h3 style="display: inline-block;">
+                                {{ plugin.getSliderName() }}
+                                {{ form.tooltip('general-slider-' ~ plugin.getModuleName(), { 'border': '1px solid black;', 'padding': '1px 5px;', 'border-radius': '50%' }) }}
+                            </h3>
+                            <br/>
+                        </div>
+                    {% endif  %}
+                {% endfor %}
+                <div style="{% if environment.isPro() %}display: none;{% endif %}">
+                    <input type="radio" disabled>
+                    <h3 style="display: inline-block;">
+                        {{ translate('Jssor PRO') }}
+                        {{ form.tooltip('general-slider-jssor', { 'border': '1px solid black;', 'padding': '1px 5px;', 'border-radius': '50%' }) }}
+                    </h3>
+                    <a href="http://supsystic.com/plugins/slider/?utm_source=plugin&utm_medium=post&utm_campaign=slider" class="button button-primary" style="display: inline-block; margin-top: 14px;">Get PRO</a>
+                    <br/>
+                </div>
+                <p class="description">
+                    {{ translate('Please note:') }}
+                    {{ translate('Current settings will be removed without ability to restore.') }}
+                </p>
+                <div style="float: right;">
+                    <button id="avChangePlugin_changeBtn" class="button button-primary">
+                        {{ translate('Change') }}
+                    </button>
+                    <button id="avChangePlugin_cancelBtn" class="button button-primary">
+                        {{ translate('Cancel') }}
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="preview-window" style="display: none;" title="Preview of {{ slider.title }}" data-id="{{ slider.id }}">
+        <img src="{{ environment.getConfig().get('admin_url') }}images/wpspin_light.gif" alt="" style="display: block; margin: 10px auto;"/>
+    </div>
+
+    <div id="visual-editor-window" title="{{ translate('Slider Template Design Builder') }}" data-id="{{ slider.id }}" data-loaded="false">
+    </div>
+
+    <div id="free-video-notice" class="supsystic-plugin" title="{{ translate('Get PRO') }}" data-id="{{ slider.id }}" hidden>
+        <span style="text-align: center;"><h3>Notice</h3>You can import YouTube and Vimeo videos in PRO version</span>
+        <div style="text-align: center;">
+            <a class="button button-primary" href="http://supsystic.com/plugins/slider?utm_source=plugin&utm_medium=video&utm_campaign=slider" style="margin-bottom: 20px; margin-top: 20px; text-align: center;">
+                <i class="fa fa-unlock"></i>
+                {{ translate('Get PRO') }}
+            </a>
+        </div>
+    </div>
+
+    <div id="bx-editor-notice" class="supsystic-plugin" title="{{ translate('Get PRO') }}" data-id="{{ slider.id }}" hidden>
+        <a href="http://supsystic.com/plugins/slider?utm_source=plugin&utm_medium=builder&utm_campaign=slider" style="box-shadow: none !important;">
+            <img src="{{ environment.getModule('slider').getLocationUrl() }}/assets/images/pro_builder.jpg">
+        </a>
+        <div style="text-align: center;">
+            <a class="button button-primary button-hero" href="http://supsystic.com/plugins/slider?utm_source=plugin&utm_medium=builder&utm_campaign=slider" style="width: 400px; margin-bottom: 20px; text-align: center;">
+                <i class="fa fa-unlock fa-2x"></i>
+                {{ translate('Get PRO') }}
+            </a>
+        </div>
+    </div>
+
+    <div id="choose-import-dialog" class="supsystic-plugin" title="{{ translate('Choose import source') }}" style="text-align: center;" hidden>
+        <button id="import-images" class="button button-primary button-hero" data-folder-id="0" data-slider-id="{{ slider.id }}" data-upload="">
+            <i class="fa fa-upload fa-2x"></i>
+            {{ translate('Import from WordPress Media Library') }}
+        </button>
+        <h3>{{ translate('Import from social networks') }}</h3>
+        <a class="button button-primary button-hero" href="{{ environment.generateUrl('insta', 'index', {'id': slider.id}) }}" style="width: 400px;margin-bottom: 20px;">
+            <i class="fa fa-instagram fa-2x"></i>
+            {{ translate('Import from your Instagram account') }}
+        </a>
+        {% if environment.isPro() == true %}
+            <a class="button button-primary button-hero" href="{{ environment.generateUrl('flickr', 'index', {'id': slider.id}) }}" style="width: 400px;margin-bottom: 20px;">
+                <i class="fa fa-flickr fa-2x"></i>
+                {{ translate('Import from your Flickr account') }}
+            </a>
+            <a class="button button-primary button-hero" href="{{ environment.generateUrl('tumblr', 'index', {'id': slider.id}) }}" style="width: 400px;margin-bottom: 20px;">
+                <i class="fa fa-tumblr fa-2x"></i>
+                {{ translate('Import from your Tumblr account') }}
+            </a>
+            <a class="button button-primary button-hero" href="{{ environment.generateUrl('facebook', 'index', {'id': slider.id}) }}" style="width: 400px;margin-bottom: 20px;">
+                <i class="fa fa-facebook fa-2x"></i>
+                {{ translate('Import from your Facebook account') }}
+            </a>
+        {% else %}
+            <h3>{{ translate('Get Pro to enable import') }}</h3>
+            <a class="button button-primary button-hero" href="http://supsystic.com/plugins/photo-gallery/" style="width: 400px;margin-bottom: 20px;">
+                <i class="fa fa-unlock fa-2x"></i>
+                {{ translate('Get PRO') }}
+            </a>
+            <button class="button button-primary button-hero gallery" data-folder-id="0"
+                    style="width: 400px;margin-bottom: 20px;"
+                    data-gallery-id="{{ slider.id }}" data-upload disabled>
+                <i class="fa fa-flickr fa-2x"></i>
+                {{ translate('Import from your Flickr account') }}
+            </button>
+            <button class="button button-primary button-hero gallery" data-folder-id="0"
+                    style="width: 400px;margin-bottom: 20px;"
+                    data-gallery-id="{{ slider.id }}" data-upload disabled>
+                <i class="fa fa-tumblr fa-2x"></i>
+                {{ translate('Import from your Tumblr account') }}
+            </button>
+            <button class="button button-primary button-hero gallery" data-folder-id="0"
+                    style="width: 400px;margin-bottom: 20px;"
+                    data-gallery-id="{{ slider.id }}" data-upload disabled>
+                <i class="fa fa-facebook fa-2x"></i>
+                {{ translate('Import from your Facebook account') }}
+            </button>
+        {% endif %}
+    </div>
+
+    <div id="uploadVideoModal" class="supsystic-plugin" title="{{ translate('Import video') }}" style="display: none;">
+        <form id="uploadVideoForm">
+            <table class="form-table">
+                <thead>
+                <tr>
+                    <th scope="row">
+                        <label for="videoUrl">
+                            {{ translate('Video URL:') }}
+                        </label>
+                    </th>
+                    <td>
+                        <input class="regular-text" type="text" name="url"
+                               id="videoUrl"/>
+                        <p class="description">
+                            {% if slider.plugin == 'bx' %}
+                                {% set sources = ['Youtube', 'Vimeo'] %}
+                            {% else %}
+                                {% set sources = ['Youtube'] %}
+                            {% endif %}
+                            {{ translate('Supported platforms: %s.')|format(sources|join(', ')) }}
+                        </p>
+                        <p id="uploadVideoFormError" class="description" style="color:red;"></p>
+                    </td>
+                </tr>
+                </thead>
+            </table>
+            <input value="supsystic-slider" name="action" type="hidden"/>
+            <input value="photos" name="route[module]" type="hidden"/>
+            <input value="importVideo" name="route[action]" type="hidden"/>
+        </form>
+        <div style="float: right;">
+            <button id="uploadVideoModal_importBtn" class="button button-primary">
+                {{ translate('Import') }}
+            </button>
+            <button id="uploadVideoModal_closeBtn" class="button button-primary">
+                {{ translate('Close') }}
+            </button>
+        </div>
+    </div>
+
+    <script>
+        (function($) {
+            $(document).ready(function() {
+                jQuery('#button-select, #jqgh_jqgrid-htable-img-list_id').on('click', function() {
+                    if($(this).val() == 'select') {
+                        jQuery('[name="image[]"]').each(function() {
+                            $(this).attr('checked', 'checked').iCheck('update');
+                        });
+                        $(this).val('deselect');
+                    } else {
+                        jQuery('[name="image[]"]').each(function() {
+                            $(this).removeAttr('checked').iCheck('update');
+                        });
+                        $(this).val('select');
+                    }
+                });
+
+                $('#jqgh_jqgrid-htable-img-list_id').attr('value', 'select');
+
+                jQuery('[name="properties[widthType]"] option').each(function() {
+                    if($(this).val() == "{{ slider.settings.properties.widthType }}") {
+                        $(this).attr('selected', 'selected');
+                    }
+                });
+            });
+        })(jQuery);
+    </script>
+
+{% endblock %}

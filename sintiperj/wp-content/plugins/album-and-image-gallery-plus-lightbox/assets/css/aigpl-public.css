@@ -1,0 +1,88 @@
+.aigpl-clearfix:before, .aigpl-clearfix:after{content: "";display: table;}
+.aigpl-clearfix::after{clear: both;}
+.aigpl-hide{display:none;}
+.aigpl-center{text-align:center;}
+.aigpl-gallery-wrp *, .aigpl-gallery-album-wrp *{box-sizing: border-box; outline:none !important;}
+.aigpl-gallery-wrp .aigpl-inr-wrp{position:relative; overflow: hidden;}
+.aigpl-gallery-wrp .aigpl-img, .aigpl-gallery-album-wrp .aigpl-img{border-radius:0 !important; box-shadow:none !important; border:0; margin:0; padding:0; object-fit:cover; object-position:top center; height:100%; width:100%;}
+.aigpl-img-title{font-weight:bold; padding: 8px 0 0 0;}
+.aigpl-img-desc{padding: 8px 0 0 0;}
+.aigpl-gallery-wrp .aigpl-img-wrp {line-height: 0;}
+
+.aigpl-mfp-popup button.mfp-arrow, .aigpl-mfp-popup button.mfp-close{background-color:transparent !important; background-image:none !important; box-shadow:none !important;}
+.aigpl-cnt-wrp .aigpl-img-desc p:last-child{margin-bottom: 0;}
+.aigpl-cnt-wrp .aigpl-img-desc p {margin-bottom: 8px;}
+
+.aigpl-gallery-album-wrp .aigpl-img-wrp{border:1px solid #ccc; padding: 5px; z-index: 1;}
+.aigpl-gallery-album-wrp .aigpl-img-wrp::after { border-width: 4px !important; bottom: -7px; content: " "; left: -7px; position: absolute; right: 11px; top: 5px; border-style: none none double double !important; border-color: #ccc; z-index: -1;}
+.aigpl-img-count {font-style: italic; padding: 6px 0 0 0;}
+
+/* Slider CSS Starts */
+.aigpl-gallery-slider{visibility: hidden; opacity:0; transition:opacity 0.5s linear;}
+.aigpl-gallery-slider.slick-initialized {visibility: visible !important; opacity:1 !important;}
+.aigpl-gallery-slider .slick-arrow,
+.aigpl-gallery-slider .slick-dots li button{text-indent:-99999px;}
+.aigpl-gallery-slider button.slick-arrow{width:30px; height:50px; position:absolute; z-index:999; border:0px !important; padding:0 !important; border-radius:0px !important; margin: -25px 0 0 0 !important; top: 50% !important;}
+.aigpl-gallery-slider button.slick-next,
+.aigpl-gallery-slider button.slick-next:hover,
+.aigpl-gallery-slider button.slick-next:focus,
+.aigpl-gallery-slider button.slick-next:active{background:rgba(0, 0, 0, 0.7) url('../images/arrow-right.png') center center no-repeat !important;outline:none !important; box-shadow: none !important;border: 0 !important; border-radius: 0 !important;}
+
+.aigpl-gallery-slider button.slick-prev, 
+.aigpl-gallery-slider button.slick-prev:hover, 
+.aigpl-gallery-slider button.slick-prev:focus, 
+.aigpl-gallery-slider button.slick-prev:active{background:rgba(0, 0, 0, 0.7) url('../images/arrow-left.png') center center no-repeat !important;outline:none !important;box-shadow: none !important;}
+.aigpl-gallery-slider .slick-prev{left:5px;}
+.aigpl-gallery-slider .slick-next{right:5px;}
+
+.aigpl-gallery-album-slider.aigpl-gallery-slider .slick-prev{left:16px;}
+.aigpl-gallery-album-slider.aigpl-gallery-slider .slick-next{right:16px;}
+
+.aigpl-gallery-slider .slick-dots{padding:15px 0 !important; margin:0 !important; text-align:center; line-height:0;}
+.aigpl-gallery-slider .slick-dots li{list-style:none !important; display:inline-block !important; margin:0 3px !important; padding:0px !important;line-height: 0;}
+.aigpl-gallery-slider ul.slick-dots li::before, .aigpl-gallery-slider ul.slick-dots li::after{background:none !important;content:none !important;}
+.aigpl-gallery-slider .slick-dots li button{background: #fff !important;margin: 0px !important;padding: 0px !important;border: 2px solid #444;border-radius: 50% !important;width: 12px !important; height: 12px !important; box-shadow: none !important;}
+.aigpl-gallery-slider .slick-dots li button:focus{outline:none !important;}
+.aigpl-gallery-slider .slick-dots li.slick-active button{background:#8D8C8C !important;}
+.aigpl-gallery-slider .slick-slide{padding:0 5px !important; text-align:center;}
+.aigpl-gallery-album-slider.aigpl-gallery-slider .slick-slide{padding:0 10px 10px 10px !important; text-align:center;}
+/* Slider CSS Ends */
+
+/********************** ALBUM DESIGN-1 ***********************/
+.aigpl-album-design-1 .aigpl-img-title{font-weight: 600;text-transform: capitalize;font-size: 18px;line-height: normal;margin: 15px 0 0; padding: 0;}
+.aigpl-album-design-1 .aigpl-img-desc{padding: 8px 0 0 0;}
+.aigpl-album-design-1 .aigpl-img-wrp{position: relative;height: 300px;width: 100%;}
+.aigpl-album-design-1 .aigpl-img-count{padding-top:8px;}
+
+/********************** GALLERY DESIGN-1 ***********************/
+.aigpl-design-1 .aigpl-hide{display:none;}
+.aigpl-design-1 .aigpl-gallery-wrp *{box-sizing: border-box; outline:none !important;}
+.aigpl-design-1 .aigpl-gallery-wrp .aigpl-inr-wrp{position:relative;}
+.aigpl-design-1 .aigpl-gallery-wrp .aigpl-img-wrp{line-height:0; height: 225px; position:relative;}
+.aigpl-design-1 .aigpl-gallery-wrp .aigpl-img{border-radius:0 !important; box-shadow:none !important; border:0; margin:0; padding:0; -o-object-fit:cover; object-fit:cover; -o-object-position:top center; object-position:top center; height:100%; width:100%;}
+
+.aigpl-design-1 .aigpl-gallery-wrp .aigpl-first{clear:both;}
+.aigpl-design-1 .aigpl-img-caption {z-index: 1000;box-sizing: border-box;  bottom: 0; color: #fff; font-size: 16px; padding: 15px 10px; position: absolute; text-align: center; width: 100%; line-height:normal;background: RGBA(17, 17, 17, 0.62);}
+.aigpl-design-1 .aigpl-img-title{font-weight: 600;text-transform: capitalize;font-size: 18px;line-height: normal;margin: 8px 0 0;}
+.aigpl-design-1 .aigpl-img-desc{padding: 8px 0 0 0;}
+.aigpl-design-1 .aigpl-img-wrp{position: relative;height: 300px;width: 100%;}
+
+.aigpl-column,
+.aigpl-columns {width: 100%; position: relative; padding:10px; float:left;}
+
+@media only screen and (min-width: 40.0625em) {  
+    .aigpl-column,
+    .aigpl-columns {position: relative; padding: 10px; float:left;}
+    .aigpl-col-1{ width: 100%; }
+    .aigpl-col-2{ width: 50%; }
+    .aigpl-col-3{ width: 33.33333%; }
+    .aigpl-col-4{ width: 25%; }
+    .aigpl-col-5{ width:20%; }
+    .aigpl-col-6{ width: 16.66667%; }
+    .aigpl-col-7{ width: 14.2857%; }
+    .aigpl-col-8{ width: 12.5%; }
+    .aigpl-col-9{ width: 11.11%; }
+    .aigpl-col-10{ width: 10%; }
+    .aigpl-col-11{ width: 9.090%; }
+    .aigpl-col-12{ width: 8.33333%; }
+}

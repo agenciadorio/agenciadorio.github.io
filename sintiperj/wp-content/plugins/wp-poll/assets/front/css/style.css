@@ -1,0 +1,62 @@
+/*
+Admin css
+*/
+
+
+@import 'poll-single.css';
+@import 'poll-list.css';
+@import 'animations.css';
+
+
+.wpp_notice {
+    color: #fff;
+    padding: 8px;
+    margin: 25px 0;
+	display:none;
+}
+
+.wpp_message {
+    background: #eee;
+    padding: 3px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #757575;
+}
+
+.wpp_message.wpp_poll_closed {
+    color: #DE746C;
+}
+
+
+
+.wpp_notice.wpp_error {
+    background: #f3a9a3;
+}
+
+.wpp_notice.wpp_success {
+    background: #17A15E;
+}
+
+.button {
+    background: #9a9a9a;
+    display: initial;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 3px;
+	cursor:pointer;
+	margin-right:10px;
+}
+
+.wpp_result {
+    background: #009D91;
+}
+
+.wpp_new_option {
+    background: #6C2EB9;
+}
+
+.wpp_input_error,
+.wpp_input_error:focus,
+.wpp_input_error:active{
+    border-color: #DE5044;
+}

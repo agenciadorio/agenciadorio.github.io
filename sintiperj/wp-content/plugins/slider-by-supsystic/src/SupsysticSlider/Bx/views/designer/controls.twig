@@ -1,0 +1,18 @@
+{% set veditor = attribute(slider.settings, '__veditor__') %}
+{% set v = attribute(veditor, '.bx-controls-direction') %}
+
+<div class="rs-veditor-group supsystic-plugin">
+    <label>{{ translate('Controls type') }}</label>
+    <input
+            name="[_veditor_][.bx-controls-direction][background]"
+            id="bx-controls"
+            class="rs-veditor-input"
+            value="{{ attribute(v, 'background')|default('circle_arrows') }}"
+            data-selector=".bx-controls-direction"
+            data-prop="background"
+            hidden>
+    <button id="select-controls" class="button button-primary">
+        <i class="fa fa-fw fa-check"></i>
+        {{ translate('Select Controls type') }}
+    </button>
+</div>

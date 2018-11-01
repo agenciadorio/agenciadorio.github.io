@@ -1,0 +1,105 @@
+<div id="supsystic-slider-{{ slider.id }}" class="supsystic-slider supsystic-slider-{{ slider.plugin }}" data-settings="{{ slider.settings|json_encode|e }}" data-thumbs="thumbnails-{{ slider.id }}" style="{% if slider.settings.properties.position == 'left' %}float:left;{% elseif slider.settings.properties.position == 'right' %}float:right;{% endif %}visibility:hidden;">
+    {% if slider.settings.properties.widthType == '%' and slider.settings.properties.height %}
+        {% set listHeight = 'height: 100%;' %}
+        <style type="text/css">
+            .supsystic-slider.supsystic-slider-bx .bx-viewport, 
+            .supsystic-slider.supsystic-slider-bx .bx-wrapper{
+                position: relative;
+                width: 100%;
+                height: {{ slider.settings.properties.height }}px !important;
+                top: 0;
+                left: 0;
+            }
+        </style>
+    {% endif %}
+    <ul style="visibility: hidden; margin: 0 !important; {{ listHeight }}">
+        {% for entity in slider.entities %}
+            {% if entity.attachment.type == 'audio' %}
+                <li>
+                    <audio 
+                        src="{{ entity.attachment.url }}"
+                        style="width:100%;"
+                        controls
+                    >
+                    </audio>
+                </li>
+            {% elseif entity.attachment.type == 'video' %}
+                <li data-style="height: {{ slider.settings.properties.height }}px;">
+                    <video 
+                        src="{{ entity.attachment.url }}"
+                        style="width:{{ slider.settings.properties.width }}px;height: {{ slider.settings.properties.height }}px;"
+                        controls
+                    >
+                    </video>
+                </li>
+            {% elseif entity.type == 'image' %}
+                {% if slider.settings.properties.widthType == '%' and slider.settings.properties.height %}
+                    {% set url = entity.attachment.url %}
+                    <li style="background-image: url('{{ url }}'); background-repeat: no-repeat; background-position: top center; background-size: cover; height: 100% !important;" title="{{ entity.attachment.description|raw }}">
+                        {% if entity.attachment.external_link %}
+                            <a href="{{ entity.attachment.external_link }}" target="{{ entity.attachment.target }}" style="display: block; width: 100%; height: {{ slider.settings.properties.height }}px;"></a>
+                        {% endif %}
+                    </li>
+                {% else %}
+                    <li>
+                        {% if entity.attachment.external_link %}
+                            <a href="{{ entity.attachment.external_link }}" target="{{ entity.attachment.target }}">
+                                {% if slider.settings.properties.widthType == '%' %}
+                                    <img src="{{ entity.attachment.url }}" width="100%" height="100%" alt="{{ entity.attachment.alt }}" title="{{ entity.attachment.description|raw }}"/>
+                                {% else %}
+                                    <img src="{{ entity|image_size(slider.settings.properties.width, slider.settings.properties.height) }}" alt="{{ entity.attachment.alt }}" title="{{ entity.attachment.description|raw }}"/>
+                                {% endif %}
+                            </a>
+                        {% else %}
+                            {% if slider.settings.properties.widthType == '%' %}
+                                <img src="{{ entity.attachment.url }}" width="100%" height="100%" alt="{{ entity.attachment.alt }}" title="{{ entity.attachment.description|raw }}"/>
+                            {% else %}
+                                <img src="{{ entity|image_size(slider.settings.properties.width, slider.settings.properties.height, entity.attachment.cropPosition) }}" alt="{{ entity.attachment.alt }}" title="{{ entity.attachment.description|raw }}"/>
+                            {% endif %}
+                        {% endif %}
+                    </li>
+                {% endif %}
+            {% elseif entity.type == 'video' %}
+                <li>
+                    <video style="width:{{ slider.settings.properties.width }}px;" data-service="{{ entity.attachment.service }}" data-width="{{ slider.settings.properties.width }}" data-video-id="{{ entity.video_id }}" data-height="{{ slider.settings.properties.height }}"></video>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+
+{% if slider.settings.general.navigation == "1" %}
+    <div id="bx-clearfix" style="clear:both;"></div>
+{% endif %}
+
+<ul class="thumbnails-{{ slider.id }} thumbs" style="visibility: hidden; margin: 0 !important;">
+    {% set slideIndex = 0 %}
+    {% for i, slides in slider.thumbnails %}
+        <li>
+            {% for index, entity in slides %}
+                {% if slider.settings.properties.widthType == '%' %}
+                    <img 
+                        data-index="{{ slideIndex }}"
+                        src="{{ entity|image_size('100', slider.settings.properties.height/3.0, entity.attachment.cropPosition) }}" 
+                        alt="{{ entity.attachment.alt|default(entity.attachment.title)|title }}" 
+                        title="{{ entity.attachment.description }}"
+                        style="{{ index != 0 ? 'margin-top: 1px;' : '' }}"
+                    />
+                {% else %}
+                    <img 
+                        data-index="{{ slideIndex }}"
+                        src="{{ entity|image_size(slider.settings.properties.width/4.0, slider.settings.properties.height/3.0, entity.attachment.cropPosition) }}" 
+                        alt="{{ entity.attachment.alt|default(entity.attachment.title)|title }}" 
+                        title="{{ entity.attachment.description }}"
+                        style="{{ index != 0 ? 'margin-top: 1px;' : '' }}"
+                    />
+                {% endif %}
+                {% set slideIndex = slideIndex + 1 %}
+            {% endfor %}
+        </li>
+    {% endfor %}
+</ul>
+
+{% if slider.settings.general.navigation == "1" %}
+    <div id="bx-clearfix" style="clear:both;"></div>
+{% endif %}

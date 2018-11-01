@@ -1,0 +1,111 @@
+{% set veditor = attribute(slider.settings, '__veditor__') %}
+{% set v = attribute(veditor, '.bx-caption') %}
+
+<div class="rs-veditor-group">
+    <label>{{ translate('Text align') }}</label>
+    <select
+        name="[_veditor_][.bx-caption][text-align]"
+        class="rs-veditor-input"
+        data-selector=".bx-caption"
+        data-prop="text-align"
+    >
+        <option value="left" {% if attribute(v, 'text-align')|default('left') == 'left' %}selected="selected"{% endif %}>
+            {{ translate('Align left') }}
+        </option>
+        <option value="center" {% if attribute(v, 'text-align')|default('left') == 'center' %}selected="selected"{% endif %}>
+            {{ translate('Align center') }}
+        </option>
+        <option value="right" {% if attribute(v, 'text-align')|default('left') == 'right' %}selected="selected"{% endif %}>
+            {{ translate('Align right') }}
+        </option>
+    </select>
+</div>
+
+<div class="rs-veditor-group">
+    <label>{{ translate('Text color') }}</label>
+    <input
+        name="[_veditor_][.bx-caption][color]"
+        data-selector=".bx-caption"
+        data-prop="color"
+        type="text"
+        class="rs-veditor-input rs-veditor-colorpicker"
+        value="{{ v.color|default('#000000') }}"
+     />
+</div>
+
+
+<div class="rs-veditor-group">
+    <label>{{ translate('Background color') }}</label>
+    <input
+        name="[_veditor_][.bx-caption][background-color]"
+        data-selector=".bx-caption"
+        data-prop="background-color"
+        type="text"
+        class="rs-veditor-input rs-veditor-colorpicker"
+        value="{{ attribute(v, 'background-color')|default('rgba(0,0,0,.3)') }}"
+     />
+</div>
+
+<div class="rs-veditor-group">
+    <label>{{ translate('Text size') }}</label>
+    <input
+        name="[_veditor_][.bx-caption][font-size]"
+        class="rs-veditor-input"
+        data-selector=".bx-caption"
+        data-prop="font-size"
+        type="text"
+        value="{{ attribute(v, 'font-size')|default('1.0em') }}"
+    />
+</div>
+
+<div class="rs-veditor-group">
+    <label>{{ translate('Text Animation') }}</label>
+    <select
+        name="[_veditor_][.bx-caption][text-animation]"
+        class="rs-veditor-input"
+        data-selector=".bx-caption"
+        data-selector-helper="span.caption"
+        data-prop="text-animation"
+        data-type="animation-effect"
+        data-attr="data-effect"
+    >
+        <option value="disable" {% if attribute(v, 'text-animation')|default('disable') == 'disable' %}selected="selected"{% endif %}>
+            {{ translate('Disable') }}
+        </option>
+        <option value="enable" {% if attribute(v, 'text-animation')|default('disable') == 'enable' %}selected="selected"{% endif %}>
+            {{ translate('Enable') }}
+        </option>
+    </select>
+</div>
+
+<div class="rs-veditor-group supsystic-plugin">
+    <label>{{ translate('Text in effect') }}</label>
+    <input
+            name="[_veditor_][.bx-caption][text-in-effect]"
+            id="bx-caption-tie"
+            class="rs-veditor-input"
+            value="{{ attribute(v, 'text-effect-in') }}"
+            data-selector=".bx-caption"
+            data-prop="text-effect-in"
+            hidden>
+    <button id="select-tie" class="button button-primary">
+        <i class="fa fa-fw fa-check"></i>
+        {{ translate('Select Text in effect') }}
+    </button>
+</div>
+
+<div class="rs-veditor-group supsystic-plugin">
+    <label>{{ translate('Text out effect') }}</label>
+    <input
+            name="[_veditor_][.bx-caption][text-out-effect]"
+            id="bx-caption-toe"
+            class="rs-veditor-input"
+            value="{{ attribute(v, 'text-effect-out') }}"
+            data-selector=".bx-caption"
+            data-prop="text-effect-out"
+            hidden>
+    <button id="select-toe" class="button button-primary">
+        <i class="fa fa-fw fa-check"></i>
+        {{ translate('Select Text out effect') }}
+    </button>
+</div>

@@ -1,0 +1,54 @@
+/*
+Admin css
+*/
+
+#poll_metabox {
+    margin-top: -20px;
+}
+
+.poll_meta_box {}
+
+.poll_meta_box  .poll_title {
+    width: 100%;
+    font-size: 15px;
+    height: 40px;
+    outline: none;
+    box-shadow: none;
+}
+
+.poll_meta_box .poll_option_container  .poll_option_single{
+    background: #dedede;
+    padding: 5px 20px;
+}
+
+.poll_meta_box .poll_option_container  .poll_option_single input{
+    background: #eee;
+	width:320px;
+    margin: 0 15px;
+}
+
+.poll_meta_box .poll_option_container  .poll_option_single .poll_option_remove{
+    color: #DE746C;
+    float: right;
+    font-size: 20px;
+    padding: 9px 15px;
+    margin-top: -5px;
+	cursor:pointer;
+}
+.poll_meta_box .poll_option_container  .poll_option_single .poll_option_single_sorter{
+    color: #DE746C;
+    float: right;
+    font-size: 20px;
+    padding: 9px 15px;
+    margin-top: -5px;
+    margin-right: 10px;
+	cursor:move;
+}
+.poll_meta_box .poll_option_container  .poll_option_single .poll_option_remove:hover,
+.poll_meta_box .poll_option_container  .poll_option_single .poll_option_single_sorter:hover{
+    background: #eee;
+}
+
+
+
+
