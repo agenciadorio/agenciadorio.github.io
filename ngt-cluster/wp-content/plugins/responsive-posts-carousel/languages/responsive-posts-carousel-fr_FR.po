@@ -1,0 +1,855 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: Responsive Posts Carousel Pro\n"
+"POT-Creation-Date: 2018-01-23 14:07+0500\n"
+"PO-Revision-Date: 2018-01-23 18:07+0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fr\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: carousel.class.php:51
+msgid "Contents"
+msgstr "Conteúdo"
+
+#: carousel.class.php:52
+#, fuzzy
+msgid "Slider"
+msgstr "Prix minimum pour le curseur de prix"
+
+#: carousel.class.php:53
+msgid "Colors"
+msgstr "Couleurs"
+
+#: carousel.class.php:54
+msgid "Typography"
+msgstr "Typographie"
+
+#: carousel.class.php:55 inc/settings-fields.php:154
+msgid "Arrows"
+msgstr "Flèches"
+
+#: carousel.class.php:56
+msgid "Advanced"
+msgstr "Avancé"
+
+#: carousel.class.php:134
+msgid "Default"
+msgstr "Défaut"
+
+#: carousel.class.php:163 carousel.class.php:323 plugin.class.php:82
+msgid "Sorry! this Taxonomy has no Terms."
+msgstr ""
+
+#: carousel.class.php:177 inc/first_options.php:28
+msgid "Please select any taxonomy first"
+msgstr ""
+
+#: carousel.class.php:226 inc/first_options.php:105 inc/first_options.php:111
+#: inc/first_options.php:113 inc/saved_options.php:124
+#: inc/saved_options.php:130 inc/saved_options.php:132
+msgid "Enable"
+msgstr "Activer"
+
+#: carousel.class.php:238
+msgid "Default Shortcode"
+msgstr "Raccourci par défaut"
+
+#: carousel.class.php:243
+msgid "Display 10 Latest Posted"
+msgstr ""
+
+#: carousel.class.php:248
+msgid "Order by Ascending Titles"
+msgstr ""
+
+#: carousel.class.php:257
+#, fuzzy
+msgid "Need Help? Submit your questions"
+msgstr "ENVOYER"
+
+#: carousel.class.php:259
+msgid "here"
+msgstr "ici"
+
+#: carousel.class.php:291
+msgid "Please provide carousel id in shortcode"
+msgstr ""
+
+#: carousel.class.php:312
+msgid "All"
+msgstr "Toutes"
+
+#: carousel.class.php:580
+#, fuzzy
+msgid "Template not Found"
+msgstr "Modèle introuvable"
+
+#: inc/first_options.php:1
+msgid "Posts Carousel"
+msgstr "Carrousel d’articles"
+
+#: inc/first_options.php:3 inc/saved_options.php:3
+msgid "Basic Settings"
+msgstr "Paramètres de base"
+
+#: inc/first_options.php:6 inc/first_options.php:9 inc/first_options.php:22
+#: inc/saved_options.php:6 inc/saved_options.php:9 inc/saved_options.php:22
+#: inc/settings-fields.php:20 inc/settings-fields.php:21
+msgid "Select Taxonomy"
+msgstr "Sélectionnez la taxonomie"
+
+#: inc/first_options.php:26 inc/saved_options.php:26 inc/saved_options.php:31
+#: inc/settings-fields.php:28 inc/settings-fields.php:29
+msgid "Select Term"
+msgstr "Sélectionner condition"
+
+#: inc/first_options.php:31 inc/saved_options.php:49
+msgid "Select Term which posts will be shown in Carousel"
+msgstr ""
+
+#: inc/first_options.php:35 inc/saved_options.php:53 inc/settings-fields.php:52
+msgid "Exclude Posts"
+msgstr "Exclure les articles"
+
+#: inc/first_options.php:40 inc/saved_options.php:58 inc/settings-fields.php:53
+msgid "Comma separated ids of posts that you do not want to display"
+msgstr ""
+
+#: inc/first_options.php:47 inc/saved_options.php:65 inc/settings-fields.php:36
+#: inc/settings-fields.php:37
+msgid "Select Post Type"
+msgstr "Sélectionnez le type d'article"
+
+#: inc/first_options.php:59 inc/saved_options.php:78
+msgid "Select Post Type if you want to display carousel of specific posts"
+msgstr ""
+
+#: inc/first_options.php:63 inc/saved_options.php:82
+#, fuzzy
+msgid "Custom Post Types IDs"
+msgstr "Types de contenus personnalisés"
+
+#: inc/first_options.php:68 inc/saved_options.php:87
+msgid ""
+"Insert Post IDs comma separated, Custom Post Types also supported. <br> "
+"Please note that filling this field will disable above options"
+msgstr ""
+
+#: inc/first_options.php:73 inc/saved_options.php:92
+#, fuzzy
+msgid "Background Color"
+msgstr "Couleur d'arrière-plan des boutons"
+
+#: inc/first_options.php:79 inc/saved_options.php:98
+msgid "It is background color for Carousel"
+msgstr ""
+
+#: inc/first_options.php:83 inc/saved_options.php:102
+msgid "Carousel Settings"
+msgstr "Paramètres du carousel"
+
+#: inc/first_options.php:86 inc/saved_options.php:105
+msgid "Carousel Name (for your reference)"
+msgstr ""
+
+#: inc/first_options.php:87
+#, fuzzy
+msgid "My Carousel"
+msgstr "Carrousel Woo"
+
+#: inc/first_options.php:88 inc/saved_options.php:107
+msgid "Item Width"
+msgstr "Longueur de l'objet"
+
+#: inc/first_options.php:92 inc/saved_options.php:111
+msgid "Speed of Slideshow Cycling"
+msgstr ""
+
+#: inc/first_options.php:94 inc/saved_options.php:113
+msgid "Speed of Animation"
+msgstr "Vitesse de l'animation"
+
+#: inc/first_options.php:98 inc/saved_options.php:117
+msgid "Show Time"
+msgstr "Afficher l’heure"
+
+#: inc/first_options.php:99 inc/first_options.php:101 inc/first_options.php:107
+#: inc/first_options.php:117 inc/first_options.php:119
+#: inc/saved_options.php:118 inc/saved_options.php:120
+#: inc/saved_options.php:126 inc/saved_options.php:136
+#: inc/saved_options.php:138
+msgid "Show"
+msgstr "Afficher"
+
+#: inc/first_options.php:100 inc/saved_options.php:119
+msgid "Show Titles"
+msgstr "Montrer les titres"
+
+#: inc/first_options.php:104 inc/saved_options.php:123
+msgid "Looping"
+msgstr "Circuit fermé"
+
+#: inc/first_options.php:106 inc/saved_options.php:125
+msgid "Pause/Play Button"
+msgstr ""
+
+#: inc/first_options.php:110 inc/saved_options.php:129
+msgid "Auto Slide"
+msgstr "AT Gallery Curseur"
+
+#: inc/first_options.php:112 inc/saved_options.php:131
+msgid "Animate height of varying height items"
+msgstr ""
+
+#: inc/first_options.php:116 inc/saved_options.php:135
+msgid "Paging Control"
+msgstr ""
+
+#: inc/first_options.php:118 inc/saved_options.php:137
+#, fuzzy
+msgid "Previous/Next Arrows"
+msgstr "Flèches précédent & suivant"
+
+#: inc/first_options.php:124 inc/saved_options.php:143
+msgid "Delete"
+msgstr "Supprimer"
+
+#: inc/first_options.php:125 inc/register-carousel.php:8
+#: inc/saved_options.php:144
+msgid "Add New Carousel"
+msgstr "Ajouter un carrousel"
+
+#: inc/first_options.php:126 inc/saved_options.php:145
+msgid "Get Shortcode"
+msgstr "Obtenir le shortcode"
+
+#: inc/register-carousel.php:3
+msgctxt "Carousel"
+msgid "Carousels"
+msgstr "Carrousels"
+
+#: inc/register-carousel.php:4
+msgctxt "Carousel"
+msgid "Carousel"
+msgstr "Carrousel"
+
+#: inc/register-carousel.php:5
+msgctxt "admin menu"
+msgid "Carousels"
+msgstr "Carrousels"
+
+#: inc/register-carousel.php:6
+msgctxt "Carousels"
+msgid "Carousel"
+msgstr "Carrousel"
+
+#: inc/register-carousel.php:7
+#, fuzzy
+msgctxt "Carousel"
+msgid "Add New"
+msgstr "Ajouter une nouvelle balise"
+
+#: inc/register-carousel.php:9
+#, fuzzy
+msgid "New Carousel"
+msgstr "Ajouter un carrousel"
+
+#: inc/register-carousel.php:10
+msgid "Edit Carousel"
+msgstr "Modifier le carrousel"
+
+#: inc/register-carousel.php:11
+#, fuzzy
+msgid "View Carousel"
+msgstr "Carrousel Woo"
+
+#: inc/register-carousel.php:12
+msgid "All Carousels"
+msgstr "Tous les carrousels"
+
+#: inc/register-carousel.php:13
+msgid "Search Carousels"
+msgstr "Chercher un carrousel"
+
+#: inc/register-carousel.php:14
+msgid "Parent Carousels:"
+msgstr ""
+
+#: inc/register-carousel.php:15
+msgid "No Carousel found."
+msgstr ""
+
+#: inc/register-carousel.php:16
+msgid "No Carousel found in Trash."
+msgstr ""
+
+#: inc/register-carousel.php:21
+msgid "Create Posts Carousels."
+msgstr ""
+
+#: inc/saved_options.php:45
+msgid "Please select any category first"
+msgstr "Veuillez d’abord sélectionnez une catégorie."
+
+#: inc/settings-fields.php:8
+#, fuzzy
+msgid "Display By"
+msgstr "Affiche sous nom d'utilisateur"
+
+#: inc/settings-fields.php:9
+msgid "How you want to display carousel"
+msgstr ""
+
+#: inc/settings-fields.php:11
+#, fuzzy
+msgid "By Post Type"
+msgstr "Type d'article"
+
+#: inc/settings-fields.php:12
+#, fuzzy
+msgid "By Taxonomy"
+msgstr "Trier par Taxanomie"
+
+#: inc/settings-fields.php:44
+msgid "Select Posts"
+msgstr "Publications sélectionnées"
+
+#: inc/settings-fields.php:45
+#, fuzzy
+msgid "Choose posts to display in carousel"
+msgstr "Choisissez les articles à afficher:"
+
+#: inc/settings-fields.php:60
+msgid "Post Style"
+msgstr "Style de contenu"
+
+#: inc/settings-fields.php:61
+msgid "Choose post display style"
+msgstr "Choisissez le style d'affichage des articles"
+
+#: inc/settings-fields.php:68
+msgid "Heading"
+msgstr "Titres"
+
+#: inc/settings-fields.php:69
+msgid "Provide post meta key to display as heading. Eg:"
+msgstr ""
+
+#: inc/settings-fields.php:76
+msgid "Content"
+msgstr "Contenu "
+
+#: inc/settings-fields.php:77
+msgid "Provide post meta key to display as content. Eg:"
+msgstr ""
+
+#: inc/settings-fields.php:84
+msgid "Description Words Length"
+msgstr ""
+
+#: inc/settings-fields.php:85
+msgid "Maximum words to display for description eg: 30"
+msgstr ""
+
+#: inc/settings-fields.php:92
+msgid "Read More Button Text"
+msgstr "Lire plus Texte du bouton"
+
+#: inc/settings-fields.php:93
+msgid "Provide text for read more button, leave blank to disable"
+msgstr ""
+
+#: inc/settings-fields.php:100
+msgid "Read More Button CSS Classes"
+msgstr ""
+
+#: inc/settings-fields.php:101
+msgid "Provide css classes for styling of button"
+msgstr ""
+
+#: inc/settings-fields.php:108
+msgid "Link Target"
+msgstr "Cible du lien"
+
+#: inc/settings-fields.php:109
+msgid "How you want to open links"
+msgstr ""
+
+#: inc/settings-fields.php:111
+msgid "Same Tab"
+msgstr "Même Onglet"
+
+#: inc/settings-fields.php:112
+msgid "New Tab"
+msgstr "Nouvel onglet"
+
+#: inc/settings-fields.php:120
+#, fuzzy
+msgid "Disable Post Meta (author, date etc)"
+msgstr "Désactiver les infos sur l’Auteur dans les articles"
+
+#: inc/settings-fields.php:121
+msgid "Check this button to hide post meta"
+msgstr ""
+
+#: inc/settings-fields.php:130
+msgid "Accessibility"
+msgstr "Optimisé pour l&rsquo;accessibilité"
+
+#: inc/settings-fields.php:131
+#, fuzzy
+msgid "Enables tabbing and arrow key navigation"
+msgstr "Active la tabulation et la navigation par touches fléchées"
+
+#: inc/settings-fields.php:138
+msgid "Auto Play"
+msgstr "Lecture auto"
+
+#: inc/settings-fields.php:139
+#, fuzzy
+msgid "Enables auto play of slides"
+msgstr "Activer le défilement automatique des diapositives."
+
+#: inc/settings-fields.php:146
+msgid "Bottom Dots"
+msgstr ""
+
+#: inc/settings-fields.php:147
+msgid "Check to enable current slide indicator dots"
+msgstr ""
+
+#: inc/settings-fields.php:155
+msgid "Check to enable Next/Prev arrows"
+msgstr ""
+
+#: inc/settings-fields.php:162
+msgid "Auto Play Speed"
+msgstr "Vitesse d'autoplay"
+
+#: inc/settings-fields.php:163
+msgid "Auto play change interval in ms"
+msgstr ""
+
+#: inc/settings-fields.php:170
+msgid "Number of Columns (Desktop)"
+msgstr ""
+
+#: inc/settings-fields.php:171 inc/settings-fields.php:179
+#: inc/settings-fields.php:187
+msgid "Number of posts to show at a time in a row"
+msgstr ""
+
+#: inc/settings-fields.php:178
+msgid "Number of Columns (Tablet)"
+msgstr "Nombre de colonnes (Tablettes)"
+
+#: inc/settings-fields.php:186
+msgid "Number of Columns (Mobile)"
+msgstr "Nombre de colonnes (mobile)"
+
+#: inc/settings-fields.php:194
+#, fuzzy
+msgid "Number of Posts To Slide"
+msgstr "Nombre d'articles à afficher"
+
+#: inc/settings-fields.php:195
+msgid "Number of posts to slide at a time"
+msgstr ""
+
+#: inc/settings-fields.php:202
+msgid "Slide Speed"
+msgstr "Vitesse du slide"
+
+#: inc/settings-fields.php:203
+#, fuzzy
+msgid "Transition speed in ms"
+msgstr "Vitesse de transition"
+
+#: inc/settings-fields.php:210
+msgid "Space Between Posts"
+msgstr "Espace entre les articles"
+
+#: inc/settings-fields.php:211
+msgid "Margin will apply to both sides. Provide with unit Eg: 20px"
+msgstr ""
+
+#: inc/settings-fields.php:220
+msgid "Border Width"
+msgstr "Epaisseur de la bordure"
+
+#: inc/settings-fields.php:221
+msgid "Provide width for border eg 2px. Leave blank to disable border"
+msgstr ""
+
+#: inc/settings-fields.php:228
+msgid "Border Color"
+msgstr "Couleur de la bordure"
+
+#: inc/settings-fields.php:229
+#, fuzzy
+msgid "Choose border color for posts"
+msgstr "Choisissez la couleur de la bordure"
+
+#: inc/settings-fields.php:237
+msgid "Solid"
+msgstr "Plein"
+
+#: inc/settings-fields.php:238
+msgid "Dotted"
+msgstr "Pointillés"
+
+#: inc/settings-fields.php:239
+msgid "Dashed"
+msgstr "En tiret"
+
+#: inc/settings-fields.php:240
+msgid "Double"
+msgstr "Double"
+
+#: inc/settings-fields.php:241
+msgid "Groove"
+msgstr "Crénelée"
+
+#: inc/settings-fields.php:242
+msgid "Ridge"
+msgstr "Hachurée"
+
+#: inc/settings-fields.php:243
+msgid "Inset"
+msgstr "Intérieure"
+
+#: inc/settings-fields.php:244
+msgid "Outset"
+msgstr "Extérieure"
+
+#: inc/settings-fields.php:246
+msgid "Border Type"
+msgstr "Type de bordure de l'élément"
+
+#: inc/settings-fields.php:247
+msgid "Choose border type for border"
+msgstr ""
+
+#: inc/settings-fields.php:254
+msgid "Title Background Color"
+msgstr "Couleur de fond du titre"
+
+#: inc/settings-fields.php:255
+#, fuzzy
+msgid "Choose Title Background Color. Leave blank for default"
+msgstr ""
+"Choisissez la couleur d’arrière-plan ou laisser vide pour la couleur par "
+"défaut"
+
+#: inc/settings-fields.php:262
+msgid "Title Color"
+msgstr "Couleur du titre"
+
+#: inc/settings-fields.php:263
+msgid "Choose Title text color. Leave blank for default"
+msgstr ""
+
+#: inc/settings-fields.php:270
+msgid "Description Color"
+msgstr "Description de la couleur"
+
+#: inc/settings-fields.php:271
+msgid "Choose description text color. Leave blank for default"
+msgstr ""
+
+#: inc/settings-fields.php:278
+msgid "Description Background Color"
+msgstr "Description de la couleur de fond"
+
+#: inc/settings-fields.php:279
+#, fuzzy
+msgid "Choose description background color. Leave blank for default"
+msgstr ""
+"Choisissez la couleur d’arrière-plan ou laisser vide pour la couleur par "
+"défaut"
+
+#: inc/settings-fields.php:286
+msgid "Date Background Color"
+msgstr "Couleur d'arrière-plan de la date"
+
+#: inc/settings-fields.php:287
+#, fuzzy
+msgid "Choose date background color. Leave blank for default"
+msgstr ""
+"Choisissez la couleur d’arrière-plan ou laisser vide pour la couleur par "
+"défaut"
+
+#: inc/settings-fields.php:294
+#, fuzzy
+msgid "Date Text Color"
+msgstr "Couleur du texte"
+
+#: inc/settings-fields.php:295
+msgid "Choose date text color. Leave blank for default"
+msgstr ""
+
+#: inc/settings-fields.php:302
+msgid "Overlay Background Color"
+msgstr "Définir la couleur de recouvrement de l'arrière plan"
+
+#: inc/settings-fields.php:303
+msgid "Choose color for overlay. Leave blank for default"
+msgstr ""
+
+#: inc/settings-fields.php:310
+msgid "Shadow"
+msgstr "Ombre"
+
+#: inc/settings-fields.php:311
+msgid "Provide Shadow"
+msgstr ""
+
+#: inc/settings-fields.php:311
+msgid "Generate Shadow"
+msgstr ""
+
+#: inc/settings-fields.php:318
+#, fuzzy
+msgid "Custom CSS"
+msgstr "Code CSS personnalisé"
+
+#: inc/settings-fields.php:319
+#, fuzzy
+msgid "Paste custom css code here"
+msgstr "Collez votre code CSS personnalisé ici"
+
+#: inc/settings-fields.php:328
+msgid "Title Font Family"
+msgstr "Famille de police du titre"
+
+#: inc/settings-fields.php:329
+msgid "Provide font name for title"
+msgstr ""
+
+#: inc/settings-fields.php:336
+msgid "Title Font Size"
+msgstr "Taille de la police du Titre"
+
+#: inc/settings-fields.php:337
+msgid "Provide font size for title with unit"
+msgstr ""
+
+#: inc/settings-fields.php:344
+msgid "Description Font Family"
+msgstr ""
+
+#: inc/settings-fields.php:345
+msgid "Provide font name for description"
+msgstr ""
+
+#: inc/settings-fields.php:352
+msgid "Description Font Size"
+msgstr "Taille de la police Description"
+
+#: inc/settings-fields.php:353
+msgid "Provide font size for description with unit"
+msgstr ""
+
+#: inc/settings-fields.php:362
+#, fuzzy
+msgid "Arrows Type"
+msgstr "Flèches"
+
+#: inc/settings-fields.php:363
+msgid "Choose navigation arrows type here"
+msgstr ""
+
+#: inc/settings-fields.php:365 inc/settings-fields.php:387
+msgid "Circle"
+msgstr "Cercle"
+
+#: inc/settings-fields.php:366
+msgid "Circle Inverted"
+msgstr ""
+
+#: inc/settings-fields.php:367
+msgid "Simple"
+msgstr "Simple"
+
+#: inc/settings-fields.php:368
+msgid "Long"
+msgstr "Long"
+
+#: inc/settings-fields.php:369
+msgid "Angle"
+msgstr "Angle"
+
+#: inc/settings-fields.php:370
+#, fuzzy
+msgid "Double Angle"
+msgstr "Pic à angle composé"
+
+#: inc/settings-fields.php:371
+msgid "Caret"
+msgstr "Caret"
+
+#: inc/settings-fields.php:372
+msgid "Caret Square"
+msgstr "Caret Carré"
+
+#: inc/settings-fields.php:373
+msgid "Hand"
+msgstr "Main"
+
+#: inc/settings-fields.php:374
+msgid "Chevron"
+msgstr "Chevron"
+
+#: inc/settings-fields.php:382
+msgid "Arrows Style"
+msgstr "Style Flèche"
+
+#: inc/settings-fields.php:383
+msgid "Choose arrow appearance here"
+msgstr ""
+
+#: inc/settings-fields.php:385
+msgid "Transparent"
+msgstr "Transparent"
+
+#: inc/settings-fields.php:386
+msgid "Square"
+msgstr "Prestashop"
+
+#: inc/settings-fields.php:395
+msgid "Arrows Color"
+msgstr "Couleur des flèches"
+
+#: inc/settings-fields.php:396
+#, fuzzy
+msgid "Choose arrows color"
+msgstr "Veuillez choisir la couleur des flèches"
+
+#: inc/settings-fields.php:403
+#, fuzzy
+msgid "Arrows Background Color"
+msgstr "Couleur de fond de flèches"
+
+#: inc/settings-fields.php:404
+msgid "Choose arrows background color"
+msgstr ""
+
+#: inc/settings-fields.php:413
+#, fuzzy
+msgid "Images Size"
+msgstr "Taille images"
+
+#: inc/settings-fields.php:414
+msgid "Choose images size for thumbnails"
+msgstr ""
+
+#: inc/settings-fields.php:421
+msgid "Rows"
+msgstr "Lignes"
+
+#: inc/settings-fields.php:422
+msgid ""
+"Setting this to more than 1 initializes grid mode. Use slidesPerRow to set "
+"how many slides should be in each row."
+msgstr ""
+
+#: inc/settings-fields.php:429
+msgid "Slides Per Row"
+msgstr "Diapos par ligne"
+
+#: inc/settings-fields.php:430
+#, fuzzy
+msgid ""
+"With grid mode initialized via the rows option, this sets how many slides "
+"are in each grid row."
+msgstr ""
+"Avec le mode Grid initialisé via l'option rows, cela définit le nombre de "
+"diapositives dans chaque ligne de la grille."
+
+#: inc/settings-fields.php:437
+#, fuzzy
+msgid "Placeholder Image Url"
+msgstr "Image Espace réservé"
+
+#: inc/settings-fields.php:438
+msgid ""
+"Provide placeholder image url for that posts which do not have featured "
+"images."
+msgstr ""
+
+#: inc/settings-fields.php:445
+#, fuzzy
+msgid "Equal Height Mode"
+msgstr "Hauteur identique"
+
+#: inc/settings-fields.php:446
+msgid "Checking this make all images same in height."
+msgstr ""
+
+#: inc/settings-fields.php:453
+msgid "Images Height"
+msgstr "Hauteur des images"
+
+#: inc/settings-fields.php:454
+msgid "Fixed Height for images in px. Eg: 450px"
+msgstr ""
+
+#: inc/templates/post-card-with-author.php:13
+msgid "Profile"
+msgstr "Profil"
+
+#: inc/templates/post-card-with-author.php:14
+msgid "More Info"
+msgstr "Plus d'infos"
+
+#: plugin.class.php:57
+#, fuzzy
+msgid "Responsive Posts Carousel"
+msgstr "Carrousel d’articles"
+
+#: plugin.class.php:57
+msgid "Need Help"
+msgstr "Besoin d'aide"
+
+#: plugin.class.php:71
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+
+#: plugin.class.php:73
+msgid "Changes Saved"
+msgstr "Modifications enregistrées"
+
+#. Plugin Name of the plugin/theme
+msgid "Responsive Posts Carousel Pro"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://webcodingplace.com/responsive-posts-carousel-wordpress-plugin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The best Posts Slider Plugin for WordPress you will ever need."
+msgstr ""
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "WebCodingPlace"
+msgstr "WebCodingPlace"
+
+#. Author URI of the plugin/theme
+msgid "http://webcodingplace.com/"
+msgstr ""

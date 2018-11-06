@@ -1,0 +1,87 @@
+.thumbs-prev div {
+	position: relative;
+	width: 100px;
+	height: 150px;
+	float: left;
+	margin-right: 10px;
+}
+.thumbs-prev div img {
+	width: 100%;
+	cursor: all-scroll;
+}
+.thumbs-prev div span {
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	color: red;
+	cursor: pointer;
+}
+.ui-accordion .ui-accordion-header {
+  cursor: pointer;
+  position: relative;
+  margin-top: 1px;
+  zoom: 1;
+}
+#accordion .ui-accordion-content {
+    max-width: 100%;
+    background-color: #ffffff;
+    color: #777;
+    padding: 10px;
+}
+#accordion .ui-accordion-content p {
+    margin: 0;
+}
+#accordion .ui-accordion-header {
+    background-color: #ccc;
+    margin: 0px;
+	padding: 10px 20px;
+	color: #ffffff;
+	outline: none;
+}
+#accordion .ui-accordion-header a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-indent: 10px;
+}
+#accordion .ui-accordion-header {
+    background-color: #389abe;
+    background-image: -moz-linear-gradient(top,  #389abe 0%, #2a7b99 100%); /* FF3.6+ */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#389abe), color-stop(100%,#2a7b99)); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(top,  #389abe 0%,#2a7b99 100%); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(top,  #389abe 0%,#2a7b99 100%); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(top,  #389abe 0%,#2a7b99 100%); /* IE10+ */
+    background-image: linear-gradient(to bottom,  #389abe 0%,#2a7b99 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#389abe', endColorstr='#2a7b99',GradientType=0 ); /* IE6-9 */
+}
+#accordion .ui-accordion-header a {
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    border-right: 1px solid rgba(0, 0, 0, .2);
+    border-left: 1px solid rgba(0, 0, 0, .2);
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    border-top: 1px solid rgba(250, 250, 250, .2);
+}
+.pull-right {
+	float: right;
+	cursor: pointer;
+}
+.clearfix {
+	clear: both;
+}
+button span {
+	vertical-align: text-bottom !important;
+}
+.btndelete span {
+	color: red;
+}
+.btnadd span {
+	color: green;
+}
+.wcp-shortc {
+    float: right;
+    padding: 5px;
+    margin: 0;
+    min-width: 300px;
+    text-align: right;
+}
