@@ -1,0 +1,3018 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QT "
+"Extension Suite\n"
+"POT-Creation-Date: "
+"2016-09-27 16:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: "
+"Qantumthemes\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"1.8.9\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: custom-types/artist/artist-type.php:8
+#: custom-types/artist/artist-type.php:9
+msgid "Artist"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:10
+#: custom-types/events/events-type.php:18
+#: custom-types/gallery/gallery-type.php:15
+#: custom-types/podcast/podcast-type.php:10
+#: custom-types/release/release-type.php:9
+#: customizer/kirki/includes/class-kirki-l10n.php:196
+msgid "Add new"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:11
+msgid "Add new artist"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:12
+msgid "Edit artist"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:13
+msgid "New artist"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:14
+msgid "All artists"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:15
+msgid "View artist"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:16
+msgid "Search artist"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:17
+msgid "No artists found"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:18
+msgid ""
+"No artists found in trash"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:19
+#: qt-extensions-suite.php:199
+msgid "Artists"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:47
+msgid "Artist genres"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:48
+#: custom-types/artist/artist-type.php:61
+#: custom-types/shows/shows-type.php:43
+#: custom-types/shows/shows-type.php:57
+msgid "Genres"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:49
+#: custom-types/events/events-type.php:57
+#: custom-types/release/release-type.php:45
+#: custom-types/shows/shows-type.php:45
+msgid "Search by genre"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:50
+#: custom-types/events/events-type.php:58
+#: custom-types/release/release-type.php:46
+#: custom-types/shows/shows-type.php:46
+msgid "Popular genres"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:51
+msgid "All Artists"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:54
+msgid "Edit Genre"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:55
+msgid "Update Genre"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:56
+msgid "Add New Genre"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:57
+msgid "New Genre Name"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:58
+msgid ""
+"Separate Genres with "
+"commas"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:59
+msgid ""
+"Add or remove Genres"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:60
+msgid ""
+"Choose from the most "
+"used Genres"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:77
+msgid "Agency"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:83
+msgid "Phone"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:88
+msgid "Email"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:94
+msgid "Nationality"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:100
+msgid "Resident in"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:148
+msgid "Youtube Video 1"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:153
+msgid "Youtube Video 2"
+msgstr ""
+
+#: custom-types/artist/artist-type.php:158
+msgid "Youtube Video 3"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:7
+#: qt-extensions-suite.php:200
+msgid "Charts"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:8
+#: widgets/qt-widget-chart.php:141
+msgid "Chart"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:9
+#: custom-types/chart/chart-type.php:10
+msgid "Add new chart"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:11
+msgid "Edit chart"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:12
+msgid "New chart"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:13
+#: custom-types/chart/chart-type.php:49
+msgid "All charts"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:14
+msgid "View chart"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:15
+msgid "Search charts"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:16
+msgid "No charts found"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:17
+msgid ""
+"No charts found in trash"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:19
+msgid "Song charts"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:45
+#: custom-types/chart/chart-type.php:59
+msgid "Chart categories"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:46
+#: custom-types/schedule/schedule-type.php:47
+msgid "Category"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:47
+#: custom-types/schedule/schedule-type.php:48
+msgid "Search by category"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:48
+msgid "Popular categorys"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:52
+#: custom-types/schedule/schedule-type.php:53
+msgid "Edit category"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:53
+#: custom-types/schedule/schedule-type.php:54
+msgid "Update category"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:54
+#: custom-types/schedule/schedule-type.php:55
+msgid "Add New category"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:55
+#: custom-types/schedule/schedule-type.php:56
+msgid "New category Name"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:56
+msgid ""
+"Separate categorys with "
+"commas"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:57
+msgid ""
+"Add or remove categorys"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:58
+msgid ""
+"Choose from the most "
+"used categorys"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:165
+msgid "Go to shop"
+msgstr ""
+
+#: custom-types/chart/chart-type.php:175
+msgid "Listen"
+msgstr ""
+
+#: custom-types/events/events-type.php:16
+#: custom-types/events/events-type.php:17
+msgid "Event"
+msgstr ""
+
+#: custom-types/events/events-type.php:19
+msgid "Add new event"
+msgstr ""
+
+#: custom-types/events/events-type.php:20
+msgid "Edit event"
+msgstr ""
+
+#: custom-types/events/events-type.php:21
+msgid "New event"
+msgstr ""
+
+#: custom-types/events/events-type.php:22
+#: custom-types/events/events-type.php:59
+msgid "All events"
+msgstr ""
+
+#: custom-types/events/events-type.php:23
+msgid "View event"
+msgstr ""
+
+#: custom-types/events/events-type.php:24
+msgid "Search event"
+msgstr ""
+
+#: custom-types/events/events-type.php:25
+msgid "No events found"
+msgstr ""
+
+#: custom-types/events/events-type.php:26
+msgid ""
+"No events found in trash"
+msgstr ""
+
+#: custom-types/events/events-type.php:27
+#: qt-extensions-suite.php:201
+msgid "Events"
+msgstr ""
+
+#: custom-types/events/events-type.php:55
+msgid "Event type"
+msgstr ""
+
+#: custom-types/events/events-type.php:56
+#: custom-types/gallery/gallery-type.php:53
+#: custom-types/gallery/gallery-type.php:66
+#: custom-types/member/member-type.php:43
+msgid "Types"
+msgstr ""
+
+#: custom-types/events/events-type.php:62
+#: custom-types/gallery/gallery-type.php:59
+#: custom-types/member/member-type.php:50
+msgid "Edit Type"
+msgstr ""
+
+#: custom-types/events/events-type.php:63
+#: custom-types/gallery/gallery-type.php:60
+#: custom-types/member/member-type.php:51
+msgid "Update Type"
+msgstr ""
+
+#: custom-types/events/events-type.php:64
+#: custom-types/gallery/gallery-type.php:61
+#: custom-types/member/member-type.php:52
+msgid "Add New Type"
+msgstr ""
+
+#: custom-types/events/events-type.php:65
+#: custom-types/gallery/gallery-type.php:62
+#: custom-types/member/member-type.php:53
+msgid "New Type Name"
+msgstr ""
+
+#: custom-types/events/events-type.php:66
+#: custom-types/gallery/gallery-type.php:63
+#: custom-types/member/member-type.php:54
+msgid ""
+"Separate Types with "
+"commas"
+msgstr ""
+
+#: custom-types/events/events-type.php:67
+#: custom-types/gallery/gallery-type.php:64
+#: custom-types/member/member-type.php:55
+msgid "Add or remove Types"
+msgstr ""
+
+#: custom-types/events/events-type.php:68
+#: custom-types/gallery/gallery-type.php:65
+#: custom-types/member/member-type.php:56
+msgid ""
+"Choose from the most "
+"used Types"
+msgstr ""
+
+#: custom-types/events/events-type.php:69
+msgid "Event types"
+msgstr ""
+
+#: custom-types/events/events-type.php:108
+#: custom-types/podcast/podcast-type.php:86
+#: widgets/qt-archives-widget.php:255
+msgid "Date"
+msgstr ""
+
+#: custom-types/events/events-type.php:114
+msgid "Facebook Event Link"
+msgstr ""
+
+#: custom-types/events/events-type.php:119
+msgid "Ticket Buy Links"
+msgstr ""
+
+#: custom-types/events/events-type.php:120
+msgid "Street"
+msgstr ""
+
+#: custom-types/events/events-type.php:130
+msgid "Ticket buy text"
+msgstr ""
+
+#: custom-types/events/events-type.php:136
+msgid "Ticket buy link "
+msgstr ""
+
+#: custom-types/events/events-type.php:143
+msgid "Event details"
+msgstr ""
+
+#: custom-types/events/events-type.php:184
+msgid "Event Map"
+msgstr ""
+
+#: custom-types/events/events-type.php:222
+msgid "Comments"
+msgstr ""
+
+#: custom-types/gallery/gallery-type.php:13
+#: custom-types/gallery/gallery-type.php:14
+msgid "Gallery"
+msgstr ""
+
+#: custom-types/gallery/gallery-type.php:16
+msgid "Add new gallery"
+msgstr ""
+
+#: custom-types/gallery/gallery-type.php:17
+msgid "Edit gallery"
+msgstr ""
+
+#: custom-types/gallery/gallery-type.php:18
+msgid "New gallery"
+msgstr ""
+
+#: custom-types/gallery/gallery-type.php:19
+msgid "All galleries"
+msgstr ""
+
+#: custom-types/gallery/gallery-type.php:20
+msgid "View gallery"
+msgstr ""
+
+#: custom-types/gallery/gallery-type.php:21
+msgid "Search gallery"
+msgstr ""
+
+#: custom-types/gallery/gallery-type.php:22
+msgid "No galleries found"
+msgstr ""
+
+#: custom-types/gallery/gallery-type.php:23
+msgid ""
+"No galleries found in "
+"trash"
+msgstr ""
+
+#: custom-types/gallery/gallery-type.php:24
+msgid "Galleries"
+msgstr ""
+
+#: custom-types/gallery/gallery-type.php:52
+msgid "Gallery type"
+msgstr ""
+
+#: custom-types/gallery/gallery-type.php:54
+msgid "Search by type"
+msgstr ""
+
+#: custom-types/gallery/gallery-type.php:55
+msgid "Popular type"
+msgstr ""
+
+#: custom-types/gallery/gallery-type.php:56
+msgid "All types"
+msgstr ""
+
+#: custom-types/member/member-type.php:6
+msgid "Staff Members"
+msgstr ""
+
+#: custom-types/member/member-type.php:7
+msgid "Staff member"
+msgstr ""
+
+#: custom-types/member/member-type.php:8
+#: custom-types/member/member-type.php:9
+msgid "Add new member"
+msgstr ""
+
+#: custom-types/member/member-type.php:10
+msgid "Edit member"
+msgstr ""
+
+#: custom-types/member/member-type.php:11
+msgid "New member"
+msgstr ""
+
+#: custom-types/member/member-type.php:12
+#: custom-types/member/member-type.php:47
+msgid "All members"
+msgstr ""
+
+#: custom-types/member/member-type.php:13
+msgid "View member"
+msgstr ""
+
+#: custom-types/member/member-type.php:14
+msgid "Search member"
+msgstr ""
+
+#: custom-types/member/member-type.php:15
+msgid "No member found"
+msgstr ""
+
+#: custom-types/member/member-type.php:16
+msgid ""
+"No members found in Trash"
+msgstr ""
+
+#: custom-types/member/member-type.php:18
+#: qt-extensions-suite.php:204
+msgid "Staff members"
+msgstr ""
+
+#: custom-types/member/member-type.php:44
+msgid "Type"
+msgstr ""
+
+#: custom-types/member/member-type.php:45
+msgid "Search by Type"
+msgstr ""
+
+#: custom-types/member/member-type.php:46
+msgid "Popular Types"
+msgstr ""
+
+#: custom-types/member/member-type.php:57
+msgid "Member types"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:8
+#: custom-types/podcast/podcast-type.php:9
+#: qt-extensions-suite.php:202
+msgid "Podcast"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:11
+msgid "Add new podcast"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:12
+msgid "Edit podcast"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:13
+msgid "New podcast"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:14
+msgid "All podcasts"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:15
+msgid "View podcast"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:16
+msgid "Search podcast"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:17
+msgid "No podcasts found"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:18
+msgid ""
+"No podcasts found in "
+"trash"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:19
+msgid "Podcasts"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:47
+msgid "Podcast filters"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:48
+#: visual-composer/_gridstack-podcast.php:22
+msgid "Filter"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:49
+msgid "Search by filter"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:50
+msgid "Popular filters"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:51
+msgid "All Podcasts"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:54
+msgid "Edit Filter"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:55
+msgid "Update Filter"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:56
+msgid "Add New Filter"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:57
+msgid "New Filter Name"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:58
+msgid ""
+"Separate Filters with "
+"commas"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:59
+msgid ""
+"Add or remove Filters"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:60
+msgid ""
+"Choose from the most "
+"used Filters"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:61
+msgid "Filters"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:81
+msgid "Artist Name"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:91
+msgid ""
+"Soundcloud/Mixcloud/"
+"Youtube/MP3"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:93
+msgid ""
+"To link an external "
+"podcast like Soundcloud, "
+"choose \"From Url\" in "
+"the media window. If "
+"uploading a file, you "
+"can have file size "
+"restrictions. Please "
+"contact your hosting "
+"provider to remove those "
+"limits"
+msgstr ""
+
+#: custom-types/podcast/podcast-type.php:97
+msgid "Podcast details"
+msgstr ""
+
+#: custom-types/radio/radio-type.php:16
+#: custom-types/radio/radio-type.php:28
+msgid "Radio channels"
+msgstr ""
+
+#: custom-types/radio/radio-type.php:17
+msgid "Radio channel"
+msgstr ""
+
+#: custom-types/radio/radio-type.php:18
+msgid "Add new channel"
+msgstr ""
+
+#: custom-types/radio/radio-type.php:19
+msgid ""
+"Add new radio channel"
+msgstr ""
+
+#: custom-types/radio/radio-type.php:20
+msgid "Edit radio channel"
+msgstr ""
+
+#: custom-types/radio/radio-type.php:21
+msgid "New radio channel"
+msgstr ""
+
+#: custom-types/radio/radio-type.php:22
+msgid "All radio channels"
+msgstr ""
+
+#: custom-types/radio/radio-type.php:23
+msgid "View radio channel"
+msgstr ""
+
+#: custom-types/radio/radio-type.php:24
+msgid ""
+"Search radio channels"
+msgstr ""
+
+#: custom-types/radio/radio-type.php:25
+msgid ""
+"No radio channels found"
+msgstr ""
+
+#: custom-types/radio/radio-type.php:26
+msgid ""
+"No radio channels found "
+"in Trash"
+msgstr ""
+
+#: custom-types/release/release-type.php:7
+#: custom-types/release/release-type.php:8
+msgid "Release"
+msgstr ""
+
+#: custom-types/release/release-type.php:10
+msgid "Add new release"
+msgstr ""
+
+#: custom-types/release/release-type.php:11
+msgid "Edit release"
+msgstr ""
+
+#: custom-types/release/release-type.php:12
+msgid "New release"
+msgstr ""
+
+#: custom-types/release/release-type.php:13
+#: custom-types/release/release-type.php:47
+msgid "All releases"
+msgstr ""
+
+#: custom-types/release/release-type.php:14
+msgid "View release"
+msgstr ""
+
+#: custom-types/release/release-type.php:15
+msgid "Search release"
+msgstr ""
+
+#: custom-types/release/release-type.php:16
+msgid "No releases found"
+msgstr ""
+
+#: custom-types/release/release-type.php:17
+msgid ""
+"No releases found in "
+"trash"
+msgstr ""
+
+#: custom-types/release/release-type.php:18
+#: qt-extensions-suite.php:198
+msgid "Album releases"
+msgstr ""
+
+#: custom-types/release/release-type.php:43
+msgid "Release genres"
+msgstr ""
+
+#: custom-types/release/release-type.php:44
+#: custom-types/shows/shows-type.php:44
+msgid "Genre"
+msgstr ""
+
+#: custom-types/release/release-type.php:50
+#: custom-types/shows/shows-type.php:50
+msgid "Edit genre"
+msgstr ""
+
+#: custom-types/release/release-type.php:51
+#: custom-types/shows/shows-type.php:51
+msgid "Update genre"
+msgstr ""
+
+#: custom-types/release/release-type.php:52
+#: custom-types/shows/shows-type.php:52
+msgid "Add New genre"
+msgstr ""
+
+#: custom-types/release/release-type.php:53
+#: custom-types/shows/shows-type.php:53
+msgid "New genre Name"
+msgstr ""
+
+#: custom-types/release/release-type.php:54
+#: custom-types/shows/shows-type.php:54
+msgid ""
+"Separate genres with "
+"commas"
+msgstr ""
+
+#: custom-types/release/release-type.php:55
+#: custom-types/shows/shows-type.php:55
+msgid ""
+"Add or remove genres"
+msgstr ""
+
+#: custom-types/release/release-type.php:56
+#: custom-types/shows/shows-type.php:56
+msgid ""
+"Choose from the most "
+"used genres"
+msgstr ""
+
+#: custom-types/release/release-type.php:57
+msgid "Music genres"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:7
+#: custom-types/schedule/schedule-type.php:8
+#: visual-composer/_qt-schedule.php:6
+msgid "Schedule"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:9
+msgid "Add New "
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:10
+msgid "Add New Schedule"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:11
+msgid "Edit Schedule"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:12
+msgid "New Schedule"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:13
+msgid "All Schedule"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:14
+msgid "View Schedule"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:15
+msgid "Search Schedule"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:16
+msgid "No Schedule found"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:17
+msgid ""
+"No Schedule found in "
+"Trash"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:19
+msgid "Radio schedule"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:46
+msgid "Categories"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:49
+msgid "Popular categories"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:50
+msgid "All categories"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:57
+msgid ""
+"Separate categories with "
+"commas"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:58
+msgid ""
+"Add or remove categories"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:59
+msgid ""
+"Choose from the most "
+"used categories"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:60
+msgid "Schedule categories"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:92
+msgid "Monday"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:93
+msgid "Tuesday"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:94
+msgid "Wednesday"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:95
+msgid "Thursday"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:96
+msgid "Friday"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:97
+msgid "Saturday"
+msgstr ""
+
+#: custom-types/schedule/schedule-type.php:98
+msgid "Sunday"
+msgstr ""
+
+#: custom-types/shows/shows-type.php:6
+#: custom-types/shows/shows-type.php:18
+msgid "Radio Shows"
+msgstr ""
+
+#: custom-types/shows/shows-type.php:7
+#: widgets/qt-archives-widget.php:260
+msgid "Show"
+msgstr ""
+
+#: custom-types/shows/shows-type.php:8
+msgid "Add new "
+msgstr ""
+
+#: custom-types/shows/shows-type.php:9
+msgid "Add new show"
+msgstr ""
+
+#: custom-types/shows/shows-type.php:10
+msgid "Edit show"
+msgstr ""
+
+#: custom-types/shows/shows-type.php:11
+msgid "New show"
+msgstr ""
+
+#: custom-types/shows/shows-type.php:12
+#: custom-types/shows/shows-type.php:47
+msgid "All shows"
+msgstr ""
+
+#: custom-types/shows/shows-type.php:13
+msgid "View show"
+msgstr ""
+
+#: custom-types/shows/shows-type.php:14
+msgid "Search show"
+msgstr ""
+
+#: custom-types/shows/shows-type.php:15
+msgid "No Show found"
+msgstr ""
+
+#: custom-types/shows/shows-type.php:16
+msgid ""
+"No Shows found in trash"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:12
+msgid ""
+"Enable google maps script"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:20
+msgid "Google maps api key"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:21
+msgid "Create your api key"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:21
+msgid "CREATE KEY"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:33
+msgid ""
+"Display related artist"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:43
+msgid ""
+"Display related charts"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:52
+msgid ""
+"Display related members"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:61
+msgid ""
+"Display related podcast"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:70
+msgid ""
+"Display related album "
+"releases"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:78
+msgid ""
+"Display related shows"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:86
+msgid ""
+"Display related schedule"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:97
+msgid ""
+"Title related artist"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:99
+#: customizer/kirki-configuration/fields.php:108
+#: customizer/kirki-configuration/fields.php:118
+#: customizer/kirki-configuration/fields.php:127
+#: customizer/kirki-configuration/fields.php:136
+#: customizer/kirki-configuration/fields.php:144
+#: customizer/kirki-configuration/fields.php:152
+msgid "You may also like"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:106
+msgid ""
+"Title related charts"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:116
+msgid ""
+"Title related members"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:125
+msgid ""
+"Title related podcast"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:134
+msgid ""
+"Title related album "
+"releases"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:142
+msgid "Title related shows"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:150
+msgid ""
+"Title related schedule"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:162
+msgid "Basic "
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:184
+msgid "Bold texts "
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:209
+msgid "Headings"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:231
+msgid "Menu"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:263
+msgid "Page background"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:272
+msgid "Menu background"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:283
+msgid "Secondary color"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:309
+msgid "Text"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:321
+msgid "Accent color"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:331
+msgid "Accent color hover"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:341
+msgid ""
+"Text color on accent "
+"background"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:350
+msgid ""
+"Background dark (submenu)"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:360
+msgid "Background darker"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:371
+msgid ""
+"Footer widgets background"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:380
+msgid "Footer widgets text"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:389
+msgid "Footer background"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:399
+#: customizer/kirki-configuration/fields.php:610
+msgid "Footer text"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:409
+msgid ""
+"Preloader background"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:419
+msgid ""
+"Related section "
+"background"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:431
+msgid "Sticky menu"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:439
+msgid "Menu container"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:448
+msgid "Logo header"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:450
+msgid ""
+"Upload logo hi res "
+"(height: 140px)"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:459
+msgid ""
+"Display navigation "
+"breadcrumb"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:468
+msgid ""
+"Display social icons"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:478
+msgid ""
+"Default header "
+"background image"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:480
+msgid "JPG 1600x500px"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:487
+msgid ""
+"Header background image "
+"opaticy"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:507
+msgid ""
+"Volume controls and "
+"radio channels"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:512
+#: customizer/kirki-configuration/fields.php:526
+#: customizer/kirki-configuration/fields.php:539
+#: customizer/kirki-configuration/fields.php:552
+#: customizer/kirki-configuration/fields.php:565
+msgid "Enable"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:513
+#: customizer/kirki-configuration/fields.php:527
+#: customizer/kirki-configuration/fields.php:540
+#: customizer/kirki-configuration/fields.php:553
+#: customizer/kirki-configuration/fields.php:566
+msgid "Disable"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:521
+msgid "Widgets button"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:534
+msgid "Share button"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:547
+msgid "Search button"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:560
+msgid "Cart button"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:576
+#: visual-composer/_gridstack-events.php:29
+#: visual-composer/_gridstack-owl-row.php:51
+#: visual-composer/_gridstack-owl.php:47
+msgid "Autoplay"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:586
+msgid ""
+"Time format for schedule"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:591
+msgid "24h format"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:592
+msgid "12h format"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:618
+msgid "Show top arrow"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:626
+msgid "Show footer widgets"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:680
+msgid ""
+"Default archives layout"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:685
+msgid "One Column"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:686
+msgid "Post List"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:687
+msgid "Masonry Grid"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:697
+msgid ""
+"Display post author data"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:708
+msgid ""
+"Single post default "
+"picture"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:710
+msgid ""
+"Upload a default image "
+"for posts"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:719
+msgid ""
+"Archives default picture"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:721
+msgid ""
+"Upload a default image "
+"for archives headers"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:733
+msgid ""
+"Twitter username (e.g. "
+"QantumThemes)"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:740
+msgid "Beatport"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:741
+msgid "Amazon"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:742
+msgid "Facebook"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:743
+msgid "Blogger"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:744
+msgid "Behance"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:745
+msgid "Bebo"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:746
+msgid "Flickr"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:747
+msgid "Pinterest"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:748
+msgid "RSS"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:749
+msgid "Triplevision"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:750
+msgid "Tumblr"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:751
+msgid "Twitter"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:752
+msgid "Vimeo"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:753
+msgid "Wordpress"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:754
+msgid "Whatpeopleplay"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:755
+msgid "Youtube"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:756
+msgid "Instagram"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:757
+msgid "Soundcloud"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:758
+msgid "Myspace"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:759
+msgid "Googleplus"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:760
+msgid "Itunes"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:761
+msgid "Juno"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:762
+msgid "Lastfm"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:763
+msgid "Linkedin"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:764
+msgid "Mixcloud"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:765
+msgid "Resident-advisor"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:766
+msgid "Reverbnation"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:776
+msgid ""
+"Post archives pagination"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:781
+#: customizer/kirki-configuration/fields.php:796
+#: customizer/kirki-configuration/fields.php:811
+#: customizer/kirki-configuration/fields.php:825
+#: customizer/kirki-configuration/fields.php:838
+#: customizer/kirki-configuration/fields.php:851
+#: customizer/kirki-configuration/fields.php:864
+#: customizer/kirki-configuration/fields.php:877
+#: customizer/kirki-configuration/fields.php:890
+#: customizer/kirki-configuration/fields.php:904
+#: customizer/kirki-configuration/fields.php:917
+msgid "Load more button"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:782
+#: customizer/kirki-configuration/fields.php:797
+#: customizer/kirki-configuration/fields.php:812
+#: customizer/kirki-configuration/fields.php:826
+#: customizer/kirki-configuration/fields.php:839
+#: customizer/kirki-configuration/fields.php:852
+#: customizer/kirki-configuration/fields.php:865
+#: customizer/kirki-configuration/fields.php:878
+#: customizer/kirki-configuration/fields.php:891
+#: customizer/kirki-configuration/fields.php:905
+#: customizer/kirki-configuration/fields.php:918
+msgid "Pagination links"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:790
+msgid ""
+"Masonry archives "
+"pagination"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:806
+msgid "Artists pagination"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:820
+msgid ""
+"Album releases pagination"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:833
+msgid "Podcast pagination"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:846
+msgid "Events pagination"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:859
+msgid "Members pagination"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:872
+msgid ""
+"Galleries pagination"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:885
+msgid "Places pagination"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:899
+msgid ""
+"Radio channels pagination"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:912
+msgid ""
+"Radio schedule pagination"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:946
+msgid ""
+"Default featured image "
+"for releases"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:948
+msgid ""
+"Upload a default image "
+"for releases (600x600px)"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:962
+msgid ""
+"Default featured image "
+"for podcast"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:964
+msgid ""
+"Upload a default image "
+"for podcast (600x600px)"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:976
+msgid "Hide past events"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:978
+msgid ""
+"Based on the event date "
+"attribute"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:982
+msgid ""
+"No: show past events"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:983
+msgid ""
+"Yes: hide past events"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:996
+msgid "Container max width"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:998
+msgid ""
+"Maximum width of the "
+"container. Specify "
+"measure unit like 1250px "
+"or 80%"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:1006
+msgid ""
+"Enable debug settings"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:1007
+msgid ""
+"Load separated JS "
+"instead of minified "
+"version and enable "
+"console output for "
+"javascript. Use in case "
+"of issues or custom "
+"theme versions"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:1016
+msgid "Preloader"
+msgstr ""
+
+#: customizer/kirki-configuration/fields.php:1017
+msgid ""
+"Preload and unload the "
+"page with fading. Useful "
+"if your pages appear "
+"smashed when opening"
+msgstr ""
+
+#: customizer/kirki-configuration/include-kirki.php:41
+#, php-format
+msgid ""
+"The plugin is installed "
+"but not activated. "
+"Please <a href=\"%s"
+"\">activate it</a>."
+msgstr ""
+
+#: customizer/kirki-configuration/include-kirki.php:58
+msgid ""
+"If you want to take full "
+"advantage of the options "
+"this theme has to "
+"provide, please install "
+"the Kirki plugin."
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:13
+msgid ""
+"Google Maps settings"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:15
+msgid "Maps api and more"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:19
+msgid "Advanced settings"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:21
+msgid ""
+"Geek stuff for developers"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:26
+msgid ""
+"Colors customization"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:28
+msgid ""
+"Colors of your website"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:33
+msgid ""
+"Header Customization"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:35
+msgid "Header settings"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:39
+msgid "Typography"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:41
+msgid ""
+"Customize font settings"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:45
+msgid "Radio settings"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:47
+msgid ""
+"Radio schedule and "
+"player settings"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:53
+msgid ""
+"Footer Customization"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:55
+msgid ""
+"Footer text and functions"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:59
+msgid "Posts layout"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:61
+msgid ""
+"Manage the way posts are "
+"displayed"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:65
+msgid "Releases settings"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:67
+#: customizer/kirki-configuration/sections.php:81
+msgid ""
+"Manage the way releases "
+"are displayed"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:73
+msgid "Podcast settings"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:75
+msgid ""
+"Manage the way podcast "
+"are displayed"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:79
+msgid "Events settings"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:85
+msgid "Pagination layout"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:87
+msgid "Pagination options"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:91
+msgid "Social networks"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:93
+msgid ""
+"Social network profiles"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:97
+msgid "Related contents"
+msgstr ""
+
+#: customizer/kirki-configuration/sections.php:99
+msgid ""
+"Manage the related posts "
+"sections"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:104
+msgid "Background Color"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:105
+msgid "Background Image"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:106
+msgid "No Repeat"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:107
+msgid "Repeat All"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:108
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:109
+msgid "Repeat Vertically"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:110
+msgid "Inherit"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:111
+msgid "Background Repeat"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:112
+msgid "Cover"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:113
+msgid "Contain"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:114
+msgid "Background Size"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:115
+msgid "Fixed"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:116
+msgid "Scroll"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:117
+msgid ""
+"Background Attachment"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:118
+msgid "Left Top"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:119
+msgid "Left Center"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:120
+msgid "Left Bottom"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:121
+msgid "Right Top"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:122
+msgid "Right Center"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:123
+msgid "Right Bottom"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:124
+msgid "Center Top"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:125
+msgid "Center Center"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:126
+msgid "Center Bottom"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:127
+msgid "Background Position"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:128
+msgid "Background Opacity"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:129
+msgid "ON"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:130
+msgid "OFF"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:131
+msgid "All"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:132
+msgid "Cyrillic"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:133
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:134
+msgid "Devanagari"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:135
+msgid "Greek"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:136
+msgid "Greek Extended"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:137
+msgid "Khmer"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:138
+msgid "Latin"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:139
+msgid "Latin Extended"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:140
+msgid "Vietnamese"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:141
+msgid "Hebrew"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:142
+msgid "Arabic"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:143
+msgid "Bengali"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:144
+msgid "Gujarati"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:145
+msgid "Tamil"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:146
+msgid "Telugu"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:147
+msgid "Thai"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:148
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:149
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:150
+msgctxt "font style"
+msgid "Monospace"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:151
+msgid "Font Family"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:152
+msgid "Font Size"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:153
+msgid "Font Weight"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:154
+msgid "Line Height"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:155
+msgid "Font Style"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:156
+msgid "Letter Spacing"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:157
+msgid "Top"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:158
+msgid "Bottom"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:159
+msgid "Left"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:160
+msgid "Right"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:161
+msgid "Center"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:162
+msgid "Justify"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:163
+msgid "Color"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:164
+msgid "Add Image"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:165
+msgid "Change Image"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:166
+msgid "No Image Selected"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:167
+msgid "Add File"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:168
+msgid "Change File"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:169
+msgid "No File Selected"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:170
+msgid "Remove"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:171
+msgid ""
+"Select a font-family"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:172
+msgid "Variant"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:173
+msgid "Subset"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:174
+msgid "Size"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:175
+#: visual-composer/_gridstack-skywheel.php:47
+msgid "Height"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:176
+msgid "Spacing"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:177
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:178
+msgid ""
+"Ultra-Light 100 Italic"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:179
+msgid "Light 200"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:180
+msgid "Light 200 Italic"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:181
+msgid "Book 300"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:182
+msgid "Book 300 Italic"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:183
+msgid "Normal 400"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:184
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:185
+msgid "Medium 500"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:186
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:187
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:188
+msgid ""
+"Semi-Bold 600 Italic"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:189
+msgid "Bold 700"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:190
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:191
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:192
+msgid ""
+"Extra-Bold 800 Italic"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:193
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:194
+msgid ""
+"Ultra-Bold 900 Italic"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:195
+msgid "Invalid Value"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:197
+msgid "row"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:198
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:199
+#: customizer/kirki/includes/sections/class-kirki-sections-hover-section.php:40
+msgid ""
+"Press return or enter to "
+"open this section"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:200
+#: customizer/kirki/includes/sections/class-kirki-sections-hover-section.php:46
+msgid "Back"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:201
+#, php-format
+msgid "%s Reset"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:202
+msgid "Text Align"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:203
+msgid "Text Transform"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:204
+msgid "None"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:205
+msgid "Capitalize"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:206
+msgid "Uppercase"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:207
+msgid "Lowercase"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:208
+msgid "Initial"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:209
+msgid "Select a Page"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:210
+msgid "Open Editor"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:211
+msgid "Close Editor"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:212
+msgid "Switch Editor"
+msgstr ""
+
+#: customizer/kirki/includes/class-kirki-l10n.php:213
+msgid "Hex Value"
+msgstr ""
+
+#: qt-extensions-suite.php:203
+msgid "Post"
+msgstr ""
+
+#: qt-extensions-suite.php:205
+msgid "Latest release"
+msgstr ""
+
+#: qt-extensions-suite.php:206
+msgid "Radio station"
+msgstr ""
+
+#: qt-extensions-suite.php:270
+msgid "Thumbs"
+msgstr ""
+
+#: qt-extensions-suite.php:307
+msgid "Twitter Url"
+msgstr ""
+
+#: qt-extensions-suite.php:310
+msgid "Facebook Url"
+msgstr ""
+
+#: qt-extensions-suite.php:313
+msgid "Google Url"
+msgstr ""
+
+#: qt-extensions-suite.php:316
+msgid "Flickr Url"
+msgstr ""
+
+#: qt-extensions-suite.php:319
+msgid "Pinterest Url"
+msgstr ""
+
+#: qt-extensions-suite.php:322
+msgid "Amazon Url"
+msgstr ""
+
+#: qt-extensions-suite.php:325
+msgid "Github Url"
+msgstr ""
+
+#: qt-extensions-suite.php:328
+msgid "Soundcloud Url"
+msgstr ""
+
+#: qt-extensions-suite.php:331
+msgid "Vimeo Url"
+msgstr ""
+
+#: qt-extensions-suite.php:334
+msgid "Tumblr Url"
+msgstr ""
+
+#: qt-extensions-suite.php:337
+msgid "Youtube Url"
+msgstr ""
+
+#: qt-extensions-suite.php:340
+msgid "WordPress Url"
+msgstr ""
+
+#: qt-extensions-suite.php:343
+msgid "Wikipedia Url"
+msgstr ""
+
+#: qt-extensions-suite.php:346
+msgid "Instagram Url"
+msgstr ""
+
+#: qt-user-picture/qt-user-picture.php:22
+msgid "Author picture url"
+msgstr ""
+
+#: qt-user-picture/qt-user-picture.php:27
+msgid "Custom picture url"
+msgstr ""
+
+#: qt-user-picture/qt-user-picture.php:32
+msgid ""
+"Insert a full picture "
+"url (http:// ...... )"
+msgstr ""
+
+#: theme-shortcodes/gridstacks/stacks/diamonds/gridstack-diamonds.php:106
+msgid "View all"
+msgstr ""
+
+#: theme-shortcodes/gridstacks/stacks/owl/inc/gridstack-owl-events.php:190
+#: theme-shortcodes/gridstacks/stacks/owl/inc/gridstack-owl-row.php:199
+#: theme-shortcodes/gridstacks/stacks/owl/inc/gridstack-owl-static.php:268
+#: theme-shortcodes/gridstacks/stacks/skywheel/gridstack-skywheel.php:128
+msgid "Read more"
+msgstr ""
+
+#: theme-shortcodes/gridstacks/stacks/owl/inc/gridstack-owl-events.php:196
+#: theme-shortcodes/gridstacks/stacks/owl/inc/gridstack-owl-static.php:270
+msgid "View more"
+msgstr ""
+
+#: theme-shortcodes/gridstacks/stacks/owl/inc/gridstack-owl-row.php:89
+#: theme-shortcodes/gridstacks/stacks/owl/inc/gridstack-owl-static.php:88
+msgid ""
+"Error in your shortcode "
+"parameters: "
+msgstr ""
+
+#: theme-shortcodes/gridstacks/stacks/owl/inc/gridstack-owl-static.php:232
+msgid "Zoom"
+msgstr ""
+
+#: theme-shortcodes/gridstacks/stacks/podcast/gridstack-podcast.php:72
+#: theme-shortcodes/qt-gallery-shortcode.php:36
+msgid "Sorry, nothing here"
+msgstr ""
+
+#: theme-shortcodes/gridstacks/stacks/slideshow/gridstack-customslideshow.php:51
+msgid ""
+"No images uploaded for "
+"the custom slideshow"
+msgstr ""
+
+#: theme-shortcodes/qt-release-shortcode.php:61
+msgid "Info and tracklist"
+msgstr ""
+
+#: theme-shortcodes/qt-release-shortcode.php:89
+msgid ""
+"There is no release with "
+"the selected parameters"
+msgstr ""
+
+#: theme-shortcodes/radio-suite/showgrid.php:134
+msgid "Choose a day"
+msgstr ""
+
+#: theme-shortcodes/radio-suite/showslide.php:210
+#: widgets/qt-widget-onair.php:298
+msgid "Now On Air"
+msgstr ""
+
+#: theme-shortcodes/radio-suite/showslide.php:217
+#: widgets/qt-widget-onair.php:236
+msgid "Discover More"
+msgstr ""
+
+#: theme-shortcodes/radio-suite/showslide.php:227
+#: widgets/qt-widget-onair.php:244
+#: widgets/qt-widget-upcoming.php:235
+msgid ""
+"Sorry, there are no "
+"shows scheduled on this "
+"day"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:7
+msgid ""
+"Gridstack 3D Carousel"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:10
+#: visual-composer/_gridstack-customslideshow.php:10
+#: visual-composer/_gridstack-diamonds.php:10
+#: visual-composer/_gridstack-events.php:10
+#: visual-composer/_gridstack-owl-row.php:10
+#: visual-composer/_gridstack-owl.php:10
+#: visual-composer/_gridstack-podcast.php:10
+#: visual-composer/_gridstack-skywheel.php:10
+#: visual-composer/_gridstack-slideshow.php:10
+#: visual-composer/_qt-radioplayer.php:9
+#: visual-composer/_qt-release.php:9
+#: visual-composer/_qt-schedule.php:9
+#: visual-composer/_qt-titles-shortcode.php:10
+msgid "QT Gridstacks"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:15
+#: visual-composer/_gridstack-diamonds.php:15
+#: visual-composer/_gridstack-events.php:15
+#: visual-composer/_gridstack-owl-row.php:15
+#: visual-composer/_gridstack-owl.php:15
+#: visual-composer/_gridstack-podcast.php:15
+#: visual-composer/_gridstack-skywheel.php:15
+#: visual-composer/_gridstack-slideshow.php:15
+msgid "Quantity (number)"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:18
+#: visual-composer/_gridstack-diamonds.php:18
+#: visual-composer/_gridstack-events.php:18
+#: visual-composer/_gridstack-owl-row.php:18
+#: visual-composer/_gridstack-owl.php:18
+#: visual-composer/_gridstack-podcast.php:18
+#: visual-composer/_gridstack-skywheel.php:18
+#: visual-composer/_gridstack-slideshow.php:18
+msgid ""
+"Total number of items"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:22
+#: visual-composer/_gridstack-diamonds.php:22
+#: visual-composer/_gridstack-owl-row.php:28
+#: visual-composer/_gridstack-owl.php:28
+#: visual-composer/_gridstack-skywheel.php:22
+#: visual-composer/_gridstack-slideshow.php:22
+#: widgets/qt-archives-widget.php:221
+msgid "Post type"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:28
+#: visual-composer/_gridstack-diamonds.php:28
+#: visual-composer/_gridstack-owl-row.php:34
+#: visual-composer/_gridstack-owl.php:34
+#: visual-composer/_gridstack-skywheel.php:28
+#: visual-composer/_gridstack-slideshow.php:40
+msgid "Filter by taxonomy"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:31
+#: visual-composer/_gridstack-diamonds.php:31
+#: visual-composer/_gridstack-owl-row.php:37
+#: visual-composer/_gridstack-owl.php:37
+#: visual-composer/_gridstack-skywheel.php:31
+#: visual-composer/_gridstack-slideshow.php:43
+msgid ""
+"Filter contents by a "
+"specific taxonomy. You "
+"have to add a taxonomy "
+"ID below too."
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:35
+#: visual-composer/_gridstack-diamonds.php:35
+#: visual-composer/_gridstack-owl-row.php:41
+#: visual-composer/_gridstack-owl.php:41
+#: visual-composer/_gridstack-skywheel.php:35
+#: visual-composer/_gridstack-slideshow.php:47
+msgid "Term id"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:37
+#: visual-composer/_gridstack-diamonds.php:37
+#: visual-composer/_gridstack-owl-row.php:43
+#: visual-composer/_gridstack-owl.php:43
+#: visual-composer/_gridstack-skywheel.php:37
+#: visual-composer/_gridstack-slideshow.php:49
+msgid ""
+"Numeric ID of the "
+"taxonomy you want to show"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:41
+#: visual-composer/_gridstack-customslideshow.php:44
+#: visual-composer/_gridstack-slideshow.php:53
+msgid ""
+"Transition duration "
+"(milliseconds)"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:44
+msgid " Default: 200"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:48
+msgid "Vertical padding"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:51
+msgid " Default: 50px"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:56
+msgid ""
+"Distance between elements"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:59
+msgid " Default: -30"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:63
+msgid "Elements padding"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:66
+msgid " Default: 10"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:72
+#: visual-composer/_gridstack-customslideshow.php:62
+#: visual-composer/_gridstack-slideshow.php:71
+msgid "Show arrows"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:74
+#: visual-composer/_gridstack-customslideshow.php:64
+#: visual-composer/_gridstack-slideshow.php:73
+msgid ""
+"Display control arrows."
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:79
+#: visual-composer/_gridstack-carousel.php:81
+#: visual-composer/_gridstack-diamonds.php:54
+#: visual-composer/_gridstack-diamonds.php:56
+msgid "Custom icon"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:86
+#: visual-composer/_gridstack-diamonds.php:60
+#: visual-composer/_gridstack-events.php:70
+#: visual-composer/_gridstack-owl-row.php:99
+#: visual-composer/_gridstack-owl.php:95
+#: visual-composer/_gridstack-skywheel.php:55
+#: visual-composer/_gridstack-slideshow.php:89
+msgid ""
+"Advanced: Container ID"
+msgstr ""
+
+#: visual-composer/_gridstack-carousel.php:88
+#: visual-composer/_gridstack-diamonds.php:62
+#: visual-composer/_gridstack-events.php:72
+#: visual-composer/_gridstack-owl-row.php:101
+#: visual-composer/_gridstack-owl.php:97
+#: visual-composer/_gridstack-skywheel.php:57
+#: visual-composer/_gridstack-slideshow.php:91
+msgid ""
+"Add a optional text ID "
+"to the gridstack for CSS "
+"styling (only letters)"
+msgstr ""
+
+#: visual-composer/_gridstack-customslideshow.php:7
+msgid ""
+"Gridstack custom "
+"slideshow"
+msgstr ""
+
+#: visual-composer/_gridstack-customslideshow.php:14
+msgid "Images"
+msgstr ""
+
+#: visual-composer/_gridstack-customslideshow.php:16
+#: visual-composer/_gridstack-customslideshow.php:46
+#: visual-composer/_gridstack-slideshow.php:55
+msgid " Default: 500"
+msgstr ""
+
+#: visual-composer/_gridstack-customslideshow.php:21
+#: visual-composer/_gridstack-slideshow.php:29
+msgid "Images size"
+msgstr ""
+
+#: visual-composer/_gridstack-customslideshow.php:27
+#: visual-composer/_gridstack-slideshow.php:35
+msgid "Slider proportion"
+msgstr ""
+
+#: visual-composer/_gridstack-customslideshow.php:32
+msgid "Links (one per row)"
+msgstr ""
+
+#: visual-composer/_gridstack-customslideshow.php:34
+msgid ""
+"Each image will "
+"automatically link to "
+"the respective email"
+msgstr ""
+
+#: visual-composer/_gridstack-customslideshow.php:38
+msgid ""
+"Captions (one per row)"
+msgstr ""
+
+#: visual-composer/_gridstack-customslideshow.php:40
+msgid "Avoid double quotes"
+msgstr ""
+
+#: visual-composer/_gridstack-customslideshow.php:50
+#: visual-composer/_gridstack-slideshow.php:59
+msgid ""
+"Interval time between "
+"slides"
+msgstr ""
+
+#: visual-composer/_gridstack-customslideshow.php:52
+#: visual-composer/_gridstack-slideshow.php:61
+msgid " Default: 5000"
+msgstr ""
+
+#: visual-composer/_gridstack-customslideshow.php:56
+#: visual-composer/_gridstack-slideshow.php:65
+msgid "Show indicators"
+msgstr ""
+
+#: visual-composer/_gridstack-customslideshow.php:58
+#: visual-composer/_gridstack-slideshow.php:67
+msgid ""
+"Display the navigation "
+"dots."
+msgstr ""
+
+#: visual-composer/_gridstack-customslideshow.php:68
+msgid ""
+"Adjust arrows for full "
+"width"
+msgstr ""
+
+#: visual-composer/_gridstack-customslideshow.php:70
+#: visual-composer/_gridstack-slideshow.php:79
+msgid ""
+"If checked, the arrows "
+"layout will be adjusted "
+"to display the icon in "
+"the inner part"
+msgstr ""
+
+#: visual-composer/_gridstack-diamonds.php:7
+msgid "Gridstack Diamonds"
+msgstr ""
+
+#: visual-composer/_gridstack-diamonds.php:41
+#: visual-composer/_gridstack-skywheel.php:42
+msgid ""
+"Add link to archive page"
+msgstr ""
+
+#: visual-composer/_gridstack-diamonds.php:46
+msgid "Custom archive link"
+msgstr ""
+
+#: visual-composer/_gridstack-diamonds.php:48
+msgid ""
+"You can set a custom "
+"url, otherwise a link to "
+"the post type archive "
+"will be set."
+msgstr ""
+
+#: visual-composer/_gridstack-events.php:7
+msgid "Gridstack Events"
+msgstr ""
+
+#: visual-composer/_gridstack-events.php:22
+#: visual-composer/_gridstack-owl-row.php:22
+#: visual-composer/_gridstack-owl.php:22
+msgid ""
+"Items per row (number)"
+msgstr ""
+
+#: visual-composer/_gridstack-events.php:35
+#: visual-composer/_gridstack-owl-row.php:57
+#: visual-composer/_gridstack-owl.php:53
+msgid "Autoplay timeout"
+msgstr ""
+
+#: visual-composer/_gridstack-events.php:38
+#: visual-composer/_gridstack-owl-row.php:60
+#: visual-composer/_gridstack-owl.php:56
+msgid ""
+"(Milliseconds) Default: "
+msgstr ""
+
+#: visual-composer/_gridstack-events.php:44
+#: visual-composer/_gridstack-owl-row.php:66
+#: visual-composer/_gridstack-owl.php:62
+msgid "Arrows"
+msgstr ""
+
+#: visual-composer/_gridstack-events.php:50
+#: visual-composer/_gridstack-owl-row.php:72
+#: visual-composer/_gridstack-owl.php:68
+msgid "Navigation dots"
+msgstr ""
+
+#: visual-composer/_gridstack-events.php:57
+#: visual-composer/_gridstack-owl-row.php:79
+#: visual-composer/_gridstack-owl.php:75
+msgid ""
+"Pause autoplay if mouse "
+"hover"
+msgstr ""
+
+#: visual-composer/_gridstack-events.php:63
+#: visual-composer/_gridstack-owl-row.php:92
+#: visual-composer/_gridstack-owl.php:88
+msgid "Margin"
+msgstr ""
+
+#: visual-composer/_gridstack-events.php:66
+#: visual-composer/_gridstack-owl-row.php:95
+#: visual-composer/_gridstack-owl.php:91
+msgid "Default: "
+msgstr ""
+
+#: visual-composer/_gridstack-owl-row.php:7
+msgid ""
+"Gridstack Owl Carowsel "
+"Row"
+msgstr ""
+
+#: visual-composer/_gridstack-owl-row.php:85
+msgid "Read more link"
+msgstr ""
+
+#: visual-composer/_gridstack-owl.php:7
+msgid ""
+"Gridstack Owl Carowsel"
+msgstr ""
+
+#: visual-composer/_gridstack-owl.php:81
+msgid ""
+"Add fade in effect on "
+"scroll"
+msgstr ""
+
+#: visual-composer/_gridstack-podcast.php:7
+msgid "Gridstack Podcast"
+msgstr ""
+
+#: visual-composer/_gridstack-podcast.php:25
+msgid ""
+"ID of podcast Filter "
+"taxonomy to extract "
+"podcasts from a single "
+"category"
+msgstr ""
+
+#: visual-composer/_gridstack-skywheel.php:7
+msgid "Gridstack Skywheel"
+msgstr ""
+
+#: visual-composer/_gridstack-skywheel.php:50
+msgid "Default: 400px"
+msgstr ""
+
+#: visual-composer/_gridstack-slideshow.php:7
+msgid "Gridstack Slideshow"
+msgstr ""
+
+#: visual-composer/_gridstack-slideshow.php:77
+msgid "Is this full width?"
+msgstr ""
+
+#: visual-composer/_gridstack-slideshow.php:83
+msgid "Show excerpt"
+msgstr ""
+
+#: visual-composer/_gridstack-slideshow.php:85
+msgid ""
+"Display a short "
+"introduction of the "
+"content. Attention: "
+"shortcodes are not "
+"supported."
+msgstr ""
+
+#: visual-composer/_qt-radioplayer.php:6
+msgid "Radio player"
+msgstr ""
+
+#: visual-composer/_qt-radioplayer.php:14
+msgid "Radio channel ID"
+msgstr ""
+
+#: visual-composer/_qt-radioplayer.php:17
+msgid ""
+"Leave empty to load the "
+"first channel in order "
+"of menu order"
+msgstr ""
+
+#: visual-composer/_qt-release.php:6
+msgid ""
+"Embed single release"
+msgstr ""
+
+#: visual-composer/_qt-release.php:14
+msgid "Single release"
+msgstr ""
+
+#: visual-composer/_qt-release.php:17
+msgid ""
+"Leave empty to load the "
+"first release in order "
+"of menu order"
+msgstr ""
+
+#: visual-composer/_qt-release.php:21
+msgid "Add featured player"
+msgstr ""
+
+#: visual-composer/_qt-release.php:24
+msgid ""
+"You can have only 1 "
+"featured player per "
+"page. The setting of the "
+"single release are "
+"bypassed. Every release "
+"embedded after the first "
+"with featured player "
+"will be without it."
+msgstr ""
+
+#: visual-composer/_qt-release.php:28
+msgid "Hide full content"
+msgstr ""
+
+#: visual-composer/_qt-release.php:31
+msgid ""
+"Check if you only want "
+"to show featured player. "
+"Enable Add Featured "
+"Player."
+msgstr ""
+
+#: visual-composer/_qt-titles-shortcode.php:7
+msgid "Title"
+msgstr ""
+
+#: visual-composer/_qt-titles-shortcode.php:15
+msgid "Title text"
+msgstr ""
+
+#: visual-composer/_qt-titles-shortcode.php:20
+msgid "Tag"
+msgstr ""
+
+#: visual-composer/_qt-titles-shortcode.php:26
+msgid "Extra class"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:19
+msgid ""
+"A widget that displays "
+"archives "
+msgstr ""
+
+#: widgets/qt-archives-widget.php:21
+msgid "QT Archives Widget"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:58
+msgid ""
+"ALERT: This is a custom "
+"post type. Please "
+"install QT Extension "
+"Suite plugin to "
+"correctly visualize the "
+"contents."
+msgstr ""
+
+#: widgets/qt-archives-widget.php:153
+msgid "&nbsp;/&nbsp;"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:162
+#: widgets/qt-archives-widget.php:211
+#: widgets/qt-widget-chart.php:103
+#: widgets/qt-widget-chart.php:147
+msgid "See all"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:217
+#: widgets/qt-widget-chart.php:154
+#: widgets/qt-widget-onair.php:302
+#: widgets/qt-widget-upcoming.php:268
+msgid "Title:"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:240
+msgid ""
+"Add only specific ids "
+"(comma separated line "
+"23,46,94):"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:244
+msgid "Quantity:"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:248
+msgid "Show thumbnail"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:249
+msgid "Yes"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:250
+msgid "No"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:253
+msgid "Order"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:254
+msgid "Page order"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:256
+msgid "Random"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:259
+msgid ""
+"Show link to archive"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:261
+msgid "Hide"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:264
+msgid ""
+"Link to archive text:"
+msgstr ""
+
+#: widgets/qt-archives-widget.php:268
+msgid ""
+"Link to archive URL:"
+msgstr ""
+
+#: widgets/qt-widget-chart.php:15
+msgid ""
+"A widget that displays "
+"chart tracks"
+msgstr ""
+
+#: widgets/qt-widget-chart.php:17
+msgid ""
+"QT Top 10 Chart Widget"
+msgstr ""
+
+#: widgets/qt-widget-chart.php:158
+msgid ""
+"Number of tracks to "
+"display:"
+msgstr ""
+
+#: widgets/qt-widget-chart.php:162
+msgid ""
+"Show original chart title"
+msgstr ""
+
+#: widgets/qt-widget-chart.php:167
+msgid "Show cover"
+msgstr ""
+
+#: widgets/qt-widget-chart.php:172
+msgid ""
+"Chart id: if empty "
+"latest chart will be used"
+msgstr ""
+
+#: widgets/qt-widget-chart.php:176
+msgid ""
+"Show link to chart page"
+msgstr ""
+
+#: widgets/qt-widget-chart.php:181
+msgid "Link text:"
+msgstr ""
+
+#: widgets/qt-widget-onair.php:14
+#: widgets/qt-widget-upcoming.php:14
+msgid ""
+"A widget that displays "
+"on air show"
+msgstr ""
+
+#: widgets/qt-widget-onair.php:16
+msgid "QT Onair Widget"
+msgstr ""
+
+#: widgets/qt-widget-upcoming.php:16
+msgid "QT Upcoming Widget"
+msgstr ""
+
+#: widgets/qt-widget-upcoming.php:197
+#: widgets/qt-widget-upcoming.php:203
+msgid "Read More about "
+msgstr ""
+
+#: widgets/qt-widget-upcoming.php:273
+msgid "Number of Items:"
+msgstr ""
+
+#: widgets/qt-widget-upcoming.php:279
+msgid "Time Format"
+msgstr ""

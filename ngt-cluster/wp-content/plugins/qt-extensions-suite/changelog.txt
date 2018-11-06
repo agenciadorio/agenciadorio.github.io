@@ -1,0 +1,43 @@
+1.1.7
+* added eventtype to event gridstack
+
+1.1.6
+* meta_box.php update
+
+1.1.5
+* added embed chart shortcode
+* added gallery shortcode in visual composer
+* added chart shortcode in visual composer
+* added TOP 10 widget 
+
+1.1.4 
+* check on name attribute on metaboxes-scripts.js:247
+
+1.1.3
+* added possibility of custom url for music samples and file uploads
+* solved chrome check block on custom fields
+* fixed archive widgets ordering by date
+
+1.0.9
+* translation: fixed typo error in pot file and qt-extensions-suite-php and all translation functions: S was missing in textdomain
+
+1.0.8
+* minor fixes
+
+1.0.7:
+* gridstack-owl-static.php and gridstack-owl-row.php added category filter
+* customizer/kirki-configuration/configuration.php added option QT_timing_settings (radio time format 12 24)
+* _gridstack-diamonds.php added archiveurl field
+* gridstack-diamonds.php added custom url option and code
+* gridstack-podacst.php and visual-composer/_gridstack-podcast.php added term_ids field to filter podcasts by category
+* improved translation languages pot file and textdomain infos
+* pot file updated
+
+
+1.0.6:
+added fix in qt-gallery-schortcode.php
+
+1.0.5
+* meta_box.php Added google maps api key in backend. IMPORTANT: value stored from customizer in qt_maps_api theme mod. 
+
+* ADDED CONTROL IN META_BOX.PHP TO FIX BUG IN ARCHIVES ADMIN if(jQuery("#'.esc_js(esc_attr($field['id'])).'").length > 0){

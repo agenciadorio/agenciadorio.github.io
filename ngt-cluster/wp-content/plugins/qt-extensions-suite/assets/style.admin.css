@@ -1,0 +1,66 @@
+.menu-icon-radiochannel .dashicons-before::before,
+.menu-icon-shows .dashicons-before::before ,
+.menu-icon-schedule .dashicons-before::before  {
+	color: #009688 !important;
+}
+
+.menu-icon-radiochannel a:hover .dashicons-before::before,
+.menu-icon-shows a:hover .dashicons-before::before ,
+.menu-icon-schedule a:hover .dashicons-before::before  {
+	color: #1DE9B6 !important;
+}
+
+
+.menu-icon-release .dashicons-before::before,
+.menu-icon-artist .dashicons-before::before ,
+.menu-icon-podcast .dashicons-before::before,
+.menu-icon-event .dashicons-before::before,
+.menu-icon-chart .dashicons-before::before ,
+.menu-icon-members .dashicons-before::before ,
+.menu-icon-place .dashicons-before::before ,
+.menu-icon-mediagallery .dashicons-before::before   {
+	color: #7CB342 !important;
+}
+
+
+
+.menu-icon-release a:hover .dashicons-before::before,
+.menu-icon-artist a:hover .dashicons-before::before ,
+.menu-icon-podcast a:hover .dashicons-before::before,
+.menu-icon-event a:hover .dashicons-before::before,
+.menu-icon-chart a:hover .dashicons-before::before ,
+.menu-icon-members a:hover .dashicons-before::before ,
+.menu-icon-place a:hover .dashicons-before::before ,
+.menu-icon-mediagallery a:hover .dashicons-before::before   {
+	color: #76FF03 !important;
+}
+
+
+
+/*
+
+	Modal
+
+*/
+
+
+#qwModalForm {background-color: #eeeeee; -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.4);-moz-box-shadow: 0 0 15px rgba(0,0,0,0.4);box-shadow: 0 0 15px rgba(0,0,0,0.4); display:block;position:fixed;top:32px;left:110%;z-index:9000;width:80%;min-height:100%;height:100%;-webkit-transition: left 0.4s ease;transition: left 0.4s ease;overflow:hidden;padding:30px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+body.qwModalFormOpen { overflow:hidden !important; }
+body.qwModalFormOpen #qwModalForm {left:20%;}
+#qwiconsMarket .btn { line-height: 40px; width:270px; height:40px; text-align: left;margin-top:10px;margin-right:2px; overflow: hidden;}
+#qwiconsMarket .btn i {font-size:25px;line-height: 40px; margin-right: 20px;display: inline; float:left;}
+#qwModalForm .container {width:100%; margin:0 auto;height:90%; overflow:auto;}
+#qw-closemodal {color:#FF00CB !important; position: absolute;top: 40px;right: 50px;z-index: 900000;display: block;height: 40px;width: 40px;font-size:40px;text-decoration: none !important;}
+
+
+
+.qt-tabs {
+
+}
+.qt-tab {
+	display: none;
+}
+
+.qt-tab.active {
+	display: initial;
+}
