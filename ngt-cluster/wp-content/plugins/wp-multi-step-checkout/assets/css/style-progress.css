@@ -1,0 +1,225 @@
+.wpmc-tabs-wrapper {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.wpmc-tabs-wrapper .wpmc-tabs-list {
+	background: #f9f9f9;
+  margin: 0;
+}
+
+.wpmc-tabs-wrapper .wpmc-tab-item {
+    font-size: 13px !important;
+    line-height: 13px !important;
+    text-align: center;
+    text-transform: uppercase;
+	  position: relative;
+    display: table-cell;
+    float: left;
+    padding-bottom: 47px;
+    -webkit-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 25%;
+}
+.wpmc-tabs-list.wpmc-2-tabs .wpmc-tab-item {
+    width: 50%;
+}
+.wpmc-tabs-list.wpmc-3-tabs .wpmc-tab-item {
+    width: 33%;
+}
+.wpmc-tabs-list.wpmc-4-tabs .wpmc-tab-item {
+    width: 25%;
+}
+.wpmc-tabs-list.wpmc-5-tabs .wpmc-tab-item {
+    width: 20%;
+}
+.wpmc-tabs-list.wpmc-6-tabs .wpmc-tab-item {
+    width: 16.6%;
+}
+
+.wpmc-tabs-wrapper .wpmc-tab-item:before {
+    display: block;
+    content: "";
+    border-bottom: 2px solid transparent;
+    height: 0;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    -webkit-transition: border-color 0.3s;
+    transition: border-color 0.3s;
+}
+
+
+.wpmc-tabs-wrapper .wpmc-tab-item .wpmc-tab-number {
+	display: inline-block;
+	line-height: 28px;
+	text-align: center;
+	vertical-align: middle;
+	width: 30px;
+	min-width: 30px;
+	min-height: 30px;
+	height: 30px;
+	margin-top: -14px;
+	color: #999;
+	background: #fff;
+	border-radius: 50%;
+	position: relative;
+	z-index: 20;
+	transition: color 0.3s, background 0.3s;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wpmc-tabs-wrapper .wpmc-tab-item .number-text {
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+
+.wpmc-tabs-wrapper .wpmc-tab-text {
+  	display: none;
+  	font-size: 13px;
+  	line-height: 1.25;
+  	font-weight: normal;
+  	letter-spacing: 0.3px;
+  	text-transform: capitalize;
+  	padding-top: 8px;
+  	white-space: nowrap;
+  	position: absolute;
+  	top: 15px;
+  	z-index: 21;
+    width: 100%;
+    text-align: center;
+}
+
+.wpmc-tab-item:first-child .wpmc-tab-text {
+  	position: absolute;
+}
+
+.wpmc-tab-item:last-child .wpmc-tab-text {
+  	position: absolute;
+  	left: auto;
+  	right: 10px;
+  	transform: translate(0,0);
+}
+
+
+
+@media screen and (min-width: 767px) {
+
+    .wpmc-tabs-wrapper .wpmc-tabs-list {
+        display: block; 
+    }
+
+    .wpmc-tabs-wrapper .wpmc-tab-item {
+        display: block; 
+        vertical-align: top;
+		padding-bottom: 20px;
+    }
+
+  	.wpmc-tabs-wrapper .wpmc-tab-item .wpmc-tab-text {
+        display: block; 
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+  	}
+
+  	.wpmc-tabs-wrapper .wpmc-tab-item .wpmc-tab-number {
+  		  margin-top: -14px;
+  	}
+}
+
+
+@media screen and (min-width: 1200px) {
+    .wpmc-tabs-wrapper .wpmc-tab-text {
+        font-size: 13px;
+    }
+}
+
+
+
+.wpmc-tabs-wrapper .wpmc-nav-text {
+    color: #555;
+}
+
+
+
+.wpmc-tabs-wrapper .wpmc-nav-text a 	{
+    color: #e23636;
+}
+
+
+
+.wpmc-tabs-wrapper .wpmc-nav-text,
+.wpmc-tabs-wrapper .wpmc-nav-buttons {
+    border-color: #d9d9d9;
+}
+
+.woocommerce-checkout .woocommerce .wpmc-tabs-wrapper form label.error {
+    color: #e23636 !important;
+}
+
+
+.wpmc-tabs-wrapper .wpmc-tabs-list {
+  font-weight: 600;
+}
+
+.wpmc-tabs-wrapper .wpmc-tab-item {
+    color: #aaa;
+}
+
+.wpmc-tabs-wrapper .wpmc-tab-item .wpmc-tab-number {
+    color: #000;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.wpmc-tabs-wrapper .wpmc-tab-item.current {
+    color: #000;
+}
+
+
+.wpmc-tabs-wrapper .wpmc-tab-item.current .wpmc-tab-number {
+    color: #000;
+    background:  #fff;
+    border: 2px solid #ccc;
+}
+.wpmc-tabs-wrapper .wpmc-tab-item.current .wpmc-tab-text {
+    display: block;
+}
+
+
+.wpmc-tabs-wrapper .wpmc-tab-item:before {
+    border-bottom-color: #c9c9c9;
+}
+
+
+.wpmc-tabs-wrapper .wpmc-tab-item.visited:before {
+    border-bottom-color: #000;
+}
+.wpmc-tabs-wrapper .wpmc-tab-item .number-text {
+    top: 1px;
+}
+.wpmc-tabs-wrapper .tab-completed-icon {
+    top: 2px;
+}
+
+.wpmc-nav-wrapper { width: 100%; }
+.wpmc-footer-right, .wpmc-footer-left { float: right; }
+@media screen and (min-width: 767px) {
+    .wpmc-footer-right, .wpmc-footer-left { width: calc(50% - 40px); float: right; }
+}
+.wpmc-footer-left { float: left; }
+.wpmc-nav-buttons { text-align: right; }
+.wpmc-nav-buttons button { display: none !important; }
+.wpmc-nav-buttons button.current { display: inline-block !important; }
+
+
+.wpmc-step-item { display: none; }
+.wpmc-step-item.current { display: block; }

@@ -1,0 +1,441 @@
+#wcfm_home {
+	display: inline-block;
+	float: left;
+	margin: 0px 5px;
+}
+
+.required {
+	display: inline-block;
+  color: red; 
+  margin-left: 2px;
+  font-weight: 500;
+}
+
+.wcfm-clearfix {
+	clear: both;
+}
+
+.wcfm_clearfix {
+	clear: both;
+}
+
+.wcfm_ele_wrapper {
+	display: block;
+	clear: both;
+	margin: 10px 0px;
+}
+
+.wcfm-info, .wcfm-success, .wcfm-warning, .wcfm-error, .wcfm-validation, .wcfm-wcfmu {
+	border: 1px solid;
+	border-radius: 2px;
+	margin: 10px 0px;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	display: none;
+}
+
+.wcfm-info span, .wcfm-success span, .wcfm-warning span, .wcfm-error span, .wcfm-validation span, .wcfm-wcfmu span {
+	font-size: 20px;
+	vertical-align: text-bottom;
+	padding-right: 5px;
+}
+
+.wcfm-info { color: #00529B; }
+
+.wcfm-success { color: #008C00; }
+
+.wcfm-warning { color: #9F6000; }
+
+.wcfm-error { color: #D8000C; }
+
+.wcfm-wcfmu1 { color: #D15600; }
+
+.wcicon-status-on-hold:before { content: "\e033"; }
+.wcicon-status-shipped:before { content: "\e01a"; }
+.wcicon-status-withdrawal:before { content: "\e01e"; }
+.wcicon-status-partial-refunded:before { content: "\e014"; }
+
+.wcicon-status-on-hold { color: #6d6d6d; }
+.wcicon-status-pending { color: #ffba00; }
+.wcicon-status-processing { color: #73a724; }
+.wcicon-status-completed { color: #008C00; }
+.wcicon-status-failed { color: #d0c21f; }
+.wcicon-status-cancelled { color: #a00; }
+.wcicon-status-shipped { color: #D15600; }
+.wcicon-status-withdrawal { color: #356AA0; }
+.wcicon-status-refunded { color: #FF1A00; }
+.wcicon-status-partial-refunded { color: #FF1A00; }
+th .wcicon-status-processing { color: #43454b !important; }
+
+.wcfm-action-icon {
+	display: inline-block;
+	margin: 0 4px 4px 0;
+	cursor: pointer;
+	vertical-align: baseline;
+	position: relative;
+	padding: 0!important;
+	height: 2em!important;
+	width: 2em;
+	color: #1C2B36;
+	background: #ffffff;
+	-webkit-box-shadow: 0 2px 1px #ccc;
+	box-shadow: 0 2px 1px #ccc;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 27px;
+	border-width: 0px;
+	-webkit-appearance: none;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	white-space: nowrap;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: all .5s;
+}
+
+.wcfm-action-icon:hover {
+	background: #00798b;
+	color: #fff;
+	text-decoration: none;
+}
+
+.wcfm_product_title, .wcfm_coupon_title, .wcfm_order_title, .wcfm_booking_title, .wcfm_appointment_title, .wcfm_auctions_title, .wcfm_listing_title, .wcfm_dashboard_item_title { font-weight: 500; color: #21759b; }
+
+.img_tip {
+	display: inline-block;
+	vertical-align: -1px;
+	cursor: help;
+	margin-left: 5px;
+}
+
+.wcmp_fpm_buttons {
+	display: none !important;
+}
+
+.wcfm_buttons {
+	left: 0px;
+	right: auto;
+}
+.wcfm_buttons {
+	position:absolute;
+	color: #555;
+	background-color: #ddd;
+	z-index: 999;
+	width: auto;
+	height:auto;
+	padding: 3px;
+	border-radius: 3px;
+}
+
+.wcfm_buttons .wcfm_button {
+	display: block;
+	float: left;
+	width: 32px;
+	height:24px;
+	margin:0px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 18px;
+	color: #555;
+	text-decoration: none;
+	padding: 0px 7px;
+}
+
+.wcfm_buttons .wcfm_button_separator {
+	color: #fff;
+	float: left;
+}
+
+#ui-datepicker-div { display: none; }
+
+.qtip-wcfm-core-css, .jvectormap-tip {
+	background: #fff;
+	color: #000;
+	border-color: #00798b;
+	z-index: 10005 !important;
+}
+
+table.dataTable.display tbody tr td:last-child {
+	text-align: center;
+}
+
+.wcfm_mark_as_recived {
+	background: #555;
+	padding: 3px;         
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #fff !important;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 8px;
+	margin-left: 10px;
+	-webkit-box-shadow: 0 1px 0 #ccc;
+	box-shadow: 0 1px 0 #ccc;
+}
+
+a.wcfm_mark_as_recived:hover { background-color: #00798b; }
+
+/** WCFM Popup box **/
+.wcfm_popup_wrapper {
+	padding: 10px;
+}
+
+div.wcfm_popup_wrapper h2, form.wcfm_popup_wrapper h2 {
+    font-size: 18px;
+    line-height: 20px;
+    display: table-cell;
+    float: left;
+    font-weight: 600;
+    color: #00798b;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    width: auto;
+    padding: 0px;
+    clear: none;
+}
+
+.wcfm_popup_wrapper .wcfm_popup_label {
+	width: 38%;
+	font-weight: 500;
+	font-size: 14px;
+	font-style: italic;
+	display: inline-block;
+	vertical-align: top;
+}
+.wcfm_popup_wrapper .wcfm_vendor_approval_response_form_label{width: 100%;}
+
+.wcfm_popup_wrapper .wcfm_popup_input {
+	width: 80%;
+	height: 30px;
+	padding: 5px;
+	font-size: 15px;
+	display: inline-block;
+	box-shadow: none;
+	background-color: #fff !important;
+	border: 1px solid #ccc !important;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+.wcfm_popup_wrapper .wcfm_popup_input {
+	width: 59%;
+}
+
+.wcfm_popup_wrapper .wcfm_popup_textarea {
+	height: 75px;
+	resize: vertical;
+}
+
+.wcfm_popup_wrapper .wcfm_popup_input.wcfm_validation_failed {
+	border-left: 6px solid #FF0084 !important;
+}
+
+.wcfm_popup_wrapper .wcfm_popup_button {
+	float: right;
+	margin-top: 10px;
+	margin-left: 10px;
+	
+	background: #1a1a1a none repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 2px;
+	color: #fff;
+	font-family: Montserrat,"Helvetica Neue",sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.046875em;
+	line-height: 1;
+	padding: 0.84375em 0.875em 0.78125em;
+	text-transform: uppercase;
+}
+
+.wcfm_popup_wrapper .wcfm_popup_button:hover {
+	background: #00798b none repeat scroll 0 0;
+	color: #ffffff !important;
+}
+
+/* Notofication Box */
+.wcfm_notification_wrapper {
+	width: 350px;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 100015;
+	background: transparent;
+}
+
+.wcfm_notification_wrapper .wcfm_notification_box {
+	margin: 5px 10px;
+	padding: 10px;
+	font-size: 15px;
+	
+	background: #ffffff;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+	border-bottom: 1px solid #00798b;
+	-webkit-box-shadow: 0px 2px 1px #cccccc;
+	box-shadow: 0px 1px 1px #cccccc;
+}
+
+.wcfm_notification_wrapper .wcfm_notification_box a {
+	color: #4096EE;
+}
+
+.wcfm_notification_wrapper .wcfm_notification_box a:hover {
+	color: #FF7400;
+}
+
+.wcfm_notification_wrapper .wcfm_notification_close {
+	display: block;
+	float:right;
+	margin: 5px 10px;
+	cursor: pointer;
+}
+
+.wcfm_notification_wrapper .wcfm_notification_close:hover {
+	color: #CC0000;
+}
+
+.wcfm-message-type-icon {
+	font-size: 20px;
+	color: #00798b;
+}
+
+.wcfm_notification_wrapper .wcfm_notification_box .wcfm-message-type-icon {
+	margin-right: 5px;
+	font-size: 15px;
+	color: #00798b;
+}
+
+.wcfm-message-type-order { color: #6dc7be; }
+.wcfm-message-type-product_review { color: #FF7400; }
+.wcfm-message-type-new_product { color: #6BBA70; }
+.wcfm-message-type-new_taxonomy_term { color: #FF7400; }
+.wcfm-message-type-new_customer { color: #73880A; }
+.wcfm-message-type-new_staff { color: #356AA0; }
+.wcfm-message-type-direct { color: #ff8761; }
+.wcfm-message-type-booking { color: #D15600; }
+.wcfm-message-type-appointment { color: #D15600; }
+.wcfm-message-type-enquiry { color: #FF0084; }
+.wcfm-message-type-support { color: #FF0084; }
+.wcfm-message-type-registration { color: #C79810; }
+.wcfm-message-type-membership { color: #C79810; }
+.wcfm-message-type-membership-cancel { color: #CC0000; }
+.wcfm-message-type-membership-expired { color: #CC0000; }
+.wcfm-message-type-membership-reminder { color: #D01F3C; }
+.wcfm-message-type-vendor-disable { color: #CC0000; }
+.wcfm-message-type-vendor-enable { color: #008C00; }
+.wcfm-message-type-vendor_approval { color: #649664; }
+.wcfm-message-type-verification { color: #57bdde; }
+.wcfm-message-type-shipment_tracking { color: #D15600; }
+.wcfm-message-type-shipment_received { color: #008C00; }
+.wcfm-message-type-pay_for_product { color: #e85656; }
+.wcfm-message-type-status-update { color: #00798b; }
+.wcfm-message-type-withdraw-request { color: #356AA0; }
+.wcfm-message-type-refund-request { color: #FF1A00; }
+.wcfm-message-type-review { color: #FF912C; }
+
+/* Notification Shorcode Content */
+.wcfm_sc_notifications a, .wcfm_sc_notifications span {
+	color: #555;
+	margin-left: 12px;
+	text-decoration: none;
+	position: relative;
+	font-size: 20px;
+}
+
+.wcfm_sc_notifications .unread_notification_count {
+	background-color: #FF7400;
+  -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+  color: white;
+  font-weight: 500;
+  padding: 1px 3px;
+  font-size: 12px;
+  
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+.wcfm_sc_notifications .unread_notification_count.notice_count { background-color: #4096EE; }
+.wcfm_sc_notifications .unread_notification_count.enquiry_count { background-color: #FF0084; }
+
+.wcfm_sc_notifications a:hover, .wcfm_sc_notifications a.active {
+	color: #00798b;
+}
+
+.wcfm_multiblock_sortable {
+	float: right;
+	color: #00798b;
+	cursor: move;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.wcfm_ele_hide, .wcfm_head_hide, .wcfm_block_hide, .wcfm_toolset_hide, .wcfm_acf_hide, .wcfm_custom_hide {
+	display: none !important;
+}
+
+.wcfm_tutorials_wrapper {
+	float: right;
+}
+
+.wcfm_tutorials_wrapper a.wcfm_tutorials {
+	color: #D01F3C;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+/** scroll bas style **/
+#wcfm-main-contentainer *::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#wcfm-main-contentainer *::-webkit-scrollbar {
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#wcfm-main-contentainer *::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #1C2B36;
+	border: 1px solid #00798b;
+}
+
+/** WCfM Marketplace Sold By */
+.wcfmmp_sold_by_wrapper {
+	width: 100%;
+	display: block;
+}
+
+.wcfmmp_sold_by_wrapper a {
+	display: inline-block !important;
+	color: #00998b !important;
+	text-decoration: none !important;
+}
+
+.wcfm_vendor_badges {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/** WCfM Marketplace Dashboard Icon at My Account */
+body.storefront .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--wcfm-store-manager a:before {
+	content: "\f015";
+}
+
+@media only screen and (max-width: 768px) {
+	.wcfm_notification_wrapper {
+		width: 200px;
+	}
+}

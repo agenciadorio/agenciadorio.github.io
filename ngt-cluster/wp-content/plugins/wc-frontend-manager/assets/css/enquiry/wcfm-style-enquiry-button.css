@@ -1,0 +1,27 @@
+.enquiry_form_wrapper_hide {
+	display: none;
+}
+
+a.wcfm_catalog_enquiry, span.add_enquiry, a.wcfm_follow_me {
+	background: #3d3d3d;
+	padding: 5px 10px;         
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border:#f0f0f0 1px solid;
+	border-bottom: 1px solid #00798b;
+	color: #ffffff;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 10px;
+	-webkit-box-shadow: 0 1px 0 #ccc;
+	box-shadow: 0 1px 0 #ccc;
+	display: block;
+	cursor: pointer;
+}
+a.wcfm_catalog_enquiry, span.add_enquiry, a.wcfm_follow_me {
+	margin-bottom: 10px;
+}
+span.add_enquiry {float: right;}
+a.wcfm_catalog_enquiry:hover, span.add_enquiry:hover, a.wcfm_follow_me:hover { background-color: #00798b; color: #fff; }

@@ -1,0 +1,58 @@
+p.description {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.wcfm_ele_hide {
+	display: none !important;
+}
+
+.inquiry_reply {
+	display: table;
+	width: 97%;
+}
+
+.inquiry_reply_author {
+	display: table-cell;
+	width: 25%;
+	text-align: center;
+}
+
+.inquiry_reply_content {
+	display: table-cell;
+	width: 75%;
+	vertical-align: top;
+  padding: 10px;
+}
+
+.inquiry_reply_author img {
+	width: 75px;
+	height: 75px;
+	border: 1px solid #c3dbf1;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	z-index: 10;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.inquiry_content {
+	float: left;
+	margin: 10px 5px;
+}
+
+.inquiry_info {
+	float: right;
+}
+
+input.wcfm-checkbox, input[type="checkbox"].wcfm-checkbox, .onoffswitch {
+	margin-right: 50%;
+}
+
+@media only screen and (max-width: 640px) {
+  input.wcfm-checkbox, input[type="checkbox"].wcfm-checkbox, .onoffswitch {
+		margin-right: 5%;
+	}
+}

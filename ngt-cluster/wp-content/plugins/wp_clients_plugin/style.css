@@ -1,0 +1,214 @@
+
+/* ======================= Clients List ======================= */
+
+.mc_clientsList {
+	display:block;
+	list-style:none;
+	float:left;
+	margin:0px 0px 20px 0px;
+	padding:0px;
+	width:100%;
+}
+.mc_clientsList li {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: block;
+	width: 25%;
+	height:200px;
+	background-color: #fff;
+	
+	-webkit-transition: box-shadow .3s;
+	-moz-transition: box-shadow .3s;
+	-o-transition: box-shadow .3s;
+	-ms-transition: box-shadow .3s;
+	transition: box-shadow .3s;
+	
+}
+
+.mc_clientsList.border li {
+	overflow:hidden;
+	position:relative;
+	border-bottom: 1px solid #DCDCDC;
+	border-right: 1px solid #DCDCDC;
+	margin: 0px -1px -1px 0px;
+}
+.mc_clientsList.border li a{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border-top: 1px solid #DCDCDC;
+	border-left: 1px solid #DCDCDC;
+}
+
+.mc_clientsList.shadowOnHover li:hover ,
+.mc_clientsList.border li:hover {
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0, 0.3);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0, 0.3);
+	
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0, 0.3) \0/IE9; /* IE9 */
+	
+	position:relative;
+	z-index:2;
+}
+.mc_clientsList li a {
+	display:block;
+	width:100%;
+	height:100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+	-webkit-background-size: 70%;
+	-moz-background-size: 70%;
+	background-size: 70%;
+	
+	-webkit-transition: filter .3s;
+	-moz-transition: filter .3s;
+	-o-transition: filter .3s;
+	-ms-transition: filter .3s;
+	transition: filter .3s;
+}
+.mc_clientsList.grayscale li a {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+.mc_clientsList.grayscale li a:hover {
+	 filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+}
+/*----------- Slider Next Prev ----------- */
+a.mcnext {
+	display:block;
+	width:26px;
+	height:26px;
+	position:absolute;
+	z-index:10;
+	left:0px;
+	background-image:url(images/sliderNext.jpg);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+a.mcprev {
+	display:block;
+	width:26px;
+	height:26px;
+	position:absolute;
+	z-index:10;
+	right:0px;
+	background-image:url(images/sliderBack.jpg);
+	background-repeat:no-repeat;
+	background-position:right center;
+}
+a.mcnext.hidden,
+a.mcprev.hidden {
+	display:none !important;
+}
+
+@media only screen and (device-width: 768px) {
+	.mc_clientsList.responsive li {
+		width:25% !important;
+	}
+	a.mcnext {
+		display:block !important;
+	}
+	a.mcprev {
+		display:block !important;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
+	.mc_clientsList.responsive li {
+		width:33.3% !important;
+	}
+	a.mcnext {
+		display:block !important;
+	}
+	a.mcprev {
+		display:block !important;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:landscape) {
+	.mc_clientsList.responsive li {
+		width:25% !important;
+	}
+	a.mcnext {
+		display:block !important;
+	}
+	a.mcprev {
+		display:block !important;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.mc_clientsList.responsive li {
+		width:50% !important;
+	}
+	a.mcnext {
+		display:block !important;
+	}
+	a.mcprev {
+		display:block !important;
+	}
+}
+
+/* ======================= Admin Popup ======================= */
+
+#divMyClientsEditorOverlay {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:299999;
+	background-image:url(images/admin_overlay_bg.png);
+	direction:ltr;
+}
+#divMyClientsEditorOverlay #divMyClientsEditorPopup {
+	background-color: #fff;
+	width:400px;
+	min-height:438px;
+	margin:200px auto 0px auto;
+	border:1px solid #222222;
+}
+#divMyClientsEditorOverlay #divMyClientsEditorPopup h3 {
+	background-color:#222222;
+	color:#fff;
+	text-align:center;
+	line-height:30px;
+	margin:0px;
+}
+#divMyClientsEditorOverlay #divMyClientsEditorPopup #divMyClientsEditorPopupContent {
+	padding:20px;
+}
+#divMyClientsEditorPopupContent .row {
+	margin-bottom:10px;
+}
+#divMyClientsEditorPopupContent .row label{
+	display:block;
+	width:100px;
+	text-align:left;
+	line-height:25px;
+	display:inline-block;
+	float:left;
+	margin-right:10px;
+}
+
+#divMyClientsEditorPopupContent .row input,
+#divMyClientsEditorPopupContent .row select {
+	display:block;
+	width:245px;
+	text-align:left;
+	display:inline-block;
+	border:1px solid #ccc;
+}
+
+#divMyClientsEditorPopupContent #divMyClientsEditorPopupButtons {
+	padding-top:20px;
+	border-top:1px solid #ccc;
+}
+#divMyClientsEditorPopupContent #divMyClientsEditorPopupButtons #mc_closeBtn {
+	float:right;
+}
